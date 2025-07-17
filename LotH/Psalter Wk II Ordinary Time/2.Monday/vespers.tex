@@ -1,0 +1,135 @@
+% !TEX root = vespers.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=3cm]{geometry}
+\usepackage{scrlayer-scrpage}
+
+\newenvironment{verses}[1][2]{
+\begin{multicols}{#1}
+\footnotesize
+}{
+\end{multicols}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\scshape} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+%\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+%\pagestyle{scrheadings}
+
+\def\translation{NABRE}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+
+\thispagestyle{plain}
+\section{Office of Vespers}
+\subsection{Friday, Psalter Week I in Ordinary Time}
+
+
+%\subsection{Introduction}
+\input{C:/Users/johna/Chant/Communes/deus-in-adjutorium/ferialis.gtex}
+\begin{center}
+    \emph{Oh God, come to my assistance. --\textbf{LORD, make haste to help me.}\\
+    Glory be to the Father, and to the Son, and to the Holy Spirit.
+    --\textbf{As it was in the beginning, is now, and ever shall be, world with out end. Amen. Alleluia.}}
+    %\greseparator{3}{10}
+\end{center}
+
+\input{C:/Users/johna/Chant/hymns/plasmator-hominis/formatted.tex}
+
+\subsection{Psalmody}
+%% FIRST PSALM %%
+\input{C:/Users/johna/Chant/Antiphona/sana-domine/simple.tex}
+
+\vspace*{-15pt}
+%\subsubsection{2nd Antiphon}
+%% SECOND PSALM %%
+\input{C:/Users/johna/Chant/Antiphona/adiutor-in-tribulationibus/simple.tex}
+
+
+\vspace*{-15pt}
+%subsubsection*{Canticle}
+%% NT CANTICLE %%
+\input{C:/Users/johna/Chant/Antiphona/magna-et-mirabilia/simple.tex}
+
+
+\subsection{Reading \hfill 1 Peter 1:3-5}
+See iBreviary
+
+\subsubsection{Responsory}
+\input{C:/Users/johna/Chant/Resp-breve/christus-dilexit-nos/solesmes_1934.gtex}
+
+\subsection{Gospel Canticle \hfill Magnificat (Canticle of Mary)}
+\input{C:/Users/johna/Chant/Antiphona/suscepit-deus-israel/simple.tex}
+
+\subsection{Intercessions}
+See iBreviary.
+
+\subsubsection{Our Father}
+\input{C:/Users/johna/Chant/Communes/pater-noster/English-C.gtex}
+
+%\gresetinitiallines{0} 
+%\gresetinitiallines{1} 
+
+\subsubsection{Prayer}
+See iBreviary.
+
+\subsubsection{Dismissal}
+\begin{multicols}{2}
+    \small
+\emph{If a priest or deacon presides:}
+
+The Lord be with you.\\
+— \textbf{And with your spirit.}
+
+May almighty God bless you,\\
+the Father, and the Son, and the Holy Spirit.\\
+— \textbf{Amen}.
+
+Go in peace.\\
+— \textbf{Thanks be to God.}
+
+\columnbreak
+
+\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+
+May the Lord + bless us,\\
+protect us from all evil\\
+and bring us to everlasting life.
+— \textbf{Amen}.
+\end{multicols}
+
+\end{document}

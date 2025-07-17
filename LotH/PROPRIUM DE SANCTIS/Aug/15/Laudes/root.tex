@@ -1,0 +1,158 @@
+% !TEX root = root.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=3cm]{geometry}
+\usepackage{scrlayer-scrpage}
+
+\newenvironment{verses}[1][2]{
+\begin{multicols}{#1}
+\footnotesize
+}{
+\end{multicols}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\scshape} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+\pagestyle{scrheadings}
+
+\def\translation{NABRE}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+
+\thispagestyle{plain}
+\section{Laudes -- Assumption of the Blessed Virgin Mary}
+\begin{center}
+    \greseparator{3}{20}
+\end{center}
+
+\subsection{Introduction}
+\input{C:/Users/johna/Chant/Communes/deus-in-adjutorium/festivus.gtex}
+\begin{center}
+    \emph{Oh God, come to my assistance. --\textbf{LORD, make haste to help me.}\\
+    Glory be to the Father, and to the Son, and to the Holy Spirit.
+    --\textbf{As it was in the beginning, is now, and ever shall be, world with out end. Amen. Alleluia.}}
+    % \greseparator{3}{20}
+\end{center}
+
+% Lucis creator (LHymn 188)
+\input{C:/Users/johna/Chant/hymns/solis-o-virgo/eng.tex}
+
+\subsection{Psalmody}
+\input{C:/Users/johna/Chant/Antiphona/pulchra-est-decora/dbl.tex}
+\input{C:/Users/johna/Chant/Antiphona/virgo-gloriosa-Maria/dbl.tex}
+\input{C:/Users/johna/Chant/Antiphona/in-odore/dbl.tex}
+
+
+
+\subsection{Reading \hfill See Isaiah 61:10}
+I rejoice heartily in the Lord,\\
+   in my God is the joy of my soul;\\
+For he has clothed me with a robe of salvation,\\
+   and wrapped me in a mantle of justice,\\
+   like a bride bedecked with her jewels.
+
+\input{C:/Users/johna/Chant/Resp-breve/hodie-maria/lat.tex}
+
+\subsection{Gospel Canticle}
+\input{C:/Users/johna/Chant/Antiphona/virgo-prudentissima/dbl.tex}
+
+\subsection{Intercessions}
+
+Let us glorify our Savior, who chose the Virgin Mary for his mother. Let us ask him:\\
+May your mother intercede for us, Lord.
+
+Eternal Word, you chose Mary as the uncorrupted ark of your dwelling place,\\
+— free us from the corruption of sin.\\
+May your mother intercede for us, Lord.
+
+You are our redeemer, who made the immaculate Virgin Mary your purest home and the sanctuary of the Holy Spirit,\\
+— make us temples of your Spirit for ever.\\
+May your mother intercede for us, Lord.
+
+King of kings, you lifted up your mother, body and soul into heaven,\\
+— help us to fix our thoughts on things above.\\
+May your mother intercede for us, Lord.
+
+Lord of heaven and earth, you crowned Mary and set her at your right hand as queen,\\
+— make us worthy to share this glory.\\
+May your mother intercede for us, Lord.
+
+\subsubsection{Our Father}
+\input{C:/Users/johna/Chant/Communes/pater-noster/English-C.gtex}
+
+%\gresetinitiallines{0} 
+%\gresetinitiallines{1} 
+
+\subsubsection{Prayer}
+
+Almighty, ever-living God,\\
+who assumed the Immaculate Virgin Mary, the Mother of your Son,\\
+body and soul into heavenly glory,\\
+grant, we pray,\\
+that, always attentive to the things that are above,\\
+we may merit to be sharers of her glory.\\
+Through our Lord Jesus Christ, your Son,\\
+who lives and reigns with you in the unity of the Holy Spirit,\\
+God, for ever and ever.\\
+— \textbf{Amen}.
+
+\subsubsection{Dismissal}
+\emph{If a priest or deacon presides, he dismisses the people:}
+
+The Lord be with you.\\
+— \textbf{And with your spirit.}
+
+May almighty God bless you,\\
+the Father, and the Son, and the Holy Spirit.\\
+— \textbf{Amen}.
+
+\emph{Another form of the blessing may be used, as at Mass.}
+
+Then he adds:
+
+Go in peace.\\
+— \textbf{Thanks be to God.}
+
+\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+
+May the Lord + bless us,\\
+protect us from all evil\\
+and bring us to everlasting life.
+— \textbf{Amen}.
+
+\end{document}

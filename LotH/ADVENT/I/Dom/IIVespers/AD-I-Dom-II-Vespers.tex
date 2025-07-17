@@ -1,0 +1,265 @@
+% !TEX root = AD-I-Dom-II-Vespers.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[paper=letter,parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=2cm]{geometry}
+\usepackage{scrlayer-scrpage}
+
+\newenvironment{verses}[1][2]{
+\begin{multicols}{#1}
+\footnotesize
+}{
+\end{multicols}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\scshape} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+%\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+%\pagestyle{scrheadings}
+\usepackage{soul}
+
+\newif\ifchoir
+\choirfalse
+\newif\iflect
+\lectfalse
+
+\iflect\choirtrue\fi
+
+\def\translation{NABRE}
+
+\let\oldhl\hl
+\renewcommand{\hl}[1]{\ifchoir \oldhl{#1} \else #1 \fi}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+
+\thispagestyle{plain}
+\iflect
+\section{Vespers II -- Sunday, Dec. 1, 2024 LECTIONARY}
+\else
+\ifchoir
+\section{Vespers II -- Sunday, Dec. 1, 2024 CHOIR VERSION}
+\else
+\section{Vespers II -- 1st Sunday of Advent, 2024}
+\fi
+\fi
+\ifchoir
+\else
+\begin{center}
+    \vspace{-2cm}
+%    \emph{1st Sunday of Advent}
+%    \emph{Prepared by Dr. J. Costanzo}
+\end{center}
+\fi
+%\subsection{Introduction}
+\marginpar{\small\scshape Stand}
+\iflect
+\input{C:/Users/johna/Chant/Communes/deus-in-adjutorium/solemnis.gtex}
+\else
+\ifchoir
+\input{C:/Users/johna/Chant/Communes/deus-in-adjutorium/solemnis.gtex}
+\else
+\begin{center}
+    \vspace{-0.5cm}
+    \begin{minipage}{0.4\textwidth}
+    \includegraphics[width=0.95\linewidth]{8538059549_d2bf095e7c_b.jpg}
+    \end{minipage}%
+    \begin{minipage}{0.6\textwidth}
+        \centering
+    \emph{Oh God, come to my assistance. --\textbf{LORD, make haste to help me.}\\
+    Glory be to the Father, and to the Son, and to the Holy Spirit.
+    --\textbf{As it was in the beginning, is now, and ever shall be, world with out end. Amen. Alleluia.}}
+    \end{minipage}
+    \vspace{-1cm}
+%    
+%    \greseparator{3}{30}
+\end{center}
+\fi\fi
+
+% Lucis creator (LHymn 188)
+\subsubsection*{Hymn: ``Rorate Coeli'' \hfill
+{\small\itshape P. Bourget?, 1634; harmony by Mark Emerson Donnelly}}
+\ifchoir
+\input{C:/Users/johna/Chant/hymns/rorate-coeli/refrain-solesmes.gtex}
+\else
+\vspace{-0.2cm}
+\input{C:/Users/johna/Chant/hymns/rorate-coeli/refrain-solesmes.gtex}
+    \begin{center}
+        \vspace{-0.75cm}
+        \small\itshape Drop down dew, ye heavens from above, and let the clouds rain upon the just.
+    \end{center}
+    \begin{multicols}{2}
+        \small
+        \input{C:/Users/johna/Chant/hymns/rorate-coeli/verses-eng.tex}
+    \end{multicols}
+\fi
+
+\vspace{-1cm}
+\subsection{Psalmody}
+\marginpar{\small\scshape Sit}
+\vspace*{-5pt}
+%% FIRST PSALM %%
+\input{C:/Users/johna/Chant/Antiphona/jucundare/dbl.tex}
+
+\vspace*{-15pt}
+\subsubsection{2nd Antiphon}
+\vspace*{-15pt}
+
+%% SECOND PSALM %%
+\input{C:/Users/johna/Chant/Antiphona/rex-noster/dbl.tex}
+
+
+%% NT CANTICLE %%
+\subsubsection*{Canticle: The Wedding of the Lamb \hfill ARII 10; (Solesmes)}
+\input{C:/Users/johna/Chant/Antiphona/ecce-venio-cito/dbl.tex}
+
+
+\subsection{Reading \hfill Philippians 4:4-5}
+\vspace{-0.5cm}
+\iflect\gresetinitiallines{0}\gregorioscore{IIVesp-lect.gabc}\else
+Rejoice in the Lord always! I say it again. Rejoice! Everyone should see how unselfish you are. The Lord is near.\fi
+
+\vspace{-0.5cm}
+
+\subsubsection{Responsory}
+\gresetinitiallines{1}
+\ifchoir
+\input{C:/Users/johna/Chant/Resp-breve/ostende-nobis/english-extend.gtex}
+\else
+\input{C:/Users/johna/Chant/Resp-breve/ostende-nobis/english.gtex}
+\fi
+
+\subsection{Gospel Canticle}
+\marginpar{\small\scshape Stand}
+\input{C:/Users/johna/Chant/Antiphona/ne-timeas-maria/dbl.tex}
+
+\clearpage
+\subsection{Intercessions}
+\iflect\gresetinitiallines{0}\gregorioscore{IIV-inter-lect.gabc}
+\else
+\ifchoir\gregorioscore{IIV-inter-resp.gabc}\fi
+\fi
+\begin{multicols}{2}
+    \small
+\iflect\else To Jesus Christ, our Redeemer, the way, the truth, and the life,\\
+— let us make our humble prayer:\\
+\textbf{Come and stay with us, Lord.}\fi
+
+Son of the Most High, your coming was announced to the Virgin Mary by Gabriel,\\
+— come and rule over your people for ever.\\
+\textbf{Come and stay with us, Lord.}
+
+Holy One of God, in your presence John the Baptist leapt in Elizabeth’s womb,
+— bring the joy of salvation to all the earth.\\
+\textbf{Come and stay with us, Lord.}
+
+Jesus the Savior, the angel revealed your name to Joseph the just man,\\
+— come and save your people from their sins.\\
+\textbf{Come and stay with us, Lord.}
+
+Light of the world, for whom Simeon and all the just waited,\\
+— come and comfort us.\\
+\textbf{Come and stay with us, Lord.}
+
+O Rising Sun that never sets, Zechariah foretold that you would visit us from above,\\
+— come and shine on those who dwell in darkness and the shadow of death.\\
+\textbf{Come and stay with us, Lord.}
+\end{multicols}
+
+\ifchoir\subsubsection{Our Father}\fi
+\gresetinitiallines{0}
+\input{C:/Users/johna/Chant/Communes/pater-noster/English-C.gtex}
+\gresetinitiallines{1}
+
+\vspace{-15pt}
+\subsubsection{Prayer}
+\vspace{-15pt}
+Grant your faithful, we pray, almighty God,
+the resolve to run forth to meet your Christ
+with righteous deeds at his coming,
+so that, gathered at his right hand,
+they may be worthy to possess the heavenly kingdom.
+Through our Lord Jesus Christ, your Son,
+who lives and reigns with you in the unity of the Holy Spirit,
+God, for ever and ever.
+
+\vspace{-15pt}
+\subsubsection{Dismissal}
+%\begin{multicols}{2}
+\vspace{-15pt}
+\begin{center}
+    \small
+%\emph{If a priest or deacon presides:}\\
+%The Lord be with you.\\
+%— \textbf{And with your spirit.}\\
+%May almighty God bless you,\\
+%the Father, and the Son, and the Holy Spirit.\\
+%— \textbf{Amen}.\\
+%Go in peace.\\
+%— \textbf{Thanks be to God.}
+
+%\columnbreak
+
+%\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+    May the Lord + bless us,
+    protect us from all evil
+    and bring us to everlasting life.
+    — \textbf{Amen}.
+\end{center}
+%\end{multicols}
+
+\ifchoir
+\begin{center}
+    \greseparator{3}{20}
+\end{center}
+\fi
+
+\input{C:/Users/johna/Chant/hymns/alma-redemptoris/solesmes.gtex}
+
+\ifchoir
+\input{C:/Users/johna/Chant/hymns/conditor-alme-siderum/english.gtex}
+%\else
+%\begin{center}
+%    \greseparator{3}{20}
+%\end{center}
+%\input{C:/Users/johna/Chant/hymns/conditor-alme-siderum/english_v1.gtex}
+%\begin{center}
+%    \input{C:/Users/johna/Chant/hymns/conditor-alme-siderum/subseq_verses.tex}
+%\end{center}
+\fi
+
+
+
+\end{document}

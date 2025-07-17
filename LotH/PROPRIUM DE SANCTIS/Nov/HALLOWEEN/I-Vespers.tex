@@ -1,0 +1,208 @@
+% !TEX root = I-Vespers.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=2cm]{geometry}
+\usepackage{scrlayer-scrpage}
+
+\newenvironment{verses}[1][2]{
+\begin{multicols}{#1}
+\footnotesize
+}{
+\end{multicols}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\scshape} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+%\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+%\pagestyle{scrheadings}
+
+\newif\ifchoir
+\choirtrue
+
+\def\translation{NABRE}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+
+\thispagestyle{plain}
+\section{Vespers II -- Sunday, Oct. 6, 2024}
+\ifchoir
+\else
+\begin{center}
+    \emph{27th Sunday in Ordinary Time, Year B}
+    \emph{Prepared by Dr. J. Costanzo}
+
+    \greseparator{3}{30}
+\end{center}
+\fi
+
+\subsection{Introduction}
+\marginpar{\small\scshape Stand}
+\input{C:/Users/johna/Chant/Communes/deus-in-adjutorium/festivus.gtex}
+\ifchoir
+\else
+\begin{center}
+    \emph{Oh God, come to my assistance. --\textbf{LORD, make haste to help me.}\\
+    Glory be to the Father, and to the Son, and to the Holy Spirit.
+    --\textbf{As it was in the beginning, is now, and ever shall be, world with out end. Amen. Alleluia.}}
+    
+    \greseparator{3}{30}
+\end{center}
+\fi
+
+% Lucis creator (LHymn 188)
+\subsubsection*{Hymn: ``Lucis Creator'' \hfill
+{\small\itshape Attr. St. Gregory the Great, ca 540-604; tr. © 2023 ICEL}}
+\ifchoir
+\input{C:/Users/johna/Chant/hymns/lucis-creator/in-aestate_ICEL_full.gtex}
+\else
+\input{C:/Users/johna/Chant/hymns/lucis-creator/in-aestate_v1-ICEL.gtex}
+    \begin{multicols}{2}
+    \input{C:/Users/johna/Chant/hymns/lucis-creator/verses-ICEL.tex}
+\end{multicols}
+\fi
+
+\subsection{Psalmody}
+\marginpar{\small\scshape Sit}
+\vspace*{-5pt}
+%% FIRST PSALM %%
+\input{C:/Users/johna/Chant/Antiphona/dixit-dominus/dbl.tex}
+
+\vspace*{-15pt}
+\subsubsection{2nd Antiphon}
+\vspace*{-15pt}
+
+%% SECOND PSALM %%
+\input{C:/Users/johna/Chant/Antiphona/fidelia-omnia/dbl.tex}
+
+
+%% NT CANTICLE %%
+\subsubsection*{Canticle: The Wedding of the Lamb \hfill ARII 10; (Solesmes)}
+\input{C:/Users/johna/Chant/Canticum/salus-et-gloria/english.gtex}
+
+
+\subsection{Reading \hfill 1 Peter 1:3-5}
+Praised be the God and Father
+of our Lord Jesus Christ,\\
+he who in his great mercy
+gave us new birth;\\
+a birth unto hope which draws its life
+from the resurrection of Jesus Christ from the dead;\\
+a birth to an imperishable inheritance,
+incapable of fading or defilement,\\
+which is kept in heaven for you
+who are guarded with God’s power through faith;\\
+a birth to a salvation which stands ready
+to be revealed in the last days.
+
+\subsubsection{Responsory}
+\input{C:/Users/johna/Chant/Resp-breve/benedictus-es-domine/english.gtex}
+
+\subsection{Gospel Canticle}
+\marginpar{\small\scshape Stand}
+\input{C:/Users/johna/Chant/Antiphona/sinite-parvulos/dbl.tex}
+
+\clearpage
+\subsection{Intercessions}
+\ifchoir\gregorioscore{IIV-inter-resp.gabc}\fi
+\begin{multicols}{2}
+    \small
+The world was created by the Word of God, re-created by his redemption, and it is continually renewed by his love. Rejoicing in him we call out:\\
+\textbf{Renew the wonders of your love, Lord.}
+
+We give thanks to God whose power is revealed in nature,\\
+— and whose providence is revealed in history.\\
+\textbf{Renew the wonders of your love, Lord.}
+
+Through your Son, the herald of reconciliation, the victor of the cross,\\
+— free us from empty fear and hopelessness.\\
+\textbf{Renew the wonders of your love, Lord.}
+
+May all those who love and pursue justice,\\
+— work together without deceit to build a world of true peace.\\
+\textbf{Renew the wonders of your love, Lord.}
+
+Be with the oppressed, free the captives, console the sorrowing, feed the hungry, strengthen the weak,\\
+— in all people reveal the victory of your cross.\\
+\textbf{Renew the wonders of your love, Lord.}
+
+After your Son’s death and burial you raised him up again in glory,\\
+— grant that the faithful departed may live with him.\\
+\textbf{Renew the wonders of your love, Lord.}
+\end{multicols}
+
+\subsubsection{Our Father}
+\gresetinitiallines{0}
+\input{C:/Users/johna/Chant/Communes/pater-noster/English-C.gtex}
+\gresetinitiallines{1}
+
+\subsubsection{Prayer}
+Almighty ever-living God,
+who in the abundance of your kindness
+surpass the merits and desires of those who entreat you,
+pour out your mercy upon us
+to pardon what conscience dreads
+and to give what prayer does not dare to ask.
+Through our Lord Jesus Christ, your Son,
+who lives and reigns with you in the unity of the Holy Spirit,
+God, for ever and ever.
+
+\subsubsection{Dismissal}
+\begin{multicols}{2}
+    \small
+\emph{If a priest or deacon presides:}\\
+The Lord be with you.\\
+— \textbf{And with your spirit.}\\
+May almighty God bless you,\\
+the Father, and the Son, and the Holy Spirit.\\
+— \textbf{Amen}.\\
+Go in peace.\\
+— \textbf{Thanks be to God.}
+
+\columnbreak
+
+\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+
+May the Lord + bless us,\\
+protect us from all evil\\
+and bring us to everlasting life.
+— \textbf{Amen}.
+\end{multicols}
+
+%\subsubsection{Salve Regina - Monastic Tone \hfill Eng. adaptation by Doctor J}
+%\input{C:/Users/johna/Chant/hymns/salve-regina/monasticum-drj.gtex}
+
+\end{document}

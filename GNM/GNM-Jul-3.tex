@@ -1,0 +1,168 @@
+%& -output-directory=C:\Users\johna\Dropbox\Chants\ -aux-directory=.\temp
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[10pt,parskip,paper=216mm:162mm,DIV=calc]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=1cm]{geometry}
+\usepackage{scrlayer-scrpage}
+%\usepackage{musixtex}
+
+\newcommand{\myhome}{C:/Users/johna/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\bfseries} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+\automark*[subsection]{subsection}
+
+%\lohead[\thesubsection]
+%{\thesubsection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+\pagestyle{scrheadings}
+
+\RedeclareSectionCommand[
+    runin=true,
+    afterindent=false,
+    beforeskip=0.75ex plus 1ex minus .2ex,
+    afterskip=3pt]{paragraph}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+\subsection{July 3 - Feast of St. Thomas, Apostle}
+
+\begin{multicols}{2}
+   \paragraph{Entrance Antiphon}~\emph{Cf. Ps 118 (117): 28, 21}
+   \small
+   You are my God, and I confess you;
+   you are my God, and I exalt you;
+   I will thank you, for you became my savior.
+
+   \columnbreak
+
+   \paragraph{Introit}~\emph{Cf. Ps 139 (138): 17}
+   To me, Your friends, O God, are made exceedingly honorable;
+   their principality is exceedingly strengthened.
+   
+\end{multicols}
+
+\begin{multicols}{2}
+   \small
+   \paragraph{Resp. Psalm}~
+   \emph{Ps 117:1bc, 2}\\
+   \textbf{(Mk 16:15) Go out to all the world and tell the Good News.}\\
+   Praise the LORD, all you nations;\\
+   glorify him, all you peoples! \Rbar
+
+   For steadfast is his kindness for us,\\
+   and the fidelity of the LORD endures forever.
+
+   \columnbreak
+
+   \paragraph{Gradual}~
+   \textbf{Nimis honorati sunt}\\
+   \emph{Ps. 139 (138): 17-18} Your friends, O God, are made
+   exceedingly honorable: their principality is exceedingly strengthened.
+   \Vbar Were I to recount them, they would outnumber the sands.
+   
+\end{multicols}
+
+
+\begin{multicols}{2}
+   \paragraph{Alleluia}~\emph{John 20:29}
+   \small
+   You believe in me, Thomas, because you have seen me, says the Lord;
+   blessed are those who have not seen, but still believe!
+
+   \columnbreak
+
+   \paragraph{\emph{Graduale}}~\emph{Ps. 33 (32): 1} Exult, you just, in the Lord;
+   praise from the upright is fitting. \\
+   \emph{Revised Grail:}
+   Ring out your joy to the Lord, O you just;  for praise is fitting from the upright.  
+
+      
+\end{multicols}
+
+\paragraph{Offertory Chant} \emph{Ps 19 (18):5}
+Through all the earth their voice resounds, and to the ends of the world, their message.\\
+\emph{Revised Grail:} Their sound goes forth through all the earth,  their message to the utmost bounds of the world.  
+
+
+\paragraph{Communion Antiphon/Chant} \emph{Jn. 20:27}
+Bring your hand and feel the place of the nails,
+and do not be unbelieving but believing.
+
+% \begin{multicols}{3}
+%    \paragraph{Communion chants}~\\
+%    \small
+%     {\bfseries Circuibo}\\
+%     \emph{Ps. 26:6}
+%     I shall offer within his tent
+%    sacrifices full of exultation.
+%    I will sing and make music for the Lord. 
+%    \columnbreak
+
+%    {\bfseries Quod dico vobis}
+%    \emph{Sun. Year A}\\
+%    \emph{Mt. 10:27}
+%    What I say to you in the darkness, speak in the light, says the Lord.
+%    What you hear whispered, proclaim on the housetops.
+%    \columnbreak
+
+%    {\bfseries Qui vult venire}
+%    \emph{Sun. Year C}\\
+%    \emph{Mt 16:24}
+%    Whoever wishes to come after me, must deny himself,
+%    take up his cross, and follow me.
+% \end{multicols}
+
+\filbreak
+\greannotation{In. II}
+\gregorioscore{Introitus/mihi-autem-nimis/english-ant-only.gabc}
+\gresetinitiallines{0}
+\gabcsnippet{
+   (f3)You(e) are(fe) my(eh) God,(h) and(h) I(h) con(h)fess(h) you; †(h.) you(h) are(h) my(h) God,(h) <i>and</i>(hg) <i>I</i>(hi) <i>ex</i>(i)<b>alt</b>(hi) you;(h.) * (:) I(hf) will(fh) thank(h) you,(h) for(h) you(h) <i>be</i>(i)<i>came</i>(hf) <i>my</i>(h) <i>sa</i>(ge)<i>vior</i>.(fgf.) (::)
+}
+\gresetinitiallines{1}
+
+\filbreak
+\greannotation{Of. II}
+\gregorioscore{Offertorium/in-omnem-terram/english.gabc}
+
+\filbreak
+\greannotation{Co. VI}
+\gregorioscore{Communio/mitte-manum/english.gabc}
+% \gresetinitiallines{0}
+% \gabcsnippet{
+% }
+% \gresetinitiallines{1}
+
+
+\end{document}

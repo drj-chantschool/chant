@@ -1,0 +1,213 @@
+%& -output-directory=C:\Users\johna\Dropbox\Chants\ -aux-directory=.\temp
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[10pt,parskip,paper=216mm:162mm,DIV=calc]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=1cm]{geometry}
+\usepackage{scrlayer-scrpage}
+%\usepackage{musixtex}
+
+\newcommand{\myhome}{C:/Users/johna/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\bfseries} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+\automark*[subsection]{subsection}
+
+%\lohead[\thesubsection]
+%{\thesubsection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+\pagestyle{scrheadings}
+
+\RedeclareSectionCommand[
+    runin=true,
+    afterindent=false,
+    beforeskip=0.75ex plus 1ex minus .2ex,
+    afterskip=3pt]{paragraph}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+\subsection{12th Week in Ordinary Time}
+
+\paragraph{Entrance Antiphon \& Introit} \emph{Cf. Ps 28 (27):8-9}
+The Lord is the strength of his people,
+a saving refuge for the one he has anointed.
+Save your people, Lord, and bless your heritage,
+and govern them for ever.
+
+\begin{multicols}{3}
+   \paragraph{Gradual}~
+   \small
+   \textbf{Convertere}\\
+   \emph{Ps. 89:13,1} Turn back, O Lord! How long? 
+   Show pity to your servants.
+   \Vbar O Lord, you have been our refuge, 
+   from generation to generation.
+
+   \columnbreak
+   \textbf{Beata gens} \emph{Mon. Year I}\\
+   \emph{Ps. 32:12,6} Blessed the nation whose God is the Lord, 
+   the people he has chosen as his heritage.
+   \Vbar By the word of the Lord the heavens were made, 
+   by the breath of his mouth all their host.
+   
+   \columnbreak
+   \textbf{Respice, Domine} \emph{Sat. Year II}\\
+   \emph{Ps. 73: 20, 19 \Vbar 22, 23}
+   Look to your covenant,
+   do not forget forever the life of your afflicted.
+   \Vbar Arise, O God, and defend your cause!
+   Remember the reproach of your servants.
+
+\end{multicols}
+
+\paragraph{Gradual Alleluia} \emph{Ps 30:2-3} In you, O Lord, I take refuge. 
+Let me never be put to shame. 
+In your justice, set me free; 
+incline your ear to me, and speedily rescue me. 
+
+\paragraph{Offertory Chant} \emph{Cf. Ps. 16, 5. 6. 7}
+I kept my steps firmly in your paths. 
+My feet have never faltered. 
+Turn your ear to me; hear my words. 
+Display your merciful love, 
+you who deliver from their foes 
+those who trust in your right hand. 
+
+
+\paragraph{Communion Antiphon} \emph{Ps 145 (144): 15}
+The eyes of all look to you, Lord,
+and you give them their food in due season.
+
+Or, \emph{Jn 10: 11, 15}
+I am the Good Shepherd,
+and I lay down my life for my sheep, says the Lord.
+
+\begin{multicols}{3}
+   \paragraph{Communion chants}~\\
+   \small
+    {\bfseries Circuibo}\\
+    \emph{Ps. 26:6}
+    I shall offer within his tent
+   sacrifices full of exultation.
+   I will sing and make music for the Lord. 
+   \columnbreak
+
+   {\bfseries Quod dico vobis}
+   \emph{Sun. Year A}\\
+   \emph{Mt. 10:27}
+   What I say to you in the darkness, speak in the light, says the Lord.
+   What you hear whispered, proclaim on the housetops.
+   \columnbreak
+
+   {\bfseries Qui vult venire}
+   \emph{Sun. Year C}\\
+   \emph{Mt 16:24}
+   Whoever wishes to come after me, must deny himself,
+   take up his cross, and follow me.
+\end{multicols}
+
+\filbreak
+\greannotation{In. II}
+\gregorioscore{Introitus/dominus-fortitudo/english.gabc}
+
+\filbreak
+\greannotation{Of. IV}
+\gregorioscore{Offertorium/perfice-gressus/english.gabc}
+
+\filbreak
+\greannotation{Co. VI}
+\gregorioscore{Communio/circuibo/english.gabc}
+\gresetinitiallines{0}
+\gabcsnippet{
+(c2)The(fg) eyes(gf) of(gh) all(h) <i>look</i>(g) <b>to</b>(i) you,(h) <b>Lord</b>(g.) (:)<i>and</i>(f) <i>you</i>(gh) <i>give</i>(h) <b>them</b>(hj) their(g) <i>food</i>(fd) <i>in</i>(f) <i>due</i>(g) <b>sea</b>(g)son.(f.) (::)
+}
+\gresetinitiallines{1}
+
+\filbreak
+\greannotation{Co. IV}
+\gregorioscore{Communio/quod-dico-vobis/english.gabc}
+\gresetinitiallines{0}
+\gabcsnippet{
+(c4)The(hg) eyes(gh) of(h) <i>all</i>(hg) <i>look</i>(gi) <i>to</i>(i) <b>you</b>,(hi) Lord,(h.) * (:) and(hg) you(gh) give(h) them(h) their(h) food(h) <i>in</i>(gf) <i>due</i>(gh) <i>sea</i>(g)<i>son</i>.(e.) (::)
+}
+\gresetinitiallines{1}
+
+\filbreak
+\greannotation{Co. I}
+\gregorioscore{Communio/qui-vult-venire/english.gabc}
+\gresetinitiallines{0}
+\gabcsnippet{
+(c4)The(f) eyes(gh) of(h) all(h) <i>look</i>(hj) <i>to</i>(h) <i>you</i>,(hg) <i>Lord</i>,(gh..) * (:) and(gf) you(gh) give(h) them(h) their(h) <i>food</i>(hjh) <i>in</i>(g) <i>due</i>(f) <i>sea</i>(fff)<i>son</i>.(d.) (::)
+}
+\gresetinitiallines{1}
+
+
+\subsubsection{Year I: Thursday}
+
+\greannotation{Ant.}
+\greannotation{5}
+\grecommentary{106:1b-2, 3-4a, 4b-5}
+% Give thanks to the Lord, for he is good.
+%\gabcsnippet{(c3)Give thanks to the Lord, for he is good.}
+
+\begin{multicols}{2}
+\begin{itemize}
+    \small
+\item Give thanks to the LORD, for he is good,\\
+   for his mercy endures forever.\\
+Who can tell the mighty deeds of the LORD,\\
+   or proclaim all his praises?
+
+\item Blessed are they who observe what is right, \\
+   who do always what is just. \\
+Remember us, O LORD, as you favor your people.
+
+
+\item Visit me with your saving help, \\
+that I may see the prosperity of your chosen ones, \\
+   rejoice in the joy of your people, \\
+   and glory with your inheritance.
+
+\end{itemize}
+
+\end{multicols}
+
+%\greannotation{Alle}
+%\greannotation{VI}
+%\gregorioscore{alleluia-no/you-have-received-a-spirit/english.gabc}
+\paragraph{Alleluia} Whoever loves me will keep my word,
+and my Father will love him
+and he will come to him.
+
+
+
+\end{document}

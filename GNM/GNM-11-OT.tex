@@ -1,0 +1,95 @@
+%& -output-directory=C:\Users\johna\Dropbox\Chants\ -aux-directory=.\temp
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=3cm]{geometry}
+\usepackage{scrlayer-scrpage}
+%\usepackage{musixtex}
+
+\newcommand{\myhome}{C:/Users/johna/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\bfseries} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+\pagestyle{scrheadings}
+
+\def\translation{NABRE}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+\subsection{11th Week in Ordinary Time - Thurs I}
+
+\gregorioscore{Introitus/exaudi-domine/english.gabc}
+
+\greannotation{Ant.}
+\greannotation{5}
+\gabcsnippet{(c3)Your(h) works,(g) O(h) Lord,(feg) (,) are(fg) jus(h)tice(f) and(de) truth.(d.) (::)
+E(h) u(h) o(i) u(g) a(h) e.(f.) (::)
+}
+
+\begin{multicols}{2}
+    
+\begin{itemize}
+\item I will give thanks to the LORD with all my heart *\\
+in the company and assembly of the just.\\
+Great are the works of the LORD, *\\
+exquisite in all their delights.
+
+\item Majesty and glory are his work, *\\
+and his justice endures forever.\\
+He has won renown for his wondrous deeds; *\\
+gracious and merciful is the LORD.
+
+\item The works of his hands are faithful and just; *\\
+sure are all his precepts,\\
+Reliable forever and ever, *\\
+wrought in truth and equity.
+\end{itemize}
+
+\end{multicols}
+
+%\greannotation{Alle}
+%\greannotation{VI}
+%\gabcsnippet{(c4)You(fg) have(ixfi) re(hg)ceived(hh) (,) a(f) spir(fg)it(ixfi) of(g) a(f)dop(hh)tion(f) (;) as(fh) sons(ixjji) through(gf) which(h) we(fgwhgh) cry:(ixiHGh) (;) Ab(ixfhgj_jjj/vkj)ba!(jhi) Fa(hvfhg/hgg)ther!(f) (::)}
+\gregorioscore{alleluia-no/you-have-received-a-spirit/english.gabc}
+
+
+\gregorioscore{Offertorium/benedicam-domino/english.gabc}
+
+\gregorioscore{Communio/unam-petii/english.gabc}
+
+\end{document}
