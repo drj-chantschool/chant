@@ -1,0 +1,205 @@
+% !TEX root = 8-OT-C-VII.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[paper=letter,parskip]{scrreprt} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=2cm]{geometry}
+\usepackage{scrlayer-scrpage}
+\usepackage{xargs}
+
+\newcommand{\myhome}{C:/Users/johna/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape\bfseries} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\scshape} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+%\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%spacing before and after headers
+\RedeclareSectionCommand[
+  %runin=false,
+  afterindent=false,
+  beforeskip=.25\baselineskip,
+  afterskip=.15\baselineskip]{subsubsection}
+\RedeclareSectionCommand[
+%runin=false,
+    afterindent=false,
+    beforeskip=.15\baselineskip,
+    afterskip=.05\baselineskip]{subsection}
+\RedeclareSectionCommand[
+    %runin=false,
+    afterindent=false,
+    beforeskip=.25\baselineskip,
+    afterskip=.15\baselineskip]{section}
+\RedeclareSectionCommand[
+    runin=false,
+    afterindent=false,
+    beforeskip=3.25ex plus 1ex minus .2ex,
+    afterskip=3pt]{paragraph}
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+%\pagestyle{scrheadings}
+
+\newcounter{myantiphon}
+\setcounter{myantiphon}{0}
+
+\usepackage{soul}
+\sethlcolor{white}
+\let\oldhl\hl
+\renewcommand{\hl}[1]{\ifchoir \oldhl{#1} \else #1 \fi}
+
+
+\newif\iflect
+\lectfalse
+
+\newif\ifchoir
+\choirfalse
+
+\iflect\choirtrue\fi
+
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+ 
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+\grechangedim{commentaryseparation}{0.15mm}{scalable}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+
+\newcommand{\hymn}[3]{
+\subsubsection*{Hymn: ``#2'' \hfill
+{\small\itshape #3}}
+\ifchoir
+\gregorioscore{hymns/#1/english.gabc}
+\else
+\gregorioscore{hymns/#1/english_v1.gabc}
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/hymns/#1/verses.tex}
+\end{multicols}
+\fi}
+
+\newcommand{\introd}[1]{
+    \subsection{Introduction}
+    \marginpar{\small\scshape Stand}
+    \ifchoir
+    \gregorioscore{Communes/deus-in-adjutorium/#1}
+    \else
+    \begin{center}
+        \emph{Oh God, come to my assistance. --\textbf{LORD, make haste to help me.}\\
+        Glory be to the Father, and to the Son, and to the Holy Spirit.
+        --\textbf{As it was in the beginning, is now, and ever shall be, world with out end. Amen. Alleluia.}}
+        %\greseparator{3}{30}
+    \end{center}
+    \fi
+}
+
+\newcommandx{\psalm}[5][5=solesmes]{
+    \stepcounter{myantiphon}
+    \greannotation{Ant.~\themyantiphon}
+    \greannotation{#3}
+    \gregorioscore{Antiphona/#1/#5.gabc}
+    \gresetinitiallines{0}
+    \ifchoir
+    \gregorioscore{Psalms/#2/#3.gabc}
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/Psalms/#2/#4.tex}
+
+        \input{\myhome/Psalms/GloriaPatri/#4.tex}
+    \end{multicols}
+    \else
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/Psalms/#2/all.tex}
+    \end{multicols}
+    \fi
+    \gregorioscore{Antiphona/#1/english.gabc}
+    \gresetinitiallines{1}
+}
+
+\newcommandx{\responsory}[2][2=english]{
+    \subsubsection{Responsory}
+    \ifchoir
+\gregorioscore{Resp-breve/#1/#2-extended.gtex}
+\else
+\gregorioscore{Resp-breve/#1/#2.gtex}
+\fi
+}
+
+\begin{document}
+
+\thispagestyle{plain}
+\chapter{Holy Thursday}
+
+\section{At Matins}
+
+\subsection{First Nocturn}
+
+%\paragraph{Psalm 110[109]}
+%\psalm{sicut-exaltatus}{110}{1f}{2-0-1-2}
+
+
+\subsubsection{First Reading: Lamentations}
+\gregorioscore{Lectionis/Lamentations-Thurs-1-Silos-NAB}
+\subsubsection{Second Reading: Lamentations}
+\gregorioscore{Lectionis/Lamentations-Thurs-2-Silos-NAB}
+\subsubsection{Third Reading: Lamentations}
+\gregorioscore{Lectionis/Lamentations-Thurs-3-Silos-NAB}
+
+
+
+
+\chapter{Good Friday}
+
+\section{At Matins}
+
+\subsection{First Nocturn}
+
+\subsubsection{First Reading: Lamentations}
+\gregorioscore{Lectionis/Lamentations-Fri-1-Silos-NAB}
+\subsubsection{Second Reading: Lamentations}
+\gregorioscore{Lectionis/Lamentations-Fri-2-Toledo-NAB}
+\subsubsection{Third Reading: Lamentations}
+\gregorioscore{Lectionis/Lamentations-Fri-3-Leon-NAB}
+
+
+
+
+\chapter{Holy Saturday}
+
+\section{At Matins}
+
+\subsection{First Nocturn}
+
+\subsubsection{First Reading: Lamentations}
+\gregorioscore{Lectionis/Lamentations-Sat-1-Silos-NAB}
+\subsubsection{Second Reading: Lamentations}
+\gregorioscore{Lectionis/Lamentations-Sat-2-Leon-NAB}
+\subsubsection{Third Reading: Lamentations}
+\gregorioscore{Lectionis/Lamentations-Sat-3-adlib-NAB}
+
+\end{document}
