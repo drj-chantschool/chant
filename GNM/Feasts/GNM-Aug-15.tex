@@ -1,0 +1,228 @@
+%& -output-directory=C:\Users\johna\Dropbox\Chants\ -aux-directory=.\temp
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[10pt,parskip,paper=216mm:162mm,DIV=calc]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=1cm]{geometry}
+\usepackage{scrlayer-scrpage}
+%\usepackage{musixtex}
+
+\newcommand{\myhome}{C:/Users/johna/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\bfseries} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+\automark*[subsection]{subsection}
+
+%\lohead[\thesubsection]
+%{\thesubsection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+\pagestyle{scrheadings}
+
+\RedeclareSectionCommand[
+    runin=true,
+    afterindent=false,
+    beforeskip=0.75ex plus 1ex minus .2ex,
+    afterskip=3pt]{paragraph}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+\grechangedim{commentaryraise}{3.5mm}{scalable}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+\section{The Assumption of the Blessed Virgin Mary}
+\subsection{August 15th - Mass of the Day}
+
+% In-line or side-by-side depending on fit
+%\paragraph{Entrance Antiphon \& Introit} \emph{Cf. Ps 48 (47): 10-11}
+%\begin{minipage}{0.45\textwidth}
+{
+   \small
+   \textbf{Introit}---\emph{Ps chpt:verse}
+   A great sign appeared in heaven; a woman clothed with the
+   sun, and the moon under her feet; and on her head, a crown of
+   twelve stars. \Vbar Sing unto the Lord a new song, for he has
+   accomplished wondrous deeds.
+
+   \emph{Or:---Ps 44}
+      Let us all rejoice in the Lord,
+   as we celebrate the feast day in honor of the Virgin Mary,
+   at whose Assumption the angels rejoice
+   and praise the Son of God. \Vbar My heart
+   overflows with a goodly theme; I address my works to the king.
+%\end{minipage}%
+}
+
+{
+   \small
+   \textbf{Gradual: Audi, filia}\\
+   \emph{Ps 44: 11, 12, \Vbar 5}
+   Hearken, O daughter and see, incline your ear; for the king
+   greatly desires your beauty. \Vbar With your comeliness and your
+   beauty, set out, proceed victoriously and reign.
+}
+
+{ \small
+\textbf{Responsorial Psalm}
+\emph{Ps 45: 10, 11, 12, 16}
+\textbf{ (10bc) The queen stands at your right hand, arrayed in gold.}
+\begin{enumerate}
+   \item Hear, O daughter, and see; turn your ear,
+   forget your people and your father’s house. \textbf{\Rbar.}
+\item So shall the king desire your beauty;
+for he is your lord. \textbf{\Rbar.}
+\item They are borne in with gladness and joy;
+they enter the palace of the king. \textbf{\Rbar.}
+\end{enumerate}
+}
+
+
+{
+   \small
+   \textbf{Alleluia: Assumpta est}
+   Mary is taken up to heaven;
+   a chorus of angels exults.
+}
+
+\paragraph{Offertory Chant} {\small\emph{Ps. 24:1-3}
+Mary has been taken up into heaven; the Angels rejoice,
+praising the Lord together and blessing him, alleluia.}
+
+{\small\textbf{Communion Antiphon}---\emph{Lk 1:48-49}
+   All generations will call me blessed,
+   for he who is mighty has done great things for me.}
+
+% \emph{\small\textbf{Or}: Jn 6:57}\\
+% \begin{minipage}[t]{0.49\textwidth}
+%    \small
+%    \emph{Lectionary}\\
+%    Whoever eats my flesh and drinks my blood
+%    remains in me and I in him, says the Lord.\\
+% \end{minipage}\hfill
+% \begin{minipage}[t]{0.49\textwidth}
+%    \small
+%    \emph{Solesmes}\\
+%    He who eats my flesh and drinks my blood, abides in me, and I
+%    in him, says the Lord.
+% \end{minipage}
+% \emph{\small Also seen: 9th Sunday after Pentecost (EF); Corpus Christi years A \& B}
+
+
+\filbreak
+%\greannotation{In. I}
+\gregorioscore{Introitus/signum-magnum/english.gabc}
+or:
+\gregorioscore{Introitus/gaudeamus-mariae-assumptione/english.gabc}
+
+\filbreak
+%\greannotation{Ant. VII}
+%\gabcsnippet{(c3)The(gh) queen(iji.) *(,) stands(ih) at(f) your(h) right(gf) hand(e.) (;) ar(f)rayed(fd) in(fhg) gold(e.) (::)}
+\gregorioscore{Gradual/audi-filia-et-vide/eng-Assumption.gabc}
+
+\filbreak
+\gregorioscore{Alleluia/assumpta-est/english.gabc}
+
+\filbreak
+%\greannotation{Of. V}
+\gregorioscore{Offertorium/assumpta-est-maria/english.gabc}
+
+\filbreak
+%\greannotation{Co. III}
+\gregorioscore{Communio/beatam-me-dicent/english-f3.gabc}
+\gregorioscore{Canticum/magnificat-IV/english-f3.gabc}
+
+% \gresetinitiallines{0}
+% \gabcsnippet{
+% (c2)The(fg) eyes(gf) of(gh) all(h) <i>look</i>(g) <b>to</b>(i) you,(h) <b>Lord</b>(g.) (:)<i>and</i>(f) <i>you</i>(gh) <i>give</i>(h) <b>them</b>(hj) their(g) <i>food</i>(fd) <i>in</i>(f) <i>due</i>(g) <b>sea</b>(g)son.(f.) (::)
+% }
+% \gresetinitiallines{1}
+
+% \filbreak
+% \greannotation{Co. IV}
+% \gregorioscore{Communio/quod-dico-vobis/english.gabc}
+% \gresetinitiallines{0}
+% \gabcsnippet{
+% (c4)The(hg) eyes(gh) of(h) <i>all</i>(hg) <i>look</i>(gi) <i>to</i>(i) <b>you</b>,(hi) Lord,(h.) * (:) and(hg) you(gh) give(h) them(h) their(h) food(h) <i>in</i>(gf) <i>due</i>(gh) <i>sea</i>(g)<i>son</i>.(e.) (::)
+% }
+% \gresetinitiallines{1}
+
+% \filbreak
+% \greannotation{Co. I}
+% \gregorioscore{Communio/qui-vult-venire/english.gabc}
+% \gresetinitiallines{0}
+% \gabcsnippet{
+% (c4)The(f) eyes(gh) of(h) all(h) <i>look</i>(hj) <i>to</i>(h) <i>you</i>,(hg) <i>Lord</i>,(gh..) * (:) and(gf) you(gh) give(h) them(h) their(h) <i>food</i>(hjh) <i>in</i>(g) <i>due</i>(f) <i>sea</i>(fff)<i>son</i>.(d.) (::)
+% }
+% \gresetinitiallines{1}
+
+
+% \subsubsection{Year I: Thursday}
+
+% \greannotation{Ant.}
+% \greannotation{5}
+% \grecommentary{105:16-17, 18-19, 20-21}
+% % Give thanks to the Lord, for he is good.
+% %\gabcsnippet{(c3)Give thanks to the Lord, for he is good.}
+
+% \textbf{℟. Remember the marvels the Lord has done.}
+
+% \begin{multicols}{2}
+% \begin{itemize}
+%     \small
+ 
+%     \item When the LORD called down a famine on the land
+%        and ruined the crop that sustained them,
+%     He sent a man before them,
+%        Joseph, sold as a slave.
+    
+%     \item They had weighed him down with fetters,
+%        and he was bound with chains,
+%     Till his prediction came to pass
+%        and the word of the LORD proved him true.
+    
+%     \item The king sent and released him,
+%        the ruler of the peoples set him free.
+%     He made him lord of his house
+%        and ruler of all his possessions.
+    
+% \end{itemize}
+
+% \end{multicols}
+
+% %\greannotation{Alle}
+% %\greannotation{VI}
+% %\gregorioscore{alleluia-no/you-have-received-a-spirit/english.gabc}
+% \paragraph{Alleluia} 
+% The Kingdom of God is at hand:
+% repent and believe in the Gospel.
+
+
+
+
+\end{document}

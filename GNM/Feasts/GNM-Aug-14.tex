@@ -1,0 +1,180 @@
+%& -output-directory=C:\Users\johna\Dropbox\Chants\ -aux-directory=.\temp
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[10pt,parskip,paper=216mm:162mm,DIV=calc]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=1cm]{geometry}
+\usepackage{scrlayer-scrpage}
+%\usepackage{musixtex}
+
+\newcommand{\myhome}{C:/Users/johna/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\bfseries} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+\automark*[subsection]{subsection}
+
+%\lohead[\thesubsection]
+%{\thesubsection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+\pagestyle{scrheadings}
+
+\RedeclareSectionCommand[
+    runin=true,
+    afterindent=false,
+    beforeskip=0.75ex plus 1ex minus .2ex,
+    afterskip=3pt]{paragraph}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+\grechangedim{commentaryraise}{3.5mm}{scalable}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+\subsection{August 14: Maximilian Mary Kolbe, Pr., F., M \hfill Mem}
+
+% In-line or side-by-side depending on fit
+%\paragraph{Entrance Antiphon \& Introit} \emph{Cf. Ps 48 (47): 10-11}
+%\begin{minipage}{0.45\textwidth}
+{
+   \small
+   \textbf{Missal Antiphon}---\emph{Mt 25: 34, 40}
+   Come, you blessed of my Father, says the Lord.
+   Amen, I say to you:
+   Whatever you did for one of the least of my brethren,
+   you did it for me.
+
+%\end{minipage}%
+%\begin{minipage}{0.45\textwidth}
+%   \small
+   \textbf{Introit - Option 1}---\emph{Sacerdotes Dei}
+%\end{minipage}%
+}
+
+
+\paragraph{Offertory Chant} {\small\emph{Ps. 24:1-3}
+O God, my God, from daybreak do I watch for you; and in
+invocation of your name will I lift up my hands.}
+
+
+\begin{minipage}[t]{0.49\textwidth}
+   \small
+   \emph{Cf. Jn 15: 13}\\
+   Greater love has no one
+   than to lay down his life for his friends, says the Lord.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.49\textwidth}
+   \small
+   \emph{Or: Et si coram}\\
+\end{minipage}
+
+
+\filbreak
+%\greannotation{In. I}
+\gregorioscore{Introitus/venite-benedicti/english-ant.gabc}
+\gresetinitiallines{0}
+\gabcsnippet{(c3)A(ehg)men,(hi) I(i) say(i) to(i) you: †(i.) What(i)ev(i)er(i) you(i) did(i) for(i) one(i) of(i) the(i) least(i) of(i) my(ik) breth(ji)ren,(ij..) * (:) you(i!jwk) did(i) it(h) for(hhh) me.(fe..) (::)
+}
+\gresetinitiallines{1}
+
+\filbreak
+%\greannotation{Of. V}
+\gregorioscore{Offertorium/deus-deus-meus/english.gabc}
+
+\filbreak
+\greannotation{Co. II}
+\gregorioscore{Offertorium/majorem-caritatem/english.gabc}
+% \gresetinitiallines{0}
+% \gabcsnippet{
+% (c2)The(fg) eyes(gf) of(gh) all(h) <i>look</i>(g) <b>to</b>(i) you,(h) <b>Lord</b>(g.) (:)<i>and</i>(f) <i>you</i>(gh) <i>give</i>(h) <b>them</b>(hj) their(g) <i>food</i>(fd) <i>in</i>(f) <i>due</i>(g) <b>sea</b>(g)son.(f.) (::)
+% }
+% \gresetinitiallines{1}
+
+% \filbreak
+% \greannotation{Co. IV}
+% \gregorioscore{Communio/quod-dico-vobis/english.gabc}
+% \gresetinitiallines{0}
+% \gabcsnippet{
+% (c4)The(hg) eyes(gh) of(h) <i>all</i>(hg) <i>look</i>(gi) <i>to</i>(i) <b>you</b>,(hi) Lord,(h.) * (:) and(hg) you(gh) give(h) them(h) their(h) food(h) <i>in</i>(gf) <i>due</i>(gh) <i>sea</i>(g)<i>son</i>.(e.) (::)
+% }
+% \gresetinitiallines{1}
+
+% \filbreak
+% \greannotation{Co. I}
+% \gregorioscore{Communio/qui-vult-venire/english.gabc}
+% \gresetinitiallines{0}
+% \gabcsnippet{
+% (c4)The(f) eyes(gh) of(h) all(h) <i>look</i>(hj) <i>to</i>(h) <i>you</i>,(hg) <i>Lord</i>,(gh..) * (:) and(gf) you(gh) give(h) them(h) their(h) <i>food</i>(hjh) <i>in</i>(g) <i>due</i>(f) <i>sea</i>(fff)<i>son</i>.(d.) (::)
+% }
+% \gresetinitiallines{1}
+
+
+% \subsubsection{Year I: Thursday}
+
+% \greannotation{Ant.}
+% \greannotation{5}
+% \grecommentary{105:16-17, 18-19, 20-21}
+% % Give thanks to the Lord, for he is good.
+% %\gabcsnippet{(c3)Give thanks to the Lord, for he is good.}
+
+% \textbf{℟. Remember the marvels the Lord has done.}
+
+% \begin{multicols}{2}
+% \begin{itemize}
+%     \small
+ 
+%     \item When the LORD called down a famine on the land
+%        and ruined the crop that sustained them,
+%     He sent a man before them,
+%        Joseph, sold as a slave.
+    
+%     \item They had weighed him down with fetters,
+%        and he was bound with chains,
+%     Till his prediction came to pass
+%        and the word of the LORD proved him true.
+    
+%     \item The king sent and released him,
+%        the ruler of the peoples set him free.
+%     He made him lord of his house
+%        and ruler of all his possessions.
+    
+% \end{itemize}
+
+% \end{multicols}
+
+% %\greannotation{Alle}
+% %\greannotation{VI}
+% %\gregorioscore{alleluia-no/you-have-received-a-spirit/english.gabc}
+% \paragraph{Alleluia} 
+% The Kingdom of God is at hand:
+% repent and believe in the Gospel.
+
+
+
+
+\end{document}
