@@ -1,0 +1,277 @@
+% !TEX root = essential.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=3cm]{geometry}
+\usepackage{scrlayer-scrpage}
+%\usepackage{musixtex}
+
+\newcommand{\myhome}{C:/Users/johna/Chant/}
+\gresetgregpath{{\myhome}}
+
+\usepackage{hyperref}
+
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\urlstyle{rm}
+
+
+\setkomafont{section}{\normalfont\centering\Large\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\large\bfseries} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+\pagestyle{scrheadings}
+
+\def\translation{NABRE}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+
+\title{Essential Chants for Latin Rite Catholics}
+%\subtitle{The New World Gradual}
+\author{Prepared by Dr. J \& Mr. Bumbarger}
+\subtitle{For the St Mark's Schola Cantorum\\
+St. Mark the Evangelist Catholic Church \& School\\
+Plano, TX}
+\date{April 29, 2025}
+\maketitle
+
+% \subsection{Foreword}
+% This document is intended to be a small compilation of some of the most
+% core chants in Catholic culture throughout the ages. The title specifies
+% \emph{Latin Rite} Catholics to acknowledge the many other fully Catholic
+% rites of the Church that have their own chant traditions.
+% This document will certainly be added to over the years, but I did want to
+% keep it on the smaller side, and these are what I came up with for now.
+
+\subsection{The sign of the Cross}
+\gabcsnippet{
+    (c4) In(g) nó(h)mi(h)ne(h) Pat(h)ris,(g) et(h) Fí(i)li(h)i,(h) (,) et(h) Spí(h)ri(g)tus(h) Sanc(hg)ti.(g) (::) <sp>R/</sp>.<b> A(g)men.</b>(gh) (::)
+}
+Or,
+\gabcsnippet{
+    (c4)In(g) the(h) name(h) of(h) the(h) Fa(h)ther,(h) and(h) of(g) the(h) Son,(i) (,) and(h) of(h) the(h) Ho(g)ly(h) Spir(hg)it.(g) (::)
+    <sp>R/</sp>.<b> A(g)men.(gh) </b> (::)
+}
+
+\subsection{The Our Father}
+% \paragraph{Tone A}
+Everyone knows the one we do at Mass. This is similar, but more solemn.
+\gregorioscore{Communes/pater-noster/English-A.gabc}
+% \paragraph{Tone C} The \emph{Graduale} recommends this tone on feast days.
+% \gregorioscore{Communes/pater-noster/English-C.gabc}
+% \paragraph{A simple tone} This is appropriate perhaps when chanting Lauds or Vespers
+% on a weekday.
+% \gregorioscore{Communes/pater-noster/English-ferialis.gabc}
+
+\subsection{Hail Mary}
+\gregorioscore{Varia/ave-maria/solesmes.gabc}
+Or, in English:
+\gregorioscore{Varia/ave-maria/english.gabc}
+
+\subsection{Glory Be}
+Typically, the Glory Be, or \emph{Gloria Patri}, is prayed
+after some other prayer or psalm, and, when sung, is sung using
+the psalm tone that matches the preceding chant. (A few Psalm tones are
+later in this booklet.)
+
+Supposing you were singing the Hail Mary above (which is in Mode 1,)
+and wanted to end with a \emph{Gloria Patri},
+Introit tone 1 would be appropriate:
+\greannotation{1}
+\gabcsnippet{
+    (c4) Gló(f)ri(gh)a(h) Pa(h)tri,(h) et(h) Fí(h)li(h)o,(h.) (,) et(h) Spi(h)rí(hj)tu(h)i(h) San(hg~)cto.(gh..) *(:) Sic(gf)ut(gh) e(h)rat(h) in(h) prin(h)cí(h)pi(h)o,(h.) (,) et(h) nunc,(hj) et(h) sem(hg~)per,(gh..) (:) et(gf) in(gh) <nlba>saé(h)cu(h)la(h) sae(h)cu(hjh)ló(g')rum.</nlba>(f) A(fff)men.(d.) (::) 
+}
+
+\section{Chants for Exposition \& Benediction of the Blessed Sacrament}
+When the priest places the Blessed Sacrament in the monstrance and kneels
+to incense it, all kneel and sing \emph{O Salutaris Hostia.} There are many
+other tunes for this hymn, but here is one.
+\gregorioscore{hymns/o-salutaris-hostia/solesmes-ii-tone-7.gabc}
+
+After a period of Adoration, the priest blesses all present with the
+Blessed Sacrament; but before this, all sing the Tantum Ergo:
+\gregorioscore{hymns/tantum-ergo/solesmes.gabc} 
+
+\section{The Marian Antiphons}
+Traditionally sung after \emph{Compline}, or Night Prayer, before bed.
+In monasteries where obligatory silence is observed after Compline, this makes
+the Marian antiphon the last sound the religious soul utters for the rest of the day.
+The Time-after-Pentecost antiphon, \emph{Salve Regina}, is also traditionally
+prayed after the Rosary, though nothing I am aware of prevents one from substituting the
+antiphon of the season for the same purpose.
+
+\subsection{Alma Redemptoris Mater - Advent thru Feb. 1}
+\gregorioscore{hymns/alma-redemptoris/solesmes.gtex}
+
+\paragraph{Translation}
+{\itshape
+    Loving mother of the Redeemer,\\
+    gate of heaven, star of the sea,\\
+    assist your people who have fallen yet strive to rise again,\\
+    To the wonderment of nature you bore your Creator,\\
+    yet remained a virgin after as before,\\
+    You who received Gabriel's joyful greeting,\\
+    have pity on us poor sinners.}
+
+
+\subsection{Ave Regina Caelorum - Candlemas (Feb. 2) thru Holy Saturday}
+\gregorioscore{hymns/ave-regina-caelorum/solesmes.gtex}
+
+\paragraph{Translation}
+\begin{multicols}{2}
+    \itshape
+    Hail, O Queen of Heaven.\\
+Hail, O Lady of Angels\\
+Hail! thou root, hail! thou gate\\
+From whom unto the world a light has arisen:
+
+Rejoice, O glorious Virgin,\\
+Lovely beyond all others,\\
+Farewell, most beautiful maiden,\\
+And pray for us to Christ.    
+\end{multicols}
+
+\subsection{Regina Caeli}
+Sung throughout the Easter Season, both after Compline and, traditionally,
+in place of the Angelus.
+\gregorioscore{hymns/regina-caeli/solesmes.gabc}
+
+\paragraph{Translation}
+\emph{Queen of heaven, rejoice, alleluia.\\
+The Son you merited to bear, alleluia,\\
+Has risen as he said, alleluia.\\
+Pray to God for us, alleluia.}
+
+The Regina Caeli may conclude with:
+\gabcsnippet{
+    (c4) Re(j)joice(j) and(j) be(j) glad,(j) O(j) Vir(j)gin(j) Mar(j)y,(j) Al(j)le(j)lu(j)ia!(h.) (:) <sp>R/</sp><b> For(j) the(j) Lord(j) has(j) tru(j)ly(j) ris(j)en,(j) Al(j)le(j)lu(j)ia!(h.)</b> (:Z)
+    Let(j) us(j) pray:(h.) (:)
+    O(j) God,(j) who(j) gave(j) joy(j) to(j) the(j) world(j) through(j) the(j) res(j)ur(j)rec(j)tion(j) of(j) Thy(j) Son,(j) our(j) Lord(j) Je(j)sus(h) Christ,(h.) (;) grant(j) we(j) be(j)seech(j) Thee,(j) that(j) through(j) the(j) in(j)ter(j)ces(j)sion(j) of(j) the(j) Vir(j)gin(j) Mar(j)y,(i) His(h) Moth(j)er,(j.) (;) we(j) may(j) ob(j)tain(j) the(j) joys(j) of(j) ev(j)er(j)last(j)ing(f) life.(f.) (:) Through(j) the(j) same(j) Christ(j) our(h) Lord.(h.) (::)
+    <sp>R/</sp><b>A(j.)men.</b>(j.) (::)
+}
+
+\subsection{Salve Regina}
+Sung from Compline on Pentecost Sunday until Advent, as well as after the Rosary.
+\gregorioscore{hymns/salve-regina/simplex-liber-usualis.gabc}
+The Rosary may conclude:
+\gabcsnippet{
+    (c3) Pray(j) for(j) us,(j) O(j) Ho(j)ly(j) Moth(j)er(j) of(h) God.(h.) (:)
+    <sp>R/</sp><b>That(j) we(j) may(j) be(j) made(j) wor(j)thy(j) of(j) the(j) prom(j)is(j)es(j) of(h) Christ.</b>(h.) (:Z)
+    Let(j) us(h) pray.(h.) (:)
+    O(j) God,(j) whose(j) on(j)ly(j) be(j)got(j)ten(j) Son,(j) by(j) His(j) life,(j) death,(j) and(j) res(j)ur(j)rec(j)tion,(j) has(j) pur(j)chased(j) for(j) us(j) the(j) re(j)wards(j) of(j) e(j)ter(j)nal(j) life,(h) †(,)
+    grant,(j) we(j) be(j)seech(j) Thee,(j) that(j) med(j)i(j)tat(j)ing(j) on(j) these(j) mys(j)ter(j)ies(j) of(j) the(j) most(j) ho(j)ly(j) Ro(j)sa(j)ry(j) of(j) the(j) Bless(j)ed(j) Vir(i)gin(h) Mar(j)y,(j.) (;)
+    we(j) may(j) im(j)i(j)tate(j) what(j) they(j) con(j)tain(j) and(j) ob(j)tain(j) what(j) they(j) prom(j)ise.(h.) (:) Through(j) the(j) same(j) Christ(j) our(j) Lord.(h.) (::) <sp>R/</sp><b>A(j.)men.</b>(j.)
+}
+
+\section{Ave Maris Stella}
+\includegraphics[width=0.99\textwidth]{hymns/ave-maris-stella/oneline.png}
+
+\section{Veni Creator Spiritus}
+\includegraphics[width=0.99\textwidth]{hymns/veni-creator/oneline.png}
+
+%\subsection{Aeterne rerum Conditor}
+%\includegraphics[width=0.99\textwidth]{hymns/aeterne-rerum-conditor/oneline.png}
+
+\section{The Psalm Tones}
+Below are, in order, most of the tones; many have other endings,
+but only one is provided here. A more complete list can be obtained
+by searching ``Fr Kevin Vogel Psalm tones'' on Youtube; he has a playlist
+with recordings of most of the other endings for these tones.
+
+\greannotation{1f.}
+\gabcsnippet{(c4)Cry(f) out(gh) with(h) joy(h) to(h) the(h) Lord,(h) all(h) the(h) earth. †(g.) Ser(h)ve(h) the(h) <b>Lord</b>(ixi hr) with(h) <b>glad</b>(g hr)ness.(h.) * (:) Come(h) be(h)fore(h) him,(h) <i>sin</i>(g)<i>ging</i>(f) <b>for</b>(gh gr) joy.(gf..) (::)}
+
+\greannotation{2.}
+\gabcsnippet{(f3)Cry(e) out(f) with(h) joy(h) to(h) the(h) Lord,(h) all(h) the(h) earth. †(f.) Ser(h)ve(h) the(h) Lord(h) with(h) <b>glad</b>(i hr)ness.(h.) * (:) Come(h) be(h)fore(h) him,(h) sin(h)<i>ging</i>(g) <b>for</b>(ef fr) joy.(f.) (::)}
+
+\greannotation{3.b}
+\gabcsnippet{(c4)Cry(g) out(hi) with(i) joy(i) to(i) the(i) Lord,(i) all(i) the(i) earth. †(h.) Ser(i)ve(i) the(i) <b>Lord</b>(k jr) with(j jr[ocb:1{]) <b>glad</b>(ih[ocb:0}])ness.(j.) * (:) Come(i) be(i)fore(i) him,(i) <b>sin</b>(j hr)ging(h) <b>for</b>(j jr) joy.(i.) (::)}
+Alternate (more recent) version of tone 3:
+\greannotation{3.b}
+\gabcsnippet{(c4)Cry(g) out(hj) with(j) joy(j) to(j) the(j) Lord,(j) all(j) the(j) earth. †(h.) Ser(j)ve(j) the(j) <b>Lord</b>(k jr) with(j jr[ocb:1{]) <b>glad</b>(ih[ocb:0}])ness.(j.) * (:) Come(j) be(j)fore(j) him,(j) sin(j)<i>ging</i>(h) <b>for</b>(j jr) joy.(i.) (::)}
+
+\greannotation{4.E}
+\gabcsnippet{
+    (c4)Cry(h) out(gh) with(h) joy(h) to(h) the(h) Lord,(h) all(h) the(h) earth. †(g.) Ser(h)ve(h) the(h) <i>Lord</i>(g) <i>with</i>(h) <b>glad</b>(i hr)ness.(h.) * (:) Come(h) be(h)fore(h) <i>him</i>,(g) <i>sing</i>(h)<i>ing</i>(ih gr[ocb:1{]) <b>for</b>(gf[ocb:0}]) joy.(e.) (::)
+}
+
+% An alternate tone 4 has the tenor on \emph{re} instead of \emph{la}.
+% Depending on the antiphonal, it may be annotated ``4 alt'', ``2*'', or ``4*''.
+% \greannotation{4*.d}
+% \gabcsnippet{(c3)Cry(i) out(hi) with(i) joy(i) to(i) the(i) Lord,(i) all(i) the(i) earth. †(h.) Ser(i)ve(i) the(i) <i>Lord</i>(h) <i>with</i>(i) <b>glad</b>(j ir)ness.(i.) * (:) Come(i) be(i)fore(i) <i>him</i>,(h) <i>sing</i>(i)<i>ing</i>(j) <b>for</b>(h ir) joy.(i.) (::)
+% }
+
+\greannotation{5}
+\gabcsnippet{(c3)Cry(d) out(f) with(h) joy(h) to(h) the(h) Lord,(h) all(h) the(h) earth. †(f.) Ser(h)ve(h) the(h) Lord(h) with(h) <b>glad</b>(i hr)ness.(h.) * (:) Come(h) be(h)fore(h) him,(h) <b>sing</b>(i gr)ing(g) <b>for</b>(h fr) joy.(f.) (::)
+}
+
+\greannotation{6}
+\gabcsnippet{(c4)Cry(f) out(gh) with(h) joy(h) to(h) the(h) Lord,(h) all(h) the(h) earth. †(g.) Ser(h)ve(h) the(h) Lord(h) <i>with</i>(g) <b>glad</b>(h fr)ness.(f.) * (:) Come(h) be(h)fore(h) him,(h) <i>sing</i>(f)<i>ing</i>(gh) <b>for</b>(g fr) joy.(f.) (::)}
+
+\greannotation{7.a}
+\gabcsnippet{(c3)Cry(hg) out(hi) with(i) joy(i) to(i) the(i) Lord,(i) all(i) the(i) earth. †(h.) Ser(i)ve(i) the(i) <b>Lord</b>(k jr) with(j) <b>glad</b>(i jr)ness.(j.) * (:) Come(i) be(i)fore(i) him,(i) <b>sing</b>(j ir)ing(i) <b>for</b>(h hr) joy.(gf..) (::)}
+
+\greannotation{8.G}
+\gabcsnippet{(c4)Cry(g) out(h) with(j) joy(j) to(j) the(j) Lord,(j) all(j) the(j) earth. †(h.) Ser(j)ve(j) the(j) Lord(j) with(j) <b>glad</b>(k jr)ness.(j.) * (:) Come(j) be(j)fore(j) him,(j) <i>sing</i>(i)<i>ing</i>(j) <b>for</b>(h gr) joy.(g.) (::)}
+
+% \section{Some Mass chants}
+% \subsection{Introit for Gaudete Sunday}
+% The ``Introit'' contains the first official text of a particular Mass, so
+% many Masses were known by the first words of the Introit.
+% Hence, this Introit is why the 3rd Sunday of Advent is called ``Gaudete Sunday.''
+% \gregorioscore{Introitus/gaudete/solesmes.gabc}
+
+% \subsection{Introit ``Laetare'' for 4th Sunday in Lent}
+% Same note as above.
+% \gregorioscore{Introitus/laetare-jerusalem/solesmes.gabc}
+
+\section{Resources}
+Official English chant settings for common prayers of the Mass: \url{https://icelweb.org/musicfolder/openmusic.html}
+
+Massive online database of Gregorian Chant scores: \url{https://gregobase.selapa.net/scores.php}
+
+Complete chant settings for the Liturgy of the Hours: \url{https://www.antiphonale.net/oco.pdf}
+
+Complete texts for the Liturgy of the Hours: \url{https://www.ibreviary.org/en/}
+
+Official book of plainchant hymns for the Liturgy of the Hours:\\
+Latin: \emph{Liber Hymnarius} Solesmes 1983\\
+English: \emph{Divine Office Hymnal} USCCB 2019
+
+Official chant book for the Mass (includes all chant settings for the Kyrie, Gloria, Sanctus, Agnus Dei;
+tones for the readings \& prayers, as well as all propers - Introit, Responsorial Gradual, Alleluia/Tract, Offertory and Communion chant for each day of the year): \emph{Graduale Romanum}, Solesmes 1974
+
+
+\end{document}
