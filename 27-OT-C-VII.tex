@@ -62,7 +62,7 @@
 \lecttrue
 
 \newif\ifchoir
-\choirfalse
+\choirtrue
 
 \iflect\choirtrue\fi
 
@@ -390,26 +390,38 @@ God, for ever and ever.
     (c4) May(g) the(h) LORD(h) bless(h) us,(g.) (;) pro(g)tect(h) us(h) from(g) all(g) e(h)vil,(h.) (;) and(h) bring(h) us(h) to(h) ev(h)er(h)last(g)ing(h) life.(hg..) (::)
     }
 
-\fi
-
+\else
 \begin{center}
-    \iflect
-    %\gabcsnippet{
-    %    (c3) May(h) the(h) lord(g) bless(f) us,(h.) (;) pro(h)tect(h) us(h) from(g) all(f) e(h)vil,(h.) (;) and(h) bring(h) us(h) to(h) ev(h)er(h)last(h)ing(f) life.(f.) (:) —A(g.)men.(h.) (::)
-    %}
-    \else
     May the Lord + bless us, %\\
-protect us from all evil %\\
-and bring us to everlasting life.
-— \textbf{Amen}.\\
-\fi
-
-\emph{The Salve Regina
-    %to the Blessed Virgin Mary 
-    is traditionlly sung at Night Prayer
-    (Compline) from Pentecost to the end of the liturgical year.}
+    protect us from all evil %\\
+    and bring us to everlasting life.
+    — \textbf{Amen}.\\
 \end{center}
+\fi
+\ifchoir
+    \emph{The Salve Regina
+        %to the Blessed Virgin Mary 
+        is traditionlly sung at Night Prayer
+        (Compline) from Pentecost to the end of the liturgical year.}
+    %\end{center}
 
-\gregorioscore{hymns/salve-regina/simplex-liber-usualis.gabc}
+    \gregorioscore{hymns/salve-regina/simplex-liber-usualis.gabc}
+\else
+    \emph{\textbf{Closing hymn: Salve Regina \dotfill
+    \#1000 in the red hymnal}}
+    \vfill
+    \begin{minipage}{0.69\textwidth}
+        \Huge
+        Subscribe to our mailing list!\\
+        \Large
+        To stay informed about Vespers at St. Mark, other sacred music
+        opportunities in the area, and to learn more about the Chant!
+
+        Scan at right for details:
+    \end{minipage}\hfill
+    \begin{minipage}{0.29\textwidth}
+        \includegraphics[width=0.95\textwidth]{StCeciliaGoogleSubscribe.png}
+    \end{minipage}
+\fi
 
 \end{document}
