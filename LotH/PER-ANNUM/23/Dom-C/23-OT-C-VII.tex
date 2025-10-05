@@ -1,0 +1,405 @@
+% !TEX root = 8-OT-C-VII.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[paper=letter,parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=2cm]{geometry}
+\usepackage{scrlayer-scrpage}
+\usepackage{xargs}
+
+\newcommand{\myhome}{C:/Users/johna/Dropbox/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape\bfseries} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\scshape} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+%\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%spacing before and after headers
+\RedeclareSectionCommand[
+  %runin=false,
+  afterindent=false,
+  beforeskip=.25\baselineskip,
+  afterskip=.15\baselineskip]{subsubsection}
+\RedeclareSectionCommand[
+%runin=false,
+    afterindent=false,
+    beforeskip=.15\baselineskip,
+    afterskip=.05\baselineskip]{subsection}
+\RedeclareSectionCommand[
+    %runin=false,
+    afterindent=false,
+    beforeskip=.25\baselineskip,
+    afterskip=.15\baselineskip]{section}
+\RedeclareSectionCommand[
+    runin=false,
+    afterindent=false,
+    beforeskip=3.25ex plus 1ex minus .2ex,
+    afterskip=3pt]{paragraph}
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+%\pagestyle{scrheadings}
+
+\usepackage{soul}
+\sethlcolor{white}
+\let\oldhl\hl
+\renewcommand{\hl}[1]{\ifchoir \oldhl{#1} \else #1 \fi}
+
+
+\newif\iflect
+\lectfalse
+
+\newif\ifchoir
+\choirfalse
+
+\iflect\choirtrue\fi
+
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+ 
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+\grechangedim{commentaryseparation}{0.15mm}{scalable}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+
+\newcommandx{\hymn}[4][4=english]{
+\subsubsection*{Hymn: ``#2'' \hfill
+{\small\itshape #3}}
+\ifchoir
+\gregorioscore{hymns/#1/#4.gabc}
+\else
+\gregorioscore{hymns/#1/#4_v1.gabc}
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/hymns/#1/verses.tex}
+\end{multicols}
+\fi}
+
+\newcommand{\introd}[1]{
+    %\subsection{Introduction}
+    \marginpar{\small\scshape Stand}
+    \ifchoir
+    \gregorioscore{Communes/deus-in-adjutorium/#1}
+    \else
+    \begin{minipage}{0.59\textwidth}
+        \includegraphics[width=0.95\textwidth]{Communes/deus-in-adjutorium/#1-condensed.png}
+    \end{minipage}\hfill
+    \begin{minipage}{0.39\textwidth}
+        \begin{center}
+        \emph{God, come to my assistance. --\textbf{LORD, make haste to help me.}\\
+        Glory be to the Father, and to the Son, and to the Holy Spirit.
+        --\textbf{As it was in the beginning, is now, and ever shall be, world with out end. Amen. Alleluia.}}
+        %\greseparator{3}{30}
+        \end{center}
+    \end{minipage}
+    \fi
+}
+
+\newcommandx{\psalm}[5][5=solesmes]{
+    \gregorioscore{Antiphona/#1/#5.gabc}
+    \gresetinitiallines{0}
+    \ifchoir
+    \gregorioscore{Psalms/#2/#3.gabc}
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/Psalms/#2/#4.tex}
+
+        \input{\myhome/Psalms/GloriaPatri/#4.tex}
+    \end{multicols}
+    \else
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/Psalms/#2/all.tex}
+    \end{multicols}
+    \fi
+    \gregorioscore{Antiphona/#1/english.gabc}
+    \gresetinitiallines{1}
+}
+
+
+\newcommandx{\psalma}[6][6=solesmes]{
+    \gregorioscore{Antiphona/#1/#6.gabc}
+    \gresetinitiallines{0}
+    \gregorioscore{antiphons-english/#2/english.gabc}
+    \ifchoir
+    \gregorioscore{Psalms/#3/#4.gabc}
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/Psalms/#3/#5.tex}
+
+        \input{\myhome/Psalms/GloriaPatri/#5.tex}
+
+        \emph{The Latin antiphon is repeated.}
+    \end{multicols}
+    \else
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/Psalms/#3/all.tex}
+
+        \emph{The Latin antiphon is repeated.}
+    \end{multicols}
+    \fi
+    \gresetinitiallines{1}
+}
+
+\newcommandx{\responsory}[2][2=english]{
+    \subsubsection{Responsory}
+    \ifchoir
+\gregorioscore{Resp-breve/#1/#2-extended.gtex}
+\else
+\gregorioscore{Resp-breve/#1/#2.gtex}
+\fi
+}
+
+\begin{document}
+
+\thispagestyle{plain}
+\section{Vespers II: 23rd Sunday in Ordinary Time, 2025 \iflect LECTIONARY \else\ifchoir CHOIR\fi\fi}
+\iflect
+\else
+\ifchoir
+\else
+%\begin{center}
+%    \emph{Feast of the Presentation of the Lord}
+    %\emph{Prepared by Dr. J. Costanzo}
+    %
+    %    \greseparator{3}{30}
+%\end{center}
+%\vspace{-0.5cm}
+\fi
+\fi
+
+\introd{festivus}
+
+\vspace{-15pt}
+\ifchoir
+\subsubsection{Hymn: Lucis Creator \hfill \itshape Attr. St. Gregory the Great, ca 540-604; tr. © 2023 ICEL }
+\begin{center}
+    \includegraphics[width=0.8\textwidth]{hymns/lucis-creator/formatted.png}
+\end{center}
+\else
+\hymn{lucis-creator}{Lucis Creator}{Attr. St. Gregory the Great, ca 540-604; tr. © 2023 ICEL}[in-aestate-ICEL]
+\fi
+
+\vspace{-15pt}
+%\subsection{Psalmody}
+\marginpar{\small\scshape Sit}
+\vspace{-15pt}
+%% FIRST PSALM %%
+\paragraph{Psalm 110[109]}
+\greannotation{Ant. 1}
+\greannotation{7c2}
+%\grecommentary{Ps. 110}
+\psalm{dixit-dominus}{110}{7c2}{2-0-2-0}
+
+\filbreak
+%% SECOND PSALM %%
+\paragraph{Psalm 111[110]}
+\greannotation{Ant. 2}
+\greannotation{4a}
+%\grecommentary{Ps. 130}
+\psalm{fidelia-omnia}{111}{4a}{1-2-1-3}
+
+\vspace{-30pt}
+
+%% NT CANTICLE %%
+% \paragraph{Canticle: }
+% \greannotation{Ant. 3}
+% \greannotation{5a}
+% %\grecommentary{1 Peter 2:21-24}
+% \psalm{alleluia-audivi}{1Pet2-21}{5a}{1-0-2-0}[verona]
+\paragraph{Canticle: Wedding Feast of the Lamb}
+\greannotation{Ant. 3}
+\greannotation{6}
+\gregorioscore{antiphons-english/all-power-is-yours/english.gabc}
+\ifchoir
+\greannotation{Cant.}
+\greannotation{6}
+\gregorioscore{Canticum/salus-et-gloria/english-VI}
+\emph{The antiphon is repeated.}
+\else
+\begin{multicols}{2}
+    \small
+    \input{Canticum/salus-et-gloria/text.tex}
+    %\emph{The antiphon is repeated.}
+\end{multicols}
+\fi
+
+
+
+\subsection{Reading: 1 Peter 1:3-5}
+\iflect
+\gresetinitiallines{0}
+\gabcsnippet{
+    (c3)
+    Praised(h) be(h) the(h) God(h) and(h) Fa(h)ther(h) of(f) our(h) Lord(g) Je(g)sus(h) Christ(h.), (,)
+    he(h) who(h) in(h) his(h) great(h) mer(h)cy(h) gave(hi) us(g) new(f) birth;(g.) (;Z)
+    a(h) birth(h) un(h)to(h) hope(h) which(h) draws(h) its(h) life(h) from(h) the(h) re(h)sur(h)rec(h)tion(h) of(h) Jesus(h) Christ(hi) from(g) the(f) dead;(g.) (;Z)
+    a(h) birth(h) to(h) an(h) im(h)per(h)ish(h)a(h)ble(h) in(h)her(h)it(h)ance,(h) in(h)cap(h)a(h)ble(h) of(h) fa(h)ding(f) or(h) de(g)file(g)ment,(h.) (,Z)
+    which(h) is(h) kept(h) in(h) hea(h)ven(h) for(h) you(h) who(h) are(h) guard(h)ed(h) with(h) God’s(h) pow(h)er(h) through(fh) faith;(h.) (;Z)
+    a(g) birth(g) to(g) a(g) sal(g)va(g)tion(g) which(g) stands(g) rea(g)dy(g) to(g) be(g) re(g)vealed(g) in(g) the(g) last(gh) days.(h.) (::)
+        }
+\gresetinitiallines{1}
+\else
+Praised be the God and Father
+of our Lord Jesus Christ,\\
+he who in his great mercy
+gave us new birth;\\
+a birth unto hope which draws its life
+from the resurrection of Jesus Christ from the dead;\\
+a birth to an imperishable inheritance,
+incapable of fading or defilement,\\
+which is kept in heaven for you
+who are guarded with God’s power through faith;\\
+a birth to a salvation which stands ready
+to be revealed in the last days.
+\fi
+
+\greannotation{Resp.}
+\greannotation{6}
+\responsory{the-whole-creation-proclaims}
+
+
+\subsection{Gospel Canticle}
+\marginpar{\small\scshape Stand}
+\grechangedim{commentaryraise}{3.5mm}{scalable}
+\greannotation{Ant.}
+\greannotation{7c2}
+\psalm{christus-nobis-dicit}{Magnificat}{7c2}{2-0-2-0}[verona]
+
+
+\subsection{Intercessions}
+\gresetinitiallines{0}
+ \iflect
+ \greannotation{Tone: Mundelein Psalter}
+ \gabcsnippet{
+    (c4)The(f) world(gh) was(h) 
+    created(h) by(h) the(h) Word(h) of(h) God(h), re(h)-created(h) by(h)
+    his(h) redemption,(h) and(h) it(h) is(h) continually(h)
+    (hr) re(h)newed(h) by(g) his(ixi) love.(h) (,)
+    <sp>---</sp> Re(h)joi(h)cing in(h) him(h) we(g) call(f) out:(g) (:)
+    }
+ \fi
+\ifchoir %\emph{Recto tono.}
+\greannotation{Tone: Mundelein Psalter}
+ \gabcsnippet{
+     (c4) <sp>R/</sp> Re(g)new(g) the(g) wonders(g) of(g) your(g) love,(h) Lord.(f) (::)
+ }
+\fi
+\begin{multicols}{2}
+    \small
+\iflect\else
+The world was created by the Word of God, re-created by his redemption, and it is continually renewed by his love. Rejoicing in him we call out:\\
+\textbf{Renew the wonders of your love, Lord.}\fi
+
+We give thanks to God whose power is revealed in nature,\\
+— and whose providence is revealed in history.\\
+\textbf{Renew the wonders of your love, Lord.}
+
+Through your Son, the herald of reconciliation, the victor of the cross,\\
+— free us from empty fear and hopelessness.\\
+\textbf{Renew the wonders of your love, Lord.}
+
+May all those who love and pursue justice,\\
+— work together without deceit to build a world of true peace.\\
+\textbf{Renew the wonders of your love, Lord.}
+
+Be with the oppressed, free the captives, console the sorrowing, feed the hungry, strengthen the weak,\\
+— in all people reveal the victory of your cross.\\
+\textbf{Renew the wonders of your love, Lord.}
+
+After your Son's death and burial you raised him up again in glory,\\
+— grant that the faithful departed may live with him.\\
+\textbf{Renew the wonders of your love, Lord.}
+\end{multicols}
+
+\subsubsection{Our Father}
+\gresetinitiallines{0}
+\gregorioscore{Communes/pater-noster/English-C}
+\gresetinitiallines{1}
+
+\subsubsection{Prayer \& Dismissal}
+\iflect
+\gabcsnippet{
+    (c4) O(g) God,(h) by(h) whom(h) we(h) are(h) re(h)deemed(h) and(h) re(h)ceive(h) a(h)dop(h)tion,(g.) (;) look(g) gra(h)cious(h)ly(h) up(h)on(h) your(h) be(h)lov(h)ed(h) sons(h) and(h) daugh(h)ters,(g.) (;) that(g) those(h) who(h) be(h)lieve(h) in(h) Christ(h)
+    may(h) re(h)ceive(h) true(h) free(h)dom(h)
+    and(h) an(h) ev(h)er(h)last(h)ing(h) in(g)her(g)it(h)ance.(h.) (:) Through(g) our(h) Lord(h) Je(h)sus(h) Christ,(h) your(h) Son,(g.) (;) who(g) lives(h) and(h) reigns(h) with(h) you(h) in(h) the(h) u(h)ni(h)ty(h) of(h) the(h) Ho(g)ly(g) Spir(h)it,(h.) (;) God,(h) for(h) ev(h)er(g) and(h) ev(hg)er.(g.) (::) <sp>---</sp> A(g)men.(gh..) (::)
+    }
+\else
+{\small
+O God, by whom we are redeemed and receive adoption,
+look graciously upon your beloved sons and daughters,
+that those who believe in Christ
+may receive true freedom
+and an everlasting inheritance.
+Through our Lord Jesus Christ, your Son,
+who lives and reigns with you in the unity of the Holy Spirit,
+God, for ever and ever.
+— \textbf{Amen}.}\fi
+
+%%\begin{multicols}{2}
+%%    \small
+%%\emph{If a priest or deacon presides:}\\
+%%The Lord be with you.\\
+%%— \textbf{And with your spirit.}\\
+%%May almighty God bless you,\\
+%%the Father, and the Son, and the Holy Spirit.\\
+%%— \textbf{Amen}.\\
+%%Go in peace.\\
+%%— \textbf{Thanks be to God.}
+%%
+%%\columnbreak
+%%
+%%\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+\iflect
+%\input{C:/Users/johna/Chant/Communes/dominus-nos-benedicat/english-solemn.gtex}
+\gabcsnippet{
+    (c4) May(g) the(h) LORD(h) bless(h) us,(g.) (;) pro(g)tect(h) us(h) from(g) all(g) e(h)vil,(h.) (;) and(h) bring(h) us(h) to(h) ev(h)er(h)last(g)ing(h) life.(hg..) (::)
+    }
+\fi
+
+\begin{center}
+    \iflect
+    %\gabcsnippet{
+    %    (c3) May(h) the(h) lord(g) bless(f) us,(h.) (;) pro(h)tect(h) us(h) from(g) all(f) e(h)vil,(h.) (;) and(h) bring(h) us(h) to(h) ev(h)er(h)last(h)ing(f) life.(f.) (:) —A(g.)men.(h.) (::)
+    %}
+    \else
+    May the Lord + bless us, %\\
+protect us from all evil %\\
+and bring us to everlasting life.
+— \textbf{Amen}.\\
+\fi
+
+\emph{The Salve Regina
+    %to the Blessed Virgin Mary 
+    is traditionlly sung at Night Prayer
+    (Compline) from Pentecost to the end of the liturgical year.}
+\end{center}
+
+\gregorioscore{hymns/salve-regina/simplex-liber-usualis.gabc}
+
+\end{document}

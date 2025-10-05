@@ -1,0 +1,151 @@
+%& -output-directory=C:\Users\johna\Dropbox\Chants\ -aux-directory=.\temp
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[10pt,parskip,paper=216mm:162mm,DIV=calc]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=1cm]{geometry}
+\usepackage{scrlayer-scrpage}
+\usepackage{hyperref}
+%\usepackage{musixtex}
+
+\newcommand{\myhome}{C:/Users/johna/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\bfseries} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+\automark*[subsection]{subsection}
+
+%\lohead[\thesubsection]
+%{\thesubsection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+\pagestyle{scrheadings}
+
+\RedeclareSectionCommand[
+    runin=true,
+    afterindent=false,
+    beforeskip=0.75ex plus 1ex minus .2ex,
+    afterskip=3pt]{paragraph}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+\grechangedim{commentaryraise}{3.5mm}{scalable}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+\subsection{Sept 29 - Archangels Michael, Gabriel, and Raphael}
+
+Sept 29
+In: Bless the Lord, all you his angels, mighty in power,
+fulfilling his word and heeding his voice.
+
+Resp: In the sight of the angels I will sing your praises, Lord.
+In conspéctu angelórum psallam tibi, Dómine.
+
+Al: Bless the Lord, all you his angels,
+his ministers who do his will.
+Benedícite Dómino, omnes virtútes eius,
+minístri eius, qui fácitis voluntátem eius.
+
+Of: The Angel stood at the altar of the temple with a golden censer
+in his hand; and he was given much incense and the smoke of the
+incense ascended before the presence of God, alleluia.
+
+Co: I will thank you Lord, with all my heart;
+in the presence of the Angels I will praise you.
+Confitébor tibi, Dómine, in toto corde meo,
+in conspéctu Angelórum psallam tibi.
+
+
+
+Oct 2
+
+In: Angels of the Lord, bless the Lord,
+praise and exalt him above all for ever.
+Benedícite, omnes Angeli Dómini, Dóminum,
+hymnum dícite, et superexaltáte eum in sǽcula.
+
+Resp: The Lord has put his angels in charge of you, to guard you in all your ways.
+Angelis suis mandábit de te,
+ut custódiant te in ómnibus viis tuis.
+
+Al: Bless the LORD, all you angels,
+you ministers, who do his will.
+Benedícite Dómino, omnes virtútes eius,
+minístri eius, qui fácitis voluntátem eius.
+
+Of: The Angel of the Lord shall encamp round about those who
+fear him and shall deliver them; taste and see how good the Lord
+is.
+
+Co: In the presence of the Angels I will praise you, my God.
+In conspéctu Angelórum psallam tibi, Deus meus.
+
+
+
+\filbreak
+%\greannotation{In. I}
+\phantomsection
+\gregorioscore{Introitus/benedicite-dominum/english.gabc}~\label{in:benedicite-dominum}
+
+\filbreak
+%\greannotation{In. I}
+\phantomsection
+\gregorioscore{Alleluia/sancte-michael/solesmes.gabc}~\label{al:sancte-michael}
+Or: Benedicite Domino,~\pageref{al:benedicite-domino}.
+
+\filbreak
+\phantomsection
+\gregorioscore{Offertorium/stetit-angelus/english.gabc}~\label{of:stetit-angelus}
+
+
+\filbreak
+%\greannotation{Co. III}
+\phantomsection
+\gregorioscore{Communio/benedicite-omnes-angeli/english.gabc}~\label{co:benedicite-omnes-angeli}
+
+
+
+\subsubsection{Oct 2 - Holy Guardian Angels}
+
+\textbf{Introit}---Graduale option: Benedicite Dominum,~\pageref{in:benedicite-dominum};
+Missal option: the \textbf{Communion} chant
+Benedicite omnes Angeli,~\pageref{co:benedicite-omnes-angeli}.
+
+\filbreak
+%\greannotation{In. I}
+\phantomsection
+\gregorioscore{Alleluia/benedicite-domino/english.gabc}~\label{al:benedicite-domino}
+
+\filbreak
+\gregorioscore{Offertorium/immittet-angelus/english.gabc}
+
+\textbf{Communion}---Graduale option: Benedicite omnes Angeli,~\pageref{co:benedicite-omnes-angeli};
+Missal option:
+\gregorioscore{Antiphona/in-conspectu-angelorum/english.gabc}
+
+\end{document}
