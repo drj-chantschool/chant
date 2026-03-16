@@ -1,0 +1,198 @@
+% !TEX recipe = LuaLaTeX+se
+
+
+%\documentclass[handout]{loth}
+
+
+%\documentclass[lectionary,missingscore=warn]{loth} % Show todos
+%\documentclass[lectionary,missingscore=silent]{loth}   % choir behavior anyway
+
+%\documentclass[choir]{loth}                   % choir behavior anyway
+
+%\documentclass[handout,intro=text]{loth}      % Force compact intro for page-fitting
+%\documentclass[handout,intro=graphic]{loth}   % Force graphic intro explicitly
+
+%\documentclass[pamphlet,intro=text,textonly=true]{loth}     % pamphlet + compact intro
+\documentclass[fontsize=12pt,pamphlet,intro=graphic,margin=1cm,textonly=false]{loth}     % pamphlet + compact intro
+
+\begin{document}
+
+\thispagestyle{plain}
+\section{Second Sunday of Lent at Second Vespers \iflect LECTIONARY \else\ifchoir CHOIR\fi\fi}
+
+\introd{solemnis-lent}
+
+\hymn{audi-benigne-conditor}{Audi, benigne Conditor}{attr. St. Gregory the Great, ca. 540-604, © 2023 ICEL}[english][0.8]
+
+%\vspace{-15pt}
+\subsection{Psalmody}
+\marginpar{\small\scshape Sit}
+
+%% FIRST PSALM %%
+\paragraph{Psalm 110[109]}
+\psalm{virgam-virtutis-in-splendoribus}{110}{D}{1-2-1-3}
+
+%% SECOND PSALM %%
+\paragraph{Psalm 115[113b]}
+\psalm{deus-unus-est}{115}{8g}{1-0-1-2}
+
+\paragraph{Canticle: 1 Peter 2:21-24 \hfill The willing acceptance of his passion by Christ, the servant of God}
+\psalm{proprio-filio-2alt}{1Pet2-21}{2alta}{1-2-1-3}
+
+
+\subsection{Reading: 1 Corinthians 9:24-25}
+\iflect
+\gresetinitiallines{0}
+\gabcsnippet{
+(c3) While(h) all(h) the(h) run(h)ners(h) in(h) the(h) sta(h)di(h)um(h) take(h) part(h) in(g) the(f) race,(h.) (;)
+the(h) a(h)ward(h) goes(h) to(h) one(f) man.(ef..) (:)
+In(h) that(h) case,(h) run(h) so(h) as(h) to(f) win!(ef..) (:)
+Ath(h)letes(h) de(h)ny(h) them(h)selves(h) all(h) sorts(h) of(f) things.(ef..) (:)
+They(h) do(h) this(h) to(h) win(h) a(h) crown(h) of(h) leaves(g) that(f) with(h)ers,(h.) (;)
+but(h) we(h) a(h) crown(h) that(h) is(h) im(h)per(h)ish(h)a(f)ble.(ef..) (::)
+}
+\gresetinitiallines{1}
+\else
+While all the runners in the stadium take part in the race, the award goes to one man.
+In that case, run so as to win! Athletes deny themselves all sorts of things.
+They do this to win a crown of leaves that withers, but we a crown that is imperishable.
+\fi
+
+\greannotation{Resp.}
+\greannotation{2}
+\responsory{ego-dixi-domine}[solesmes_1957]
+
+
+\subsection{Gospel Canticle}
+\marginpar{\small\scshape Stand}
+\renewcommand{\theantcnt}{M}
+\psalm{visionem}{Magnificat}{1f}{2-0-1-2}
+
+\subsection{Intercessions}
+\gresetinitiallines{0}
+\iflect\gabcsnippet{
+(c4)Let(f) us(gh) give(h) thanks(h) con(h)tin(h)u(h)al(h)ly(h) to(h) Christ,(h) our(h) teach(h)er(h) and(h) our(h) head,(h)
+who(h) came(h) to(h) serve(h) and(h) to(h) do(h) good(g) to(ixi) (ixir[ocb:1{]) all.(h.[ocb:0}]) * (:)
+In(h) hu(h)mil(h)i(h)ty(h) and(h) con(h)fi(h)dence(h) let(h) us(g) ask(f fr[ocb:1{]) him:(g[ocb:0}]) (::)
+}\fi
+\ifchoir\gabcsnippet{
+    (c4)Come,(g) Lord,(g) to(g) vi(g)sit(g) your(h) fam(f)ily.(f.) (::)
+}\fi
+\begin{multicols}{2}
+    \small
+\iflect\else Let us give thanks continually to Christ, our teacher and our head, who came to serve and to do good to all.\\
+In humility and confidence let us ask him:\\
+\textbf{Come, Lord, to visit your family.}\fi
+
+Lord, be present to the bishops and priests of your Church, who share your role as head and shepherd,\\
+— may they lead your people to the Father under your guidance.\\
+\textbf{Come, Lord, to visit your family.}
+
+May your angel be with all who travel,\\
+— to keep them safe in soul and body.\\
+\textbf{Come, Lord, to visit your family.}
+
+Teach us to serve the needs of others,\\
+— and to be like you who came to serve, not to be served.\\
+\textbf{Come, Lord, to visit your family.}
+
+Grant that in the human family, brother may always help brother,\\
+— so that, with your assistance, it may be a city compact and strong.\\
+\textbf{Come, Lord, to visit your family.}
+
+Have mercy on all the dead,\\
+— bring them to the vision of your glory.\\
+\textbf{Come, Lord, to visit your family.}
+\end{multicols}
+
+\clearpage
+\subsubsection{Our Father}
+\gresetinitiallines{0}
+\gregorioscore{Communes/pater-noster/English-C.gabc}
+\gresetinitiallines{1}
+
+\subsubsection{Prayer \& Dismissal}
+\iflect
+\gabcsnippet{
+    (c4) O(g) God,(h) who(h) have(h) com(h)mand(h)ed(h) us(h) to(h) lis(h)ten(h) to(h) your(h) be(h)lov(h)ed(h) Son,(g.) (;) be(g) pleased,(h) we(h) pray,(g.) (;) to(g) nour(h)ish(h) us(h) in(h)ward(h)ly(h) by(h) your(h) word,(g.) (;) that,(g) with(h) spir(h)it(h)u(h)al(h) sight(h) made(h) pure,(g.) (;) we(g) may(h) re(h)joice(h) to(h) be(h)hold(g) your(g) glo(h)ry.(h.) (:) Through(g) our(h) Lord(h) Je(h)sus(h) Christ,(h) your(h) Son,(g.) (;) who(g) lives(h) and(h) reigns(h) with(h) you(h) in(h) the(h) u(h)ni(h)ty(h) of(h) the(h) Ho(g)ly(g) Spir(h)it,(h.) (;) God,(h) for(h) ev(h)er(g) and(h) ev(hg)er.(g.) (::)
+    —A(g)men.(gh..) (::)
+}
+\else
+O God, who have commanded us
+to listen to your beloved Son,
+be pleased, we pray,
+to nourish us inwardly by your word,
+that, with spiritual sight made pure,
+we may rejoice to behold your glory.
+Through our Lord Jesus Christ, your Son,
+who lives and reigns with you in the unity of the Holy Spirit,
+God, for ever and ever.
+— \textbf{Amen}.\fi
+
+
+
+\iflect
+\input{\myhome/Communes/dominus-nos-benedicat/english-solemn.gtex}
+\emph{If a priest or deacon presides:}\\
+\gabcsnippet{
+    (c4) The(h) Lord(h) be(g) with(h) you.(h.) (:) 
+    <b>{And}</b>(h) <b>{with}</b>(h) <b>{your}</b>(g) <b>{spir}</b>(h)<b>{it.}</b>(h.) (:) 
+    May(g) al(h)might(h)y(h) God(h) bless(h) you,(g.) (;)
+    the(g) Fa(h)ther,(h) and(g) the(h) Son,(i.) (;)
+    and(h) the(h) Ho(g)ly(h) Spir(hg)it.(g.) (:)
+    <b>{A}</b>(g)<b>{men.}</b>(gh..) (::)
+    }
+
+\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+\gabcsnippet{
+    (c4) May(g) the(h) LORD(h) bless(h) us,(g.) (;) pro(g)tect(h) us(h) from(g) all(g) e(h)vil,(h.) (;) and(h) bring(h) us(h) to(h) ev(h)er(h)last(g)ing(h) life.(hg..) (::)
+    <b>{A}</b>(g)<b>{men.}</b>(gh..) (::)
+    }
+
+\else
+\begin{minipage}{0.6\textwidth}
+    \centering\small
+    \emph{If a priest or deacon presides:}\\
+    The Lord be with you.
+    — \textbf{And with your spirit.}\\
+    May almighty God bless you,
+    the Father, and the Son, and the Holy Spirit.
+    — \textbf{Amen}.\\
+    Go in peace.
+    — \textbf{Thanks be to God.}
+\end{minipage}%
+\begin{minipage}{0.4\textwidth}
+    \emph{Otherwise:}\\
+    May the Lord + bless us, %\\
+    protect us from all evil %\\
+    and bring us to everlasting life.\\
+    — \textbf{Amen}.
+\end{minipage}
+\fi
+
+
+\emph{The hymn Alma Redemptoris Mater
+%to the Blessed Virgin Mary 
+is traditionlly sung at Night Prayer
+(Compline) from Advent until February 2nd (Candlemas).}
+%\end{center}
+
+\gregorioscore{hymns/ave-regina-caelorum/solesmes.gabc}
+
+\ifchoir\else
+    \vfill
+    \begin{minipage}{0.69\textwidth}
+        \Huge
+        Subscribe to our mailing list!\\
+        \Large
+        To stay informed about Vespers at St. Mark, other sacred music
+        opportunities in the area, and to learn more about the Chant!
+
+        Scan at right for details:
+    \end{minipage}\hfill
+    \begin{minipage}{0.29\textwidth}
+        \includegraphics[width=0.95\textwidth]{StCeciliaGoogleSubscribe.png}
+    \end{minipage}
+\fi
+
+\end{document}

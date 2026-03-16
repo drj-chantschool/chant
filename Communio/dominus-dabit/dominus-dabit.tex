@@ -1,0 +1,67 @@
+% !TEX root = dominus-dabit.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+%%fonts
+\usepackage[osf,p]{libertine}
+
+%\usepackage{fontspec}
+%\setmainfont{QTHeidelbergType}
+%\setmainfont{QTDublinIrish}
+%\setmainfont{QTLinoscroll}
+
+%%/fonts
+
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=3cm]{geometry}
+\usepackage{scrlayer-scrpage}
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{0.2mm}{scalable}
+\grechangedim{afterinitialshift}{0.2mm}{scalable}
+\grechangedim{annotationraise}{3mm}{scalable}
+\grechangedim{initialraise}{4mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\gresetinitiallines{2}
+\greillumination{\includegraphics*[width=1.4in]{capitalD.jpg}}
+\greannotation{\large Communio~{\fontfamily{ppl}\selectfont\small\bfseries I} }
+\gregorioscore{co--dominus_dabit--solesmes.1.gabc}
+
+\grechangedim{initialraise}{0mm}{scalable}
+\grechangedim{annotationraise}{0mm}{scalable}
+\gresetinitiallines{1}
+\greannotation{\large Co.}
+\greannotation{ {\fontfamily{ppl}\selectfont\small\bfseries I} }
+\gregorioscore{english.gabc}
+
+\gresetinitiallines{0}
+\grecommentary{Ps. 85}
+\gregorioscore{verses.gabc}
+
+\end{document}

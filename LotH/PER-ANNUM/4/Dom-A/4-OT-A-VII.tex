@@ -1,0 +1,200 @@
+% !TEX recipe = LuaLaTeX+se
+
+
+%\documentclass[handout]{loth}
+
+
+%\documentclass[lectionary,missingscore=warn]{loth} % Show todos
+%\documentclass[lectionary,missingscore=silent]{loth}   % choir behavior anyway
+
+\documentclass[choir,hymn=short]{loth}                   % choir behavior anyway
+
+%\documentclass[handout,intro=text]{loth}      % Force compact intro for page-fitting
+%\documentclass[handout,intro=graphic]{loth}   % Force graphic intro explicitly
+
+%\documentclass[pamphlet,intro=text,textonly=true]{loth}     % pamphlet + compact intro
+%\documentclass[13pt,pamphlet,intro=graphic,margin=1cm,textonly=false]{loth}     % pamphlet + compact intro
+
+\begin{document}
+
+\thispagestyle{plain}
+\section{Sunday, Feb. 1, 2026 at Second Vespers \iflect LECTIONARY \else\ifchoir CHOIR\fi\fi}
+
+\introd{festivus}
+
+\hymn{o-lux-beata/hieme}{O lux, beata Trinitas}{7-8th c., tr. © 2023 ICEL.}[english][0.8]
+
+%\vspace{-15pt}
+%\subsection{Psalmody} %tweak
+%\marginpar{\small\scshape Sit} %tweak
+
+%% FIRST PSALM %%
+%\paragraph{Psalm 110[109]} %tweak
+\psalm{ex-utero}{110}{8G}{1-0-1-2}
+
+%% SECOND PSALM %%
+%\paragraph{Psalm 112[111]} %tweak
+\psalm{blessed-are-they}{112}{4a}{1-2-1-3}[english]
+
+
+%\paragraph{Canticle: Wedding Feast of the Lamb} %tweak
+\psalm{praise-god-all-you}{salus-et-gloria}{6}{devnull}[english]
+
+\subsection{Reading: Hebrews 12:22-24}
+\iflect
+\gresetinitiallines{0}
+\gabcsnippet{
+    (c3) You(h) have(h) drawn(h) near(h) to(h) Mount(h) Zi(h)on(h) and(h) the(h) cit(h)y(h) of(h) the(h) liv(g)ing(f) God,(h.) (;) the(h) heav(h)en(h)ly(h) Je(h)ru(h)sa(h)lem,(f) †(,) to(h) myr(h)i(h)ads(h) of(h) an(h)gels(h) in(h) fes(g)tal(f) gath(h)er(h)ing,(h.) (;)
+    to(h) the(h) as(h)sem(h)bly(h) of(h) the(h) first-(h)born(h) en(h)rolled(g) in(f) heav(h)en,(h.) (;)
+    to(h) God(h) the(h) judge(g) of(f) all,(h.) (;)
+    to(h) the(h) spir(h)its(h) of(h) just(h) men(g) made(f) per(h)fect,(h.) (;)
+    to(h) Je(h)sus,(h) the(h) me(h)di(h)a(h)tor(h) of(h) a(g) new(f) cov(h)e(h)nant,(h.) (;)
+    and(h) to(h) the(h) sprin(h)kled(h) blood(h) which(h) speaks(h) more(h) el(h)o(h)quent(h)ly(h) than(h) that(h) of(f) A(e)bel.(ef..) (::)
+}
+\gresetinitiallines{1}
+\else
+You have drawn near to Mount Zion and the city of the living God,
+the heavenly Jerusalem, to myriads of angels in festal gathering,
+to the assembly of the first-born enrolled in heaven,
+to God the judge of all,
+to the spirits of just men made perfect,
+to Jesus, the mediator of a new covenant,
+and to the sprinkled blood which speaks more eloquently than that of Abel.
+\fi
+
+\greannotation{Resp.}
+\greannotation{6}
+\responsory{magnus-dominus-noster}
+
+
+\subsection{Gospel Canticle}
+\marginpar{\small\scshape Stand}
+\renewcommand{\theantcnt}{M}
+\emph{Ant. Blessed are the peacemakers, blessed are the pure in heart: for they shall see God.}
+\psalm{beati-pacifici}{Magnificat}{1f}{2-0-1-2}
+
+\subsection{Intercessions}
+\gresetinitiallines{0}
+\iflect\gabcsnippet{
+    (c4)Re(f)joi(gh)cing(h) in(h) the(h) Lord,(h) from(h) whom(h) all(h)
+    good(g) things(ixi) come,(h) (:)
+    — let(g) us(f) pray:(g.) (::)
+}\fi
+\ifchoir\gabcsnippet{
+    (c4)Lord,(g) hear(g) our(h) prayer.(f.) (::)
+}\fi
+\begin{multicols}{2}
+    \small
+\iflect\else Rejoicing in the Lord, from whom all
+good things come,\\
+— let us pray:\\
+\textbf{Lord, hear our prayer.}\fi
+
+Father and Lord of all, you sent your Son into the world, that your name might be glorified in every place,\\
+— strengthen the witness of your Church among the nations.\\
+\textbf{Lord, hear our prayer.}
+
+Make us obedient to the teachings of your apostles,\\
+— and bound to the truth of our faith.\\
+\textbf{Lord, hear our prayer.}
+
+As you love the innocent,\\
+— render justice to those who are wronged.\\
+\textbf{Lord, hear our prayer.}
+
+Free those in bondage and give sight to the blind,\\
+— raise up the fallen and protect the stranger.\\
+\textbf{Lord, hear our prayer.}
+
+Fulfill your promise to those who already sleep in your peace,\\
+— through your Son grant them a blessed resurrection.\\
+\textbf{Lord, hear our prayer.}
+\end{multicols}
+
+\subsubsection{Our Father}
+\gresetinitiallines{0}
+\gregorioscore{Communes/pater-noster/English-C.gabc}
+\gresetinitiallines{1}
+
+\subsubsection{Prayer \& Dismissal}
+\iflect
+\gabcsnippet{
+    (c4) Grant(g) us,(h) Lord(h) our(h) <i>God</i>,(g.) (;) that(g) we(h) may(h) hon(h)or(h) you(h) with(h) all(h) our(h) <i>mind</i>,(g.) (;) and(g) love(h) eve(h)ry(h)one(h) in(h) <i>truth</i>(g) <i>of</i>(g) <b>heart</b>.(h.) (:) Through(g) our(h) Lord(h) Je(h)sus(h) Christ,(h) your(h) <i>Son</i>,(g.) (;) who(g) lives(h) and(h) reigns(h) with(h) you(h) in(h) the(h) u(h)ni(h)ty(h) of(h) the(h) <i>Ho</i>(g)<i>ly</i>(g) <b>Spir</b>(h)it,(h.) (;) God,(h) for(h) ev(h)<i>er</i>(g) <i>and</i>(h) <i>ev</i>(hg)<i>er</i>.(g.) (::)
+    —A(g)men.(gh..) (::)
+    }
+\else
+Grant us, Lord our God,
+that we may honor you with all our mind,
+and love everyone in truth of heart.
+Through our Lord Jesus Christ, your Son,
+who lives and reigns with you in the unity of the Holy Spirit,
+God, for ever and ever.
+— \textbf{Amen}.\fi
+
+
+
+\iflect
+\input{\myhome/Communes/dominus-nos-benedicat/english-solemn.gtex}
+\emph{If a priest or deacon presides:}\\
+\gabcsnippet{
+    (c4) The(h) Lord(h) be(g) with(h) you.(h.) (:) 
+    <b>{And}</b>(h) <b>{with}</b>(h) <b>{your}</b>(g) <b>{spir}</b>(h)<b>{it.}</b>(h.) (:) 
+    May(g) al(h)might(h)y(h) God(h) bless(h) you,(g.) (;)
+    the(g) Fa(h)ther,(h) and(g) the(h) Son,(i.) (;)
+    and(h) the(h) Ho(g)ly(h) Spir(hg)it.(g.) (:)
+    <b>{A}</b>(g)<b>{men.}</b>(gh..) (::)
+    }
+
+\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+\gabcsnippet{
+    (c4) May(g) the(h) LORD(h) bless(h) us,(g.) (;) pro(g)tect(h) us(h) from(g) all(g) e(h)vil,(h.) (;) and(h) bring(h) us(h) to(h) ev(h)er(h)last(g)ing(h) life.(hg..) (::)
+    <b>{A}</b>(g)<b>{men.}</b>(gh..) (::)
+    }
+
+\else
+\begin{minipage}{0.45\textwidth}
+    \centering\small
+    \emph{If a priest or deacon presides:}\\
+    The Lord be with you.\\
+    — \textbf{And with your spirit.}\\
+    May almighty God bless you,
+    the Father, and the Son, and the Holy Spirit.
+    — \textbf{Amen}.\\
+    Go in peace.
+    — \textbf{Thanks be to God.}
+\end{minipage}%
+\begin{minipage}{0.45\textwidth}
+    \emph{Otherwise:}\\
+    May the Lord + bless us, %\\
+    protect us from all evil %\\
+    and bring us to everlasting life.\\
+    — \textbf{Amen}.
+\end{minipage}
+\fi
+
+
+\emph{The hymn Alma Redemptoris Mater
+%to the Blessed Virgin Mary 
+is traditionlly sung at Night Prayer
+(Compline) from Advent until February 2nd (Candlemas).}
+%\end{center}
+
+\gregorioscore{hymns/alma-redemptoris/solesmes.gabc}
+
+\ifchoir\else
+    \vfill
+    \begin{minipage}{0.69\textwidth}
+        \Huge
+        Subscribe to our mailing list!\\
+        \Large
+        To stay informed about Vespers at St. Mark, other sacred music
+        opportunities in the area, and to learn more about the Chant!
+
+        Scan at right for details:
+    \end{minipage}\hfill
+    \begin{minipage}{0.29\textwidth}
+        \includegraphics[width=0.95\textwidth]{StCeciliaGoogleSubscribe.png}
+    \end{minipage}
+\fi
+
+\end{document}

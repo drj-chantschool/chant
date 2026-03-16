@@ -1,0 +1,197 @@
+% !TEX recipe = LuaLaTeX+se
+
+\documentclass[lectionary]{loth}
+
+\begin{document}
+
+\thispagestyle{plain}
+\section{The Epiphany of our Lord at Second Vespers \iflect LECTIONARY \else\ifchoir CHOIR\fi\fi}
+
+\introd{solemnis}
+
+\vspace{-15pt}
+\ifchoir
+\subsubsection{Hymn: Hostis Herodes impie \hfill \itshape Sedulius, ca. 5th c. © 2023, ICEL }
+\begin{center}
+    \includegraphics[width=0.87\textwidth]{hymns/hostis-herodes-impie/formatted.png}
+\end{center}
+\else
+\hymn{hostis-herodes-impie}{Hostis Herodes impie}{Sedulius, ca. 5th c. © 2023, ICEL}{}{0.87}
+\fi
+
+%\vspace{-15pt}
+\subsection{Psalmody}
+\marginpar{\small\scshape Sit}
+%\vspace{-15pt}
+%% FIRST PSALM %%
+%\paragraph{Psalm 110}
+%\greannotation{Ant. 1}
+%\greannotation{8g2}
+%\grecommentary{Ps. 110}
+\psalm{magnificatus-est}{110}{7a}{2-0-2-0}
+
+%% SECOND PSALM %%
+%\paragraph{Psalm 112}
+%\greannotation{Ant. 2}
+%\greannotation{8g}
+%\grecommentary{Ps. 130}
+\iftextonly\clearpage\fi %tweak
+\psalm{exortum-est-in-tenebris}{112}{7d}{2-0-2-0}
+
+
+%% NT CANTICLE %%
+%\paragraph{Canticle: See Revelation 19:1-7 \hfill The wedding of the Lamb}
+%\greannotation{Ant. 3}
+%\greannotation{2*a}
+%\grecommentary{1 Peter 2:21-24}
+\psalm{omnes-gentes-quascumque}{R15-3-4}{4e}{1-2-1-3}
+
+
+\subsection{Reading: Titus 3:4-5}
+\iflect
+\gresetinitiallines{0}
+\gabcsnippet{
+    (c3) But(h) when(h) the(h) kind(h)ness(h) and(h) gen(h)er(h)ous(h) love(h) of(h) God(h) our(h) <i>sav</i>(g)<i>ior</i>(f) <b>ap</b>(h)peared,(h.) (;) not(h) be(h)cause(h) of(h) an(h)y(h) right(h)eous(h) deeds(h) we(h) had(h) done(h) but(h) be(h)cause(h) <i>of</i>(g) <i>his</i>(f) <b>mer</b>(h)cy,(h.) (;) he(h) saved(h) us(h) through(h) the(h) bath(h) of(h) re(h)birth(h) and(h) re(h)new(h)al(h) by(h) the(h) Ho(h)ly(h) <b>Spir</b>(f)it.(ef..) (::)
+        }
+\gresetinitiallines{1}
+\else\iftextonly\Large\fi
+But when the kindness and generous love of God our savior appeared, not because of any righteous deeds we had done but because of his mercy, he saved us through the bath of rebirth and renewal by the Holy Spirit.
+\fi
+
+\greannotation{Resp.}
+\greannotation{VI}
+\responsory{benedicentur-in-ipso}
+
+\iflect\else\ifchoir\clearpage\fi\fi %tweak
+\iftextonly\clearpage\fi %tweak
+\subsection{Gospel Canticle}
+\marginpar{\small\scshape Stand}
+\grechangedim{commentaryraise}{3.5mm}{scalable}
+\renewcommand{\theantcnt}{M}
+\psalm{tribus-miraculis}{Magnificat}{1d2}{2-0-1-2}
+
+\ifchoir\clearpage\fi %tweak
+\subsubsection{Intercessions}
+\iflect\gabcsnippet{
+    (c4)To(f)day,(gh) our(h) Sav(h)ior(h) was(h) a(h)dored(h) <i>by</i>(g) <i>the</i>(ixi) <b>Ma</b>(ixir[ocb:1{])<b>gi</b>.(h.[ocb:0}]) * (:) Let(h) us(h) al(h)so(h) wor(h)ship(h) him(h) with(h) joy(h) <i>as</i>(g) <i>we</i>(f fr[ocb:1{]) <b>pray</b>:(g[ocb:0}]) (::)
+    }
+\fi\ifchoir\gabcsnippet{(c4) Save(g) the(g) poor,(g) O(h) Lord.(f.::)}\fi
+\begin{multicols}{2}
+    \iftextonly\Large\else\small\fi
+    \iflect\else Today, our Savior was adored by the Magi. Let us also worship him with joy as we pray:\\
+    \textbf{Save the poor, O Lord.}\fi
+    
+    King of the nations, you called the Magi to adore you as the first representatives of the nations,\\
+    — give us a willing spirit of adoration and service.\\
+    \textbf{Save the poor, O Lord.}
+    
+    King of glory, you judge your people with justice,\\
+    — grant mankind an abundant measure of peace.\\
+    \textbf{Save the poor, O Lord.}
+    
+    King of ages, you endure from age to age,\\
+    — send your word as fresh spring rain falling on our hearts.\\
+    \textbf{Save the poor, O Lord.}
+    
+    King of justice, you desire to free the poor who have no advocate,\\
+    — be compassionate to the suffering and the afflicted.\\
+    \textbf{Save the poor, O Lord.}
+    
+    Lord, your name is blessed for ages,\\
+    — show the wonders of your saving power to our deceased brothers and sisters.\\
+    \textbf{Save the poor, O Lord.}
+\end{multicols}
+
+%\subsubsection{Our Father}
+\gresetinitiallines{0}
+\gregorioscore{Communes/pater-noster/English-C}
+\gresetinitiallines{1}
+
+\iftextonly\clearpage\fi %tweak
+\paragraph{Prayer \& Dismissal}
+\iflect\gabcsnippet{%
+    centering-scheme: english;
+    %%
+    (c4) O(g) God,(h) who(h) on(h) this(h) day(h)
+    re(h)vealed(h) your(h) On(h)ly(h) Be(h)got(h)ten(h) Son(h) to(h) the(h) na(h)tions(h)
+    by(h) the(h) guid(h)ance(h) of(h) a(h) <i>star</i>,(g.) (;) grant(g) in(h) your(h) mer(h)cy(h)
+    that(h) we,(h) who(h) know(h) you(h) al(h)read(h)y(h) by(h) <i>faith</i>,(g.) (;) may(g) be(h) brought(h) to(h) be(h)hold(h) the(h) beau(h)ty(h) of(h) your(h) <i>sub</i>(g)<i>lime</i>(g) <b>glo</b>(h)ry.(h.) (:) Through(g) our(h) Lord(h) Je(h)sus(h) Christ,(h) your(h) <i>Son</i>,(g.) (;) who(g) lives(h) and(h) reigns(h) with(h) you(h) in(h) the(h) u(h)ni(h)ty(h) of(h) the(h) <i>Ho</i>(g)<i>ly</i>(g) <b>Spir</b>(h)it,(h.) (;) God,(h) for(h) ev(h)<i>er</i>(g) <i>and</i>(h) <i>ev</i>(hg)<i>er</i>.(g.) (::)
+    <b>A</b>(g)<b>men.</b>(gh..) (::) }%
+\else{\iftextonly\Large\else\small\fi%
+O God, who on this day
+revealed your Only Begotten Son to the nations
+by the guidance of a star,
+grant in your mercy
+that we, who know you already by faith,
+may be brought to behold the beauty of your sublime glory.
+Through our Lord Jesus Christ, your Son,
+who lives and reigns with you in the unity of the Holy Spirit,
+God, for ever and ever.
+— \textbf{Amen}.}\fi
+
+
+\iflect
+\gregorioscore{/Communes/dominus-nos-benedicat/english-solemn}
+\emph{If a priest or deacon presides:}\\
+\gabcsnippet{
+    (c4) The(h) Lord(h) be(g) with(h) you.(h.) (:) 
+    <b>{And}</b>(h) <b>{with}</b>(h) <b>{your}</b>(g) <b>{spir}</b>(h)<b>{it.}</b>(h.) (:) 
+    May(g) al(h)might(h)y(h) God(h) bless(h) you,(g.) (;)
+    the(g) Fa(h)ther,(h) and(g) the(h) Son,(i.) (;)
+    and(h) the(h) Ho(g)ly(h) Spir(hg)it.(g.) (:)
+    <b>{A}</b>(g)<b>{men.}</b>(gh..) (::)
+    }
+
+\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+\gabcsnippet{
+    (c4) May(g) the(h) LORD(h) bless(h) us,(g.) (;) pro(g)tect(h) us(h) from(g) all(g) e(h)vil,(h.) (;) and(h) bring(h) us(h) to(h) ev(h)er(h)last(g)ing(h) life.(hg..) (::)
+    <b>{A}</b>(g)<b>{men.}</b>(gh..) (::)
+    }
+
+\else
+\begin{minipage}[t]{0.45\textwidth}
+    \centering\small
+    \emph{If a priest or deacon presides:}\\
+    The Lord be with you.
+    — \textbf{And with your spirit.}\\
+    May almighty God bless you,
+    the Father,\\ and the Son, and the Holy Spirit.
+    — \textbf{Amen}.\\
+    Go in peace.
+    — \textbf{Thanks be to God.}
+\end{minipage}%
+\begin{minipage}[t]{0.45\textwidth}
+    \centering\small
+    \emph{Otherwise:}\\
+    May the Lord + bless us, %\\
+    protect us from all evil \\
+    and bring us to everlasting life.
+    — \textbf{Amen}.
+\end{minipage}
+\fi
+
+% \emph{The hymn Alma Redemptoris Mater
+% %to the Blessed Virgin Mary 
+% is traditionlly sung at Night Prayer
+% (Compline) from Advent until February 2nd (Candlemas).}
+%\end{center}
+
+\gregorioscore{hymns/alma-redemptoris/solesmes.gabc}
+
+\ifchoir\else
+    \vfill
+    \begin{minipage}{0.69\textwidth}
+        \Huge
+        Subscribe to our mailing list!\\
+        \Large
+        To stay informed about Vespers at St. Mark, other sacred music
+        opportunities in the area, and to learn more about the Chant!
+
+        Scan at right for details:
+    \end{minipage}\hfill
+    \begin{minipage}{0.29\textwidth}
+        \includegraphics[width=0.95\textwidth]{StCeciliaGoogleSubscribe.png}
+    \end{minipage}
+\fi
+
+\end{document}

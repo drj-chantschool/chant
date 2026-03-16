@@ -1,0 +1,433 @@
+% !TEX root = 8-OT-C-VII.tex
+% !TEX recipe = LuaLaTeX+se
+
+% For folded pamphlets
+\documentclass[paper=8.5in:13in,parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+\usepackage[margin=0.5cm]{geometry}
+
+% % For full page
+% \documentclass[paper=letter,parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+% \usepackage[margin=0.5cm]{geometry}
+
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage{scrlayer-scrpage}
+\usepackage{xargs}
+
+\newcommand{\myhome}{C:/Users/johna/Dropbox/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+%\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%spacing before and after headers
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+%\pagestyle{scrheadings}
+
+\usepackage{soul}
+\sethlcolor{white}
+\let\oldhl\hl
+\renewcommand{\hl}[1]{\ifchoir \oldhl{#1} \else #1 \fi}
+\newcounter{antcnt}
+\setcounter{antcnt}{1}
+
+\newif\iflect
+\lectfalse
+
+\newif\ifchoir
+\choirfalse
+
+\newif\iftextonly
+\textonlyfalse
+
+\iflect\choirtrue\fi
+\ifchoir\textonlyfalse\fi
+
+\setlength{\multicolsep}{0.5ex}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape\bfseries} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\scshape} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+
+\iftextonly
+    \RedeclareSectionCommand[
+        runin=true,
+        beforeskip=0.25ex plus 1ex minus .2ex,
+    ]{paragraph}
+    \RedeclareSectionCommand[
+        %runin=false,
+        afterindent=false,
+        beforeskip=.05\baselineskip,
+        afterskip=.05\baselineskip]{subsubsection}
+    \RedeclareSectionCommand[
+    %runin=false,
+        afterindent=false,
+        beforeskip=.05\baselineskip,
+        afterskip=.05\baselineskip]{subsection}
+    \RedeclareSectionCommand[
+        %runin=false,
+        afterindent=false,
+        beforeskip=.05\baselineskip,
+        afterskip=.05\baselineskip]{section}
+        \setkomafont{subsubsection}{\normalfont\centering\scshape} % section heading style
+\else
+    \RedeclareSectionCommand[
+        runin=false,
+        afterindent=false,
+        beforeskip=3.25ex plus 1ex minus .2ex,
+        afterskip=3pt]{paragraph}
+    \RedeclareSectionCommand[
+        %runin=false,
+        afterindent=false,
+        beforeskip=.25\baselineskip,
+        afterskip=.15\baselineskip]{subsubsection}
+    \RedeclareSectionCommand[
+    %runin=false,
+        afterindent=false,
+        beforeskip=.15\baselineskip,
+        afterskip=.05\baselineskip]{subsection}
+    \RedeclareSectionCommand[
+        %runin=false,
+        afterindent=false,
+        beforeskip=.25\baselineskip,
+        afterskip=.15\baselineskip]{section}
+\fi
+
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+ 
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+\grechangedim{commentaryseparation}{0.15mm}{scalable}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+
+\newcommandx{\hymn}[4][4=english]{
+\subsubsection*{Hymn: ``#2'' \hfill
+{\small\itshape #3}}
+\ifchoir
+\gregorioscore{hymns/#1/#4.gabc}
+\else
+\gregorioscore{hymns/#1/#4_v1.gabc}
+    \begin{multicols}{2}
+        \iftextonly\Large\else\small\fi
+        \input{\myhome/hymns/#1/verses.tex}
+\end{multicols}
+\fi}
+
+\newcommand{\introd}[1]{
+    %\subsection{Introduction}
+    \marginpar{\small\scshape Stand}
+    \ifchoir
+    \gregorioscore{Communes/deus-in-adjutorium/#1}
+    \else
+    \iftextonly
+    \emph{God, come to my assistance. --\textbf{LORD, make haste to help me.}\\
+        Glory be to the Father, and to the Son, and to the Holy Spirit.
+        --\textbf{As it was in the beginning, is now, and ever shall be, world with out end. Amen. Alleluia.}}
+    \else
+    \begin{minipage}{0.39\textwidth}
+        \includegraphics[width=0.95\textwidth]{Communes/deus-in-adjutorium/#1-condensed.png}
+    \end{minipage}\hfill
+    \begin{minipage}{0.59\textwidth}
+        \begin{center}
+        \emph{God, come to my assistance. --\textbf{LORD, make haste to help me.}\\
+        Glory be to the Father, and to the Son, and to the Holy Spirit.
+        --\textbf{As it was in the beginning, is now, and ever shall be, world with out end. Amen. Alleluia.}}
+        %\greseparator{3}{30}
+        \end{center}
+    \end{minipage}
+    \fi
+    \fi
+}
+
+\newcommandx{\psalm}[5][5=solesmes]{
+    \iftextonly
+    \textbf{\Large Ant \theantcnt: \input{Antiphona/#1/#5.txt}}
+    \else
+    \greannotation{Ant. \theantcnt}
+    \greannotation{#3}
+    \gregorioscore{Antiphona/#1/#5.gabc}
+    \fi
+    \gresetinitiallines{0}
+    \ifchoir
+    \gregorioscore{Psalms/#2/#3.gabc}
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/Psalms/#2/#4.tex}
+
+        \input{\myhome/Psalms/GloriaPatri/#4.tex}
+    \end{multicols}
+    \else
+    \begin{multicols}{2}
+        \iftextonly\Large\else\small\fi
+        \input{\myhome/Psalms/#2/all.tex}
+    \end{multicols}
+    \fi
+    \iftextonly
+    \textbf{Ant: \input{Antiphona/#1/english.txt}}
+    \else
+    \gregorioscore{Antiphona/#1/english.gabc}
+    \fi
+    \gresetinitiallines{1}
+    \stepcounter{antcnt}
+}
+
+
+\newcommandx{\psalma}[6][6=solesmes]{
+    \gregorioscore{Antiphona/#1/#6.gabc}
+    \gresetinitiallines{0}
+    \gregorioscore{antiphons-english/#2/english.gabc}
+    \ifchoir
+    \gregorioscore{Psalms/#3/#4.gabc}
+    \begin{multicols}{2}
+        \small
+        \input{\myhome/Psalms/#3/#5.tex}
+
+        \input{\myhome/Psalms/GloriaPatri/#5.tex}
+
+        \emph{The Latin antiphon is repeated.}
+    \end{multicols}
+    \else
+    \begin{multicols}{2}
+        \iftextonly\Large\else\small\fi
+        \input{\myhome/Psalms/#3/all.tex}
+
+        \emph{The Latin antiphon is repeated.}
+    \end{multicols}
+    \fi
+    \gresetinitiallines{1}
+}
+
+\newcommandx{\responsory}[2][2=english]{
+    \subsubsection{Responsory}
+    \ifchoir
+\gregorioscore{Resp-breve/#1/#2-extended.gtex}
+\else
+\iftextonly
+\input{Resp-breve/#1/#2.tex}
+\else
+\gregorioscore{Resp-breve/#1/#2.gtex}
+\fi
+\fi
+}
+
+\begin{document}
+
+\thispagestyle{plain}
+\section{Second Sunday of Advent at Second Vespers \iflect LECTIONARY \else\ifchoir CHOIR\fi\fi}
+\iflect
+\else
+\ifchoir
+\else
+%\begin{center}
+%    \emph{Feast of the Presentation of the Lord}
+    %\emph{Prepared by Dr. J. Costanzo}
+    %
+    %    \greseparator{3}{30}
+%\end{center}
+%\vspace{-0.5cm}
+\fi
+\fi
+
+\introd{solemnis}
+
+\vspace{-15pt}
+\ifchoir
+\subsubsection{Hymn: Conditor alme siderum \hfill \itshape 9th c., © 2023 ICEL }
+\begin{center}
+    \includegraphics[width=0.9\textwidth]{hymns/conditor-alme-siderum/formatted-3.png}
+\end{center}
+\else
+\hymn{conditor-alme-siderum}{Conditor alme siderum}{9th c., © 2023 ICEL}
+\fi
+
+%\vspace{-15pt}
+%\subsection{Psalmody}
+\marginpar{\small\scshape Sit}
+%\vspace{-15pt}
+%% FIRST PSALM %%
+\paragraph{Psalm 110[109]}
+%\greannotation{Ant. 1}
+%\greannotation{8g2}
+%\grecommentary{Ps. 110}
+\psalm{ecce-in-nubibus}{110}{1g}{2-0-1-2}
+
+%% SECOND PSALM %%
+\paragraph{Psalm 115[129]}
+%\greannotation{Ant. 2}
+%\greannotation{8g}
+%\grecommentary{Ps. 130}
+\psalm{ecce-apparebit}{115}{7a}{2-0-2-0}
+
+
+%% NT CANTICLE %%
+\paragraph{Canticle: See Revelation 19:1-7 \hfill The wedding of the Lamb}
+%\greannotation{Ant. 3}
+%\greannotation{2*a}
+%\grecommentary{1 Peter 2:21-24}
+\psalm{dominus-legifer}{salus-et-gloria}{3}{devnull}
+
+
+\subsection{Reading: 1 Corinthians 15:55-57}
+\iflect
+\gresetinitiallines{0}
+\gabcsnippet{
+    (c3) Re(h)joice(h) in(h) the(h) Lord(h) al(f)ways!(ef..) (:) I(h) say(h) it(g) a(f)gain:(h.) (;) Re(f)joice!(ef..) (:) Eve(h)ry(h)one(h) should(h) see(h) how(h) un(h)self(h)ish(h) you(f) are.(ef..) (:) The(h) Lord(h) is(f) near.(ef..) (::)    }
+\gresetinitiallines{1}
+\else
+Rejoice in the Lord always! I say it again. Rejoice! Everyone should see how unselfish you are. The Lord is near.
+\fi
+
+\greannotation{Resp.}
+\greannotation{IV}
+\responsory{ostende-nobis}
+
+
+\subsection{Gospel Canticle}
+\marginpar{\small\scshape Stand}
+\grechangedim{commentaryraise}{3.5mm}{scalable}
+%\greannotation{Ant.}
+%\greannotation{7c}
+\renewcommand{\theantcnt}{M}
+\psalm{ego-vos-baptizo}{Magnificat}{1g}{2-0-1-2}[drj]
+
+\iflect\gabcsnippet{(c4)To(f) Christ(gh) the(h) Lord,(h) who(h) was(h) born(h) of(h) the(h) Vir(g)gin(ixi) Mar(h)y,(h) (;) let(h) us(h) pray(h) with(h) joy(g)ful(f) hearts:(g.) (:)
+Come,(g) Lord(h) Je(f)sus!(f.::)}
+\else\ifchoir\gabcsnippet{(c4)Come,(g) Lord(h) Je(f)sus!(f.::)}\fi\fi
+\subsection{Intercessions}
+\begin{multicols}{2}
+    \iftextonly\Large\else\small\fi
+    \iflect\else To Christ the Lord, who was born of the Virgin Mary, let us pray with joyful hearts:\\
+    \textbf{Come, Lord Jesus!}\fi
+    
+    Lord Jesus, in the mystery of your incarnation you revealed your glory to the world,\\
+    — give us new life by your coming.\\
+    \textbf{Come, Lord Jesus!}
+    
+    You have taken our weakness upon yourself,\\
+    — grant us your mercy.\\
+    \textbf{Come, Lord Jesus!}
+    
+    You redeemed the world from sin by your first coming in humility,\\
+    — free us from all guilt when you come again in glory.\\
+    \textbf{Come, Lord Jesus!}
+    
+    You live and rule over all,\\
+    — in your goodness bring us to our eternal inheritance.\\
+    \textbf{Come, Lord Jesus!}
+    
+    You sit at the right hand of the Father,\\
+    — gladden the souls of the dead with your light.\\
+    \textbf{Come, Lord Jesus!}
+\end{multicols}
+
+\subsubsection{Our Father}
+\gresetinitiallines{0}
+\gregorioscore{Communes/pater-noster/English-C}
+\gresetinitiallines{1}
+
+\paragraph{Prayer \& Dismissal}
+\iflect
+\gabcsnippet{
+    centering-scheme: english;
+    %%
+    (c4) Al(g)might(h)y(h) and(h) mer(h)ci(h)ful(h) God,(g.) (;) may(g) no(h) earth(h)ly(h) un(h)der(h)tak(h)ing(h) hin(h)der(h) those(h)
+    who(h) set(h) out(h) in(h) haste(h) to(h) meet(h) your(h) Son,(g.) (;) but(g) may(h) our(h) learn(h)ing(h) of(h) heav(h)en(h)ly(h) wis(h)dom(h)
+    gain(h) us(h) ad(h)mit(h)tance(h) in(h)to(g) his(g) com(h)pa(h)ny.(h.) (:) Who(g) lives(h) and(h) reigns(h) with(h) you(h) in(h) the(h) u(h)ni(h)ty(h) of(h) the(h) Ho(g)ly(g) Spir(h)it,(h.) (;) God,(h) for(h) ev(h)er(g) and(h) ev(hg)er.(g.) (::) A(g)men.(gh..) (::)        }
+\else
+{\iftextonly\Large\else\small\fi
+Almighty and merciful God,
+may no earthly undertaking hinder those
+who set out in haste to meet your Son,
+but may our learning of heavenly wisdom
+gain us admittance into his company.
+Who lives and reigns with you in the unity of the Holy Spirit,
+God, for ever and ever.
+— \textbf{Amen}.}\fi
+
+%%\begin{multicols}{2}
+%%    \small
+%%The Lord be with you.\\
+%%— \textbf{And with your spirit.}\\
+%%May almighty God bless you,\\
+%%the Father, and the Son, and the Holy Spirit.\\
+%%— \textbf{Amen}.\\
+%%Go in peace.\\
+%%— \textbf{Thanks be to God.}
+%%
+%%\columnbreak
+%%
+\iflect
+%\input{C:/Users/johna/Chant/Communes/dominus-nos-benedicat/english-solemn.gtex}
+\emph{If a priest or deacon presides:}\\
+\gabcsnippet{
+    (c4) The(h) Lord(h) be(g) with(h) you.(h.) (:) 
+    <b>{And}</b>(h) <b>{with}</b>(h) <b>{your}</b>(g) <b>{spir}</b>(h)<b>{it.}</b>(h.) (:) 
+    May(g) al(h)might(h)y(h) God(h) bless(h) you,(g.) (;)
+    the(g) Fa(h)ther,(h) and(g) the(h) Son,(i.) (;)
+    and(h) the(h) Ho(g)ly(h) Spir(hg)it.(g.) (:)
+    <b>{A}</b>(g)<b>{men.}</b>(gh..) (::)
+    }
+
+\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+\gabcsnippet{
+    (c4) May(g) the(h) LORD(h) bless(h) us,(g.) (;) pro(g)tect(h) us(h) from(g) all(g) e(h)vil,(h.) (;) and(h) bring(h) us(h) to(h) ev(h)er(h)last(g)ing(h) life.(hg..) (::)
+    }
+
+\else
+\begin{center}
+    May the Lord + bless us, %\\
+    protect us from all evil %\\
+    and bring us to everlasting life.
+    — \textbf{Amen}.\\
+\end{center}
+\fi
+
+\emph{The hymn Alma Redemptoris Mater
+%to the Blessed Virgin Mary 
+is traditionlly sung at Night Prayer
+(Compline) from Advent until February 2nd (Candlemas).}
+%\end{center}
+
+\gregorioscore{hymns/alma-redemptoris/solesmes.gabc}
+
+\ifchoir\else
+    \vfill
+    \begin{minipage}{0.69\textwidth}
+        \Huge
+        Subscribe to our mailing list!\\
+        \Large
+        To stay informed about Vespers at St. Mark, other sacred music
+        opportunities in the area, and to learn more about the Chant!
+
+        Scan at right for details:
+    \end{minipage}\hfill
+    \begin{minipage}{0.29\textwidth}
+        \includegraphics[width=0.95\textwidth]{StCeciliaGoogleSubscribe.png}
+    \end{minipage}
+\fi
+
+\end{document}

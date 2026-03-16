@@ -1,0 +1,99 @@
+% !TEX root = root.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[paper=letter,parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=2cm]{geometry}
+\usepackage{scrlayer-scrpage}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\scshape\bfseries} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\large\bfseries} % section heading style
+\RedeclareSectionCommand[
+    beforeskip=.5\baselineskip,
+    runin=on]{paragraph}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+\automark*[subsection]{subsection}
+
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+%\pagestyle{scrheadings}
+
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+%\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+
+% DELTE THIS IF THE THING COMPILES
+%\newcommand{\communio}[3]{
+%    \greannotation{CO. #2}
+%    \gregorioscore{#1/solesmes.gabc}
+%    \IfFileExists{#1/english.gabc}{
+%    \gregorioscore{#1/english.gabc}}{}
+%    \gresetinitiallines{0}
+%    \grecommentary{#3}
+%    \gregorioscore{#1/verses.gabc}
+%    \gresetinitiallines{1}
+%}
+
+
+\newcommand{\chnm}{undefined}
+
+\begin{document}
+\pagenumbering{arabic}
+
+% \section{Foreword}
+% \begin{itemize}
+%     \item When a verse score annotation contains a star, (e.g., Ps. 37*,)
+%         this indicates that another Psalm or canticle may be
+%         chanted instead, likewise set to the same tone.
+%     \item \emph{T.P.} means ``Tempus Paschale'' or Eastertide, typically
+%         indicating an optional ``Alleluia'' that is to be sung only during
+%         the Easter season (from Easter Sunday to Pentecost).
+% \end{itemize}
+
+%\clearpage
+%\input{advent.tex}
+
+%\clearpage
+%\input{christmas.tex}
+
+%\clearpage
+%\input{lent.tex}
+
+\clearpage
+\input{holyweek.tex}
+
+\clearpage
+\input{paschale.tex}
+
+% \section{Proprium de Sanctis}
+% \subsubsection{February 2, Presentation of the Lord}
+% \label{co:responsum}
+
+\end{document}
