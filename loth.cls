@@ -27,6 +27,11 @@
 % textonly: not decided yet (will default based on pamphlet unless set)
 \cb@textonlysetfalse
 
+\newif\ifcb@nogloria
+\cb@nogloriafalse
+
+\DeclareOption{nogloria}{\cb@nogloriatrue}
+
 \newif\ifcb@hymnset
 \newif\ifcb@hymngraphic
 \newif\ifcb@hymnshort
@@ -414,7 +419,7 @@
     \begin{multicols}{2}%
       \small
       \maybeinput{\myhome/Psalms/#2/#4.tex}%
-      \maybeinput{\myhome/Psalms/GloriaPatri/#4.tex}%
+      \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/#4.tex}\fi%
     \end{multicols}%
   \else
     \begin{multicols}{2}%
@@ -456,7 +461,7 @@
        \small
        \maybeinput{\myhome/Psalms/#3/#5.tex}
 
-       \maybeinput{\myhome/Psalms/GloriaPatri/#5.tex}
+       \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/#5.tex}\fi
 
        \emph{The Latin antiphon is repeated.}
    \end{multicols}
