@@ -1,0 +1,246 @@
+% !TEX recipe = LuaLaTeX+se
+
+
+%\documentclass[handout]{loth}
+
+
+\documentclass[lectionary,missingscore=warn]{loth} % Show todos
+%\documentclass[lectionary,missingscore=silent]{loth}   % choir behavior anyway
+
+%\documentclass[choir]{loth}                   % choir behavior anyway
+
+%\documentclass[handout,intro=text]{loth}      % Force compact intro for page-fitting
+%\documentclass[handout,intro=graphic]{loth}   % Force graphic intro explicitly
+
+%\documentclass[pamphlet,intro=text,textonly=true]{loth}     % pamphlet + compact intro
+%\documentclass[fontsize=12pt,pamphlet,intro=graphic,margin=1cm,textonly=false]{loth}     % pamphlet + compact intro
+
+\begin{document}
+
+\thispagestyle{plain}
+\section{Sunday of the Resurrection of the Lord \iflect LECTIONARY \else\ifchoir CHOIR\fi\fi}
+
+\subsection{Before Vespers}
+
+\greannotation{Ant. \theantcnt}%
+\greannotation{8g}%
+\gregorioscore{Antiphona/angelus-autem-domini/english.gabc}
+\stepcounter{antcnt}
+
+\greannotation{Ant. \theantcnt}%
+\greannotation{7c}%
+\gregorioscore{Antiphona/et-ecce-terraemotus/english.gabc}
+\stepcounter{antcnt}
+
+\greannotation{Ant. \theantcnt}%
+\greannotation{8c}%
+\gregorioscore{Antiphona/erat-autem-aspectus/english.gabc}
+\stepcounter{antcnt}
+
+\greannotation{Ant. \theantcnt}%
+\greannotation{7a}%
+\gregorioscore{Antiphona/prae-timore-autem/english.gabc}
+\stepcounter{antcnt}
+
+\greannotation{Ant. \theantcnt}%
+\greannotation{8g}%
+\gregorioscore{Antiphona/respondens-autem-angelus/english.gabc}
+\stepcounter{antcnt}
+
+\greannotation{Ant.}%
+\greannotation{2*}%
+\gregorioscore{Antiphona/haec-dies/solesmes.gabc}
+
+\greannotation{Ant. \theantcnt}%
+\greannotation{3a}%
+\gregorioscore{Antiphona/et-respicientes/english.gabc}
+
+\setcounter{antcnt}{1}
+
+
+\subsection{At Vespers}
+
+\introd{solemnis}
+
+\hymn{ad-coenam}{Ad cenam Agni providi}{attr. Saint Nicetas of Remesiana, ca. 335-414, © 2023 ICEL}[english][0.8]
+
+%\vspace{-15pt}
+\subsection{Psalmody}
+\marginpar{\small\scshape Sit}
+
+%% FIRST PSALM %%
+\paragraph{Psalm 110[109]}
+\psalm{venerunt-ad-monumentum}{110}{1f}{2-0-1-2}
+
+%% SECOND PSALM %%
+\paragraph{Psalm 114[113a]}
+\psalm{venite-et-videte}{115}{8g}{1-0-1-2}
+
+\paragraph{Canticle: See Revelation 19:1-7
+The wedding of the Lamb}
+\psalm{ite-nuntiate}{salus-et-gloria}{4}{devnull}
+
+
+\subsection{Reading: 1 Corinthians 9:24-25}
+\iflect
+\gresetinitiallines{0}
+\gabcsnippet{
+(c3) Je(h)sus(h) of(h)fered(h) one(h) sac(h)ri(h)fice(h) for(h) sins(h) and(h) took(h) his(h) seat(h) for(h)ev(h)er(h) at(h) the(h) right(h) hand(h) of(h) God;(f) †(,) now(h) he(h) waits(h) un(h)til(h) his(h) en(h)e(h)mies(h) are(h) placed(h) be(h)neath(g) his(f) feet;(h.) (;) by(h) one(h) of(h)fer(h)ing(h) he(h) has(h) for(h)ev(h)er(h) per(h)fect(h)ed(h) those(h) who(h) are(h) be(h)ing(h) sanc(h)ti(f)fied.(ef..) (::)
+}
+\gresetinitiallines{1}
+\else
+Jesus offered one sacrifice for sins and took his seat forever at the right hand of God; now he waits until his enemies are placed beneath his feet. By one offering he has forever perfected those who are being sanctified.
+\fi
+
+\greannotation{\Rbar~br.}
+\greannotation{2*}%
+\gregorioscore{Antiphona/haec-dies/english.gabc}
+
+
+\subsection{Gospel Canticle}
+\marginpar{\small\scshape Stand}
+\renewcommand{\theantcnt}{M}
+\psalm{cum-esset-sero}{Magnificat}{1D-sol}{devnull}
+
+\subsection{Intercessions}
+\gresetinitiallines{0}
+ \iflect
+ \gabcsnippet{
+     (c4)With(f) joy(gh) in(h) our(h) hearts,(h) let(h) us(h) call(h) u(h)pon(h)
+     Christ(h) the(h) Lord,(h)
+     who(h) died(h) and(h) rose(g) a(ixi)gain,(h)
+     — and(h) lives(h) al(h)ways(h) to(h) in(h)ter(h)cede(g) for(f) pray:(g.)
+ }
+ \fi
+\ifchoir %\emph{Recto tono.}
+ \gabcsnippet{
+     (c4) Vic(g)to(g)rious(g) King,(g) hear(g) our(h) prayer.(f.)
+ }
+\fi
+\begin{multicols}{2}
+    \small
+\iflect\else
+With joy in our hearts, let us call upon Christ the Lord,
+who died and rose again,\\
+— and lives always to intercede for us:\\
+\textbf{Victorious King, hear our prayer.}\fi
+
+With joy in our hearts, let us call upon Christ the Lord, who died and rose again,\\
+— and lives always to intercede for us:\\
+\textbf{Victorious King, hear our prayer.}
+
+Light and salvation of all peoples, send into our hearts the fire of your Spirit,\\
+— as we proclaim your resurrection.\\
+\textbf{Victorious King, hear our prayer.}
+
+Let Israel recognize in you her longed-for Messiah,\\
+— and the whole earth be filled with the knowledge of your glory.\\
+\textbf{Victorious King, hear our prayer.}
+
+Keep us in the communion of your saints,\\
+— and grant us rest from our labors in their company.\\
+\textbf{Victorious King, hear our prayer.}
+
+You have triumphed over death, your enemy; destroy in us the power of death,\\
+— that we may live only for you, victorious and immortal Lord.\\
+\textbf{Victorious King, hear our prayer.}
+
+Savior Christ, you were obedient even to accepting death, and were raised up to the right hand of the Father,\\
+— in your goodness welcome your brothers and sisters into the kingdom of your glory.\\
+\textbf{Victorious King, hear our prayer.}
+\end{multicols}
+
+\subsubsection{Our Father}
+\gresetinitiallines{0}
+\gregorioscore{Communes/pater-noster/English-C.gabc}
+\gresetinitiallines{1}
+
+\subsubsection{Prayer \& Dismissal}
+\iflect
+\gabcsnippet{
+(c4) O(g) God,(h) who(h) on(h) this(h) day,(h) through(h) your(h) On(h)ly(h) Be(h)got(h)ten(h) Son,(g.) (;) have(g) con(h)quered(h) death(h)
+and(h) un(h)locked(h) for(h) us(h) the(h) path(h) to(h) e(h)ter(h)ni(h)ty,(g.) (;) grant,(g) we(h) pray,(h) that(h) we(h) who(h) keep(h)
+the(h) so(h)lem(h)ni(h)ty(h) of(h) the(h) Lord’s(h) Res(h)ur(h)rec(h)tion(h)
+may,(h) through(h) the(h) re(h)new(h)al(h) brought(h) by(h) your(h) Spir(h)it,(g.) (;) rise(g) up(h) in(h) the(h) light(g) of(g) life.(h.) (:) Through(g) our(h) Lord(h) Je(h)sus(h) Christ,(h) your(h) Son,(g.) (;) who(g) lives(h) and(h) reigns(h) with(h) you(h) in(h) the(h) u(h)ni(h)ty(h) of(h) the(h) Ho(g)ly(g) Spir(h)it,(h.) (;) God,(h) for(h) ev(h)er(g) and(h) ev(hg)er.(g.) (::)
+—A(g)men.(gh..) (::)
+}
+\else
+O God, who on this day,
+through your Only Begotten Son,
+have conquered death
+and unlocked for us the path to eternity,
+grant, we pray, that we who keep
+the solemnity of the Lord’s Resurrection
+may, through the renewal brought by your Spirit,
+rise up in the light of life.
+Through our Lord Jesus Christ, your Son,
+who lives and reigns with you in the unity of the Holy Spirit,
+God, for ever and ever.
+— \textbf{Amen}.\fi
+
+
+
+\iflect
+\input{\myhome/Communes/dominus-nos-benedicat/english-solemn.gtex}
+\emph{If a priest or deacon presides:}\\
+\gabcsnippet{
+    (c4) The(h) Lord(h) be(g) with(h) you.(h.) (:) 
+    <b>{And}</b>(h) <b>{with}</b>(h) <b>{your}</b>(g) <b>{spir}</b>(h)<b>{it.}</b>(h.) (:) 
+    May(g) al(h)might(h)y(h) God(h) bless(h) you,(g.) (;)
+    the(g) Fa(h)ther,(h) and(g) the(h) Son,(i.) (;)
+    and(h) the(h) Ho(g)ly(h) Spir(hg)it.(g.) (:)
+    <b>{A}</b>(g)<b>{men.}</b>(gh..) (::)
+    }
+
+\emph{In the absence of a priest or deacon and in individual recitation, Evening Prayer concludes:}
+\gabcsnippet{
+    (c4) May(g) the(h) LORD(h) bless(h) us,(g.) (;) pro(g)tect(h) us(h) from(g) all(g) e(h)vil,(h.) (;) and(h) bring(h) us(h) to(h) ev(h)er(h)last(g)ing(h) life.(hg..) (::)
+    <b>{A}</b>(g)<b>{men.}</b>(gh..) (::)
+    }
+
+\else
+\begin{minipage}{0.6\textwidth}
+    \centering\small
+    \emph{If a priest or deacon presides:}\\
+    The Lord be with you.
+    — \textbf{And with your spirit.}\\
+    May almighty God bless you,
+    the Father, and the Son, and the Holy Spirit.
+    — \textbf{Amen}.\\
+    Go in peace.
+    — \textbf{Thanks be to God.}
+\end{minipage}%
+\begin{minipage}{0.4\textwidth}
+    \emph{Otherwise:}\\
+    May the Lord + bless us, %\\
+    protect us from all evil %\\
+    and bring us to everlasting life.\\
+    — \textbf{Amen}.
+\end{minipage}
+\fi
+
+
+\emph{The hymn Regina Caeli
+to the Blessed Virgin Mary 
+is traditionlly sung at Night Prayer
+(Compline) during the Easter season.}
+
+\gregorioscore{hymns/regina-caeli/solesmes.gabc}
+
+\ifchoir\else
+    \vfill
+    \begin{minipage}{0.69\textwidth}
+        \Huge
+        Subscribe to our mailing list!\\
+        \Large
+        To stay informed about Vespers at St. Mark, other sacred music
+        opportunities in the area, and to learn more about the Chant!
+
+        Scan at right for details:
+    \end{minipage}\hfill
+    \begin{minipage}{0.29\textwidth}
+        \includegraphics[width=0.95\textwidth]{StCeciliaGoogleSubscribe.png}
+    \end{minipage}
+\fi
+
+\end{document}

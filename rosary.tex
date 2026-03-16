@@ -1,0 +1,390 @@
+% !TEX root = rosary.tex
+% !TEX recipe = LuaLaTeX+se
+%\documentclass{article}
+\documentclass[parskip]{scrartcl} % set document class: manual at https://ctan.org/pkg/koma-script
+%\usepackage{fontspec}
+
+% Load packages:
+\usepackage[osf,p]{libertine} % set font
+\usepackage[autocompile]{gregoriotex} % enable Gregorio score inclusion
+\usepackage[latin]{babel} % set language
+\usepackage{multicol}
+\usepackage[margin=3cm]{geometry}
+\usepackage{scrlayer-scrpage}
+\usepackage{musixtex}
+
+\newcommand{\myhome}{C:/Users/johna/Chant/}
+\gresetgregpath{{\myhome}}
+
+\setkomafont{section}{\normalfont\centering\huge\scshape} % section heading style
+\setkomafont{subsection}{\normalfont\centering\Large\scshape} % section heading style
+\setkomafont{subsubsection}{\normalfont\centering\small\scshape} % section heading style
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setkomafont{pagehead}{\scshape}
+\automark[section]{section}
+%\automark*[subsection]{subsection}
+
+%\lohead[\thesection]
+%{\thesection}
+%\rohead[\thesubsection]
+%{\thesubsection}
+\pagestyle{scrheadings}
+
+\def\translation{NABRE}
+
+% Set the space around the initial:
+% See http://gregorio-project.github.io/gregoriotex/details.html for more details and options
+\grechangedim{beforeinitialshift}{2.2mm}{scalable}
+\grechangedim{afterinitialshift}{2.2mm}{scalable}
+
+% Set the initial font (change 43 for a larger size):
+%\grechangestyle{initial}{\fontsize{43}{43}\selectfont}%
+
+% Make staff lines red; remove for black:
+%\gresetlinecolor{gregoriocolor}
+
+% Use the "commentary" field of the score in the top right corner:
+\gresetheadercapture{commentary}{grecommentary}{string}
+
+% Format annotation above initial
+\grechangestyle{annotation}{\small\bfseries}
+
+\begin{document}
+
+\thispagestyle{plain}
+\section*{Foreword}
+
+\subsection{``For feasts?'' ``Ferias?'' What?}
+The Church observes three ranks of feast days throughout the year:
+\textbf{memorials}, \textbf{feasts}, and \textbf{solemnities}.
+Solemnities are usually Holy Days of Obligation, but also include
+your own parish's patronal feast and some local
+observances. A \textbf{feria} is a normal weekday on which no saint or
+other feast is commemorated.
+
+We often forget that, even as we leave Sunday Mass and begin our week,
+the Church continues to pray and celebrate God's graces without ceasing,
+as the Apostle Paul commands us. 
+
+Multiple options are given to sing, both for the mysteries and for the prayers and orations
+surrounding the mysteries. Often, these are labeled with \emph{suggested}
+use cases. This author has no authority whatsoever to do anything more 
+than suggest anything---so please feel free to use your own discretion.
+
+Beginners, in fact, should only sing the simpler tones
+(regardless of liturgical season) until comfortable.
+However, experienced singers should likewise not ignore the simpler tones!
+Reserving the more ornate solemn tones for special days is a wonderful
+way of uniting oneself to the life of the Church.
+
+
+
+\subsection{Reading Chant}
+If you are brand-new to chant, please don't get too lost in the weeds 
+here---you might even skip this section altogether and be fine. 
+Even if you are singing with others, as long as everyone
+sings at the same cadence, you will be singing mostly the same
+notes and it will still be a prayerful experience.
+
+\subsubsection{Relative pitch}
+Even if you don't know what it means, you probably have seen 
+the ``G'' looking figure at the beginning of this staff:
+\begin{music}
+    \startextract
+    \Notes\ibbbu0h0\qb0e\tbbbu0\qb0e\tbbu0\qb0e\tbu0\qb0e\enotes
+    \zendextract
+\end{music}
+
+\subsubsection{The staff/clef}
+Unlike modern notation, the staff for Gregorian chant has only 
+four lines instead of five---this reflects the much smaller range of
+the voice compared to most other instruments.
+
+The \textbf{clef} is a symbol at the beginning of a staff that indicates
+the relative position of notes. 
+
+Note that the clef kind of ``circles'' the second line from the bottom.
+This particular clef communicates an absolute pitch---on most instruments,
+392Hz, or G.
+
+
+\subsubsection{Reciting tones}
+A \textbf{reciting tone} is less of a chant in and of itself,
+and more of a ``formula'' for chanting arbitrary phrases.
+Prayers sung according to a reciting tone will be sung \emph{mostly}
+on the same note, but deviate at the beginning, end, and around commas 
+or pauses.
+
+The way these typically work is by using a \textbf{hollow note} 
+to denote places where a pitch can be held for an arbitrary
+number of syllables, as needed to match the end of the tone to the
+end of the sentence or phrase.
+
+\textbf{Accent marks} in the reciting tone are used as a cue for
+how to match the ending part of the tone to the end of the sentence.
+They should typically line up with the stressed syllable in the word 
+being sung.
+
+For example,
+\gabcsnippet{(c3)The(h) ...(hr) ...(hr) my(h)ste(f)ry:(f) (;) ...(h hr) (g) (f) ...(hrr1 h.) (::)}
+becomes
+\gabcsnippet{(c3)The(h) first(h) sor(h)row(h)ful(h) my(h)ste(f)ry:(f) (;) 
+the(h) a(h)gon(h)y(h) in(g) the(f) gar(h)den.(h.) (::)}
+The accent over the hollow \textbf{do}
+indicates that the last stressed syllable of the sentence is to be 
+sung on \textbf{do}---when this is the last (or only) syllable of the word,
+only one \textbf{do} is sung after the \textbf{ti-la} after the mediant.
+So the fourth sorrowful mystery is sung:
+\gabcsnippet{(c3)The(h) fourth(h) sor(h)row(h)ful(h) my(h)ste(f)ry:(f) (;) 
+the(h) car(h)ry(h)ing(h) of(g) the(f) Cross.(h.) (::)}
+``Cross'' has only one syllable, so it by default is the stressed syllable,
+and so the tone returns to \textbf{do} on ``Cross''.
+Since ``garden'' is stressed in its first syllable, the tone returns to 
+\textbf{do} on ``\textbf{gar}''.
+
+
+\section{The texts of the prayers of the Rosary}
+\subsection{Overall structure of the Rosary}
+\paragraph{The Mysteries.}
+There are four sets of mysteries: Joyful, Luminous, Sorrowful,
+and Glorious. The Luminous Mysteries are an optional recent addition
+to the Rosary. They began as a separate devotion, and were more
+recently added to the Rosary by Pope St. John Paul II.
+
+If praying the Luminous, it is recommended to pray the Joyful on
+Monday and Saturday; the Sorrowful Tuesday and Friday; the Luminous Thursday;
+the Glorious Wednesday and Sunday.
+
+If one does not pray the Luminous mysteries, the traditional rotation
+is Joyful on Monday and Thursday, Sorrowful on Tuesday and Friday, 
+Glorious on Wednesday and Saturday. (A benefit of this rotation is
+that the mysteries are prayed in order.)
+
+On Sunday, the Joyful Mysteries
+are prayed during the Advent and Christmas season; the Sorrowful during 
+Lent; and Glorious otherwise.
+
+The Mysteries are:
+\begin{multicols}{2}
+    \begin{itemize}
+        \item \textbf{Joyful}
+        \item[1] The Annunciation of Gabriel to Mary
+        \item[2] The Visitation of Mary to Elizabeth
+        \item[3] The Birth of Jesus
+        \item[4] The Presentation in the Temple
+        \item[5] The Finding of the Child Jesus in the Temple
+    \end{itemize}
+    \columnbreak
+    \begin{itemize}
+        \item \textbf{Luminous}
+        \item[1] The Baptism of the Lord
+        \item[2] The Wedding Feast at Cana
+        \item[3] The Proclamation of the Kingdom
+        \item[4] The Transfiguration
+        \item[5] The Institution of the Holy Eucharist
+    \end{itemize}
+\end{multicols}
+\begin{multicols}{2}
+    \begin{itemize}
+        \item \textbf{Sorrowful}
+        \item[1] The Agony in the Garden
+        \item[2] The Scourging at the Pillar
+        \item[3] The Crowning with Thorns
+        \item[4] The Carrying of the Cross
+        \item[5] The Crucifixion and Death of Jesus
+    \end{itemize}
+    \columnbreak
+    \begin{itemize}
+        \item \textbf{Glorious}
+        \item[1] The Resurrection of Jesus from the Dead
+        \item[2] The Ascension of Jesus into Heaven
+        \item[3] The Descent of the Holy Spirit
+        \item[4] The Assumption of Mary
+        \item[5] The Coronation of Mary as Queen of Heaven and Earth
+    \end{itemize}
+\end{multicols}
+
+
+\paragraph{Introduction.} 
+After deciding which set of mysteries are to be prayed---or all four
+(or three) of them!---one begins:
+\begin{itemize}
+    \item Begin with the Apostle's Creed. \emph{on the Crucifix}
+    \item One Our Father. \emph{On the large bead next to the Crucifix}
+    \item Three Hail Marys \emph{On the three small beads following the first Our Father bead.}
+    \item One Glory Be. \emph{On the chain separating the last Hail Mary bead from the next Our Father bead.}
+\end{itemize}
+
+\paragraph{The First Mystery.}
+\begin{itemize}
+    \item Announce the first Mystery.
+    \item One Our Father. \emph{On the Our Father bead}
+    \item A short verse can be recited to call to mind a
+        particular aspect of this Mystery---or, as we will learn
+        in this booklet, an antiphon pertaining to this Mystery is sung.
+    \item Ten Hail Marys. \emph{On the ten smaller beads}
+    \item One Glory Be. \emph{On the chain separating the last Hail Mary from the next decade.}
+    \item If singing in the manner proposed in this booklet,
+        the antiphon sung before the first Hail Mary is repeated.
+\end{itemize}
+
+\paragraph{Subsequent Mysteries.}
+The steps above are repeated until all Mysteries in the set are
+completed.
+
+\paragraph{Conclusion.}
+
+
+\section{Recto tono}
+\emph{Recto tono} means ``straight tone'', and this 
+simply means to sing everything on the same pitch.
+This is the easiest way to chant any prayer. Simply pick a pitch 
+that is comfortable for you, and sing, somewhat slowly, and 
+all on the same note:
+\gabcsnippet{(c3)The(h) first(h) sor(h)row(h)ful(h) my(h)ste(h)ry:(h) (;) 
+the(h) a(h)gon(h)y(h) in(h) the(h) gar(h)den.(h.) (::)}
+
+Pause for a brief moment, and then continue with the Our Father:
+\gabcsnippet{(c3)Our(h) Fa(h)ther,(h) who(h) art(h) in(h) hea(h)ven,(h)
+(,) ...(hr) (::)}
+
+This is a great way for beginner singers to get started, but 
+even experienced singers should make use of this tone for penitential
+days, such as Fridays and weekdays in Lent---or, even just Fridays in Lent.
+
+One can proceed with the mysteries also \emph{recto tono}, or use the 
+mysteries given in the following section, Simple Tones.
+
+After each mystery, sing the \emph{O my Jesus} prayer \emph{recto tono}:
+\gabcsnippet{(c3)O(h) my(h) Je(h)sus(h), for(h)give(h) us(h) our(h) sins...(h)}
+
+
+%% everything before here is too wordy
+\clearpage
+\section{Simple Tones}
+For ferias, memorials, and Sundays in Lent.
+\gabcsnippet{(c3)The(h) ...(hr) ...(hr) my(h)ste(f)ry:(f) (;) 
+the(h) a(h)gon(h)y(h) in(g) the(f) gar(hr1)den.(h.) (::)}
+or,
+\gresetinitiallines{0}
+\gabcsnippet{(c3) 
+...the(h) birth(g) of(f) Je(hr1)sus.(h.) (::)}
+or,
+\gabcsnippet{(c3) 
+...the(h) crow(h)ning(g) of(f) thorns.(h.) (::)}
+or,
+\gabcsnippet{(c3) 
+...the(h) Res(h)sur(h)rec(h)tion(h) of(h) Je(h)sus(h) from(g) the(f) dead.(h.) (::)}
+\gresetinitiallines{1}
+
+After the mystery is announced, pause for a brief moment, then sing
+the Our Father:
+\gregorioscore{Communes/pater-noster/English-ferialis}
+
+
+%\begin{center}
+%\greseparator{2}{30}
+%\end{center}
+
+
+\subsection{Joyful Mysteries}
+
+\subsubsection{First Mystery - The Annunciation of Gabriel to Mary}
+\gregorioscore{rosary/Joyful/I/theangelof}
+
+\subsubsection{Fourth Mystery - The Presentation in the Temple}
+\gregorioscore{rosary/Joyful/IV/viderunt-oculi}
+
+
+\subsection{Sorrowful Mysteries}
+
+
+\subsubsection{First Mystery - The Agony in the Garden}
+\gregorioscore{rosary/Sorrowful/I/deusmeuseripeme_english}
+
+\subsubsection{Second Mystery - The Scourging}
+\gregorioscore{rosary/Sorrowful/II/trulyhebore}
+
+\subsubsection{Third Mystery - The Crowning of Thorns}
+\gregorioscore{rosary/Sorrowful/III/mykingdom}
+
+\subsubsection{Fourth Mystery - The Carrying of the Cross}
+\gregorioscore{rosary/Sorrowful/IV/quivult}
+
+%\gresetinitiallines{0} 
+%\gregorioscore{HailMary8c}
+%\gresetinitiallines{1} 
+
+\subsection{Glorious Mysteries}
+
+\subsubsection{Second Mystery - The Ascension of the Lord}
+\gregorioscore{rosary/Glorious/II/goforth}
+
+
+\subsubsection{Fourth Mystery - the Assumption of Mary}
+%\gregorioscore{rosary/agreatsign}
+
+\subsubsection{Fifth Mystery - the Coronation}
+\gregorioscore{rosary/Glorious/V/thekingrose}
+
+%\gresetinitiallines{0} 
+\gregorioscore{rosary/Aves/HailMary8c}
+%\gresetinitiallines{1} 
+
+\clearpage
+\section{Solemn tones}
+
+For feasts, solemnities, and Sundays outside of Lent; also may 
+be used the evening \emph{before} a solemnity or Sunday outside of Lent.
+
+Announce the mystery using this formula:
+\gabcsnippet{(c4)The(g) first (h)<i>second, third...</i>(hr) sor(h)row(h)ful(h hr) my(hr1)ste(g)ry:(g) (;) 
+the(g) a(h)go(h)ny(h) in(g) the(g) gar(hr1)den.(h.) (::)}
+or,
+\gresetinitiallines{0}
+\gabcsnippet{(c3) 
+...the(h) birth(g) of(g) Je(hr1)sus.(h.) (::)}
+or,
+\gabcsnippet{(c3) 
+...the(h) crow(h)ning(g) of(g) thorns.(h.) (::)}
+or,
+\gabcsnippet{(c3) 
+...the(g) Res(h)sur(h)rec(h)tion(h) of(h) Je(h)sus(h) from(g) the(g) dead.(h.) (::)}
+\gresetinitiallines{1}
+
+After the mystery is announced, pause for a brief moment, then sing
+the Our Father:
+\gregorioscore{Communes/pater-noster/English-C}\label{pater:solemnis}
+\begin{center}
+\greseparator{2}{30}
+\end{center}
+
+
+\subsection{Joyful Mysteries}
+
+\subsubsection{First Mystery - the Annunciation}
+\gabcsnippet{(c4)The(g) first (h) joy(h)ful(h) my(h)ste(g)ry:(g) (;) 
+the(g) an(h)nun(h)ci(h)a(h)tion(h) of(h) Ga(h)bri(h)el(g) to(g) Ma(h)ry.(h.) (::)}
+
+\emph{Our Father, pg.~\ref{pater:solemnis}}
+
+\gregorioscore{rosary/Joyful/I/ne-timeas-maria}
+\gregorioscore{rosary/Aves/HailMary8c}
+
+\begin{center}
+    \greseparator{3}{20}
+\end{center}
+
+\subsection{Sorrowful Mysteries}
+
+\subsubsection{Second Mystery - The Scourging}
+\gregorioscore{rosary/Sorrowful/II/vere-languores}
+
+\subsection{Gloroius Mysteries}
+
+\subsubsection{Fourth Mystery - the Assumption of Mary}
+%\gregorioscore{rosary/agreatsign}
+
+
+\end{document}
