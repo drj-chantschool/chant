@@ -219,6 +219,7 @@
 \newif\ifhymngraphic
 \newif\ifhymnshort
 \newif\ifhymnfull
+\newif\ifnogloria
 
 
 % Apply option-driven defaults:
@@ -231,6 +232,7 @@
 \ifcb@hymngraphic \hymngraphictrue \else \hymngraphicfalse \fi
 \ifcb@hymnshort \hymnshorttrue \else \hymnshortfalse \fi
 \ifcb@hymnfull \hymnfulltrue \else \hymnfullfalse \fi
+\ifcb@nogloria \nogloriatrue \else \nogloriafalse \fi
 
 
 % ------------------------------------------------------------
@@ -417,6 +419,7 @@
   \ifchoir
     \gregorioscore{Psalms/#2/#3.gabc}%
     \begin{multicols}{2}%
+      \raggedcolumns
       \small
       \maybeinput{\myhome/Psalms/#2/#4.tex}%
       \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/#4.tex}\fi%
