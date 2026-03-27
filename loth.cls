@@ -243,6 +243,9 @@
 % ------------------------------------------------------------
 \let\loth@oldgregorioscore\gregorioscore
 
+\newcommand{\flex}{†\\}
+\newcommand{\mediant}{*\\}
+
 \newcommand{\loth@missingscore}[1]{%
   \ifcb@missingerror
     % Call original gregorio (will error)
@@ -293,6 +296,8 @@
 
 \newcounter{antcnt}
 \setcounter{antcnt}{1}
+\newcounter{lessoncnt}
+\setcounter{lessoncnt}{1}
 
 \setlength{\multicolsep}{0.5ex}
 
@@ -407,6 +412,9 @@
 
 
 \newcommandx{\psalm}[5][5=solesmes]{%
+    \let\olditem\item % Someday will refactor to wrap psalm content in itemize
+    \renewcommand{\item}{} % Ignore \item for now so psalms using new format work with the old flow
+
   \iftextonly
     \textbf{\Large Ant \theantcnt: \maybeinput{Antiphona/#1/english.txt}}\\
     \textbf{Ant: \maybeinput{Antiphona/#1/#5.txt}}%
@@ -421,7 +429,7 @@
     \begin{multicols}{2}%
       \raggedcolumns
       \small
-      \maybeinput{\myhome/Psalms/#2/#4.tex}%
+      \maybeinput{\myhome/Psalms/#2/#4.tex}
       \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/#4.tex}\fi%
     \end{multicols}%
   \else
@@ -439,6 +447,7 @@
   \fi
   \gresetinitiallines{1}%
   \stepcounter{antcnt}%
+  \renewcommand{\item}{\olditem} % Restore \item
 }
 
 % #1 = incipit of Latin antiphon
@@ -450,6 +459,8 @@
 
 
 \newcommandx{\psalma}[6][6=solesmes]{
+    \let\olditem\item % Someday will refactor to wrap psalm content in itemize
+    \renewcommand{\item}{} % Ignore \item for now so psalms using new format work with the old flow
     \iftextonly
     \textbf{\Large Ant \theantcnt: \maybeinput{Antiphona/#1/#6.txt}}
     \else
@@ -478,6 +489,7 @@
    \fi
    \gresetinitiallines{1}%
    \stepcounter{antcnt}%
+   \renewcommand{\item}{\olditem} % Restore \item
 }
 
 
@@ -492,6 +504,24 @@
       \gregorioscore{Resp-breve/#1/#2.gabc}%
     \fi
   \fi
+}
+
+\newcommandx{\lesson}[2]{
+  \subsubsection{Lesson \roman{lessoncnt}: #2}%
+  \iflect % Use pointed if possible
+    \IfFileExists{Lectionis/#1.gabc}{%
+      \gregorioscore{Lectionis/#1.gabc}%
+    }{%
+      \maybeinput{Lectionis/#1.tex}%
+    }%
+  \else % Use text if possible
+    \IfFileExists{Lectionis/#1.tex}{%
+      \maybeinput{Lectionis/#1.tex}%
+    }{%
+      \gregorioscore{Lectionis/#1.gabc}%
+    }%
+  \fi
+  \stepcounter{lessoncnt}%
 }
 
 \endinput

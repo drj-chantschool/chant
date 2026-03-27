@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1773085912.72344 "c:/Users/johna/Dropbox/Chant/PASC-VII.tex" "PASC-VII.pdf" "PASC-VII" 1773085961.69935 0
+["lualatex"] 1774570908.61526 "c:/Users/johna/Dropbox/Chant/PASC-VII.tex" "PASC-VII.pdf" "PASC-VII" 1774570959.47778 0
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hole.luc" 1751832913 719538 071b904b450b0872e3eb5caafe7732fc ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae-hollow.luc" 1751832913 715129 9e02a4dce9fe49e586fdfc7fe4ad7c8e ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/greciliae.luc" 1751832913 744089 a8abcc50f09a54c7cc7cf9f132ce6e8d ""
@@ -23,7 +23,7 @@
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/linlibertine-rzi.luc" 1751832910 276044 5bc25c82d7bee49263033dee18aba299 ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1751832906 128402 4c951d6f44ba2906de7b25d51d3a14af ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1751832904 127319 374cedac2fd4f397e17f4a53c4b154b0 ""
-  "PASC-VII.aux" 1773085961 1537 efa97515afb8e3734499d5bcd960dfa5 "lualatex"
+  "PASC-VII.aux" 1774570958 1537 8aa942ced8d624369605fe68b562a4cf "lualatex"
   "PASC-VII.gaux" 1773085912 8185 c99113dd5e6d73f032c261e33814b0a0 ""
   "PASC-VII.tex" 1773085854 8700 aba42c74bc1b5f1f81e78250890fd79d ""
   "c:/Users/johna/Dropbox/Chant/PASC-VII.tex" 1773085854 8700 aba42c74bc1b5f1f81e78250890fd79d ""
@@ -181,8 +181,8 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1750109792 5569470 f263a82cf6bb394f5bc87b63f38b78df ""
   "c:/texlive/2025/texmf-var/tex/generic/config/language.dat" 1750109774 7090 d3e1754c2a0bea5bf86a67461bb053c0 ""
   "c:/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt" 1750110018 6499017 06c1a51f94a744ff0e07b38126df8eaf ""
-  "hymns/ad-coenam/formatted.png" 1773078950 579102 b29c3abfc8adcb46bc1726d7a1d617c4 ""
-  "loth.cls" 1772406562 12657 35001e2f07615ec6de301b250cd135fd ""
+  "hymns/ad-coenam/formatted.png" 1774570746 405535 12cd004349dbe7dad143f21c8e12fe5a ""
+  "loth.cls" 1774402485 13916 76a407db908b2e6a4bc0345325bae019 ""
   "tmp-gre/Antiphona/angelus-autem-domini/english-6_1_0.gtex" 1773084328 12085 03bf92f04296ca234e8dc755d9df4e5b ""
   "tmp-gre/Antiphona/cum-esset-sero/english-6_1_0.gtex" 1773085900 15054 149cfa916b17e6dbffd873d6ee8fbbc8 ""
   "tmp-gre/Antiphona/cum-esset-sero/solesmes-6_1_0.gtex" 1773085891 17926 3e2cd1ec8e57ac7196965b0875d5897b ""
