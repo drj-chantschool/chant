@@ -361,6 +361,50 @@
 \grechangestyle{annotation}{\small\bfseries}
 
 % ------------------------------------------------------------
+% Psalm tone → syllable-pattern category lookup
+% Edit this table to add or change mappings.
+% Key  = tone string as passed to \psalm arg3 (or \psalma arg4)
+% Value = category code used as filename, e.g. Psalms/110/1-0-1-2.tex
+% ------------------------------------------------------------
+\newcommand{\loth@tonecat}[1]{%
+  % ---- Tone 1 ----
+  \ifstrequal{#1}{1g}    {2-0-1-2}{%
+  \ifstrequal{#1}{1f}    {2-0-1-2}{%
+  \ifstrequal{#1}{1d2}   {2-0-1-2}{%
+  \ifstrequal{#1}{1g-sol}{1-3-1-2}{% Tonus Peregrinus variant
+  % ---- Tone 2 ----
+  \ifstrequal{#1}{2d}    {1-0-1-1}{%
+  \ifstrequal{#1}{2alta} {1-2-1-3}{%
+  % ---- Tone 3 ----
+  \ifstrequal{#1}{3a}    {2-0-2-0}{%
+  \ifstrequal{#1}{3b}    {2-0-2-0}{%
+  % ---- Tone 4 ----
+  \ifstrequal{#1}{4a}    {1-2-1-3}{%
+  \ifstrequal{#1}{4alta} {1-2-1-3}{%
+  \ifstrequal{#1}{4e}    {1-2-1-3}{%
+  \ifstrequal{#1}{D}     {1-2-1-3}{%
+  % ---- Tone 5 ----
+  \ifstrequal{#1}{5a}    {1-0-2-0}{%
+  % ---- Tone 6 ----
+  \ifstrequal{#1}{6}     {1-1-1-2}{%
+  % ---- Tone 7 ----
+  \ifstrequal{#1}{7a}    {2-0-2-0}{%
+  \ifstrequal{#1}{7c}    {2-0-2-0}{%
+  \ifstrequal{#1}{7c2}   {2-0-2-0}{%
+  \ifstrequal{#1}{7d}    {2-0-2-0}{%
+  % ---- Tone 8 ----
+  \ifstrequal{#1}{8c}    {1-0-1-2}{%
+  \ifstrequal{#1}{8g}    {1-0-1-2}{%
+  \ifstrequal{#1}{8G}    {1-0-1-2}{%
+  \ifstrequal{#1}{8g2}   {1-0-1-2}{%
+  % ---- Tonus Peregrinus ----
+  \ifstrequal{#1}{per}   {per}{%
+  \PackageWarning{loth}{Unknown psalm tone '#1': no default category; pass it explicitly}%
+  #1%
+  }}}}}}}}}}}}}}}}}}}}}}}%
+}
+
+% ------------------------------------------------------------
 % Your document-level commands
 % ------------------------------------------------------------
 
@@ -411,9 +455,13 @@
 }
 
 
-\newcommandx{\psalm}[5][5=solesmes]{%
+% \psalm{antiphon}{psalm}{tone}{tonecat}[version]
+%   tonecat is optional: omit (or pass {}) to auto-derive from tone via \loth@tonecat
+%   version defaults to "solesmes"
+\NewDocumentCommand{\psalm}{m m m G{} O{solesmes}}{%
     \let\olditem\item % Someday will refactor to wrap psalm content in itemize
     \renewcommand{\item}{} % Ignore \item for now so psalms using new format work with the old flow
+  \ifblank{#4}{\def\loth@ts{\loth@tonecat{#3}}}{\def\loth@ts{#4}}% resolve tone structure
 
   \iftextonly
     \textbf{\Large Ant \theantcnt: \maybeinput{Antiphona/#1/english.txt}}\\
@@ -429,8 +477,8 @@
     \begin{multicols}{2}%
       \raggedcolumns
       \small
-      \maybeinput{\myhome/Psalms/#2/#4.tex}
-      \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/#4.tex}\fi%
+      \maybeinput{\myhome/Psalms/#2/\loth@ts.tex}
+      \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/\loth@ts.tex}\fi%
     \end{multicols}%
   \else
     \begin{multicols}{2}%
@@ -450,17 +498,13 @@
   \renewcommand{\item}{\olditem} % Restore \item
 }
 
-% #1 = incipit of Latin antiphon
-% #2 = incipit of English antiphon
-% #3 = Psalm number
-% #4 = Tone + ending
-% #5 = Tone structure
-% #6 = Version of Latin antiphon (default solesmes)
-
-
-\newcommandx{\psalma}[6][6=solesmes]{
+% \psalma{latinant}{engant}{psalm}{tone}{tonecat}[version]
+%   tonecat is optional: omit (or pass {}) to auto-derive from tone via \loth@tonecat
+%   version defaults to "solesmes"
+\NewDocumentCommand{\psalma}{m m m m G{} O{solesmes}}{%
     \let\olditem\item % Someday will refactor to wrap psalm content in itemize
     \renewcommand{\item}{} % Ignore \item for now so psalms using new format work with the old flow
+  \ifblank{#5}{\def\loth@ts{\loth@tonecat{#4}}}{\def\loth@ts{#5}}% resolve tone structure
     \iftextonly
     \textbf{\Large Ant \theantcnt: \maybeinput{Antiphona/#1/#6.txt}}
     \else
@@ -473,9 +517,9 @@
    \gregorioscore{Psalms/#3/#4.gabc}
    \begin{multicols}{2}
        \small
-       \maybeinput{\myhome/Psalms/#3/#5.tex}
+       \maybeinput{\myhome/Psalms/#3/\loth@ts.tex}
 
-       \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/#5.tex}\fi
+       \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/\loth@ts.tex}\fi
 
        \emph{The Latin antiphon is repeated.}
    \end{multicols}
