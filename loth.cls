@@ -364,43 +364,44 @@
 % Psalm tone → syllable-pattern category lookup
 % Edit this table to add or change mappings.
 % Key  = tone string as passed to \psalm arg3 (or \psalma arg4)
-% Value = category code used as filename, e.g. Psalms/110/1-0-1-2.tex
+% Sets \loth@ts to the category code (e.g. 1-0-1-2) as a plain string.
+% Call as \loth@settonecat{tone} — do NOT use inside \edef.
 % ------------------------------------------------------------
-\newcommand{\loth@tonecat}[1]{%
+\newcommand{\loth@settonecat}[1]{%
   % ---- Tone 1 ----
-  \ifstrequal{#1}{1g}    {2-0-1-2}{%
-  \ifstrequal{#1}{1f}    {2-0-1-2}{%
-  \ifstrequal{#1}{1d2}   {2-0-1-2}{%
-  \ifstrequal{#1}{1g-sol}{1-3-1-2}{% Tonus Peregrinus variant
+  \ifstrequal{#1}{1g}    {\def\loth@ts{2-0-1-2}}{%
+  \ifstrequal{#1}{1f}    {\def\loth@ts{2-0-1-2}}{%
+  \ifstrequal{#1}{1d2}   {\def\loth@ts{2-0-1-2}}{%
+  \ifstrequal{#1}{1g-sol}{\def\loth@ts{1-3-1-2}}{% Magnificat variant
   % ---- Tone 2 ----
-  \ifstrequal{#1}{2d}    {1-0-1-1}{%
-  \ifstrequal{#1}{2alta} {1-2-1-3}{%
+  \ifstrequal{#1}{2d}    {\def\loth@ts{1-0-1-1}}{%
+  \ifstrequal{#1}{2alta} {\def\loth@ts{1-2-1-3}}{%
   % ---- Tone 3 ----
-  \ifstrequal{#1}{3a}    {2-0-2-0}{%
-  \ifstrequal{#1}{3b}    {2-0-2-0}{%
+  \ifstrequal{#1}{3a}    {\def\loth@ts{2-0-2-0}}{%
+  \ifstrequal{#1}{3b}    {\def\loth@ts{2-0-2-0}}{%
   % ---- Tone 4 ----
-  \ifstrequal{#1}{4a}    {1-2-1-3}{%
-  \ifstrequal{#1}{4alta} {1-2-1-3}{%
-  \ifstrequal{#1}{4e}    {1-2-1-3}{%
-  \ifstrequal{#1}{D}     {1-2-1-3}{%
+  \ifstrequal{#1}{4a}    {\def\loth@ts{1-2-1-3}}{%
+  \ifstrequal{#1}{4alta} {\def\loth@ts{1-2-1-3}}{%
+  \ifstrequal{#1}{4e}    {\def\loth@ts{1-2-1-3}}{%
+  \ifstrequal{#1}{D}     {\def\loth@ts{1-2-1-3}}{%
   % ---- Tone 5 ----
-  \ifstrequal{#1}{5a}    {1-0-2-0}{%
+  \ifstrequal{#1}{5a}    {\def\loth@ts{1-0-2-0}}{%
   % ---- Tone 6 ----
-  \ifstrequal{#1}{6}     {1-1-1-2}{%
+  \ifstrequal{#1}{6}     {\def\loth@ts{1-1-1-2}}{%
   % ---- Tone 7 ----
-  \ifstrequal{#1}{7a}    {2-0-2-0}{%
-  \ifstrequal{#1}{7c}    {2-0-2-0}{%
-  \ifstrequal{#1}{7c2}   {2-0-2-0}{%
-  \ifstrequal{#1}{7d}    {2-0-2-0}{%
+  \ifstrequal{#1}{7a}    {\def\loth@ts{2-0-2-0}}{%
+  \ifstrequal{#1}{7c}    {\def\loth@ts{2-0-2-0}}{%
+  \ifstrequal{#1}{7c2}   {\def\loth@ts{2-0-2-0}}{%
+  \ifstrequal{#1}{7d}    {\def\loth@ts{2-0-2-0}}{%
   % ---- Tone 8 ----
-  \ifstrequal{#1}{8c}    {1-0-1-2}{%
-  \ifstrequal{#1}{8g}    {1-0-1-2}{%
-  \ifstrequal{#1}{8G}    {1-0-1-2}{%
-  \ifstrequal{#1}{8g2}   {1-0-1-2}{%
+  \ifstrequal{#1}{8c}    {\def\loth@ts{1-0-1-2}}{%
+  \ifstrequal{#1}{8g}    {\def\loth@ts{1-0-1-2}}{%
+  \ifstrequal{#1}{8G}    {\def\loth@ts{1-0-1-2}}{%
+  \ifstrequal{#1}{8g2}   {\def\loth@ts{1-0-1-2}}{%
   % ---- Tonus Peregrinus ----
-  \ifstrequal{#1}{per}   {per}{%
+  \ifstrequal{#1}{per}   {\def\loth@ts{per}}{%
   \PackageWarning{loth}{Unknown psalm tone '#1': no default category; pass it explicitly}%
-  #1%
+  \def\loth@ts{#1}%
   }}}}}}}}}}}}}}}}}}}}}}}%
 }
 
@@ -461,7 +462,7 @@
 \NewDocumentCommand{\psalm}{m m m G{} O{solesmes}}{%
     \let\olditem\item % Someday will refactor to wrap psalm content in itemize
     \renewcommand{\item}{} % Ignore \item for now so psalms using new format work with the old flow
-  \ifblank{#4}{\def\loth@ts{\loth@tonecat{#3}}}{\def\loth@ts{#4}}% resolve tone structure
+  \ifblank{#4}{\loth@settonecat{#3}}{\def\loth@ts{#4}}% resolve tone structure
 
   \iftextonly
     \textbf{\Large Ant \theantcnt: \maybeinput{Antiphona/#1/english.txt}}\\
@@ -504,7 +505,7 @@
 \NewDocumentCommand{\psalma}{m m m m G{} O{solesmes}}{%
     \let\olditem\item % Someday will refactor to wrap psalm content in itemize
     \renewcommand{\item}{} % Ignore \item for now so psalms using new format work with the old flow
-  \ifblank{#5}{\def\loth@ts{\loth@tonecat{#4}}}{\def\loth@ts{#5}}% resolve tone structure
+  \ifblank{#5}{\loth@settonecat{#4}}{\def\loth@ts{#5}}% resolve tone structure
     \iftextonly
     \textbf{\Large Ant \theantcnt: \maybeinput{Antiphona/#1/#6.txt}}
     \else
