@@ -1,0 +1,1102 @@
+[
+  {
+    "anchor": "sunday1",
+    "season": "Easter",
+    "week": 1,
+    "weekday": "Sunday",
+    "title": "EASTER SUNDAY OF THE RESURRECTION OF THE LORD",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 139 (138): 18, 5-6",
+        "latin": "Resurrexi, et adhuc tecum sum, alleluia: posuisti super me manum tuam, alleluia: mirabilis facta est scientia tua, alleluia, alleluia.",
+        "english": "I have risen, and I am with you still, alleluia. You have laid your hand upon me, alleluia. Too wonderful for me, this knowledge, alleluia, alleluia."
+      },
+      {
+        "citation": "Lk 24: 34; cf. Rev 1: 6",
+        "latin": "Surrexit Dominus vere, alleluia. Ipsi gloria et imperium per universa aeternitatis saecula, alleluia, alleluia.",
+        "english": "The Lord is truly risen, alleluia. To him be glory and power for all the ages of eternity, alleluia, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Cor 5: 7-8",
+        "latin": "Pascha nostrum immolatus est Christus, alleluia; itaque epulemur in azymis sinceritatis et veritatis, alleluia, alleluia.",
+        "english": "Christ our Passover has been sacrificed, alleluia; therefore let us keep the feast with the unleavened bread of purity and truth, alleluia, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "monday1",
+    "season": "Easter",
+    "week": 1,
+    "weekday": "Monday",
+    "title": "MONDAY WITHIN THE OCTAVE OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Ex 13: 5, 9",
+        "latin": "Introduxit vos Dominus in terram fluentem lac et mel; ut lex Domini sit semper in ore vestro, alleluia.",
+        "english": "The Lord has led you into a land flowing with milk and honey, that the law of the Lord may always be on your lips, alleluia."
+      },
+      {
+        "citation": null,
+        "latin": "Resurrexit Dominus a mortuis, sicus dixerat; exsultemus et laetemur omnes, quoniam ipse regnat in aeternum, alleluia.",
+        "english": "The Lord has risen from the dead, as he said; let us all exult and rejoice, for he reigns for all eternity, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rom 6: 9",
+        "latin": "Christus resurgens ex mortuis iam non moritur, mors illi ultra non dominabitur, alleluia.",
+        "english": "Christ, having risen from the dead, dies now no more; death will no longer have dominion over him, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday1",
+    "season": "Easter",
+    "week": 1,
+    "weekday": "Tuesday",
+    "title": "TUESDAY WITHIN THE OCTAVE OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Sir 15: 3-4",
+        "latin": "Aqua sapientae potavit eos; firmabitur in illis, et non flectetur, exaltabit eos in aeternum, alleluia.",
+        "english": "He gave them the water of wisdom to drink; it will be made strong in them and will not be moved; it will raise them up for ever, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Si consurrexistis cum Christo, quae sursum sunt quaerite, ubi Christus est in dextera Dei sedens; quae sursum sunt sapite, alleluia.",
+        "english": "If you have risen with Christ, seek the things that are above, where Christ is seated at the right hand of God; mind the things that are above, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday1",
+    "season": "Easter",
+    "week": 1,
+    "weekday": "Wednesday",
+    "title": "WEDNESDAY WITHIN THE OCTAVE OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Mt 25: 34",
+        "latin": "Venite, benedicti Patris mei, percipite regnum, quod vobis paratum est ab origine mundi, alleluia.",
+        "english": "Come, you blessed of my Father; receive the kingdom prepared for you from the foundation of the world, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Lk 24: 35",
+        "latin": "Cognoverunt discipuli Dominum Iesum in fractione panis, alleluia.",
+        "english": "The disciples recognized the Lord Jesus in the breaking of the bread, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday1",
+    "season": "Easter",
+    "week": 1,
+    "weekday": "Thursday",
+    "title": "THURSDAY WITHIN THE OCTAVE OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Wis 10: 20-21",
+        "latin": "Victricem manum tuam, Domine, laudeverunt pariter, quia sapientia aperuit os mutum, et linguas infantium fecit disertas, alleluia.",
+        "english": "They praised in unison your conquering hand, O Lord, for wisdom opened mouths that were mute and gave eloquence to the tongues of infants, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. 1 Pt 2: 9",
+        "latin": "Populus acquisitionis, annuntiate virtutes eius, qui vos de tenebris vocavit in admirabile lumen suum, alleluia",
+        "english": "O chosen people, proclaim the mighty works of him, who called you out of darkness into his wonderful light, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "friday1",
+    "season": "Easter",
+    "week": 1,
+    "weekday": "Friday",
+    "title": "FRIDAY WITHIN THE OCTAVE OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 78 (77): 53",
+        "latin": "Eduxit Dominus populum suum in spe, et inimicos eorum operuit mare, alleluia.",
+        "english": "The Lord led his people in hope, while the sea engulfed their foes, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 21: 12-13",
+        "latin": "Dixit Iesus discipulis suis:Venite, prandete. Et accepit panem, et dedit eis, alleluia.",
+        "english": "Jesus said to his disciples: Come and eat. And he took bread and gave it to them, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday1",
+    "season": "Easter",
+    "week": 1,
+    "weekday": "Saturday",
+    "title": "SATURDAY WITHIN THE OCTAVE OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 105 (104): 43",
+        "latin": "Eduxit Dominus populum suum in exsultatione, et electos suos in laetitia, alleluia.",
+        "english": "The Lord brought out his people with joy, his chosen ones with shouts of rejoicing, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Gal 3: 27",
+        "latin": "Omnes qui in Christo baptizati estis, Christum induistis, alleluia.",
+        "english": "All of you who have been baptized in Christ have put on Christ, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday2",
+    "season": "Easter",
+    "week": 2,
+    "weekday": "Sunday",
+    "title": "SECOND SUNDAY OF EASTER (or of Divine Mercy)",
+    "entrance_antiphon": [
+      {
+        "citation": "1 Pt 2: 2",
+        "latin": "Quasi modo geniti infantes, rationabile, sine dolo lac concupscite, ut in eo crescatis in salutem, alleluia.",
+        "english": "Like newborn infants, you must long for the pure, spiritual milk, that in him you may grow to salvation, alleluia."
+      },
+      {
+        "citation": "4 Esdr 2: 36-37",
+        "latin": "Accipite iucunditatem gloriae vestrae, gratias agentes Deo, qui vos ad caelestia regna vocavit, alleluia.",
+        "english": "Receive the joy of your glory, giving thanks to God, who has called you into the heavenly kingdom, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 20: 27",
+        "latin": "Mitte manum tuam, et cognosce loca clavorum, et noli esse incredulus, sed fidelis, alleluia.",
+        "english": "Bring your hand and feel the place of the nails, and do not be unbelieving but believing, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "monday2",
+    "season": "Easter",
+    "week": 2,
+    "weekday": "Monday",
+    "title": "MONDAY In the Second Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rom 6: 9",
+        "latin": "Christus resurgens ex mortuis iam non moritur, mors illi ultra non dominabitur, alleluia.",
+        "english": "Christ, having risen from the dead, dies now no more; death will no longer have dominion over him, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 20: 19",
+        "latin": "Stetit Iesus in medio discipulorum suorum, et dixit eis: Pax vobis, alleluia.",
+        "english": "Jesus stood in the midst of his disciples and said to them: Peace be with you, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday2",
+    "season": "Easter",
+    "week": 2,
+    "weekday": "Tuesday",
+    "title": "TUESDAY In the Second Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 19: 7, 6",
+        "latin": "Gaudeamus et exsultemus et demus gloriam Deo, quoniam regnavit Dominus Deus noster omnipotens, alleluia.",
+        "english": "Let us rejoice and be glad and give glory to God, for the Lord our God the Almighty reigns, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Lk 24: 46, 26",
+        "latin": "Oportuit pati Christum, et resurgere a mortuis, et ita intrare in gloriam suam, alleluia.",
+        "english": "The Christ had to suffer and rise from the dead, and so enter into his glory, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday2",
+    "season": "Easter",
+    "week": 2,
+    "weekday": "Wednesday",
+    "title": "WEDNESDAY In the Second Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 18 (17): 50; 22 (21): 23",
+        "latin": "Confitebor tibi in populis, Domine, et narrabo nomen tuum fratribus meis, alleluia.",
+        "english": "I will praise you, Lord, among the nations; I will tell of your name to my kin, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 15: 16, 19",
+        "latin": "Dicit Dominus: Ego elegi vos de mundo et posui vos ut eatis, et fructum afferatis, et fructus vester maneat, alleluia.",
+        "english": "I have chosen you from the world, says the Lord, and have appointed you to go and bear fruit, fruit that will last, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday2",
+    "season": "Easter",
+    "week": 2,
+    "weekday": "Thursday",
+    "title": "THURSDAY In the Second Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 68 (67): 8-9, 20",
+        "latin": "Deus, dum egredereris coram populo tuo, iter faciens eis, habitans in illis, terra mota est, caeli distillaverunt, alleluia.",
+        "english": "O God, when you went forth before your people, marching with them and living among them, the earth trembled, heavens poured down rain, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 28: 20",
+        "latin": "Ecce ego vobiscum sum omnibus diebus, usque ad consummationem saeculi, alleluia.",
+        "english": "Behold, I am with you always, even to the end of the age, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "friday2",
+    "season": "Easter",
+    "week": 2,
+    "weekday": "Friday",
+    "title": "FRIDAY In the Second Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 5: 9-10",
+        "latin": "Redemisti, Domine, in sanguine tuo, ex omni tribu, et lingua, et populo, et natione, et fecisti nos Deo nostro regnum et sacerdotes, alleluia.",
+        "english": "You have redeemed us, Lord, by your Blood, from every tribe and tongue and people and nation, and have made us into a kingdom, priests for our God, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rom 4: 25",
+        "latin": "Traditus est Christus Dominus noster propter delicta nostra, et resurrexit propter iustificationem nostram, alleluia.",
+        "english": "Christ our Lord was handed over for our transgressions and was raised again for our justification, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday2",
+    "season": "Easter",
+    "week": 2,
+    "weekday": "Saturday",
+    "title": "SATURDAY In the Second Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. 1 Pt 2: 9",
+        "latin": "Populus acquisitionis, annuntiate virtutes eius, qui vos de tenebris vocavit in admirabile lumen suum, alleluia.",
+        "english": "O chosen people, proclaim the mighty works of him who called you out of darkness into his wonderful light, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 17: 24",
+        "latin": "Pater, quos dedisti mihi, volu ut ubi sum ego, et illi sint mecum, ut videant claritatem quam dedisti mihi, alleluia.",
+        "english": "Father, I wish that, where I am, those you gave me may also be with me, that they may see the glory that you gave me, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday3",
+    "season": "Easter",
+    "week": 3,
+    "weekday": "Sunday",
+    "title": "THIRD SUNDAY OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 66 (65): 1-2",
+        "latin": "Iubilate Deo, omnis terra, psalmum dicite nomini eius, date gloriam laudi eius, alleluia.",
+        "english": "Cry out with joy to God, all the earth; O sing to the glory of his name. O render him glorious praise, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 24: 35",
+        "latin": "Cognoverunt discipuli Dominum Iesum in fractione panis, alleluia.",
+        "english": "The disciples recognized the Lord Jesus in the breaking of the bread, alleluia."
+      },
+      {
+        "citation": "Lk 24: 46-47",
+        "latin": "Oportebat Christum pati, et resurgere a mortuis tertia die, et praedicari in nomine eius paenitentiam, et remissionem peccatorum in omnes gentes, alleluia.",
+        "english": "The Christ had to suffer and on the third day rise from the dead; in his name repentance and remission of sins must be preached to all the nations, alleluia.",
+        "year": "Year B"
+      },
+      {
+        "citation": "Cf. Jn 21: 12-13",
+        "latin": "Dixit Iesus discipulis suis: Venite, prandete. Et accepit panem, et dedit eis, alleluia.",
+        "english": "Jesus said to his disciples: Come and eat. And he took bread and gave it to them, alleluia.",
+        "year": "Year C"
+      }
+    ]
+  },
+  {
+    "anchor": "monday3",
+    "season": "Easter",
+    "week": 3,
+    "weekday": "Monday",
+    "title": "MONDAY In the Third Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Surrexit pastor bonus, qui animam suam posuit pro ovibus suis, et pro grege suo mori dignatus est, alleluia.",
+        "english": "The Good Shepherd has risen, who laid down his life for his sheep and willingly died for his flock, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 14: 27",
+        "latin": "Pacem relinquo vobis, pacem meam do vobis; non quomodo mundus dat, ego do vobis, dicit Dominus, alleluia.",
+        "english": "Peace I leave with you; my peace I give to you. Not as the world gives do I give it to you, says the Lord, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday3",
+    "season": "Easter",
+    "week": 3,
+    "weekday": "Tuesday",
+    "title": "TUESDAY In the Third Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 19: 5; 12: 10",
+        "latin": "Laudem dicite Deo nostro, omnes qui timetis Deum, pusilli et magni, quia facta est salus, et virtus, et potestas Christi eius, alleluia.",
+        "english": "Sing praise to our God, all you who fear God, both small and great, for now salvation and strength have come, and the power of his Christ, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rom 6: 8",
+        "latin": "Si mortui sumus cum Christo, credimus quia simul etiam vivemus cum Christo, alleluia.",
+        "english": "If we have died with Christ, we believe that we shall also live with Christ, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday3",
+    "season": "Easter",
+    "week": 3,
+    "weekday": "Wednesday",
+    "title": "WEDNESDAY In the Third Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 71 (70): 8, 23",
+        "latin": "Repleatur os meum laude tua, ut possim cantare; gaudebunt labia mea, dum cantavero tibi, alleluia.",
+        "english": "Let my mouth be filled with your praise, that I may sing aloud; my lips shall shout for joy, when I sing to you, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Surrexit Dominus et illuxit nobis, quos redemit sanguine suo, alleluia.",
+        "english": "The Lord has risen and shone his light upon us, whom he has redeemed by his Blood, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday3",
+    "season": "Easter",
+    "week": 3,
+    "weekday": "Thursday",
+    "title": "THURSDAY In the Third Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ex 15: 1-2",
+        "latin": "Cantemus Domino: gloriose enim magnificatus est. Fortitudo mea et laus mea Dominus, et factus est mihi in salutem, alleluia",
+        "english": "Let us sing to the Lord, for he has gloriously triumphed. The Lord is my strength and my might; he has become my salvation, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "2 Cor 5: 15",
+        "latin": "Pro omnibus mortuus est Christus, ut et qui vivunt iam non sibi vivant, sed ei qui pro ipsis mortuus est et resurrexit, alleluia.",
+        "english": "Christ died for all, that those who live may live no longer for themselves, but for him, who died for them and is risen, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "friday3",
+    "season": "Easter",
+    "week": 3,
+    "weekday": "Friday",
+    "title": "FRIDAY In the Third Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 5: 12",
+        "latin": "Dignus est Agnus, qui occisus est, accipere virtutem et divinitatem et sapientiam et fortitudinem et honorem, alleluia.",
+        "english": "Worthy is the Lamb who was slain, to receive power and divinity, and wisdom and strength and honor, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Crucifixus surrexit a mortuis, et redemit nos, alleluia.",
+        "english": "The Crucified is risen from the dead and has redeemed us, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday3",
+    "season": "Easter",
+    "week": 3,
+    "weekday": "Saturday",
+    "title": "SATURDAY In the Third Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Col 2: 12",
+        "latin": "Consepulti estis Christo in baptismo, in quo et resurrexistis per fidem operationis Dei, qui suscitavit illum a mortuis, alleluia.",
+        "english": "You have been buried with Christ in Baptism, through which you also rose again by faith in the working of God, who raised him from the dead, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 17: 20-21",
+        "latin": "Pater, pro eis rogo, ut ipsi in nobis unum sint, ut credat mundus quia tu me misisti, dicit Dominus alleluia.",
+        "english": "Father, I pray for them, that they may be one in us, so that the world may believe it was you who sent me, says the Lord, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday4",
+    "season": "Easter",
+    "week": 4,
+    "weekday": "Sunday",
+    "title": "FOURTH SUNDAY OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 33 (32): 5-6",
+        "latin": "Misericordia Domini plena est terra; verbo Domini caeli firmati sunt, alleluia.",
+        "english": "The merciful love of the Lord fills the earth; by the word of the Lord the heavens were made, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Surrexit Pastor bonus, qui animam suam posuit pro ovibus suis, et pro grege suo mori dignatus est; alleluia.",
+        "english": "The Good Shepherd has risen, who laid down his life for his sheep and willingly died for his flock, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "monday4",
+    "season": "Easter",
+    "week": 4,
+    "weekday": "Monday",
+    "title": "MONDAY In the Fourth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rom 6: 9",
+        "latin": "Christus resurgens ex mortuis iam non moritur, mors illi ultra non dominabitur, alleluia.",
+        "english": "Christ, having risen from the dead, dies now no more; death will no longer have dominion over him, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 20: 19",
+        "latin": "Stetit Iesus in medio discipulorum suorum, et dixit eis: Pax vobis, alleluia.",
+        "english": "Jesus stood in the midst of his disciples and said to them: Peace be with you, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday4",
+    "season": "Easter",
+    "week": 4,
+    "weekday": "Tuesday",
+    "title": "TUESDAY In the Fourth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 19: 7, 6",
+        "latin": "Gaudeamus et exsultemus et demus gloriam Deo, quoniam regnavit Dominus Deus noster omnipotens, alleluia.",
+        "english": "Let us rejoice and be glad and give glory to God, for the Lord our God the Almighty reigns, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Lk 24: 46, 26",
+        "latin": "Oportuit pati Christum, et resurgere a mortuis, et ita intrare in gloriam suam, alleluia.",
+        "english": "The Christ had to suffer and rise from the dead, and so enter into his glory, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday4",
+    "season": "Easter",
+    "week": 4,
+    "weekday": "Wednesday",
+    "title": "WEDNESDAY In the Fourth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 18 (17): 50; 22 (21): 23",
+        "latin": "Confitebor tibi in populis, Domine, et narrabo nomen tuum fratribus meis, alleluia.",
+        "english": "I will praise you, Lord, among the nations; I will tell of your name to my kin, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 15: 16, 19",
+        "latin": "Dicit Dominus: Ego elegi vos de mundo et posui vos ut eatis, et fructum afferatis, et fructus vester maneat, alleluia.",
+        "english": "I have chosen you from the world, says the Lord, and have appointed you to go and bear fruit, fruit that will last, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday4",
+    "season": "Easter",
+    "week": 4,
+    "weekday": "Thursday",
+    "title": "THURSDAY In the Fourth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 68 (67): 8-9, 20",
+        "latin": "Deus, dum egredereris coram populo tuo, iter faciens eis, habitans in illis, terra mota est, caeli distillaverunt, alleluia.",
+        "english": "O God, when you went forth before your people, marching with them and living among them, the earth trembled, heavens poured down rain, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 28: 20",
+        "latin": "Ecce ego vobiscum sum omnibus diebus, usque ad consummationem saeculi, alleluia.",
+        "english": "Behold, I am with you always, even to the end of the age, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "friday4",
+    "season": "Easter",
+    "week": 4,
+    "weekday": "Friday",
+    "title": "FRIDAY In the Fourth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 5: 9-10",
+        "latin": "Redemisti, Domine, in sanguine tuo, ex omni tribu, et lingua, et populo, et natione, et fecisti nos Deo nostro regnum et sacerdotes, alleluia.",
+        "english": "You have redeemed us, Lord, by your Blood, from every tribe and tongue and people and nation, and have made us into a kingdom, priests for our God, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rom 4: 25",
+        "latin": "Traditus est Christus Dominus noster propter delicta nostra, et resurrexit propter iustificationem nostram, alleluia.",
+        "english": "Christ our Lord was handed over for our transgressions and was raised again for our justification, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday4",
+    "season": "Easter",
+    "week": 4,
+    "weekday": "Saturday",
+    "title": "SATURDAY In the Fourth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. 1 Pt 2: 9",
+        "latin": "Populus acquisitionis, annuntiate virtutes eius, qui vos de tenebris vocavit in admirabile lumen suum, alleluia.",
+        "english": "O chosen people, proclaim the mighty works of him who called you out of darkness into his wonderful light, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 17: 24",
+        "latin": "Pater, quos dedisti mihi, volu ut ubi sum ego, et illi sint mecum, ut videant claritatem quam dedisti mihi, alleluia.",
+        "english": "Father, I wish that, where I am, those you gave me may also be with me, that they may see the glory that you gave me, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday5",
+    "season": "Easter",
+    "week": 5,
+    "weekday": "Sunday",
+    "title": "FIFTH SUNDAY OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 98 (97): 1-2",
+        "latin": "Cantate Domino canticum novum, quia mirabilia fecit Dominus; ante conspectum gentium revelavit iustitiam suam, alleluia.",
+        "english": "O sing a new song to the Lord, for he has worked wonders; in the sight of the nations he has shown his deliverance, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 15: 1, 5",
+        "latin": "Ego sum vitis vera et vos palmites, dicit Dominus; qui manet in me et ego in eo, hic fert fructum multum, alleluia.",
+        "english": "I am the true vine and you are the branches, says the Lord. Whoever remains in me, and I in him, bears fruit in plenty, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "monday5",
+    "season": "Easter",
+    "week": 5,
+    "weekday": "Monday",
+    "title": "MONDAY In the Fifth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Surrexit pastor bonus, qui animam suam posuit pro ovibus suis, et pro grege suo mori dignatus est, alleluia.",
+        "english": "The Good Shepherd has risen, who laid down his life for his sheep and willingly died for his flock, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 14: 27",
+        "latin": "Pacem relinquo vobis, pacem meam do vobis; non quomodo mundus dat, ego do vobis, dicit Dominus, alleluia.",
+        "english": "Peace I leave with you; my peace I give to you. Not as the world gives do I give it to you, says the Lord, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday5",
+    "season": "Easter",
+    "week": 5,
+    "weekday": "Tuesday",
+    "title": "TUESDAY In the Fifth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 19: 5; 12: 10",
+        "latin": "Laudem dicite Deo nostro, omnes qui timetis Deum, pusilli et magni, quia facta est salus, et virtus, et potestas Christi eius, alleluia.",
+        "english": "Sing praise to our God, all you who fear God, both small and great, for now salvation and strength have come, and the power of his Christ, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rom 6: 8",
+        "latin": "Si mortui sumus cum Christo, credimus quia simul etiam vivemus cum Christo, alleluia.",
+        "english": "If we have died with Christ, we believe that we shall also live with Christ, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday5",
+    "season": "Easter",
+    "week": 5,
+    "weekday": "Wednesday",
+    "title": "WEDNESDAY In the Fifth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 71 (70): 8, 23",
+        "latin": "Repleatur os meum laude tua, ut possim cantare; gaudebunt labia mea, dum cantavero tibi, alleluia.",
+        "english": "Let my mouth be filled with your praise, that I may sing aloud; my lips shall shout for joy, when I sing to you, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Surrexit Dominus et illuxit nobis, quos redemit sanguine suo, alleluia.",
+        "english": "The Lord has risen and shone his light upon us, whom he has redeemed by his Blood, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday5",
+    "season": "Easter",
+    "week": 5,
+    "weekday": "Thursday",
+    "title": "THURSDAY In the Fifth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ex 15: 1-2",
+        "latin": "Cantemus Domino: gloriose enim magnificatus est. Fortitudo mea et laus mea Dominus, et factus est mihi in salutem, alleluia",
+        "english": "Let us sing to the Lord, for he has gloriously triumphed. The Lord is my strength and my might; he has become my salvation, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "2 Cor 5: 15",
+        "latin": "Pro omnibus mortuus est Christus, ut et qui vivunt iam non sibi vivant, sed ei qui pro ipsis mortuus est et resurrexit, alleluia.",
+        "english": "Christ died for all, that those who live may live no longer for themselves, but for him, who died for them and is risen, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "friday5",
+    "season": "Easter",
+    "week": 5,
+    "weekday": "Friday",
+    "title": "FRIDAY In the Fifth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 5: 12",
+        "latin": "Dignus est Agnus, qui occisus est, accipere virtutem et divinitatem et sapientiam et fortitudinem et honorem, alleluia.",
+        "english": "Worthy is the Lamb who was slain, to receive power and divinity, and wisdom and strength and honor, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Crucifixus surrexit a mortuis, et redemit nos, alleluia.",
+        "english": "The Crucified is risen from the dead and has redeemed us, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday5",
+    "season": "Easter",
+    "week": 5,
+    "weekday": "Saturday",
+    "title": "SATURDAY In the Fifth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Col 2: 12",
+        "latin": "Consepulti estis Christo in baptismo, in quo et resurrexistis per fidem operationis Dei, qui suscitavit illum a mortuis, alleluia.",
+        "english": "You have been buried with Christ in Baptism, through which you also rose again by faith in the working of God, who raised him from the dead, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 17: 20-21",
+        "latin": "Pater, pro eis rogo, ut ipsi in nobis unum sint, ut credat mundus quia tu me misisti, dicit Dominus alleluia.",
+        "english": "Father, I pray for them, that they may be one in us, so that the world may believe it was you who sent me, says the Lord, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday6",
+    "season": "Easter",
+    "week": 6,
+    "weekday": "Sunday",
+    "title": "SIXTH SUNDAY OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 48: 20",
+        "latin": "Vocem iucunditatis annuntiate, et audiatur, annuntiate usque ad extremum terrae; liberavit Dominus populum suum, alleluia.",
+        "english": "Proclaim a joyful sound and let it be heard; proclaim to the ends of the earth: The Lord has freed his people, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 14: 15-16",
+        "latin": "Si diligitus me, mandata mea servate, dicit Dominus. Et ego rogabo Patrem, et alium Paraclitum dabit vobis, ut maneat vobiscum in aeternum, alleluia.",
+        "english": "If you love me, keep my commandments, says the Lord, and I will ask the Father and he will send you another Paraclete, to abide with you for ever, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "monday6",
+    "season": "Easter",
+    "week": 6,
+    "weekday": "Monday",
+    "title": "MONDAY In the Sixth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rom 6: 9",
+        "latin": "Christus resurgens ex mortuis iam non moritur, mors illi ultra non dominabitur, alleluia.",
+        "english": "Christ, having risen from the dead, dies now no more; death will no longer have dominion over him, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 20: 19",
+        "latin": "Stetit Iesus in medio discipulorum suorum, et dixit eis: Pax vobis, alleluia.",
+        "english": "Jesus stood in the midst of his disciples and said to them: Peace be with you, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday6",
+    "season": "Easter",
+    "week": 6,
+    "weekday": "Tuesday",
+    "title": "TUESDAY In the Sixth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 19: 7, 6",
+        "latin": "Gaudeamus et exsultemus et demus gloriam Deo, quoniam regnavit Dominus Deus noster omnipotens, alleluia.",
+        "english": "Let us rejoice and be glad and give glory to God, for the Lord our God the Almighty reigns, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Lk 24: 46, 26",
+        "latin": "Oportuit pati Christum, et resurgere a mortuis, et ita intrare in gloriam suam, alleluia.",
+        "english": "The Christ had to suffer and rise from the dead, and so enter into his glory, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday6",
+    "season": "Easter",
+    "week": 6,
+    "weekday": "Wednesday",
+    "title": "WEDNESDAY In the Sixth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 18 (17): 50; 22 (21): 23",
+        "latin": "Confitebor tibi in populis, Domine, et narrabo nomen tuum fratribus meis, alleluia.",
+        "english": "I will praise you, Lord, among the nations; I will tell of your name to my kin, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 15: 16, 19",
+        "latin": "Dicit Dominus: Ego elegi vos de mundo et posui vos ut eatis, et fructum afferatis, et fructus vester maneat, alleluia.",
+        "english": "I have chosen you from the world, says the Lord, and have appointed you to go and bear fruit, fruit that will last, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "ascensionvigil",
+    "season": "Easter",
+    "week": null,
+    "weekday": "Ascension Thursday",
+    "note": "Vigil Mass",
+    "title": "At the Vigil Mass",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 68 (67): 33, 35",
+        "latin": "Regna terrae, cantate Deo, psallita Domino, qui ascendit super caelum caeli; magnificentia et virtus eius in nubibus, alleluia.",
+        "english": "You kingdoms of the earth, sing to God; praise the Lord, who ascends above the highest heavens; his majesty and might are in the skies, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Christus, unam pro peccatis offerens hostiam, in sempiternum sedet in dextera Dei, alleluia.",
+        "english": "Christ, offering a single sacrifice for sins, is seated for ever at God's right hand, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "ascensionday",
+    "season": "Easter",
+    "week": null,
+    "weekday": "Ascension Thursday",
+    "note": "Mass During the Day",
+    "title": "At the Mass during the Day",
+    "entrance_antiphon": [
+      {
+        "citation": "Acts 1: 11",
+        "latin": "Viri Galilaei, quid admiramini ascipientes in caelum? Quemadmodum vidistis eum ascendentum in caelum, ita veniet, alleluia.",
+        "english": "Men of Galilee, why gaze in wonder at the heavens? This Jesus whom you saw ascending into heaven will return as you saw him go, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 28: 20",
+        "latin": "Ecce ego vobiscum sum omnibus diebus, usque ad consummationem saeculi, alleluia.",
+        "english": "Behold, I am with you always, even to the end of the age, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday6",
+    "season": "Easter",
+    "week": 6,
+    "weekday": "Thursday",
+    "title": "THURSDAY In the Sixth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 68 (67): 8-9, 20",
+        "latin": "Deus, dum egredereris coram populo tuo, iter faciens eis, habitans in illis, terra mota est, caeli distillaverunt, alleluia.",
+        "english": "O God, when you went forth before your people, marching with them and living among them, the earth trembled, heavens poured down rain, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 28: 20",
+        "latin": "Ecce ego vobiscum sum omnibus diebus, usque ad consummationem saeculi, alleluia.",
+        "english": "Behold, I am with you always, even to the end of the age, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "friday6",
+    "season": "Easter",
+    "week": 6,
+    "weekday": "Friday",
+    "title": "FRIDAY In the Sixth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 5: 9-10",
+        "latin": "Redemisti, Domine, in sanguine tuo, ex omni tribu, et lingua, et populo, et natione, et fecisti nos Deo nostro regnum et sacerdotes, alleluia.",
+        "english": "You have redeemed us, Lord, by your Blood, from every tribe and tongue and people and nation, and have made us into a kingdom, priests for our God, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rom 4: 25",
+        "latin": "Traditus est Christus Dominus noster propter delicta nostra, et resurrexit propter iustificationem nostram, alleluia.",
+        "english": "Christ our Lord was handed over for our transgressions and was raised again for our justification, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday6",
+    "season": "Easter",
+    "week": 6,
+    "weekday": "Saturday",
+    "title": "SATURDAY In the Sixth Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. 1 Pt 2: 9",
+        "latin": "Populus acquisitionis, annuntiate virtutes eius, qui vos de tenebris vocavit in admirabile lumen suum, alleluia.",
+        "english": "O chosen people, proclaim the mighty works of him who called you out of darkness into his wonderful light, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 17: 24",
+        "latin": "Pater, quos dedisti mihi, volu ut ubi sum ego, et illi sint mecum, ut videant claritatem quam dedisti mihi, alleluia.",
+        "english": "Father, I wish that, where I am, those you gave me may also be with me, that they may see the glory that you gave me, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday7",
+    "season": "Easter",
+    "week": 7,
+    "weekday": "Sunday",
+    "title": "SEVENTH SUNDAY OF EASTER",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 27 (26): 7-9",
+        "latin": "Exaudi, Domine, vocem meam, qua clamavi as te. Tibi dixit cor meum, quaesivi vultum tuum requiram; ne avertas faciem tuam a me, alleluia.",
+        "english": "O Lord, hear my voice, for I have called to you; of you my heart has spoken: Seek his face; hide not your face from me, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 17: 22",
+        "latin": "Rogo, Pater, ut sint unum, sicut et nos unum sumus, alleluia.",
+        "english": "Father, I pray that they may be one as we also are one, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "monday7",
+    "season": "Easter",
+    "week": 7,
+    "weekday": "Monday",
+    "title": "MONDAY In the Seventh Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Acts 1: 8",
+        "latin": "Accipietis virtutem supervenientis Spiritus Sancti in vos, et eritis mihi testes usque ad ultimum terrae, alleluia.",
+        "english": "You will receive the power of the Holy Spirit coming upon you, and you will be my witnesses, even to the ends of the earth, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 14: 18; 16: 22",
+        "latin": "Non vos relinquam orphanos, dicit Dominus; veniam ad vos iterum, et gaudebit cor vestrum, alleluia.",
+        "english": "I will not leave you orphans, says the Lord; I will come to you again, and your heart will rejoice, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday7",
+    "season": "Easter",
+    "week": 7,
+    "weekday": "Tuesday",
+    "title": "TUESDAY In the Seventh Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 1: 17-18",
+        "latin": "Ego sum primus et novissimus; et vivus et fui mortuus, et ecce sum vivens in saecula saeculorum, alleluia.",
+        "english": "I am the first and the last, I was dead and am now alive. Behold, I am alive for ever and ever, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 14: 26",
+        "latin": "Spiritus Sanctus, quem mittet Pater in nomine meo ille vos docebit omnia, et suggeret vobis omnia quaecumque dixero vobis, dicit Dominus.",
+        "english": "The Holy Spirit, whom the Father will send in my name, will teach you all things and remind you of all I have told you, says the Lord, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday7",
+    "season": "Easter",
+    "week": 7,
+    "weekday": "Wednesday",
+    "title": "WEDNESDAY In the Seventh Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 47 (46): 2",
+        "latin": "Omnes gentes, plaudite manibus, iubiliate Deo in voce exsultationis, alleluia.",
+        "english": "All peoples, clap your hands. Cry to God with shouts of joy, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 15: 26-27",
+        "latin": "Cum venerit Paraclitus, quem ego mittam vobis, Spiritum veritatis qui a Patre procedit, ille testimonium perhibebit de me, et vos testimonium perhibebitis, dicit Dominus, alleluia.",
+        "english": "When the Paraclete comes, whom I will send you, the Spirit of Truth who proceeds from the Father, he will bear witness to me, and you also will bear witness, says the Lord, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday7",
+    "season": "Easter",
+    "week": 7,
+    "weekday": "Thursday",
+    "title": "THURSDAY In the Seventh Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Heb 4: 16",
+        "latin": "Adeamus cum fiducia ad thronum gratiae, ut misericordiam consequamur, et gratiam inveniamus in auxilio opportuno, alleluia.",
+        "english": "With boldness let us approach the throne of grace, that we may receive mercy and find grace as a timely help, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Ego veritatem dico vobis, expedit vobis ut ego vadam; si enim non abiero, Paraclitus non veniet ad vos, dicit Dominus, alleluia.",
+        "english": "I tell you the truth, it is for your good that I go; for if I do not go away, the Paraclete will not come to you, says the Lord, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "friday7",
+    "season": "Easter",
+    "week": 7,
+    "weekday": "Friday",
+    "title": "FRIDAY In the Seventh Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Rev 1: 5-6",
+        "latin": "Dilexit nos Christus, et lavit nos a peccatis nostris in sanguine suo, et fecit nos regnum et sacerdotes Deo et Patri suo, alleluia.",
+        "english": "Christ loved us and washed us clean of our sins by his Blood, and made us into a kingdom, priests for his God and Father, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 16: 13",
+        "latin": "Cum venerit Spiritus veritatis, docebit vos omnem veritatem, dicit Dominus, alleluia.",
+        "english": "When the Spirit of truth comes, he will teach you all truth, says the Lord, alleluia."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday7",
+    "season": "Easter",
+    "week": 7,
+    "weekday": "Saturday",
+    "title": "SATURDAY In the Seventh Week of Easter",
+    "entrance_antiphon": [
+      {
+        "citation": "Acts 1: 14",
+        "latin": "Erant discipuli perseverantes unanimiter in oratione, cum mulieribus et Maria Matre Iesu, et fratribus eius, alleluia.",
+        "english": "The disciples devoted themselves with one accord to prayer with the women, and Mary the Mother of Jesus, and his brethren, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 16: 14",
+        "latin": "Spiritus Sanctus, ille me clarificabit, quia de meo accipiet, et annuntiabit vobis, dicit Dominus, alleluia.",
+        "english": "The Holy Spirit will glorify me, for he will take from what is mine and declare it to you, says the Lord, alleluia."
+      }
+    ]
+  }
+]
