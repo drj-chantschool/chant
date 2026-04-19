@@ -50,7 +50,7 @@
 \pagestyle{scrheadings}
 
 \RedeclareSectionCommand[
-  runin=true,
+  runin=false,
   afterindent=false,
   beforeskip=0.75ex plus 1ex minus .2ex,
   afterskip=3pt

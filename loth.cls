@@ -456,14 +456,62 @@
 }
 
 
+% Internal helper: render psalm tone score + text columns
+% \loth@psalmchoir{psalm}{tone}{repeat-text}
+%   repeat-text is appended inside multicols (e.g. \emph{The Latin antiphon is repeated.})
+\newread\loth@titleread
+\NewDocumentCommand{\loth@psalmchoir}{m m m}{%
+  % Pre-read the title to avoid passing \input{} directly to \paragraph
+  % (KOMA passes the short-title argument raw into \setkeys, so \input would
+  %  be executed in that context and cause "Illegal parameter number".)
+  \ifchoir
+    \gregorioscore{Psalms/#1/#2.gabc}%
+    \nopagebreak%
+    \begin{multicols}{2}%
+      \raggedcolumns
+      \small
+      \maybeinput{\myhome/Psalms/#1/\loth@ts.tex}
+      
+      \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/\loth@ts.tex}\fi
+      
+      #3%
+    \end{multicols}%
+  \else
+    \begin{multicols}{2}%
+      \iftextonly\Large\else\small\fi
+      \maybeinput{\myhome/Psalms/#1/all.tex}%
+      #3%
+    \end{multicols}%
+  \fi
+}
+
 % \psalm{antiphon}{psalm}{tone}{tonecat}[version]
 %   tonecat is optional: omit (or pass {}) to auto-derive from tone via \loth@tonecat
 %   version defaults to "solesmes"
 \NewDocumentCommand{\psalm}{m m m G{} O{solesmes}}{%
+  \IfFileExists{Psalms/#1/title.tex}{%
+    \openin\loth@titleread={Psalms/#1/title.tex}%
+    \read\loth@titleread to\loth@psalmmtitle
+    \closein\loth@titleread
+    \paragraph{\loth@psalmmtitle}
+  }{%
+  }%
+      \ifdefstring{#5}{english}%
+      {}%
+      {%
+        \IfFileExists{Antiphona/#1/english.gabc}{%
+          %\gregorioscore{Antiphona/#1/english.gabc}%
+        }{%
+          \ifcb@missingsilent
+            \def\loth@repant{\emph{The antiphon is repeated.}}
+          \else
+            %\loth@missingscore{Antiphona/#1/english.gabc}%
+          \fi
+        }%
+      }%
     \let\olditem\item % Someday will refactor to wrap psalm content in itemize
     \renewcommand{\item}{} % Ignore \item for now so psalms using new format work with the old flow
   \ifblank{#4}{\loth@settonecat{#3}}{\def\loth@ts{#4}}% resolve tone structure
-
   \iftextonly
     \textbf{\Large Ant \theantcnt: \maybeinput{Antiphona/#1/english.txt}}\\
     \textbf{Ant: \maybeinput{Antiphona/#1/#5.txt}}%
@@ -473,26 +521,26 @@
     \gregorioscore{Antiphona/#1/#5.gabc}%
   \fi
   \gresetinitiallines{0}%
-  \ifchoir
-    \gregorioscore{Psalms/#2/#3.gabc}%
-    \begin{multicols}{2}%
-      \raggedcolumns
-      \small
-      \maybeinput{\myhome/Psalms/#2/\loth@ts.tex}
-      \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/\loth@ts.tex}\fi%
-    \end{multicols}%
-  \else
-    \begin{multicols}{2}%
-      \iftextonly\Large\else\small\fi
-      \maybeinput{\myhome/Psalms/#2/all.tex}%
-    \end{multicols}%
-  \fi
+  \loth@psalmchoir{#2}{#3}{\loth@repant}%
+  \def\loth@repant{}
   \iftextonly
     % (no English antiphon score in text-only mode)
   \else
     \ifdefstring{#5}{english}%
       {\emph{The antiphon is repeated.}}%
-      {\gregorioscore{Antiphona/#1/english.gabc}}%
+      {%
+        \IfFileExists{Antiphona/#1/english.gabc}{%
+          \gregorioscore{Antiphona/#1/english.gabc}%
+        }{%
+          \ifcb@missingsilent
+            % \begin{multicols}{2}%
+            %   \emph{The antiphon is repeated.}%
+            % \end{multicols}%
+          \else
+            \loth@missingscore{Antiphona/#1/english.gabc}%
+          \fi
+        }%
+      }%
   \fi
   \gresetinitiallines{1}%
   \stepcounter{antcnt}%
@@ -503,38 +551,31 @@
 %   tonecat is optional: omit (or pass {}) to auto-derive from tone via \loth@tonecat
 %   version defaults to "solesmes"
 \NewDocumentCommand{\psalma}{m m m m G{} O{solesmes}}{%
+  \IfFileExists{Psalms/#1/title.tex}{%
+    \openin\loth@titleread={Psalms/#1/title.tex}%
+    \read\loth@titleread to\loth@psalmmtitle
+    \closein\loth@titleread
+    \paragraph{\loth@psalmmtitle}
+  }{%
+  }%
     \let\olditem\item % Someday will refactor to wrap psalm content in itemize
     \renewcommand{\item}{} % Ignore \item for now so psalms using new format work with the old flow
   \ifblank{#5}{\loth@settonecat{#4}}{\def\loth@ts{#5}}% resolve tone structure
-    \iftextonly
-    \textbf{\Large Ant \theantcnt: \maybeinput{Antiphona/#1/#6.txt}}
-    \else
-    \greannotation{Ant. \theantcnt}
-    \greannotation{#4}
-   \gregorioscore{Antiphona/#1/#6.gabc}
-   \gresetinitiallines{0}
-   \gregorioscore{antiphons-english/#2/english.gabc}
-   \ifchoir
-   \gregorioscore{Psalms/#3/#4.gabc}
-   \begin{multicols}{2}
-       \small
-       \maybeinput{\myhome/Psalms/#3/\loth@ts.tex}
-
-       \ifcb@nogloria\else\maybeinput{\myhome/Psalms/GloriaPatri/\loth@ts.tex}\fi
-
-       \emph{The Latin antiphon is repeated.}
-   \end{multicols}
-   \else
-   \begin{multicols}{2}
-       \iftextonly\Large\else\small\fi
-       \maybeinput{\myhome/Psalms/#3/all.tex}
-
-       \emph{The Latin antiphon is repeated.}
-   \end{multicols}
-   \fi
-   \gresetinitiallines{1}%
-   \stepcounter{antcnt}%
-   \renewcommand{\item}{\olditem} % Restore \item
+  \iftextonly
+    \textbf{\Large Ant \theantcnt: \maybeinput{Antiphona/#1/#6.txt}}%
+  \else
+    \greannotation{Ant. \theantcnt}%
+    \greannotation{#4}%
+    \gregorioscore{Antiphona/#1/#6.gabc}%
+  \fi
+  \gresetinitiallines{0}%
+  \iftextonly\else
+    \gregorioscore{antiphons-english/#2/english.gabc}%
+  \fi
+  \loth@psalmchoir{#3}{#4}{\emph{The Latin antiphon is repeated.}}%
+  \gresetinitiallines{1}%
+  \stepcounter{antcnt}%
+  \renewcommand{\item}{\olditem} % Restore \item
 }
 
 

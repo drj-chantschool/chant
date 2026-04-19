@@ -643,22 +643,35 @@ def incipit_dir_to_text(incipit_dir: str) -> str:
 
 def first_neumes(row, n: int = 10) -> str:
     """
-    Return the first n syllable(neume) pairs from the gabc body as a compact string,
-    e.g. 'Chris(g)tus(h) fac(h)tus(i) est(g)'.
-    Skips clef tokens and barlines (tokens whose syllable is empty/whitespace).
+    Return the first n syllable(neume) pairs from the gabc body, preserving word
+    boundaries: syllables within the same word are concatenated without spaces,
+    words are separated by a single space.
+    e.g. 'Chris(g)tus(h) fac(h)tus(i) est(g)' (not 'Chris(g) tus(h) fac(h)...')
     """
     body = extract_gabc_body(row)
-    pairs = re.findall(r'((?:[^()<>]|<[^>]*>)*)\(([^)]*)\)', body)
-    out = []
-    for syllable, neume in pairs:
-        syllable = syllable.strip()
-        # Skip clefs (c4, f3, …), barlines (::, :, ,, .), annotation markers
-        if not syllable or re.fullmatch(r'[,.:;`*]+', neume) or re.fullmatch(r'[cf]\d', neume):
+    tokens = []   # list of (word_start: bool, syllable, neume)
+    for m in re.finditer(r'((?:[^()<>]|<[^>]*>)*)\(([^)]*)\)', body):
+        syllable = m.group(1)
+        neume    = m.group(2)
+        syl_stripped = syllable.strip()
+        # Skip clefs (c4, f3, …), barlines (:: : , . ;), annotation markers
+        if not syl_stripped or re.fullmatch(r'[,.:;`*]+', neume) or re.fullmatch(r'[cf]\d', neume):
             continue
-        out.append(f'{syllable}({neume})')
-        if len(out) >= n:
+        # A word boundary exists when there is whitespace before this match in
+        # the original body (i.e. preceding text of the match contains space).
+        word_start = bool(re.search(r'\s', syllable)) or not tokens
+        tokens.append((word_start, syl_stripped, neume))
+        if len(tokens) >= n:
             break
-    return ' '.join(out)
+
+    parts = []
+    for word_start, syllable, neume in tokens:
+        token = f'{syllable}({neume})'
+        if word_start and parts:
+            parts.append(' ' + token)
+        else:
+            parts.append(token)
+    return ''.join(parts)
 
 
 def extract_gabc_body(row) -> str:
@@ -723,6 +736,7 @@ def db_candidates(engine, chant_type: str, incipit_dir: str, filename: str) -> l
     search = incipit_dir_to_text(incipit_dir)
     words  = search.split()
     prefix = ' '.join(words[:min(3, len(words))])
+    first  = words[0] if words else ''
 
     query = text("""
         SELECT id, incipit, headers, gabc, `office-part`, mode, version, transcriber
@@ -732,14 +746,14 @@ def db_candidates(engine, chant_type: str, incipit_dir: str, filename: str) -> l
         LIMIT 30
     """)
 
+    seen_ids: set = set()
+    rows: list = []
     with engine.connect() as conn:
-        rows = list(conn.execute(query, {'pat': f'{prefix}%'}).mappings())
-
-    if not rows:
-        # Broaden: first word only
-        first = words[0] if words else ''
-        with engine.connect() as conn:
-            rows = list(conn.execute(query, {'pat': f'{first}%'}).mappings())
+        for pat in dict.fromkeys([f'{prefix}%', f'{first}%']):  # dedup patterns
+            for r in conn.execute(query, {'pat': pat}).mappings():
+                if r['id'] not in seen_ids:
+                    seen_ids.add(r['id'])
+                    rows.append(r)
 
     expected_parts = CHANT_TYPE_OFFICE_PARTS.get(chant_type)
 
