@@ -1,0 +1,640 @@
+[
+  {
+    "anchor": "1sunday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 1,
+    "wkday": 1,
+    "title": "1st Sunday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 25 (24): 1-3",
+        "latin": "Ad te levavi animam meam, Deus meus, in te confido, non erubescam. Neque irrideant me inimici mei, etenim universi qui te exspectant non confundentur.",
+        "english": "To you, I lift up my soul, O my God. In you, I have trusted; let me not be put to shame. Nor let my enemies exult over me; and let none who hope in you be put to shame."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 85 (84): 13",
+        "latin": "Dominus dabit benignitatem, et terra nostra dabit fructum suum.",
+        "english": "The Lord will bestow his bounty, and our earth shall yield its increase."
+      }
+    ]
+  },
+  {
+    "anchor": "1monday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 1,
+    "wkday": 2,
+    "title": "1st Monday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Jer 31: 10; Is 35: 4",
+        "latin": "Audite verbum Domini, gentes, et annuntiate illud in finibus terrae: Ecce Salvator noster adveniet, et iam nolite timere.",
+        "english": "Hear the word of the Lord, O nations; declare it to the distant lands: Behold, our Savior will come; you need no longer fear."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 106 (105): 4-5; Is 38: 3",
+        "latin": "Veni, Domine, visitare nos in pace, ut laetemur coram te corde perfecto.",
+        "english": "Come, O Lord, visit us in peace, that we may rejoice before you with a blameless heart."
+      }
+    ]
+  },
+  {
+    "anchor": "1tuesday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 1,
+    "wkday": 3,
+    "title": "1st Tuesday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Zec 14: 5, 7",
+        "latin": "Ecce Dominus veniet, et omnes sancti eius cum eo; et erit in die illa lux magna.",
+        "english": "Behold, the Lord will come, and all his holy ones with him; and on that day there will be a great light."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. 2 Tm 4: 8",
+        "latin": "Coronam iustitiae reddet iustus iudex iis qui diligunt adventum eius.",
+        "english": "The Just Judge will bestow a crown of righteousness on those who eagerly await his coming."
+      }
+    ]
+  },
+  {
+    "anchor": "1wednesday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 1,
+    "wkday": 4,
+    "title": "1st Wednesday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Hb 2: 3; 1 Cor 4: 5",
+        "latin": "Veniet Dominus et non tardabit, et illuminabit abscondita tenebrarum, et manifestabit se ad omnes gentes.",
+        "english": "The Lord will come and he will not delay. He will illumine what is hidden in darkness and reveal himself to all the nations."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Is 40: 10; 35: 5",
+        "latin": "Ecce Dominus noster cum virtute veniet, ut illuminet oculos servorum suorum.",
+        "english": "Behold, our Lord will come with power and will enlighten the eyes of his servants."
+      }
+    ]
+  },
+  {
+    "anchor": "1thursday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 1,
+    "wkday": 5,
+    "title": "1st Thursday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 119 (118): 151-152",
+        "latin": "Prope es tu, Domine, et omnes viae tuae veritas; initio cognovi de testimoniis tuis, quia in aeternum tu es.",
+        "english": "You, O Lord, are close, and all your ways are truth. From of old I have known of your decrees, for you are eternal."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ti 2: 12-13",
+        "latin": "Iuste et pie vivamus in hoc saeculo, exspectantes beatam spem et adventum gloriae magni Dei.",
+        "english": "Let us live justly and devoutly in this age, as we await the blessed hope and the coming of the glory of our great God."
+      }
+    ]
+  },
+  {
+    "anchor": "1friday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 1,
+    "wkday": 6,
+    "title": "1st Friday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Ecce Dominus veniet cum splendore descendens visitare populum suum in pace, et constituere super eum vitam sempiternam.",
+        "english": "Behold, the Lord will come descending with splendor to visit his people with peace, and he will bestow on them eternal life."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Phil 3: 20-21",
+        "latin": "Salvatorem exspectamus Dominum Iesum Christum, qui reformabit corpus humilitatis nostrae, configuratum corpori claritatis suae.",
+        "english": "We await a savior, the Lord Jesus Christ, who will change our mortal bodies, to conform with his glorified body."
+      }
+    ]
+  },
+  {
+    "anchor": "1saturday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 1,
+    "wkday": 7,
+    "title": "1st Saturday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 80 (79): 4, 2",
+        "latin": "Veni, et ostende nobis faciem tuam, Domine, qui sedes super Cherubim, et salvi erimus.",
+        "english": "Come and show us your face, O Lord, who are seated upon the Cherubim, and we will be saved."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Rev 22: 12",
+        "latin": "Ecce venio cito et merces mea mecum est, dicit Dominus, dare unicuique secundum opera sua.",
+        "english": "Behold, I am coming soon and my recompense is with me, says the Lord, to bestow a reward according to the deeds of each."
+      }
+    ]
+  },
+  {
+    "anchor": "2sunday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 2,
+    "wkday": 1,
+    "title": "2nd Sunday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 30: 19, 30",
+        "latin": "Populus Sion, ecce Dominus veniet ad salvandas gentes; et auditam faciet Dominus gloriam vocis suae in laetitia cordis vestri.",
+        "english": "O people of Sion, behold, the Lord will come to save the nations, and the Lord will make the glory of his voice heard in the joy of your heart."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Bar 5: 5; 4: 36",
+        "latin": "Placare, Domine, quaesumus, nostrae precibus humilitatis et hostiis, et, ubi nulla suppetunt suffragia meritorum, tuae nobis indulgentiae succurre praesidiis.",
+        "english": "Jerusalem, arise and stand upon the heights, and behold the joy which comes to you from God."
+      }
+    ]
+  },
+  {
+    "anchor": "2monday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 2,
+    "wkday": 2,
+    "title": "2nd Monday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Jer 31: 10; Is 35: 4",
+        "latin": "Audite verbum Domini, gentes, et annuntiate illud in finibus terrae: Ecce Salvator noster adveniet, et iam nolite timere.",
+        "english": "Hear the word of the Lord, O nations; declare it to the distant lands: Behold, our Savior will come; you need no longer fear."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 106 (105): 4-5; Is 38: 3",
+        "latin": "Veni, Domine, visitare nos in pace, ut laetemur coram te corde perfecto.",
+        "english": "Come, O Lord, visit us in peace, that we may rejoice before you with a blameless heart."
+      }
+    ]
+  },
+  {
+    "anchor": "2tuesday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 2,
+    "wkday": 3,
+    "title": "2nd Tuesday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Zec 14: 5, 7",
+        "latin": "Ecce Dominus veniet, et omnes sancti eius cum eo; et erit in die illa lux magna.",
+        "english": "Behold, the Lord will come, and all his holy ones with him; and on that day there will be a great light."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. 2 Tm 4: 8",
+        "latin": "Coronam iustitiae reddet iustus iudex iis qui diligunt adventum eius.",
+        "english": "The Just Judge will bestow a crown of righteousness on those who eagerly await his coming."
+      }
+    ]
+  },
+  {
+    "anchor": "2wednesday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 2,
+    "wkday": 4,
+    "title": "2nd Wednesday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Hb 2: 3; 1 Cor 4: 5",
+        "latin": "Veniet Dominus et non tardabit, et illuminabit abscondita tenebrarum, et manifestabit se ad omnes gentes.",
+        "english": "The Lord will come and he will not delay. He will illumine what is hidden in darkness and reveal himself to all the nations."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Is 40: 10; 35: 5",
+        "latin": "Ecce Dominus noster cum virtute veniet, ut illuminet oculos servorum suorum.",
+        "english": "Behold, our Lord will come with power and will enlighten the eyes of his servants."
+      }
+    ]
+  },
+  {
+    "anchor": "2thursday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 2,
+    "wkday": 5,
+    "title": "2nd Thursday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 119 (118): 151-152",
+        "latin": "Prope es tu, Domine, et omnes viae tuae veritas; initio cognovi de testimoniis tuis, quia in aeternum tu es.",
+        "english": "You, O Lord, are close, and all your ways are truth. From of old I have known of your decrees, for you are eternal."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ti 2: 12-13",
+        "latin": "Iuste et pie vivamus in hoc saeculo, exspectantes beatam spem et adventum gloriae magni Dei.",
+        "english": "Let us live justly and devoutly in this age, as we await the blessed hope and the coming of the glory of our great God."
+      }
+    ]
+  },
+  {
+    "anchor": "2friday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 2,
+    "wkday": 6,
+    "title": "2nd Friday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Ecce Dominus veniet cum splendore descendens visitare populum suum in pace, et constituere super eum vitam sempiternam.",
+        "english": "Behold, the Lord will come descending with splendor to visit his people with peace, and he will bestow on them eternal life."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Phil 3: 20-21",
+        "latin": "Salvatorem exspectamus Dominum Iesum Christum, qui reformabit corpus humilitatis nostrae, configuratum corpori claritatis suae.",
+        "english": "We await a savior, the Lord Jesus Christ, who will change our mortal bodies, to conform with his glorified body."
+      }
+    ]
+  },
+  {
+    "anchor": "2saturday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 2,
+    "wkday": 7,
+    "title": "2nd Saturday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 80 (79): 4, 2",
+        "latin": "Veni, et ostende nobis faciem tuam, Domine, qui sedes super Cherubim, et salvi erimus.",
+        "english": "Come and show us your face, O Lord, who are seated upon the Cherubim, and we will be saved."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Rev 22: 12",
+        "latin": "Ecce venio cito et merces mea mecum est, dicit Dominus, dare unicuique secundum opera sua.",
+        "english": "Behold, I am coming soon and my recompense is with me, says the Lord, to bestow a reward according to the deeds of each."
+      }
+    ]
+  },
+  {
+    "anchor": "3sunday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 3,
+    "wkday": 1,
+    "title": "3rd Sunday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Phil 4: 4-5",
+        "latin": "Gaudete in Domino semper: iterum dico, gaudete. Dominus enim prope est.",
+        "english": "Rejoice in the Lord always; again I say, rejoice. Indeed, the Lord is near."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Is 35: 4",
+        "latin": "Dicite: Pusillanimes, confortamini et nolite timere: ecce Deus noster veniet et salvabit nos.",
+        "english": "Say to the faint of heart: Be strong and do not fear. Behold, our God will come, and he will save us."
+      }
+    ]
+  },
+  {
+    "anchor": "3monday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 3,
+    "wkday": 2,
+    "title": "3rd Monday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Jer 31: 10; Is 35: 4",
+        "latin": "Audite verbum Domini, gentes, et annuntiate illud in finibus terrae: Ecce Salvator noster adveniet, et iam nolite timere.",
+        "english": "Hear the word of the Lord, O nations; declare it to the distant lands: Behold, our Savior will come; you need no longer fear."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 106 (105): 4-5; Is 38: 3",
+        "latin": "Veni, Domine, visitare nos in pace, ut laetemur coram te corde perfecto.",
+        "english": "Come, O Lord, visit us in peace, that we may rejoice before you with a blameless heart."
+      }
+    ]
+  },
+  {
+    "anchor": "3tuesday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 3,
+    "wkday": 3,
+    "title": "3rd Tuesday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Zec 14: 5, 7",
+        "latin": "Ecce Dominus veniet, et omnes sancti eius cum eo; et erit in die illa lux magna.",
+        "english": "Behold, the Lord will come, and all his holy ones with him; and on that day there will be a great light."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. 2 Tm 4: 8",
+        "latin": "Coronam iustitiae reddet iustus iudex iis qui diligunt adventum eius.",
+        "english": "The Just Judge will bestow a crown of righteousness on those who eagerly await his coming."
+      }
+    ]
+  },
+  {
+    "anchor": "3wednesday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 3,
+    "wkday": 4,
+    "title": "3rd Wednesday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Hb 2: 3; 1 Cor 4: 5",
+        "latin": "Veniet Dominus et non tardabit, et illuminabit abscondita tenebrarum, et manifestabit se ad omnes gentes.",
+        "english": "The Lord will come and he will not delay. He will illumine what is hidden in darkness and reveal himself to all the nations."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Is 40: 10; 35: 5",
+        "latin": "Ecce Dominus noster cum virtute veniet, ut illuminet oculos servorum suorum.",
+        "english": "Behold, our Lord will come with power and will enlighten the eyes of his servants."
+      }
+    ]
+  },
+  {
+    "anchor": "3thursday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 3,
+    "wkday": 5,
+    "title": "3rd Thursday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 119 (118): 151-152",
+        "latin": "Prope es tu, Domine, et omnes viae tuae veritas; initio cognovi de testimoniis tuis, quia in aeternum tu es.",
+        "english": "You, O Lord, are close, and all your ways are truth. From of old I have known of your decrees, for you are eternal."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ti 2: 12-13",
+        "latin": "Iuste et pie vivamus in hoc saeculo, exspectantes beatam spem et adventum gloriae magni Dei.",
+        "english": "Let us live justly and devoutly in this age, as we await the blessed hope and the coming of the glory of our great God."
+      }
+    ]
+  },
+  {
+    "anchor": "3friday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 3,
+    "wkday": 6,
+    "title": "3rd Friday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Ecce Dominus veniet cum splendore descendens visitare populum suum in pace, et constituere super eum vitam sempiternam.",
+        "english": "Behold, the Lord will come descending with splendor to visit his people with peace, and he will bestow on them eternal life."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Phil 3: 20-21",
+        "latin": "Salvatorem exspectamus Dominum Iesum Christum, qui reformabit corpus humilitatis nostrae, configuratum corpori claritatis suae.",
+        "english": "We await a savior, the Lord Jesus Christ, who will change our mortal bodies, to conform with his glorified body."
+      }
+    ]
+  },
+  {
+    "anchor": "4sunday",
+    "season": "ADV",
+    "subseason": "I",
+    "wknum": 4,
+    "wkday": 1,
+    "title": "Fourth Sunday of Advent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 45: 8",
+        "latin": "Rorate, caeli, desuper, et nubes pluant iustum; aperiatur terra et germinet Salvatorem.",
+        "english": "Drop down dew from above, you heavens, and let the clouds rain down the Just One; let the earth be opened and bring forth a Savior."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Is 7: 14",
+        "latin": "Ecce Virgo concipiet, et pariet filium; et vocabitur nomen eius Emmanuel.",
+        "english": "Behold, a Virgin shall conceive and bear a son; and his name will be called Emmanuel."
+      }
+    ]
+  },
+  {
+    "anchor": "17",
+    "season": "ADV",
+    "subseason": "II",
+    "wknum": 0,
+    "wkday": 1,
+    "title": "December 17",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 49: 13",
+        "latin": "Laetentur caeli et exsultet terra, quia Dominus noster veniet, et pauperum suorum miserebitur.",
+        "english": "Rejoice, O heavens, and exult, O earth, for our Lord will come to show mercy to his poor."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Hg 2: 7",
+        "latin": "Ecce veniet desideratus cunctis gentibus, et replebitur gloria domus Domini.",
+        "english": "Behold, the Desired of all the nations will come, and the house of the Lord will be filled with glory."
+      }
+    ]
+  },
+  {
+    "anchor": "18",
+    "season": "ADV",
+    "subseason": "II",
+    "wknum": 0,
+    "wkday": 2,
+    "title": "December 18",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Rex noster adveniet Christus, quem Ioannes praedicavit Agnum esse venturum.",
+        "english": "Christ our King is coming, he is the Lamb foretold by John."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 1: 23",
+        "latin": "Vocabunt nomen eius Emmanuel, quod est interpretatum Nobiscum-Deus.",
+        "english": "His name will be called Emmanuel, which means God-with-us."
+      }
+    ]
+  },
+  {
+    "anchor": "19",
+    "season": "ADV",
+    "subseason": "II",
+    "wknum": 0,
+    "wkday": 3,
+    "title": "December 19",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Heb 10: 37",
+        "latin": "Qui venturus est veniet et non tardabit, et iam non erit timor in finibus nostris, quoniam ipse est Salvator noster.",
+        "english": "He who is to come will come and will not delay, and now there will be no fear within our land, for he is our Savior."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1: 78-79",
+        "latin": "Visitabit nos Oriens ex alto, ad dirigendos pedes nostros in viam pacis.",
+        "english": "The Dawn from on high will visit us, guiding our feet in the way of peace."
+      }
+    ]
+  },
+  {
+    "anchor": "20",
+    "season": "ADV",
+    "subseason": "II",
+    "wknum": 0,
+    "wkday": 4,
+    "title": "December 20",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 11: 1; 40: 5; Lk 3: 6",
+        "latin": "Egredietur virga de radice Iesse, et replebitur omnis terra gloria Domini, et videbit omnis caro salutare Dei.",
+        "english": "A branch shall sprout from the root of Jesse, and the glory of the Lord will fill the whole earth, and all flesh will see the salvation of God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1: 31",
+        "latin": "Dixit Angelus ad Mariam: Ecce concipies et paries filium, et vocabis nomen eius Iesum.",
+        "english": "The Angel said to Mary: Behold, you will conceive and bear a son, and you shall name him Jesus."
+      }
+    ]
+  },
+  {
+    "anchor": "21",
+    "season": "ADV",
+    "subseason": "II",
+    "wknum": 0,
+    "wkday": 5,
+    "title": "December 21",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 7: 14; 8: 10",
+        "latin": "Modo veniet Dominator Dominus, et vocabitur nomen eius Emmanuel, quia Nobiscum-Deus.",
+        "english": "The Lord and Ruler will be coming soon, and his name will called be Emmanuel, because he will be called God-with-us."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1: 45",
+        "latin": "Beata quae credidisti, quoniam perficientur ea quae dicta sunt tibi a Domino.",
+        "english": "Blessed are you who have believed, that what was spoken to you by the Lord would be fulfilled."
+      }
+    ]
+  },
+  {
+    "anchor": "22",
+    "season": "ADV",
+    "subseason": "II",
+    "wknum": 0,
+    "wkday": 6,
+    "title": "December 22",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 24 (23): 7",
+        "latin": "Attollite, portae, capita vestra, et elevamini, portae aeternales, et introibit rex gloriae.",
+        "english": "O gates, lift high your heads; grow higher, ancient doors. Let him enter, the king of glory!"
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1: 46, 49",
+        "latin": "Magnificat anima mea Dominum, quia fecit mihi magna qui potens est.",
+        "english": "My soul proclaims the greatness of the Lord, for the Almighty has done great things for me."
+      }
+    ]
+  },
+  {
+    "anchor": "23",
+    "season": "ADV",
+    "subseason": "II",
+    "wknum": 0,
+    "wkday": 7,
+    "title": "December 23",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 9: 5; Ps 72 (71): 17",
+        "latin": "Nascetur nobis parvulus, et vocabitur Deus, Fortis; in ipso benedicentur omnes tribus terrae.",
+        "english": "A child shall be born for us, and he will be called God, the Almighty; every tribe of the earth shall be blest in him."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rev 3: 20",
+        "latin": "Ecce sto ad ostium et pulso: si quis audierit vocem meam, et aperuerit mihi ianuam, intrabo ad illum, et cenabo cum illo, et ipse mecum.",
+        "english": "Behold, I stand at the door and knock: if anyone hears my voice and opens the door to me, I will enter his house and dine with him, and he with me."
+      }
+    ]
+  },
+  {
+    "anchor": "24",
+    "season": "ADV",
+    "subseason": "II",
+    "wknum": 0,
+    "wkday": 8,
+    "title": "December 24",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Gal 4: 4",
+        "latin": "Ecce iam venit plenitudo temporis, in quo misit Deus Filium suum in terram.",
+        "english": "Behold, when the fullness of time had come, God sent his Son into the world."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1: 68",
+        "latin": "Benedictus Dominus Deus Israel, quia visitavit et fecit redemptionem plebis suae.",
+        "english": "Blessed be the Lord, the God of Israel! He has visited his people and redeemed them."
+      }
+    ]
+  }
+]

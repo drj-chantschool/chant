@@ -1,0 +1,1000 @@
+[
+  {
+    "anchor": "ashwednesday",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 0,
+    "wkday": 4,
+    "title": "Ash Wednesday",
+    "entrance_antiphon": [
+      {
+        "citation": "Wis 11: 24, 25, 27",
+        "latin": "Misereris omnium, Domine, et nihil odisti eorum quae fecisti, dissimulans peccata hominum propter paenitentiam et parcens illis, quia tu es Dominus Deus noster.",
+        "english": "You are merciful to all, O Lord, and despise nothing that you have made. You overlook people's sins, to bring them to repentance, and you spare them, for you are the Lord our God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 1: 2-3",
+        "latin": "Qui meditabitur in lege Domini die ac nocte, dabit fructum suum in tempore suo.",
+        "english": "He who ponders the law of the Lord day and night will yield fruit in due season"
+      }
+    ]
+  },
+  {
+    "anchor": "ashthursday",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 0,
+    "wkday": 5,
+    "title": "Thursday after Ash Wednesday",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 55 (54): 17-20, 23",
+        "latin": "Dum clamarem ad Dominum, exaudivit vocem meam ab his, qui appropinquant mihi. Iacta cogitatum tuum in Domino, et ipse te enutriet.",
+        "english": "When I cried to the Lord, he heard my voice; he rescued me from those who attack me. Entrust your cares to the Lord, and he will support you."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 51 (50): 12",
+        "latin": "Cor mundum crea in me, Deus, et spiritum rectum innova in visceribus meis.",
+        "english": "Create a pure heart for me, O God; renew a steadfast spirit within me."
+      }
+    ]
+  },
+  {
+    "anchor": "ashfriday",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 0,
+    "wkday": 6,
+    "title": "Friday after Ash Wednesday",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 30 (29): 11",
+        "latin": "Audivit Dominus, et misertus est mihi, Dominus factus est adiutor meus.",
+        "english": "The Lord heard and had mercy on me; the Lord became my helper."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 25 (24): 4",
+        "latin": "Vias tuas, Domine, demonstra nobis, et semitas tuas edoce nos.",
+        "english": "O Lord, make me know your ways, teach me your paths."
+      }
+    ]
+  },
+  {
+    "anchor": "ashsaturday",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 0,
+    "wkday": 7,
+    "title": "Saturday after Ash Wednesday",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 69 (68): 17",
+        "latin": "Exaudi nos, Domine, quoniam benigna est misericordia tua; secundum multitudinem miserationum tuarum rescipe nos, Domine.",
+        "english": "Answer us, Lord, for your mercy is kind; in the abundance of your mercies, look upon us."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 9: 13",
+        "latin": "Misericordiam volo et non sacrificium, dicit Dominus; non enim veni vocare iustos, sed peccatores.",
+        "english": "I desire mercy, not sacrifice, says the Lord, for I did not come to call the just but sinners."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday1",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 1,
+    "wkday": 1,
+    "title": "1st Sunday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 91 (90): 15-16",
+        "latin": "Invocabit me, et ego exaudiam eum; eripiam eum, et glorificabo eum, longitudine dierum adimplebo eum.",
+        "english": "When he calls on me, I will answer him; I will deliver him and give him glory, I will grant him length of days. The Gloria in excelsis (Glory to God in the highest) is not said."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 4: 4",
+        "latin": "Non in solo pane vivit homo, sed in omni verbo quod procedit de ore Dei.",
+        "english": "One does not live by bread alone, but by every word that comes forth from the mouth of God. Or: Scapulis suis obumbrabit tibi Dominus, et sub pennis eius sperabis. The Lord will conceal you with his pinions, and under his wings you will trust."
+      }
+    ]
+  },
+  {
+    "anchor": "monday1",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 1,
+    "wkday": 2,
+    "title": "1st Monday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 123 (122): 2-3",
+        "latin": "Sicut oculi servorum in manibus dominorum suorum, ita oculi nostri ad Dominum Deum nostrum, donec misereatur nobis. Miserere nobis, Domine, miserere nobis.",
+        "english": "Like the eyes of slaves on the hand of their lords, so our eyes are on the Lord our God, till he show us his mercy. Have mercy on us, Lord, have mercy."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 25: 40, 34",
+        "latin": "Amen dico vobis, quod uni ex minimis meis fecistis, mihi fecistis, dicit Dominus: Venite, benedicti Patris mei, possidete paratum vobis regnum ab initio saeculi.",
+        "english": "Amen, I say to you: Whatever you did for one of the least of my brethren, you did it for me, says the Lord. Come, you blessed of my Father, receive the kingdom prepared for you from the foundation of the world."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday1",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 1,
+    "wkday": 3,
+    "title": "1st Tuesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 90 (89): 1-2",
+        "latin": "Domine, refugium factus es nobis a generatione et progenie; a saeculo, et in saeculum tu es.",
+        "english": "O Lord, you have been our refuge, from generation to generation; from age to age, you are."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 4: 2",
+        "latin": "Cum invocarem te, exaudisti me, Deus iustitiae meae, in tribulatione dilatasti me; miserere mihi, Domine, et exaudi orationem meam.",
+        "english": "When I called, the God of justice gave me answer; from anguish you released me; have mercy, O Lord, and hear my prayer!"
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday1",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 1,
+    "wkday": 4,
+    "title": "1st Wednesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 25 (24): 6, 2, 22",
+        "latin": "Reminiscere miserationum tuarum, Domine, et misericordiae tuae, quae a saeculo sunt. Ne umquam dominentur nobis inimici nostri; libera nos, Deus Israel, ex omnibus angustiis nostris.",
+        "english": "Remember your compassion, O Lord, and your merciful love, for they are from of old. Let not our enemies exult over us. Redeem us, O God of Israel, from all our distress."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 5: 12",
+        "latin": "Laetentur omnes qui sperant in te, Domine, in aeternum exsultabunt et habitabis in eis.",
+        "english": "All who take refuge in you shall be glad, O Lord, and ever cry out their joy, and you shall dwell among them."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday1",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 1,
+    "wkday": 5,
+    "title": "1st Thursday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 5: 2-3",
+        "latin": "Verba mea auribus percipe, Domine, intellege clamorem meum. Intende voci orationis meae, Rex meus et Deus meus.",
+        "english": "To my words give ear, O Lord; give heed to my sighs. Attend to the sound of my cry, my King and my God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 7: 8",
+        "latin": "Omnis qui petit accipit, et qui quaerit invenit, et pulsanti aperietur.",
+        "english": "Everyone who asks, receives; and the one who seeks, finds; and to the one who knocks, the door will be opened."
+      }
+    ]
+  },
+  {
+    "anchor": "friday1",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 1,
+    "wkday": 6,
+    "title": "1st Friday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 25 (24): 17-18",
+        "latin": "De necessitatibus meis eripe me, Domine. Vide humilitatem meam et laborem meum, et dimitte omnia peccata mea.",
+        "english": "Set me free from my distress, O Lord. See my lowliness and suffering, and take away all my sins."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ez 33: 11",
+        "latin": "Vivo ego, dicit Dominus; nolo mortem peccatoris, sed magis ut convertatur et vivat.",
+        "english": "As I live, says the Lord, I do not desire the death of the sinner, but rather that he turn back and live."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday1",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 1,
+    "wkday": 7,
+    "title": "1st Saturday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 19 (18): 8",
+        "latin": "Lex Domini irreprehensibilis, convertens animas; testimonium Domini fidele, sapientam praestans parvulis.",
+        "english": "The law of the Lord is perfect; it revives the soul. The decrees of the Lord are steadfast; they give wisdom to the simple."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 5: 48",
+        "latin": "Estote perfecti, sicut et Pater vester caelestis perfectus est, dicit Dominus.",
+        "english": "Be perfect, as your heavenly Father is perfect, says the Lord."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday2",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 2,
+    "wkday": 1,
+    "title": "2nd Sunday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 27 (26): 8-9",
+        "latin": "Tibi dixit cor meum quaesivi vultum tuum, vultum tuum, Domine, requiram. Ne avertas faciem tuam a me.",
+        "english": "Of you my heart has spoken, Seek his face. It is your face, O Lord, that I seek; hide not your face from me."
+      },
+      {
+        "citation": "Cf. Ps 25 (24): 6, 2, 22",
+        "latin": "Reminiscere miserationum tuarum, Domine, et misericordiae tuae, quae a saeculo sunt. Ne umquam dominentur nobis inimici nostri; libera nos, Deus Israel, ex omnibus angustiis nostris.",
+        "english": "Remember your compassion, O Lord, and your merciful love, for they are from of old. Let not our enemies exult over us. Redeem us, O God of Israel, from all our distress."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 17: 5",
+        "latin": "Hic est Filius meus dilectus, in quo mihi bene complacui; ipsum audite.",
+        "english": "This is my beloved Son, with whom I am well pleased; listen to him."
+      }
+    ]
+  },
+  {
+    "anchor": "monday2",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 2,
+    "wkday": 2,
+    "title": "2nd Monday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 26 (25): 11-12",
+        "latin": "Redime me, Domine, et miserere mei. Pes enim meus stetit in via recta, in ecclesiis benedicam Dominum.",
+        "english": "Redeem me, O Lord, and have mercy on me. My foot stands on level ground; I will bless the Lord in the assembly."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 6: 36",
+        "latin": "Estote misericordes, sicut et Pater vester misericors est, dicit Dominus.",
+        "english": "Be merciful, as your Father is merciful, says the Lord."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday2",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 2,
+    "wkday": 3,
+    "title": "2nd Tuesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 13 (12): 4-5",
+        "latin": "Illumina oculos meos, ne umquam obdormiam in morte, nequando dicat inimicus meus: Praevalui adversus eum.",
+        "english": "Give light to my eyes lest I fall asleep in death, lest my enemy say: I have overcome him."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 9: 2-3",
+        "latin": "Narrabo omnia mirabilia tua. Laetabor et exsultabo in te, psallam nomini tuo, Altissime.",
+        "english": "I will recount all your wonders. I will rejoice in you and be glad, and sing psalms to your name, O Most High."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday2",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 2,
+    "wkday": 4,
+    "title": "2nd Wednesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 38 (37): 22-23",
+        "latin": "Ne derelinquas me, Domine Deus meus, ne discedas a me; intende in adiutorium meum, Domine, virtus salutis meae.",
+        "english": "Forsake me not, O Lord! My God, be not far from me! Make haste and come to my help, O Lord, my strong salvation!"
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 20: 28",
+        "latin": "Filius hominis non venit ministrari, sed ministrare, et dare animam suam redemptionem pro multis.",
+        "english": "The Son of Man did not come to be served but to serve, and to give his life as a ransom for many."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday2",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 2,
+    "wkday": 5,
+    "title": "2nd Thursday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 139 (138): 23-24",
+        "latin": "Proba me, Deus, et cognosce semitas meas; vide si via iniquitatis in me est, et deduc me in via aeterna.",
+        "english": "Test me, O God, and know my thoughts. See that my path is not wicked, and lead me in the way everlasting."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 119 (118): 1",
+        "latin": "Beati immaculati in via, qui ambulant in lege Domini.",
+        "english": "Blessed are those whose way is blameless, who walk in the law of the Lord."
+      }
+    ]
+  },
+  {
+    "anchor": "friday2",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 2,
+    "wkday": 6,
+    "title": "2nd Friday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 31 (30): 2, 5",
+        "latin": "In te, Domine, speravi, non confundar in aeternum; educes me de laqueo quem absconderunt mihi, quoniam tu es protector meus.",
+        "english": "In you, O Lord, I put my trust, let me never be put to shame; release me from the snare they have hidden for me, for you indeed are my refuge."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Jn 4: 10",
+        "latin": "Dilexit nos Deus, et misit Filium suum propitiationem pro peccatis nostris.",
+        "english": "God loved us, and sent his Son as expiation for our sins."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday2",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 2,
+    "wkday": 7,
+    "title": "2nd Saturday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 145 (144): 8-9",
+        "latin": "Miserator et misericors Dominus, patiens et multum misericors. Suavis Dominus universis, et miserationes eius super omnia opera eius.",
+        "english": "The Lord is kind and full of compassion, slow to anger, abounding in mercy. How good is the Lord to all, compassionate to all his creatures."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 15: 32",
+        "latin": "Oportet te, fili, gaudere, quia frater tuus mortuus fuerat, et revixit; perierat, et inventus est.",
+        "english": "You must rejoice, my son, for your brother was dead and has come to life; he was lost and is found."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday3",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 3,
+    "wkday": 1,
+    "title": "3rd Sunday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 25 (24): 15-16",
+        "latin": "Oculi mei semper ad Dominum, quia ipse evellet de laqueo pedes meos. Respice in me et miserere mei, quoniam unicus et pauper sum ego.",
+        "english": "My eyes are always on the Lord, for he rescues my feet from the snare. Turn to me and have mercy on me, for I am alone and poor."
+      },
+      {
+        "citation": "Cf. Ez 36: 23-26",
+        "latin": "Cum sanctificatus fuero in vobis, congregabo vos de universis terris; et effundam super vos aquam mundam, et mundabimini ab omnibus inquinamentis vestris, et dabo vobis spiritum novum, dicit Dominus.",
+        "english": "When I prove my holiness among you, I will gather you from all the foreign lands; and I will pour clean water upon you and cleanse you from all your impurities, and I will give you a new spirit, says the Lord. Gloria in excelsis (Glory to God in the highest)"
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 4: 13-14",
+        "latin": "Qui biberit aquam, quam ego dabo ei, dicit Dominus, fiet in eo fons aquae salientis in vitam aeternam.",
+        "english": "For anyone who drinks it, says the Lord, the water I shall give will become in him a spring welling up to eternal life. Passer invenit sibi domum, et turtur nidum, ubi reponat pullos suos: altaria tua, Domine virtutum, Rex meus, et Deus meus! Beati qui habitant in domo tua, in saeculum saeculi laudabunt te. The sparrow finds a home, and the swallow a nest for her young: by your altars, O Lord of hosts, my King and my God. Blessed are they who dwell in your house, for ever singing your praise."
+      }
+    ]
+  },
+  {
+    "anchor": "monday3",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 3,
+    "wkday": 2,
+    "title": "3rd Monday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 84 (83): 3",
+        "latin": "Concupiscit et deficit anima mea in atria Domini. Cor meum et caro mea exsultaverunt in Deum vivum.",
+        "english": "My soul is longing and yearning for the courts of the Lord. My heart and my flesh cry out to the living God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 117 (116): 1, 2",
+        "latin": "Laudate Dominum, omnes gentes, quoniam confirmata est super nos misericordia eius.",
+        "english": "O praise the Lord, all you nations, for his merciful love towards us is great."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday3",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 3,
+    "wkday": 3,
+    "title": "3rd Tuesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 17 (16): 6, 8",
+        "latin": "Ego clamavi, quoniam exaudisti me, Deus; inclina aurem tuam, et exaudi verba mea. Custodi me, Domine, ut pupillam oculi; sub umbra alarum tuarum protege me.",
+        "english": "To you I call, for you will surely heed me, O God; turn your ear to me; hear my words. Guard me as the apple of your eye; in the shadow of your wings protect me."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 15 (14): 1-2",
+        "latin": "Domine, quis habitabit in tabernaculo tuo? aut quis requiescet in monte sancto tuo? Qui ingreditur sine macula, et operatur iustitiam.",
+        "english": "Lord, who may abide in your tent, and dwell on your holy mountain? Whoever walks without fault and does what is just."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday3",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 3,
+    "wkday": 4,
+    "title": "3rd Wednesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 119 (118): 133",
+        "latin": "Gressus meos dirige secundum eloquium tuum, et non dominetur mei omnis iniustitia.",
+        "english": "Let my steps be guided by your promise; may evil never rule me."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 16 (15): 11",
+        "latin": "Notas mihi fecisti vias vitae, adimplebis me laetitia cum vultu tuo, Domine.",
+        "english": "You will show me the path of life, the fullness of joy in your presence, O Lord."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday3",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 3,
+    "wkday": 5,
+    "title": "3rd Thursday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Salus populi ego sum, dicit Dominus. De quacumque tribulatione clamaverint ad me, exaudiam eos, et ero illorum Dominus in perpetuum.",
+        "english": "I am the salvation of the people, says the Lord. Should they cry to me in any distress, I will hear them, and I will be their Lord for ever."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 119 (118): 4-5",
+        "latin": "Tu mandasti mandata tua custodiri nimis: utinam dirigantur viae meae ad custodiendas iustificationes tuas.",
+        "english": "You have laid down your precepts to be carefully kept; may my ways be firm in keeping your statutes."
+      }
+    ]
+  },
+  {
+    "anchor": "friday3",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 3,
+    "wkday": 6,
+    "title": "3rd Friday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 86 (85): 8, 10",
+        "latin": "Non est similis tui in diis, Domine, quoniam magnus es tu et faciens mirabilia; tu es Deus solus.",
+        "english": "Among the gods there is none like you, O Lord, for you are great and do marvelous deeds; you alone are God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Mk 12: 33",
+        "latin": "Diligere Deum ex toto corde, et proximum tamquam seipsum, maius est omnibus sacrificiis.",
+        "english": "To love God with all your heart, and your neighbor as yourself, is worth more than any sacrifice."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday3",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 3,
+    "wkday": 7,
+    "title": "3rd Saturday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 103 (102): 2-3",
+        "latin": "Benedic, anima mea, Domino, et noli oblivisci omnes retributiones eius, qui propitiatur omnibus iniquitatibus tuis.",
+        "english": "Bless the Lord, O my soul, and never forget all his benefits; it is he who forgives all your sins."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 18: 13",
+        "latin": "Publicanus, stans a longe, percutiebat pectus suum dicens: Deus, propitius esto mihi peccatori.",
+        "english": "The tax collector stood at a distance, beating his breast and saying: O God, be merciful to me, a sinner."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday4",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 4,
+    "wkday": 1,
+    "title": "4th Sunday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 66: 10-11",
+        "latin": "Laetare, Ierusalem, et conventum facite, omnes qui diligitis eam; gaudete cum laetitia, qui in tristitia fuistis, ut exsultetis, et satiemini ab uberibus consolationis vestrae.",
+        "english": "Rejoice, Jerusalem, and all who love her. Be joyful, all who were in mourning; exult and be satisfied at her consoling breast."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 9: 11, 38",
+        "latin": "Dominus linivit oculos meos: et abii, et lavi, et vidi, et credidi Deo.",
+        "english": "The Lord anointed my eyes: I went, I washed, I saw and I believed in God. When the Gospel of the Prodigal Son is read: Oportet te, fili, gaudere, quia frater tuus mortuus fuerat, et revixit; perierat, et inventus est. You must rejoice, my son, for your brother was dead and has come to life; he was lost and is found. When another Gospel is read: Cf. Ps 122 (121): 3-4 Ierusalem, quae aedificatur ut civitas, cuius participatio eius in idipsum. Illuc enim ascenderunt tribus, tribus Domini, ad confitendum nomini tuo, Domine. Jerusalem is built as a city bonded as one together. It is there that the tribes go up, the tribes of the Lord, to praise the name of the Lord."
+      }
+    ]
+  },
+  {
+    "anchor": "monday4",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 4,
+    "wkday": 2,
+    "title": "4th Monday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 31 (30): 7-8",
+        "latin": "Ego autem in Domino sperabo. Exsultabo, et laetabor in tua misericordia, quia respexisti humilitatem meam.",
+        "english": "As for me, I trust in the Lord. Let me be glad and rejoice in your mercy, for you have seen my affliction."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ez 36: 27",
+        "latin": "Spiritum meum ponam in medio vestri, et faciam ut in praeceptis meis ambuletis, et iudicia mea custodiatis, et operemini, dicit Dominus.",
+        "english": "I will place my spirit within you and make you walk according to my laws; and my judgments you shall keep and observe, says the Lord."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday4",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 4,
+    "wkday": 3,
+    "title": "4th Tuesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 55: 1",
+        "latin": "Sitientes, venite ad aquas, dicit Dominus; et qui non habetis pretium, venite, et bibite cum laetitia.",
+        "english": "All who are thirsty, come to the waters, says the Lord. Though you have no money, come and drink with joy."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 23 (22): 1-2",
+        "latin": "Dominus regit me, et nihil mihi deerit; in loco pascuae ibi me collocavit, super aquam refectionis educavit me.",
+        "english": "The Lord is my shepherd; there is nothing I shall want. Fresh and green are the pastures where he gives me repose, near restful waters he leads me."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday4",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 4,
+    "wkday": 4,
+    "title": "4th Wednesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 69 (68): 14",
+        "latin": "Ego vero orationem meam ad te, Domine; tempus beneplaciti, Deus. In multitudine misericordiae tuae exaudi me in veritate salutis tuae.",
+        "english": "I pray to you, O Lord, for a time of your favor. In your great mercy, answer me, O God, with your salvation that never fails."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 3: 17",
+        "latin": "Non misit Deus Filium suum in mundum, ut iudicet mundum, sed ut salvetur mundus per ipsum.",
+        "english": "God did not send his Son into the world to judge the world, but that the world might be saved through him."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday4",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 4,
+    "wkday": 5,
+    "title": "4th Thursday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 105 (104): 3-4",
+        "latin": "Laetetur cor quaerentium Dominum. Quaerite Dominum et confirmamini, quaerite faciem eius semper.",
+        "english": "Let the hearts that seek the Lord rejoice; turn to the Lord and his strength; constantly seek his face."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jer 31: 33",
+        "latin": "Dabo legem meam in visceribus eorum, et in corde eorum scribam eam; et ero eis in Deum, et ipsi erunt mihi in populum, dicit Dominus.",
+        "english": "I will place my law within them, and I will write it upon their hearts; and I will be their God, and they shall be my people, says the Lord."
+      }
+    ]
+  },
+  {
+    "anchor": "friday4",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 4,
+    "wkday": 6,
+    "title": "4th Friday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 54 (53): 3-4",
+        "latin": "Deus, in nomine tuo salvum me fac, et in virtute tua libera me. Deus, exaudi orationem meam, auribus percipe verba oris mei.",
+        "english": "O God, save me by your name; by your power, defend my cause. O God, hear my prayer; give ear to the words of my mouth."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Eph 1: 7",
+        "latin": "In Christo habemus redemptionem per sanguinem eius, remissionem peccatorum, secundum divitias gratiae eius.",
+        "english": "In Christ, we have redemption by his Blood, and forgiveness of our sins, in accord with the riches of his grace."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday4",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 4,
+    "wkday": 7,
+    "title": "4th Saturday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 18 (17): 5, 7",
+        "latin": "Circumdederunt me gemitus mortis, dolores inferni circumdederunt me; et in tribulatione mea invocavi Dominum, et exaudivit de templo sancto suo vocem meam.",
+        "english": "The waves of death rose about me; the pains of the netherworld surrounded me. In my anguish I called to the Lord, and from his holy temple he heard my voice."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. 1 Pt 1: 18-19",
+        "latin": "Pretioso sanguine quasi Agni immaculati et incontaminati Christi redempti sumus.",
+        "english": "By the precious Blood of Christ, the Blood of a spotless and unblemished Lamb, we have been redeemed."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday5",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 5,
+    "wkday": 1,
+    "title": "5th Sunday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 43 (42): 1-2",
+        "latin": "Iudica me, Deus, et discerne causam meam de gente non sancta; ab homine iniquo et doloso eripe me, quia tu es Deus meus et fortitudo mea.",
+        "english": "Give me justice, O God, and plead my cause against a nation that is faithless. From the deceitful and cunning rescue me, for you, O God, are my strength."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Omnis qui vivit et credit in me, non morietur in aeternum, dicit Dominus",
+        "english": "Everyone who lives and believes in me will not die for ever, says the Lord. When the Gospel of the Adulterous Woman is read: Jn 8: 10-11 Nemo te condemnavit, mulier? Nemo, Domine. Nec ego te condemnabo: iam amplius noli peccare. Has no one condemned you, woman? No one, Lord. Neither shall I condemn you. From now on, sin no more. When another Gospel is read: Jn 12: 24 Amen, amen dico vobis: Nisi granum frumenti cadens in terram mortuum fuerit, ipsum solum manet; si autem mortuum fuerit, multum fructum affert. Amen, Amen I say to you: Unless a grain of wheat falls to the ground and dies, it remains a single grain. But if it dies, it bears much fruit."
+      }
+    ]
+  },
+  {
+    "anchor": "monday5",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 5,
+    "wkday": 2,
+    "title": "5th Monday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 56 (55): 2",
+        "latin": "Miserere mihi, Domine, quoniam conculcavit me homo, tota die bellans tribulavit me.",
+        "english": "Have mercy on me, O God, for people assail me; they fight me all day long and oppress me."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Nemo te condemnavit, mulier? Nemo, Domine. Nec ego te condemnabo: iam amplius noli peccare.",
+        "english": "Has no one condemned you, woman? No one, Lord. Neither shall I condemn you. From now on, sin no more. When another Gospel is read: Jn 8: 12 Ego sum lux mundi, dicit Dominus: qui sequitur me non ambulat in tenebris, sed habebit lumen vitae. I am the light of the world, says the Lord; whoever follows me will not walk in the darkness, but will have the light of life."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday5",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 5,
+    "wkday": 3,
+    "title": "5th Tuesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 27 (26): 14",
+        "latin": "Exspecta Dominum, viriliter age; et confortetur cor tuum, et sustine Dominum.",
+        "english": "Wait for the Lord; be strong; be stouthearted, and wait for the Lord!"
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Cum exaltatus fuero a terra, omnia traham ad meipsum, dicit Dominus.",
+        "english": "When I am lifted up from the earth, I will draw all to myself, says the Lord."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday5",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 5,
+    "wkday": 4,
+    "title": "5th Wednesday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 18 (17): 48-49",
+        "latin": "Liberator meus de gentibus iracundis. Ab insurgentibus in me exaltabis me, a viro iniquo eripies me, Domine.",
+        "english": "My deliverer from angry nations, you set me above my assailants; you saved me from the violent man, O Lord."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Col 1: 13-14",
+        "latin": "Transtulit nos Deus in regnum Filii dilectionis suae, in quo habemus redemptionem per sanguinem eius, remissionem peccatorum.",
+        "english": "God has brought us to the kingdom of his beloved Son, in whom we have redemption through his Blood, the forgiveness of sins."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday5",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 5,
+    "wkday": 5,
+    "title": "5th Thursday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Heb 9: 15",
+        "latin": "Novi Testamenti mediator est Christus, ut, morte intercedente, repromissionem accipiant, qui vocati sunt aeternae hereditatis.",
+        "english": "Christ is mediator of a New Covenant, so that by means of his death, those who are called may receive the promise of an eternal inheritance."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rom 8: 32",
+        "latin": "Proprio Filio suo non pepercit Deus, sed pro nobis omnibus tradidit illum: cum illo omnia nobis donavit.",
+        "english": "God did not spare his own Son, but handed him over for us all; with him, he has given us all things."
+      }
+    ]
+  },
+  {
+    "anchor": "friday5",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 5,
+    "wkday": 6,
+    "title": "5th Friday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 31 (30): 10, 16, 18",
+        "latin": "Miserere mihi, Domine, quoniam tribulor; libera me et eripe me de manibus inimicorum meorum, et a persequentibus me. Domine, non confundar, quoniam invocavi te.",
+        "english": "Have mercy on me, O Lord, for I am in distress. Deliver me from the hands of my enemies and those who pursue me. O Lord, let me never be put to shame, for I call on you."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Pt 2: 24",
+        "latin": "Iesus peccata nostra pertulit in corpore suo super lignum, ut, peccatis mortui, iustitiae vivamus; cuius livore sanati sumus.",
+        "english": "Jesus bore our sins in his own body on the cross, so that dead to sin, we might live for righteousness. By his wounds we have been healed."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday5",
+    "season": "TQ",
+    "subseason": "LENT",
+    "wknum": 5,
+    "wkday": 7,
+    "title": "5th Saturday of Lent",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 22 (21): 20, 7",
+        "latin": "Domine, ne longe facias auxilium tuum a me, ad defensionem meam aspice; quia ego sum vermis et non homo, opprobrium hominum et abiectio plebis.",
+        "english": "O Lord, do not stay afar off; my strength, make haste to help me! For I am a worm and no man, scorned by everyone, despised by the people."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 11: 52",
+        "latin": "Traditus est Christus, ut filios Dei, qui erant dispersi, congregaret in unum.",
+        "english": "Christ was handed over, to gather into one the scattered children of God."
+      }
+    ]
+  },
+  {
+    "anchor": "sunday6",
+    "season": "TQ",
+    "subseason": "HOLYWEEK",
+    "wknum": 0,
+    "wkday": 1,
+    "title": "Palm Sunday",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Jn 12: 1, 12-13; Ps 24 (23): 9-10",
+        "latin": "Ante sex dies sollemnis Paschae, quando venit Dominus in civitatem Ierusalem, occurrerunt ei pueri et in manibus portabant ramos palmarum, et clamabant voce magna dicentes: hosanna in excelsis, benedictus qui venisti in multitudine misericordiae tuae.",
+        "english": "Six days before the Passover, when the Lord came into the city of Jerusalem, the children ran to meet him; in their hands they carried palm branches and with a loud voice cried out: *Hosanna in the highest! Blessed are you, who have come in your abundant mercy! Attollite, portae, capita vestra, et elevamini, portae aeternales, et introibit rex gloriae. Quis est iste rex gloriae? Dominus virtutum ipse est rex gloriae. Hosanna in excelsis, benedictus qui venisti in multitudine misericordiae tuae. O gates, lift high your heads; grow higher, ancient doors. Let him enter, the king of glory! Who is this king of glory? He, the Lord of hosts, he is the king of glory. *Hosanna in the highest! Blessed are you, who have come in your abundant mercy!"
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 26: 42",
+        "latin": "Pater, si non potest hic calix transire, nisi bibam illum, fiat voluntas tua.",
+        "english": "Father, if this chalice cannot pass without my drinking it, your will be done."
+      }
+    ]
+  },
+  {
+    "anchor": "monday6",
+    "season": "TQ",
+    "subseason": "HOLYWEEK",
+    "wknum": 0,
+    "wkday": 2,
+    "title": "Monday of Holy Week",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 35 (34): 1-2; 140 (139): 8",
+        "latin": "Iudica, Domine, nocentes me, expugna impugnantes me, apprehende arma et scutum, et exsurge in adiutorium meum, Domine, virtis salutis meae.",
+        "english": "Contend, O Lord, with my contenders; fight those who fight me. Take up your buckler and shield; arise in my defense, Lord, my mighty help."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 102 (101): 3",
+        "latin": "Non avertas faciem tuam a me; in quacumque die tribulor, inclina ad me aurem tuam; in quacumque die invocavero te, velociter exaudi me.",
+        "english": "Do not hide your face from me in the day of my distress. Turn your ear towards me; on the day when I call, speedily answer me."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday6",
+    "season": "TQ",
+    "subseason": "HOLYWEEK",
+    "wknum": 0,
+    "wkday": 3,
+    "title": "Tuesday of Holy Week",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 27 (26): 12",
+        "latin": "Ne tradideris me, Domine, in animas presequentium me; quoniam insurrexerunt in me testes iniqui, et mentita est iniquitas sibi",
+        "english": ". Do not leave me to the will of my foes, O Lord, for false witnesses rise up against me and they breathe out violence."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rom 8: 32",
+        "latin": "Proprio Filio suo non pepercit Deus, sed pro nobis omnibus tradidit illum.",
+        "english": "God did not spare his own Son, but handed him over for us all."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday6",
+    "season": "TQ",
+    "subseason": "HOLYWEEK",
+    "wknum": 0,
+    "wkday": 4,
+    "title": "Wednesday of Holy Week",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Phil 2: 10, 8, 11",
+        "latin": "In nomine Iesu omne genu flectatur, caelestium, terrestrium, et infernorum: quia Dominus factus est oboediens usque ad mortem, mortem autem crucis: ideo Dominus Jesus Christus in gloria est Dei Patris.",
+        "english": "At the name of Jesus, every knee should bend of those in heaven and on the earth and under the earth, for the Lord became obedient to death, death on a cross: therefore Jesus Christ is Lord, to the glory of God the Father."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 20: 28",
+        "latin": "Filius hominus non venit ministrari sed ministrare, et dare animam suam redemptionem pro multis.",
+        "english": "The Son of Man did not come to be served but to serve and to give his life as a ransom for many."
+      }
+    ]
+  },
+  {
+    "anchor": "thursdayofthelordssupper",
+    "season": "TQ",
+    "subseason": "HOLYWEEK",
+    "wknum": 0,
+    "wkday": 5,
+    "title": "Mass of the Lord's Supper",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Gal 6: 14",
+        "latin": "Non autem gloriari oportet in cruce Domini nostri Iesu Christi, in quo est salus, vita et ressurectio nostra, per quem salvati et liberati sumus.",
+        "english": "We should glory in the Cross of our Lord Jesus Christ, in whom is our salvation, life and resurrection, through whom we are saved and delivered. 7. The Gloria in excelsis (Glory to God in the highest) is said. While the hymn is being sung, bells are rung, and when it is finished, they remain silent until the Gloria in excelsis of the Easter Vigil, unless, if appropriate, the Diocesan Bishop has decided otherwise. Likewise, during this same period, the organ and other musical instruments may be used only so as to support the singing. 8."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Cor 11: 24-25",
+        "latin": "Hoc Corpus, quod pro vobis tradetur: hic calix novi testamenti est in meo Sanguine, dicit Dominus; hoc facite, quotiescumque sumitis, in meam commemorationem.",
+        "english": "This is the Body that will be given up for you; this is the Chalice of the new covenant in my Blood, says the Lord; do this, whenever you receive it, in memory of me. 36."
+      }
+    ]
+  },
+  {
+    "anchor": "friday6",
+    "season": "TQ",
+    "subseason": "HOLYWEEK",
+    "wknum": 0,
+    "wkday": 6,
+    "title": "Good Friday",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "anchor": "saturday6",
+    "season": "TQ",
+    "subseason": "HOLYWEEK",
+    "wknum": 0,
+    "wkday": 7,
+    "title": "Holy Saturday",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  }
+]

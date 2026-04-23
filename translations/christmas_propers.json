@@ -1,0 +1,546 @@
+[
+  {
+    "anchor": "vigilmass",
+    "season": "NAT",
+    "subseason": "DAY",
+    "wknum": 0,
+    "wkday": 0,
+    "title": "Christmas: Vigil Mass",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ex 16: 6-7",
+        "latin": "Hodie scietis, quia veniet Dominus, et salvabit nos, et mane videbitis gloriam eius.",
+        "english": "Today you will know that the Lord will come, and he will save us, and in the morning you will see his glory."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Is 40: 5",
+        "latin": "Revelabitur gloria Domini, et videbit omnis caro salutare Dei nostri.",
+        "english": "The glory of the Lord will be revealed, and all flesh will see the salvation of our God."
+      }
+    ]
+  },
+  {
+    "anchor": "massatnight",
+    "season": "NAT",
+    "subseason": "DAY",
+    "wknum": 0,
+    "wkday": 1,
+    "title": "Christmas: Mass at Night",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 2: 7",
+        "latin": "Dominus dixit ad me: Filius meus es tu, ego hodie genui te.",
+        "english": "The Lord said to me: You are my Son. It is I who have begotten you this day. Or: Gaudeamus omnes in Domino, quia Salvator noster natus est in mundo. Hodie nobis de caelo pax vera descendit. Let us all rejoice in the Lord, for our Savior has been born in the world. Today true peace has come down to us from heaven."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 1: 14",
+        "latin": "Verbum caro factum est, et vidimus gloriam eius.",
+        "english": "The Word became flesh, and we have seen his glory."
+      }
+    ]
+  },
+  {
+    "anchor": "massatdawn",
+    "season": "NAT",
+    "subseason": "DAY",
+    "wknum": 0,
+    "wkday": 2,
+    "title": "Christmas: Mass at Dawn",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 9: 1, 5; Lk 1: 33",
+        "latin": "Lux fulgebit hodie super nos, quia natus est nobis Dominus; et vocabitur admirabilis, Deus, Princeps pacis, Pater futuri saeculi: cuius regni non erit finis.",
+        "english": "Today a light will shine upon us, for the Lord is born for us; and he will be called Wondrous God, Prince of peace, Father of future ages: and his reign will be without end."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Zec 9: 9",
+        "latin": "Exsulta, filia Sion, lauda, filia Ierusalem: ecce Rex tuus veniet sanctus et salvator mundi.",
+        "english": "Rejoice, O Daughter Sion; lift up praise, Daughter Jerusalem: Behold, your King will come, the Holy One and Savior of the world."
+      }
+    ]
+  },
+  {
+    "anchor": "massday",
+    "season": "NAT",
+    "subseason": "DAY",
+    "wknum": 0,
+    "wkday": 3,
+    "title": "Christmas: Mass during the Day",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Is 9: 5",
+        "latin": "Puer natus est nobis, et filius datus est nobis, cuius imperium super humerum eius, et vocabitur nomen eius magni consilii Angelus.",
+        "english": "A child is born for us, and a son is given to us; his scepter of power rests upon his shoulder, and his name will be called Messenger of great counsel."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 98 (97): 3",
+        "latin": "Viderunt omnes fines terrae salutare Dei nostri.",
+        "english": "All the ends of the earth have seen the salvation of our God."
+      }
+    ]
+  },
+  {
+    "anchor": "stephen",
+    "season": "NAT",
+    "subseason": "IO",
+    "wknum": 1,
+    "wkday": 2,
+    "title": "St. Stephen (Dec 26)",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Apertae sunt ianuae caeli beato Stephano, qui in numero Martyrum inventus est primus, et ideo triumphat in caelis coronatus..",
+        "english": "The gates of heaven were opened for blessed Stephen, who was found to be first among the number of the Martyrs and therefore is crowned triumphant in heaven."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Acts 7: 58",
+        "latin": "Lapidabant Stephanum, invocantem et dicentem; Domine Jesu, suscipe spiritum meum.",
+        "english": "As they were stoning Stephen, he called out, Lord Jesus, receive my spirit."
+      }
+    ]
+  },
+  {
+    "anchor": "john",
+    "season": "NAT",
+    "subseason": "IO",
+    "wknum": 1,
+    "wkday": 3,
+    "title": "St. John the Apostle (Dec 27)",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Iste est Ioannes qui supra pectus Domini in cena recubuit: beatus Apostolus, cui revelata sunt secreta celestia, et verba vitae in toto terrarum orbe diffudit.",
+        "english": "This is John, who reclined on the Lord's breast at supper, the blessed Apostle, to whom celestial secrets were revealed and who spread the words of life through all the world. Or: In medio ecclesiae aperuit os eius, et implevit eum Dominus spiritu sapientiae et intellectus, stolam gloriae induit eum. In the midst of the Church he opened his mouth, and the Lord filled him with the spirit of wisdom and understanding and clothed him in a robe of glory."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 1: 14, 16",
+        "latin": "Verbum caro factum est et habit�vit in nobis. Et de plenitúdine eius nos omnes accépimus.",
+        "english": "The Word became flesh and made his dwelling among us, and from his fullness we have all received."
+      }
+    ]
+  },
+  {
+    "anchor": "innocents",
+    "season": "NAT",
+    "subseason": "IO",
+    "wknum": 1,
+    "wkday": 4,
+    "title": "Holy Innocents (Dec 28)",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Innocentes pro Christo infantes occisi sunt, ipsum sequuntur Agnum sine macula, et dicunt semper: Gloria tibi, Domini.",
+        "english": "The innocents were slaughtered as infants for Christ; spotless, they follow the Lamb and sing for ever: Glory to you, O Lord."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rev 14: 4",
+        "latin": "Hi empti sunt ex hominibus, primitae Deo et Agno; hi sequuntur Agnum quocumque ierit.",
+        "english": "Behold those redeemed as the first fruits of the human race for God and the Lamb, and who follow the Lamb wherever he goes."
+      }
+    ]
+  },
+  {
+    "anchor": "holyfamily",
+    "season": "NAT",
+    "subseason": "IO",
+    "wknum": 1,
+    "wkday": 0,
+    "title": "Holy Family",
+    "entrance_antiphon": [
+      {
+        "citation": "Luke 2: 16",
+        "latin": "Venerunt pastores festinantes, et invenerunt Mariam et Ioseph et Infantem positum in praesepio.",
+        "english": "The shepherds went in haste, and found Mary and Joseph and the Infant lying in a manger."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Baruch 3: 38",
+        "latin": "Deus noster in terris visus est, et cum hominibus conversatus est.",
+        "english": "Our God has appeared on the earth, and lived among us."
+      }
+    ]
+  },
+  {
+    "anchor": "dec29",
+    "season": "NAT",
+    "subseason": "IO",
+    "wknum": 1,
+    "wkday": 5,
+    "title": "December 29",
+    "entrance_antiphon": [
+      {
+        "citation": "Jn 3: 16",
+        "latin": "Sic Deus dilexit mundum, ut Filium suum Unigenitum daret, ut omnis qui credit in eum non pereat, sed habeat vitam aeternam.",
+        "english": "God so loved the world that he gave his Only Begotten Son, so that all who believe in him may not perish, but may have eternal life."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1: 78",
+        "latin": "Per viscera misericordiae Dei nostri, visitavit nos Oriens ex alto.",
+        "english": "Through the tender mercy of our God, the Dawn from on high will visit us."
+      }
+    ]
+  },
+  {
+    "anchor": "dec30",
+    "season": "NAT",
+    "subseason": "IO",
+    "wknum": 1,
+    "wkday": 6,
+    "title": "December 30",
+    "entrance_antiphon": [
+      {
+        "citation": "Wis 18: 14-15",
+        "latin": "Dum medium silentium tenerent omnia, et nox in suo cursu medium iter haberet, omnipotens sermo tuus, Domine, de caelis a regalibus sedibus venit.",
+        "english": "When a profound silence covered all things and night was in the middle of its course, your all-powerful Word, O Lord, bounded from heaven's royal throne."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 1: 16",
+        "latin": "De plenitudine eius nos omnes accepimus, et gratiam pro gratia.",
+        "english": "From his fullness we have all received, grace upon grace."
+      }
+    ]
+  },
+  {
+    "anchor": "dec31",
+    "season": "NAT",
+    "subseason": "IO",
+    "wknum": 1,
+    "wkday": 7,
+    "title": "December 31",
+    "entrance_antiphon": [
+      {
+        "citation": "Is 9: 5",
+        "latin": "Puer natus est nobis, et filius datus est nobis, cuius imperium super humerum eius, et vocabitur nomen eius magni consilii Angelus.",
+        "english": "A child is born for us, and a son is given to us; his scepter of power rests upon his shoulder, and his name will be called Messenger of great counsel."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Jn 4: 9",
+        "latin": "Misit Deus Filium suum Unigenitum in mundum, ut vivamus per eum.",
+        "english": "God sent his Only Begotten Son into the world, so that we might have life through him."
+      }
+    ]
+  },
+  {
+    "anchor": "mary",
+    "season": "NAT",
+    "subseason": "OCT",
+    "wknum": 2,
+    "wkday": 1,
+    "title": "Solemnity of Mary (Jan 1)",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Salve, sancta Parens, enixa puerpera Regam, qui caelum terramque regit in saecula saeculorum.",
+        "english": "Hail, Holy Mother, who gave birth to the King, who rules heaven and earth for ever. Or: Lux fulgebit hodie super nos: quia natus est nobis Dominus: et vocabitur admirabilis, Deus, Princeps pacis, Pater futuri saeculi: cujus regni non erit finis. Today a light will shine upon us, for the Lord is born for us; and he will be called Wondrous God, Prince of peace, Father of future ages: and his reign will be without end."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Heb 13: 8",
+        "latin": "Iesus Christus heri et hodie; ipse et in saecula.",
+        "english": "Jesus Christ is the same yesterday, today, and for ever."
+      }
+    ]
+  },
+  {
+    "anchor": "2ndsunday",
+    "season": "NAT",
+    "subseason": "PO",
+    "wknum": 2,
+    "wkday": 1,
+    "title": "Second Sunday of Christmas",
+    "entrance_antiphon": [
+      {
+        "citation": "Wis 18: 14-15",
+        "latin": "Dum medium silentium tenerent omnia, et nox in suo cursu medium iter haberet, omnipotens sermo tuus, Domine, de caelis a regalibus sedibus venit.",
+        "english": "When a profound silence covered all things and night was in the middle of its course, your all-powerful Word, O Lord, bounded from heaven's royal throne."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 1: 12",
+        "latin": "Omnibus qui receperunt eum, dedit eis potestatem filios Dei fieri.",
+        "english": "To all who would accept him, he gave the power to become children of God."
+      }
+    ]
+  },
+  {
+    "anchor": "epiphanyvigil",
+    "season": "NAT",
+    "subseason": "EPI",
+    "wknum": 0,
+    "wkday": 0,
+    "title": "Epiphany: Vigil",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Bar 5: 5",
+        "latin": "Surge, Ierusalem, et circumspice ad orientem et vide congregatos filios tuos a solis ortu usque ad occasum.",
+        "english": "Arise, Jerusalem, and look to the East and see your children gathered from the rising to the setting of the sun."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Rev 21: 23",
+        "latin": "Claritas Dei illuminavit civitatem sanctam Ierusalem et ambulabant gentes in lumine eius.",
+        "english": "The brightness of God illumined the holy city Jerusalem, and the nations will walk by its light."
+      }
+    ]
+  },
+  {
+    "anchor": "epiphanyday",
+    "season": "NAT",
+    "subseason": "EPI",
+    "wknum": 0,
+    "wkday": 1,
+    "title": "Epiphany of the Lord",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Mal 3: 1; 1 Chr 29: 12",
+        "latin": "Ecce advenit Dominator Dominus; et regnum in manu eius et potestas et imperium.",
+        "english": "Behold, the Lord, the Mighty One, has come; and kingship is in his grasp, and power and dominion."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Vidimus stellam eius in Oriente, et venimus cum muneribus adorare Dominum.",
+        "english": "We have seen his star in the East, and have come with gifts to adore the Lord."
+      }
+    ]
+  },
+  {
+    "anchor": "monday",
+    "season": "NAT",
+    "subseason": "EPI",
+    "wknum": 0,
+    "wkday": 2,
+    "title": "Monday after Epiphany",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Dies sanctificatus illuxit nobis: venite, gentes, et adorate Dominum, quia descendit lux magna super terram.",
+        "english": "A holy day has dawned upon us: Come, you nations, and adore the Lord, for a great light has come down upon the earth."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 1: 14",
+        "latin": "Vidimus gloriam eius, gloriam quasi Unigeniti a Patre, plenum gratiae et veritatis.",
+        "english": "We have seen his glory, the glory of an only Son coming from the Father, filled with grace and truth."
+      }
+    ]
+  },
+  {
+    "anchor": "tuesday",
+    "season": "NAT",
+    "subseason": "EPI",
+    "wknum": 0,
+    "wkday": 3,
+    "title": "Tuesday after Epiphany",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 118 (117): 26-27",
+        "latin": "Benedictus qui venit in nomine Domini: Deus Dominus et illuxit nobis.",
+        "english": "Blessed is he who comes in the name of the Lord: The Lord is God and has given us light."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Eph 2: 4; Rom 8: 3",
+        "latin": "Propter nimiam caritatem suam, qua dilexit nos Deus, Filium suum misit in similitudinem carnis peccati.",
+        "english": "Because of that great love of his with which God loved us, he sent his Son in the likeness of sinful flesh."
+      }
+    ]
+  },
+  {
+    "anchor": "wednesday",
+    "season": "NAT",
+    "subseason": "EPI",
+    "wknum": 0,
+    "wkday": 4,
+    "title": "Wednesday after Epiphany",
+    "entrance_antiphon": [
+      {
+        "citation": "Is 9:1",
+        "latin": "Populus qui ambulabat in tenebris, vidit lucem magnam; habitantibus in regione umbrae mortis, lux orta est eis.",
+        "english": "A people who walked in darkness has seen a great light; for those dwelling in a land of deep gloom, a light has shone."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Jn 1: 2",
+        "latin": "Vita manifestata est, quae erat apud Patrem, et apparuit nobis.",
+        "english": "That life which was with the Father became visible, and has appeared to us."
+      }
+    ]
+  },
+  {
+    "anchor": "thursday",
+    "season": "NAT",
+    "subseason": "EPI",
+    "wknum": 0,
+    "wkday": 5,
+    "title": "Thursday after Epiphany",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Jn 1: 1",
+        "latin": "In principio et ante saecula Deus erat Verbum, et ipse nasci dignatus est Salvator mundi.",
+        "english": "In the beginning and before all ages, the Word was God and he humbled himself to be born the Savior of the world."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 3: 16",
+        "latin": "Sic Deus dilexit mundum, ut Filium suum Unigenitum daret, ut omnis, qui credit in eum, non pereat, sed habeat vitam aeternam.",
+        "english": "God so loved the world that he gave his Only Begotten Son, so that all who believe in him may not perish, but may have eternal life."
+      }
+    ]
+  },
+  {
+    "anchor": "friday",
+    "season": "NAT",
+    "subseason": "EPI",
+    "wknum": 0,
+    "wkday": 6,
+    "title": "Friday after Epiphany",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 112 (111): 4",
+        "latin": "Exortum est in tenebris lumen rectis corde: misericors et miserator et iustus Dominus.",
+        "english": "A light has risen in the darkness for the upright of heart; the Lord is generous, merciful and just."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Jn 4: 9",
+        "latin": "In hoc apparuit caritas Dei in nobis, quoniam Filium suum Unigenitum misit Deus in mundum, ut vivamus per eum.",
+        "english": "By this the love of God was revealed to us: God sent his Only Begotten Son into the world, so that we might have life through him."
+      }
+    ]
+  },
+  {
+    "anchor": "saturday",
+    "season": "NAT",
+    "subseason": "EPI",
+    "wknum": 0,
+    "wkday": 7,
+    "title": "Saturday after Epiphany",
+    "entrance_antiphon": [
+      {
+        "citation": "Gal 4: 4-5",
+        "latin": "Misit Deus Filium suum, factum ex muliere, ut adoptionem filiorum reciperemus.",
+        "english": "God sent his Son, born of a woman, so that we might receive adoption as children."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 1: 16",
+        "latin": "De plenitudine eius nos omnes accepimus, et gratiam pro gratia.",
+        "english": "From his fullness we have all received, grace upon grace."
+      }
+    ]
+  },
+  {
+    "anchor": "baptism",
+    "season": "NAT",
+    "subseason": "BAPT",
+    "wknum": 1,
+    "wkday": 1,
+    "title": "Baptism of the Lord",
+    "entrance_antiphon": [
+      {
+        "citation": "Mt 3: 16-17",
+        "latin": "Baptizato Domino, aperti sunt caeli, et sicut columba super eum Spiritus mansit, et vox Patris intonuit: Hic est Filius meus dilectus, in quo mihi bene complacui.",
+        "english": "After the Lord was baptized, the heavens were opened, and the Spirit descended upon him like a dove, and the voice of the Father thundered: This is my beloved Son, with whom I am well pleased."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 1:32,34",
+        "latin": "Ecce de quo dicebat Ioannes: Ego vidi et testimonium perhibui, quia hic est Filius Dei.",
+        "english": "Behold the One of whom John said: I have seen and testified that this is the Son of God."
+      }
+    ]
+  },
+  {
+    "anchor": "jan2before",
+    "season": "NAT",
+    "subseason": "PO",
+    "wknum": 2,
+    "wkday": 2,
+    "title": "Jan 2 (before Epiphany)",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "anchor": "jan3before",
+    "season": "NAT",
+    "subseason": "PO",
+    "wknum": 2,
+    "wkday": 3,
+    "title": "Jan 3 (before Epiphany)",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "anchor": "jan4before",
+    "season": "NAT",
+    "subseason": "PO",
+    "wknum": 2,
+    "wkday": 4,
+    "title": "Jan 4 (before Epiphany)",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "anchor": "jan5before",
+    "season": "NAT",
+    "subseason": "PO",
+    "wknum": 2,
+    "wkday": 5,
+    "title": "Jan 5 (before Epiphany)",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "anchor": "jan6before",
+    "season": "NAT",
+    "subseason": "PO",
+    "wknum": 2,
+    "wkday": 6,
+    "title": "Jan 6 (before Epiphany)",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "anchor": "jan7before",
+    "season": "NAT",
+    "subseason": "PO",
+    "wknum": 2,
+    "wkday": 7,
+    "title": "Jan 7 (before Epiphany)",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  }
+]
