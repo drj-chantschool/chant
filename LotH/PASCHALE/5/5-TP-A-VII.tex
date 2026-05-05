@@ -1,117 +1,38 @@
 % !TEX recipe = LuaLaTeX+se
 
-
-%\documentclass[handout]{loth}
-
-
-%\documentclass[lectionary,missingscore=warn]{loth} % Show todos
-\documentclass[lectionary,missingscore=silent]{loth}   % choir behavior anyway
+%%\documentclass[lectionary,missingscore=warn]{loth} % Show todos
+%\documentclass[lectionary,missingscore=silent]{loth}   % choir behavior anyway
 
 %\documentclass[choir]{loth}                   % choir behavior anyway
 
 %\documentclass[handout,intro=text]{loth}      % Force compact intro for page-fitting
-%\documentclass[handout,intro=graphic]{loth}   % Force graphic intro explicitly
+%%\documentclass[handout,intro=graphic]{loth}   % Force graphic intro explicitly
 
-%\documentclass[pamphlet,intro=text,textonly=true]{loth}     % pamphlet + compact intro
-%\documentclass[pamphlet,intro=text,textonly=false]{loth}     % pamphlet + compact intro
-%\documentclass[fontsize=12pt,pamphlet,intro=graphic,margin=1cm,textonly=false]{loth}     % pamphlet + full intro
+%%\documentclass[pamphlet,intro=text,textonly=true]{loth}     % pamphlet + compact intro
+%%\documentclass[pamphlet,intro=text,textonly=false]{loth}     % pamphlet + compact intro
+\documentclass[pamphlet,fontsize=12pt,intro=graphic,margin=1cm,textonly=false]{loth}     % pamphlet + full intro
 
 \begin{document}
 
 \thispagestyle{plain}
-\section{Sunday of the Resurrection of the Lord \iflect LECTIONARY \else\ifchoir CHOIR\fi\fi}
-
-\subsection{Before Vespers (Cantors only)}
-
-\iflect
-  \greannotation{Ant. \theantcnt}%
-  \greannotation{8g}%
-  \gregorioscore{Antiphona/angelus-autem-domini/english.gabc}%
-\else
-  \textbf{\maybeinput{Antiphona/angelus-autem-domini/english.txt}}
-\fi
-\stepcounter{antcnt}
-
-\iflect
-  \greannotation{Ant. \theantcnt}%
-  \greannotation{7c}%
-  \gregorioscore{Antiphona/et-ecce-terraemotus/english.gabc}%
-\else
-  \textbf{\maybeinput{Antiphona/et-ecce-terraemotus/english.txt}}
-\fi
-\stepcounter{antcnt}
-
-\iflect
-  \greannotation{Ant. \theantcnt}%
-  \greannotation{8c}%
-  \gregorioscore{Antiphona/erat-autem-aspectus/english.gabc}%
-\else
-  \textbf{\maybeinput{Antiphona/erat-autem-aspectus/english.txt}}
-\fi
-\stepcounter{antcnt}
-
-\iflect
-  \greannotation{Ant. \theantcnt}%
-  \greannotation{7a}%
-  \gregorioscore{Antiphona/prae-timore-autem/english.gabc}%
-\else
-  \textbf{\maybeinput{Antiphona/prae-timore-autem/english.txt}}
-\fi
-\stepcounter{antcnt}
-
-\iflect
-  \greannotation{Ant. \theantcnt}%
-  \greannotation{8g}%
-  \gregorioscore{Antiphona/respondens-autem-angelus/english.gabc}%
-\else
-  \textbf{\maybeinput{Antiphona/respondens-autem-angelus/english.txt}}
-\fi
-\stepcounter{antcnt}
-
-\iflect
-  \greannotation{Ant.}%
-  \greannotation{2*}%
-  \gregorioscore{Antiphona/haec-dies/solesmes.gabc}%
-\else
-  \textbf{\maybeinput{Antiphona/haec-dies/solesmes.txt}}\\
-  \textit{\maybeinput{Antiphona/haec-dies/English.txt}}
-\fi
-
-\iflect
-  \greannotation{Ant. \theantcnt}%
-  \greannotation{3a}%
-  \gregorioscore{Antiphona/et-respicientes/english.gabc}%
-\else
-  \textbf{\maybeinput{Antiphona/et-respicientes/english.txt}}
-\fi
-
-\setcounter{antcnt}{1}
-
-
-\subsection{At Vespers}
+\section{Fifth Sunday of Easter at Vespers II \iflect LECTIONARY \else\ifchoir CHOIR\fi\fi}
 
 \introd{solemnis}
 
-\hymn{ad-coenam}{Ad cenam Agni providi}{attr. Saint Nicetas of Remesiana, ca. 335-414, © 2023 ICEL}[english][0.8]
+\hymn{ad-coenam}{Ad cenam Agni providi}{attr. Saint Nicetas of Remesiana, ca. 335-414, © 2023 ICEL}[english][0.9]
 
 %\vspace{-15pt}
 \subsection{Psalmody}
 \marginpar{\small\scshape Sit}
 
-%% FIRST PSALM %%
-\paragraph{Psalm 110[109]}
-\psalm{venerunt-ad-monumentum}{110}{1f}{2-0-1-2}
+\psalm{sedes-tua-deus}{110}{8g}{}
 
-%% SECOND PSALM %%
-\paragraph{Psalm 114[113a]}
-\psalm{venite-et-videte}{115}{8g}{1-0-1-2}
+\psalm{israel-potestas}{114}{8g}{}
 
-\paragraph{Canticle: See Revelation 19:1-7
-The wedding of the Lamb}
-\psalm{ite-nuntiate}{salus-et-gloria}{4}{devnull}
+\psalm{alleluia-audivi}{salus-et-gloria}{8}{devnull}
 
 
-\subsection{Reading: 1 Corinthians 9:24-25}
+\subsection{Reading: Hebrews 10:12-14}
 \iflect
 \gresetinitiallines{0}
 \gabcsnippet{
@@ -123,14 +44,14 @@ Jesus offered one sacrifice for sins and took his seat forever at the right hand
 \fi
 
 \greannotation{\Rbar~br.}
-\greannotation{2*}%
-\gregorioscore{Antiphona/haec-dies/english.gabc}
+\greannotation{6}%
+\responsory{surrexit-dominus-vere-solemnis}
 
 
 \subsection{Gospel Canticle}
 \marginpar{\small\scshape Stand}
 \renewcommand{\theantcnt}{M}
-\psalm{cum-esset-sero}{Magnificat}{1D-sol}{devnull}
+\psalm{domine-ostende}{Magnificat}{6}{}
 
 \subsection{Intercessions}
 \ifchoir%
@@ -140,21 +61,21 @@ Jesus offered one sacrifice for sins and took his seat forever at the right hand
      (c4)With(f) joy(gh) in(h) our(h) hearts,(h) let(h) us(h) call(h) u(h)pon(h)
      Christ(h) the(h) Lord,(h)
      who(h) died(h) and(h) rose(g) a(ixi)gain,(h)
-     — and(h) lives(h) al(h)ways(h) to(h) in(h)ter(h)cede(g) for(f) pray:(g.)
+     — and(h) lives(h) al(h)ways(h) to(h) in(h)ter(h)cede(g) for(f) us:(g.)
  }
  \fi
-\ifchoir %\emph{Recto tono.}
+\ifchoir 
  \gabcsnippet{
      (c4) Vic(g)to(g)rious(g) King,(g) hear(g) our(h) prayer.(f.)
  }
 \fi
 \begin{multicols}{2}
     \small
-\iflect\else
-With joy in our hearts, let us call upon Christ the Lord,
-who died and rose again,\\
-— and lives always to intercede for us:\\
-\textbf{Victorious King, hear our prayer.}\fi
+\iflect%\else
+%With joy in our hearts, let us call upon Christ the Lord,
+%who died and rose again,\\
+%— and lives always to intercede for us:\\
+%\textbf{Victorious King, hear our prayer.}%\fi
 
 With joy in our hearts, let us call upon Christ the Lord, who died and rose again,\\
 — and lives always to intercede for us:\\
@@ -178,7 +99,7 @@ You have triumphed over death, your enemy; destroy in us the power of death,\\
 
 Savior Christ, you were obedient even to accepting death, and were raised up to the right hand of the Father,\\
 — in your goodness welcome your brothers and sisters into the kingdom of your glory.\\
-\textbf{Victorious King, hear our prayer.}
+\textbf{Victorious King, hear our prayer.}\fi %tweak
 \end{multicols}
 \else%
 Intercessions: \textbf{Victorious King, hear our prayer.}

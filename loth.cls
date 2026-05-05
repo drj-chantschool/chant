@@ -32,6 +32,36 @@
 
 \DeclareOption{nogloria}{\cb@nogloriatrue}
 
+% --- Psalm title display style (non-choir only) ---
+% paragraph: KOMA \paragraph heading (default)
+% inline: small-caps line without section overhead
+% omit: no title printed
+% In choir mode the GABC commentary: header always handles the title; these
+% options only affect non-choir output.
+\newif\ifcb@psalmtitleparagraph
+\newif\ifcb@psalmtitleinline
+\newif\ifcb@psalmtitleomit
+
+\cb@psalmtitleparagraphtrue
+\cb@psalmtitleinlinefalse
+\cb@psalmtitleomitfalse
+
+\DeclareOption{psalmtitle=paragraph}{%
+  \cb@psalmtitleparagraphtrue
+  \cb@psalmtitleinlinefalse
+  \cb@psalmtitleomitfalse
+}
+\DeclareOption{psalmtitle=inline}{%
+  \cb@psalmtitleparagraphfalse
+  \cb@psalmtitleinlinetrue
+  \cb@psalmtitleomitfalse
+}
+\DeclareOption{psalmtitle=omit}{%
+  \cb@psalmtitleparagraphfalse
+  \cb@psalmtitleinlinefalse
+  \cb@psalmtitleomittrue
+}
+
 \newif\ifcb@hymnset
 \newif\ifcb@hymngraphic
 \newif\ifcb@hymnshort
@@ -489,13 +519,23 @@
 %   tonecat is optional: omit (or pass {}) to auto-derive from tone via \loth@tonecat
 %   version defaults to "solesmes"
 \NewDocumentCommand{\psalm}{m m m G{} O{solesmes}}{%
-  \IfFileExists{Psalms/#1/title.tex}{%
-    \openin\loth@titleread={Psalms/#1/title.tex}%
-    \read\loth@titleread to\loth@psalmmtitle
-    \closein\loth@titleread
-    \paragraph{\loth@psalmmtitle}
-  }{%
-  }%
+  % In choir mode the first-verse GABC is shown; its commentary: header carries
+  % the psalm title, so we never print a heading here.
+  % Outside choir mode, show the title per psalmtitle= option.
+  \ifchoir\else
+    \ifcb@psalmtitleomit\else
+      \IfFileExists{Psalms/#2/title.tex}{%
+        \openin\loth@titleread={Psalms/#2/title.tex}%
+        \read\loth@titleread to\loth@psalmmtitle
+        \closein\loth@titleread
+        \ifcb@psalmtitleparagraph
+          \paragraph{\loth@psalmmtitle}%
+        \else
+          \noindent{\small\scshape\loth@psalmmtitle}\par\nobreak%
+        \fi
+      }{}%
+    \fi
+  \fi
       \ifdefstring{#5}{english}%
       {}%
       {%
@@ -551,13 +591,20 @@
 %   tonecat is optional: omit (or pass {}) to auto-derive from tone via \loth@tonecat
 %   version defaults to "solesmes"
 \NewDocumentCommand{\psalma}{m m m m G{} O{solesmes}}{%
-  \IfFileExists{Psalms/#1/title.tex}{%
-    \openin\loth@titleread={Psalms/#1/title.tex}%
-    \read\loth@titleread to\loth@psalmmtitle
-    \closein\loth@titleread
-    \paragraph{\loth@psalmmtitle}
-  }{%
-  }%
+  \ifchoir\else
+    \ifcb@psalmtitleomit\else
+      \IfFileExists{Psalms/#3/title.tex}{%
+        \openin\loth@titleread={Psalms/#3/title.tex}%
+        \read\loth@titleread to\loth@psalmmtitle
+        \closein\loth@titleread
+        \ifcb@psalmtitleparagraph
+          \paragraph{\loth@psalmmtitle}%
+        \else
+          \noindent{\small\scshape\loth@psalmmtitle}\par\nobreak%
+        \fi
+      }{}%
+    \fi
+  \fi
     \let\olditem\item % Someday will refactor to wrap psalm content in itemize
     \renewcommand{\item}{} % Ignore \item for now so psalms using new format work with the old flow
   \ifblank{#5}{\loth@settonecat{#4}}{\def\loth@ts{#5}}% resolve tone structure

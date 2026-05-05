@@ -1,0 +1,3440 @@
+[
+  {
+    "month": 11,
+    "day_of_month": 30,
+    "title": "Andrew the Apostle",
+    "page_url": "https://www.liturgies.net/saints/andrew/andrew.htm",
+    "mass_url": "https://www.liturgies.net/saints/andrew/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Mt 4: 18-19",
+        "latin": "Dominus secus mare Galilaeae vidit duos fratres, Petrum et Andream, et vocavit eos: Venite post me, faciam vos fieri piscatores hominum",
+        "english": "Beside the Sea of Galilee, the Lord saw two brothers, Peter and Andrew, and he said to them: Come after me and I will make you fishers of men."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 1:41-42",
+        "latin": "Dixit Andreas Simoni fratri suo: Invenimus Messiam, qui dicitur Christus. Et adduxit eum ad Iesum.",
+        "english": "Andrew told his brother Simon: We have found the Messiah, the Christ, and he brought him to Jesus."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 3,
+    "title": "St. Francis Xavier",
+    "page_url": "https://www.liturgies.net/saints/francisxavier/francisxavier.htm",
+    "mass_url": "https://www.liturgies.net/saints/francisxavier/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 18 (17): 50; 22 (21): 23",
+        "latin": "Confitebor tibi in populis, Domine, et narrabo nomen tuum fratribus mei.",
+        "english": "I will praise you, Lord, among the nations; I will tell of your name to my kin."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 10: 27",
+        "latin": "Quod dico vobis in tenebris, dicite in lumine, dicit Dominus, et quod in aure auditis, praedicate super tecta.",
+        "english": "What I say to you in the darkness speak in the light, says the Lord; what you hear whispered proclaim on the housetops."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 4,
+    "title": "St. John Damascene",
+    "page_url": "https://www.liturgies.net/saints/johndamascene/johndamascene.htm",
+    "mass_url": "https://www.liturgies.net/saints/johndamascene/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 12,
+    "day_of_month": 6,
+    "title": "St. Nicholas of Myra",
+    "page_url": "https://www.liturgies.net/saints/nicholas/nicholas.htm",
+    "mass_url": "https://www.liturgies.net/saints/nicholas/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 12,
+    "day_of_month": 7,
+    "title": "St. Ambrose",
+    "page_url": "https://www.liturgies.net/saints/ambrose/ambrose.htm",
+    "mass_url": "https://www.liturgies.net/saints/ambrose/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Sirach 15:5",
+        "latin": "In medio Ecclesiae aperuit os eius, et implevit eum Dominus spiritu sapientiae et intellectus: stolam gloriae induit eum.",
+        "english": "In the midst of the Church he opened his mouth, and the Lord filled him with the spirit of wisdom and understanding and clothed him in a robe of glory."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Ps 1: 2-3",
+        "latin": "Qui meditabitur in lege Domini die ac nocte, dabit fructum suum in tempore suo.",
+        "english": "He who ponders the law of the Lord day and night will yield fruit in due season."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 8,
+    "title": "Immaculate Conception",
+    "page_url": "https://www.liturgies.net/saints/mary/immaculateconception/immaculateconception.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/immaculateconception/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Isaiah 61:10",
+        "latin": "Gaudens gaudebo in Domino, et exsultabit anima mea in Deo meo; quia induit me vestimentis salutis, et indumento iustitiae circumdedit me, quasi sponsam ornatam monilibus suis",
+        "english": "I rejoice heartily in the Lord, in my God is the joy of my soul; for he has clothed me with a robe of salvation, and wrapped me in a mantle of justice, like a bride adorned with her jewels."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Gloriosa dicta sunt de te, Maria, quia ex te ortus est sol iustitiae, Christus Deus noster.",
+        "english": "Glorious things are spoken of you, O Mary, for from you arose the sun of justice, Christ our God."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 9,
+    "title": "Juan Diego",
+    "page_url": "https://www.liturgies.net/saints/juandiego/juandiego.htm",
+    "mass_url": "https://www.liturgies.net/saints/juandiego/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "See Ps 21 (20): 2-3",
+        "latin": "",
+        "english": "In your strength, O Lord, the just one rejoices; how greatly your salvation makes him glad! You have granted him his soul's desire.",
+        "english_only": true
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "See Mt 16: 24",
+        "latin": "",
+        "english": "Whoever wishes to come after me, must deny himself, take up his cross, and follow me, says the Lord.",
+        "english_only": true
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 10,
+    "title": "Our Lady of Loreto",
+    "page_url": "http://www.liturgies.net/saints/mary/loreto/loreto.htm",
+    "mass_url": "http://www.liturgies.net/saints/mary/loreto/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Psalm 44:10",
+        "latin": "Beata es, Virgo Maria, quae omnium portasti creatorem; genuisti qui te fecit, et in aeternum permanes Virgo.",
+        "english": "Blessed are you, O Virgin Mary, who bore the Creator of all things. You became the Mother of your Maker, and you remain for ever"
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Luke 1:45",
+        "latin": "Fecit mihi magna, qui potens est, et sanctum nomen eius.",
+        "english": "He who is mighty has done great things for me, and holy is his name."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 11,
+    "title": "Pope Damasus I",
+    "page_url": "https://www.liturgies.net/saints/damasus/damasus.htm",
+    "mass_url": "https://www.liturgies.net/saints/damasus/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 12,
+    "day_of_month": 12,
+    "title": "Our Lady of Guadalupe",
+    "page_url": "https://www.liturgies.net/saints/mary/guadalupe/guadalupe.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/guadalupe/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Revelation 12:1",
+        "latin": "Signum magnum apparuit in caelo: mulier amicta sole, et luna sub pedibus eius, et in capite eius corona stellarum duodecim",
+        "english": "A great sign appeared in the sky, a woman clothed with the sun, with the moon under her feet, and on her head a crown of twelve stars."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Luke 1:52",
+        "latin": "Dominus deposuit potentes de sede, et exaltavit humiles.",
+        "english": "The Lord has cast down the mighty from their thrones, and has lifted up the lowly. Or: God has not acted thus for any other nation; to no other people has he shown his love so clearly."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 13,
+    "title": "St. Lucy",
+    "page_url": "https://www.liturgies.net/saints/lucy/lucy.htm",
+    "mass_url": "https://www.liturgies.net/saints/lucy/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 12,
+    "day_of_month": 14,
+    "title": "John of the Cross",
+    "page_url": "https://www.liturgies.net/saints/johnofthecross/johnfthecross.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnofthecross/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Galatians 6:14",
+        "latin": "Mihi autem absit gloriari, nisi in cruce Domini nostri Iesu Christi, per quem mihi mundus crucifixus est, et ego mundo.",
+        "english": "May I never boast, except in the Cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Mt 16: 24",
+        "latin": "Qui vult venire post me, abneget semetipsum, et tollat crucem suam, et sequatur me, dicit Dominus.",
+        "english": "Whoever wishes to come after me must deny himself, take up his cross, and follow me, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 21,
+    "title": "Thomas",
+    "page_url": "https://www.liturgies.net/saints/thomas/thomas.htm",
+    "mass_url": "https://www.liturgies.net/saints/thomas/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 118 (117): 28, 21",
+        "latin": "Deus meus es tu, et confitebor tibi: Deus meus es tu, et exaltabo te; confitebor tibi, quoniam factus es mihi in salutem.",
+        "english": "You are my God, and I confess you; you are my God, and I exalt you; I will thank you, for you became my savior."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 20: 27",
+        "latin": "Mitte manum tuam, et cognosce loca clavorum: et noli esse incredulus, sed fidelis.",
+        "english": "Bring your hand and feel the place of the nails, and do not be unbelieving but believing."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 21,
+    "title": "Peter Canisius",
+    "page_url": "https://www.liturgies.net/saints/petercanisius/petercanisius.htm",
+    "mass_url": "https://www.liturgies.net/saints/petercanisius/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 12,
+    "day_of_month": 23,
+    "title": "John of Kanty",
+    "page_url": "https://www.liturgies.net/saints/johnofkanty/johnofkanty.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnofkanty/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 12,
+    "day_of_month": 23,
+    "title": "Holy Family",
+    "page_url": "https://www.liturgies.net/saints/holyfamily/holyfamily.htm",
+    "mass_url": "https://www.liturgies.net/saints/holyfamily/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Luke 2: 16",
+        "latin": "Venerunt pastores festinantes, et invenerunt Mariam et Ioseph et Infantem positum in praesepio.",
+        "english": "The shepherds went in haste, and found Mary and Joseph and the Infant lying in a manger."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Baruch 3: 38",
+        "latin": "Deus noster in terris visus est, et cum hominibus conversatus est.",
+        "english": "Our God has appeared on the earth, and lived among us."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 26,
+    "title": "St. Stephen",
+    "page_url": "https://www.liturgies.net/saints/stephen/stephen.htm",
+    "mass_url": "https://www.liturgies.net/saints/stephen/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Apertae sunt ianuae caeli beato Stephano, qui in numero Martyrum inventus est primus, et ideo triumphat in caelis coronatus.",
+        "english": "The gates of heaven were opened for blessed Stephen, who was found to be first among the number of the Martyrs and therefore is crowned triumphant in heaven."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Acts 7: 58",
+        "latin": "Lapidabant Stephanum, invocantem et dicentem; Domine Jesu, suscipe spiritum meum.",
+        "english": "As they were stoning Stephen, he called out, Lord Jesus, receive my spirit."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 27,
+    "title": "John the Apostle",
+    "page_url": "https://www.liturgies.net/saints/john/john.htm",
+    "mass_url": "https://www.liturgies.net/saints/john/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Iste est Ioannes qui supra pectus Domini in cena recubuit: beatus Apostolus, cui revelata sunt secreta celestia, et verba vitae in toto terrarum orbe diffudit.",
+        "english": "This is John, who reclined on the Lord's breast at supper, the blessed Apostle, to whom celestial secrets were revealed and who spread the words of life through all the world. Or: In medio ecclesiae aperuit os eius, et implevit eum Dominus spiritu sapientiae et intellectus, stolam gloriae induit eum. In the midst of the Church he opened his mouth, and the Lord filled him with the spirit of wisdom and understanding and clothed him in a robe of glory."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 1: 14, 16",
+        "latin": "Verbum caro factum est et habit�vit in nobis. Et de plenitúdine eius nos omnes accépimus.",
+        "english": "The Word became flesh and made his dwelling among us, and from his fullness we have all received."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 28,
+    "title": "Holy Innocents",
+    "page_url": "https://www.liturgies.net/saints/innocents/innocents.htm",
+    "mass_url": "https://www.liturgies.net/saints/innocents/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Innocentes pro Christo infantes occisi sunt, ipsum sequuntur Agnum sine macula, et dicunt semper: Gloria tibi, Domini.",
+        "english": "The innocents were slaughtered as infants for Christ; spotless, they follow the Lamb and sing for ever: Glory to you, O Lord."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Rev 14: 4",
+        "latin": "Hi empti sunt ex hominibus, primitae Deo et Agno; hi sequuntur Agnum quocumque ierit.",
+        "english": "Behold those redeemed as the first fruits of the human race for God and the Lamb, and who follow the Lamb wherever he goes."
+      }
+    ]
+  },
+  {
+    "month": 12,
+    "day_of_month": 29,
+    "title": "Thomas Becket",
+    "page_url": "https://www.liturgies.net/saints/thomasbecket/thomasbecket.htm",
+    "mass_url": "https://www.liturgies.net/saints/thomasbecket/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 12,
+    "day_of_month": 31,
+    "title": "Sylvester I",
+    "page_url": "https://www.liturgies.net/saints/sylvesteri/.sylvesteri.htm",
+    "mass_url": "https://www.liturgies.net/saints/sylvesteri/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 1,
+    "title": "Holy Name of Jesus",
+    "page_url": "https://www.liturgies.net/Christmas/Holyname/holyname.htm",
+    "mass_url": "https://www.liturgies.net/Christmas/Holyname/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Phil 2: 10-11",
+        "latin": "In nomine Iesu omne genu flectatur, caelestium, terrestrium et infernorum; et omnis lingua confiteatur quia Dominus Iesus Christus in gloria est Dei Patris.",
+        "english": "At the name of Jesus, every knee should bend, of those in heaven and on earth and under the earth, and every tongue confess that Jesus Christ is Lord, to the glory of God the Father."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 8: 2",
+        "latin": "Domine, Dominus noster, quam admirabile est nomen tuum in universa terra!",
+        "english": "O Lord, our Lord, how majestic is your name through all the earth!"
+      }
+    ]
+  },
+  {
+    "month": 1,
+    "day_of_month": 2,
+    "title": "Basil the Great and Gregory Nazianzen",
+    "page_url": "https://www.liturgies.net/saints/basil/basil.htm",
+    "mass_url": "https://www.liturgies.net/saints/basil/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Sir 44:15,14",
+        "latin": "Sapientiam Sanctorum narrent populi, et laudes eorum nuntiet Ecclesia; nomina autem eorum vivent in saeculum saeculi.",
+        "english": "Let the peoples recount the wisdom of the Saints, and let the Church proclaim their praise. Their names will live on and on."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Cor 1: 23-24",
+        "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
+        "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God."
+      }
+    ]
+  },
+  {
+    "month": 1,
+    "day_of_month": 3,
+    "title": "Holy Name of Jesus",
+    "page_url": "https://www.liturgies.net/Christmas/Holyname/holyname.htm",
+    "mass_url": "https://www.liturgies.net/Christmas/Holyname/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Phil 2: 10-11",
+        "latin": "In nomine Iesu omne genu flectatur, caelestium, terrestrium et infernorum; et omnis lingua confiteatur quia Dominus Iesus Christus in gloria est Dei Patris.",
+        "english": "At the name of Jesus, every knee should bend, of those in heaven and on earth and under the earth, and every tongue confess that Jesus Christ is Lord, to the glory of God the Father."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 8: 2",
+        "latin": "Domine, Dominus noster, quam admirabile est nomen tuum in universa terra!",
+        "english": "O Lord, our Lord, how majestic is your name through all the earth!"
+      }
+    ]
+  },
+  {
+    "month": 1,
+    "day_of_month": 4,
+    "title": "Elizabeth Seton",
+    "page_url": "https://www.liturgies.net/saints/elizabethseton/elizabethseton.htm",
+    "mass_url": "https://www.liturgies.net/saints/elizabethseton/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 24 (23):6",
+        "latin": "",
+        "english": "Behold a wise woman who has built her house. She feared the Lord and walked the right path. Or: This is the generation which seeks the face of the God of Jacob.",
+        "english_only": true
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 6:51",
+        "latin": "",
+        "english": "I am the living bread from heaven, says the Lord. Whoever eats this bread will live forever; the bread I shall give is my flesh for the life of the world.",
+        "english_only": true
+      }
+    ]
+  },
+  {
+    "month": 1,
+    "day_of_month": 5,
+    "title": "John Neumann",
+    "page_url": "https://www.liturgies.net/saints/johnneumann/johnneumann.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnneumann/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 16 (15):5-6",
+        "latin": "Dóminus pars heriditátus me et cálicis mei; tu es qui detínes sortem meam. Funes cecidérunt mihi in præcláris; ins&uper et heréditas mea speciósa est mihi.",
+        "english": "O Lord, my allotted portion and my cup, you it is who hold fast my lot. For me the measuring lines have fallen on pleasant site; fair to me indeed is my inheritance."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 19:29",
+        "latin": "Omnis qui relíquit domos vel fratres aut sorores aut patrem aut matrem aut fílios aut agros propter nomen meum, centúplum accípiet et vitam ætérnam possidébit.",
+        "english": "Everyone who has given up home, brothers, or sisters, father or mother, wife or children or property for my sake will receive many times as much and inherit everlasting life."
+      }
+    ]
+  },
+  {
+    "month": 1,
+    "day_of_month": 6,
+    "title": "Andre Bessette",
+    "page_url": "https://www.liturgies.net/saints/andrebessette/andrebessette.htm",
+    "mass_url": "https://www.liturgies.net/saints/andrebessette/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 7,
+    "title": "Raymond Penyafort",
+    "page_url": "https://www.liturgies.net/saints/raymondpenyafort/raymondpenyafort.htm",
+    "mass_url": "https://www.liturgies.net/saints/raymondpenyafort/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 12,
+    "title": "Aelred of Rievaulx",
+    "page_url": "https://www.liturgies.net/saints/aelred/aelred.htm",
+    "mass_url": "https://www.liturgies.net/saints/aelred/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 13,
+    "title": "Hilary of Poitiers",
+    "page_url": "https://www.liturgies.net/saints/Hilary/hilary.htm",
+    "mass_url": "https://www.liturgies.net/saints/Hilary/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 13,
+    "title": "Remigius of Rheims",
+    "page_url": "https://www.liturgies.net/saints/remigius/remigius.htm",
+    "mass_url": "https://www.liturgies.net/saints/remigius/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 17,
+    "title": "Antony of Egypt",
+    "page_url": "https://www.liturgies.net/saints/antonyofegypt/antony.htm",
+    "mass_url": "https://www.liturgies.net/saints/antonyofegypt/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 91:13-14",
+        "latin": "Iustus ut palma florebit, sicut cedrus Libani multiplicabitur, plantatus in domo Domini, in atriis domus Dei nostri.",
+        "english": "The just will flourish like the palm tree, and grow like a Lebanon cedar, planted in the house of the Lord, in the courts of the house of our God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Matt 19:21",
+        "latin": "Si vis perfectus esse, vade, vende quae habes, et da pauperibus, et sequere me, dici Dominus.",
+        "english": "If you would be perfect, go, sell what you have, give to the poor, and follow me, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 1,
+    "day_of_month": 20,
+    "title": "St. Fabian",
+    "page_url": "https://www.liturgies.net/saints/fabian/fabian.htm",
+    "mass_url": "https://www.liturgies.net/saints/fabian/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 20,
+    "title": "St. Sebastian",
+    "page_url": "https://www.liturgies.net/saints/sebastian/sebastian.htm",
+    "mass_url": "https://www.liturgies.net/saints/sebastian/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 21,
+    "title": "St. Agnes",
+    "page_url": "https://www.liturgies.net/saints/agnes/agnes.htm",
+    "mass_url": "https://www.liturgies.net/saints/agnes/mass.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 22,
+    "title": "St. Vincent of Saragossa",
+    "page_url": "https://www.liturgies.net/saints/vincent/vincent.htm",
+    "mass_url": "https://www.liturgies.net/saints/vincent/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 23,
+    "title": "St. Marianne Cope",
+    "page_url": "https://www.liturgies.net/saints/mariannecope/mariannecope.htm",
+    "mass_url": "https://www.liturgies.net/saints/mariannecope/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 24,
+    "title": "Francis de Sales",
+    "page_url": "https://www.liturgies.net/saints/franciscdesales/francisdesales.htm",
+    "mass_url": "https://www.liturgies.net/saints/franciscdesales/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 25,
+    "title": "The Conversion of Paul",
+    "page_url": "https://www.liturgies.net/saints/paul/paul.htm",
+    "mass_url": "https://www.liturgies.net/saints/paul/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "2 Tm 1: 12; 4: 8",
+        "latin": "Scio cui credidi et certus sum, quia potens est depositum meum servare in illum diem, iustus iudex.",
+        "english": "I know the one in whom I have believed and I am sure that he, the just judge, the mighty, will keep safe what is my due until that day."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Gal 2: 20",
+        "latin": "In fide vivo Filii Dei qui dilexit me et tradidit semetipsum pro me.",
+        "english": "I live by faith in the Son of God, who has loved me and given himself up for me."
+      }
+    ]
+  },
+  {
+    "month": 1,
+    "day_of_month": 26,
+    "title": "Sts. Timothy and Titus",
+    "page_url": "https://www.liturgies.net/saints/timothyandtitus/timothytitus.htm",
+    "mass_url": "https://www.liturgies.net/saints/timothyandtitus/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 96 (95): 3-4",
+        "latin": "Annuntiate inter gentes gloriam eius, in omnibus populis mirabilia eius; quoniam magnus Dominus et laudabilis nimis.",
+        "english": "Tell among the nations his glory, and his wonders among all the peoples, for the Lord is great and highly to be praised."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mk 16: 15; Mt 28: 20",
+        "latin": "Euntes in mundum universum, praedicate Evangelium: ego vobiscum sum omnibus diebus, dicit Dominus.",
+        "english": "Go into all the world, and proclaim the Gospel. I am with you always, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 1,
+    "day_of_month": 27,
+    "title": "St. John Chrysostom",
+    "page_url": "https://www.liturgies.net/saints/johnchrysostom/johnchrysostom.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnchrysostom/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 27,
+    "title": "Angela Merici",
+    "page_url": "https://www.liturgies.net/saints/angelamerici/angelamerici.htm",
+    "mass_url": "https://www.liturgies.net/saints/angelamerici/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 28,
+    "title": "Thomas Aquinas",
+    "page_url": "https://www.liturgies.net/saints/thomasaquinas/thomasaquinas.htm",
+    "mass_url": "https://www.liturgies.net/saints/thomasaquinas/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 1,
+    "day_of_month": 31,
+    "title": "Don Bosco",
+    "page_url": "https://www.liturgies.net/saints/donbosco/donbosco.htm",
+    "mass_url": "https://www.liturgies.net/saints/donbosco/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 1,
+    "title": "Brigid of Kildare",
+    "page_url": "https://www.liturgies.net/saints/brigid/brigid.htm",
+    "mass_url": "https://www.liturgies.net/saints/brigid/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Job 30:25",
+        "latin": "",
+        "english": "Did I not feel for those whose day was hard? Was not my soul grieved for the poor?",
+        "english_only": true
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Mt 25:34, 36, 40",
+        "latin": "",
+        "english": "Come, you whom my Father has blessed, says the Lord. I was sick and you visited me. In truth I tell you, in so far as you did this to one of the least of these, you did it to me.",
+        "english_only": true
+      }
+    ]
+  },
+  {
+    "month": 2,
+    "day_of_month": 2,
+    "title": "The Presentation in the Temple",
+    "page_url": "https://www.liturgies.net/saints/presentationinthetemple/presentation.htm",
+    "mass_url": "https://www.liturgies.net/saints/presentationinthetemple/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "See Ps 48 (47): 10-11",
+        "latin": "Suscepimus, Deus, misericordiam tuam in medio templi tui. Secundum nomen tuum, Deus, ita et laus tua in fines terrae; iustitia plena est dextera tua.",
+        "english": "Your merciful love, O God, we have received in the midst of your temple. Your praise, O God, like your name, reaches the ends of the earth; your right hand is filled with saving justice."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 2:30-31",
+        "latin": "Viderunt oculi mei salutare tuum, quod parasti ante faciem omnium populorum.",
+        "english": "My eyes have seen your salvation, which you prepared in the sight of all the peoples."
+      }
+    ]
+  },
+  {
+    "month": 2,
+    "day_of_month": 3,
+    "title": "St. Blaise",
+    "page_url": "https://www.liturgies.net/saints/blaise/blaise.htm",
+    "mass_url": "https://www.liturgies.net/saints/blaise/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 3,
+    "title": "St. Anskar",
+    "page_url": "https://www.liturgies.net/saints/anskar/anskar.htm",
+    "mass_url": "https://www.liturgies.net/saints/anskar/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 5,
+    "title": "St. Agatha",
+    "page_url": "https://www.liturgies.net/saints/agatha/agatha.htm",
+    "mass_url": "https://www.liturgies.net/saints/agatha/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 6,
+    "title": "Paul Miki and Companions",
+    "page_url": "https://www.liturgies.net/saints/paulmiki/paulmiki.htm",
+    "mass_url": "https://www.liturgies.net/saints/paulmiki/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 8,
+    "title": "Jerome Emiliani",
+    "page_url": "https://www.liturgies.net/saints/jeromeemiliani/jeromeemiliani.htm",
+    "mass_url": "https://www.liturgies.net/saints/jeromeemiliani/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 8,
+    "title": "Josephine Bakhita",
+    "page_url": "https://www.liturgies.net/saints/josephinebakhita/josephinebakhita.htm",
+    "mass_url": "https://www.liturgies.net/saints/josephinebakhita/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 10,
+    "title": "St. Scholastica",
+    "page_url": "https://www.liturgies.net/saints/scholastica/scholastica.htm",
+    "mass_url": "https://www.liturgies.net/saints/scholastica/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 11,
+    "title": "Our Lady of Lourdes",
+    "page_url": "https://www.liturgies.net/saints/mary/lourdes/lourdes.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/lourdes/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 14,
+    "title": "Cyril and Methodius",
+    "page_url": "https://www.liturgies.net/saints/cyrilandmethodius/cyrilandmethodius.htm",
+    "mass_url": "https://www.liturgies.net/saints/cyrilandmethodius/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Ezekiel 34:11,23-24",
+        "latin": "Isti sunt viri sancti facti amici Dei, divinae veritatis praeconio gloriosi.",
+        "english": "These are holy men who became friends of God, glorious heralds of divine truth."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "See Mark 16:20",
+        "latin": "Profecti sunt discipuli Evangelium praedicantes, Domino cooperante et sermonem confirmante, sequentibus signis.",
+        "english": "The disciples went forth and preached the Gospel, while the Lord worked with them, confirming the word through accompanying signs."
+      }
+    ]
+  },
+  {
+    "month": 2,
+    "day_of_month": 17,
+    "title": "Seven Founders of the Servite Order",
+    "page_url": "https://www.liturgies.net/saints/servites/servites.htm",
+    "mass_url": "https://www.liturgies.net/saints/servites/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 21,
+    "title": "Peter Damian",
+    "page_url": "https://www.liturgies.net/saints/peterdamian/peterdamian.htm",
+    "mass_url": "https://www.liturgies.net/saints/peterdamian/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 23,
+    "title": "St. Polycarp",
+    "page_url": "https://www.liturgies.net/saints/polycarp/polycarp.htm",
+    "mass_url": "https://www.liturgies.net/saints/polycarp/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 2,
+    "day_of_month": 27,
+    "title": "Gregory of Narek",
+    "page_url": "https://www.liturgies.net/saints/gregoryofnarek/gregoryofnarek.htm",
+    "mass_url": "https://www.liturgies.net/saints/gregoryofnarek/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 1,
+    "title": "David of Wales",
+    "page_url": "https://www.liturgies.net/saints/davidofwales/davidofwales.htm",
+    "mass_url": "https://www.liturgies.net/saints/davidofwales/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Is.52:7",
+        "latin": "",
+        "english": "How beautiful upon the mountains are the feet of him who brings glad tidings of peace, bearing good news, announcing salvation!",
+        "english_only": true
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. 1 Cor 1:23-24",
+        "latin": "",
+        "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God.",
+        "english_only": true
+      }
+    ]
+  },
+  {
+    "month": 3,
+    "day_of_month": 2,
+    "title": "Chad of Lichfield",
+    "page_url": "https://www.liturgies.net/saints/chad/chad.htm",
+    "mass_url": "https://www.liturgies.net/saints/chad/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 3,
+    "title": "Katharine Drexel",
+    "page_url": "https://www.liturgies.net/saints/katharinedrexel/katharinedrexel.htm",
+    "mass_url": "https://www.liturgies.net/saints/katharinedrexel/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 4,
+    "title": "Casimir",
+    "page_url": "https://www.liturgies.net/saints/casimir/casimir.htm",
+    "mass_url": "https://www.liturgies.net/saints/casimir/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 7,
+    "title": "Perpetua and Felicity",
+    "page_url": "https://www.liturgies.net/saints/perpetuaandfelicity/perpetuaandfelicity.htm",
+    "mass_url": "https://www.liturgies.net/saints/perpetuaandfelicity/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Gaudent in caelis animae Sanctorum, qui Christi vestigia sunt secuti; et quia pro eius amore sanguinem suum fuderunt, ideo cum Christo exsultant sine fine.",
+        "english": "The souls of the Saints are rejoicing in heaven, the Saints who followed the footsteps of Christ, and since for love of him they shed their blood, they now exult with Christ for ever."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "2 Cor 4:11",
+        "latin": "In mortem tradimur propter Iesum, ut et vita Iesu manifestetur in carne nostra mortali.",
+        "english": "For the sake of Jesus we are given up to death, that the life of Jesus may be manifested in our mortal flesh."
+      }
+    ]
+  },
+  {
+    "month": 3,
+    "day_of_month": 8,
+    "title": "John of God",
+    "page_url": "https://www.liturgies.net/saints/johnofgod/johnofgod.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnofgod/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 9,
+    "title": "Frances of Rome",
+    "page_url": "https://www.liturgies.net/saints/francesofrome/francesofrome.htm",
+    "mass_url": "https://www.liturgies.net/saints/francesofrome/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 12,
+    "title": "Gregory the Great",
+    "page_url": "https://www.liturgies.net/saints/gregorythegreat/gregorythegreat.htm",
+    "mass_url": "https://www.liturgies.net/saints/gregorythegreat/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Beatus Gregorius, in cathedra Petri sublimatus, semper speciem Domini quaerebat, atque in sollemnitate illius amoris habitabat.",
+        "english": "Blessed Gregory, raised upon the throne of Peter, sought always the beauty of the Lord and lived in celebration of that love."
+      }
+    ],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 17,
+    "title": "Patrick of Ireland",
+    "page_url": "https://www.liturgies.net/saints/patrick/patrick.htm",
+    "mass_url": "https://www.liturgies.net/saints/patrick/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 18,
+    "title": "Cyril of Jerusalem",
+    "page_url": "https://www.liturgies.net/saints/cyrilofjerusalem/cyrilofjerusalem.htm",
+    "mass_url": "https://www.liturgies.net/saints/cyrilofjerusalem/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 19,
+    "title": "Joseph",
+    "page_url": "https://www.liturgies.net/saints/joseph/joseph.htm",
+    "mass_url": "https://www.liturgies.net/saints/joseph/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Lk 12: 42",
+        "latin": "Ecce fidelis servus et prudens, quem constituit Dominus super familiam suam",
+        "english": ". Behold, a faithful and prudent steward, whom the Lord set over his household."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 25: 21",
+        "latin": "Euge, serve bone et fidelis: intra in gaudium Domini tui.",
+        "english": "Well done, good and faithful servant. Come, share your master's joy."
+      }
+    ]
+  },
+  {
+    "month": 3,
+    "day_of_month": 23,
+    "title": "Turibius of Mongrovejo",
+    "page_url": "https://www.liturgies.net/saints/turibius/turibius.htm",
+    "mass_url": "https://www.liturgies.net/saints/turibius/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 3,
+    "day_of_month": 25,
+    "title": "The Annunciation",
+    "page_url": "https://www.liturgies.net/saints/mary/annunciation/annunciation.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/annunciation/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Heb 10: 5, 7",
+        "latin": "Dominus ingrediens mundum dixi: Ecce venio ut faciam, Deus, voluntatem tuam.",
+        "english": "The Lord said, as he entered the world: Behold, I come to do your will, O God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Is 7: 14",
+        "latin": "Ecce Virgo concipiet et pariet Filium, et vocabitur nomen eius Emmanuel.",
+        "english": "Behold, a Virgin shall conceive and bear a son; and his name will be called Emmanuel."
+      }
+    ]
+  },
+  {
+    "month": 4,
+    "day_of_month": 2,
+    "title": "Francis of Paola",
+    "page_url": "https://www.liturgies.net/saints/francisofpaola/francisofpaola.htm",
+    "mass_url": "https://www.liturgies.net/saints/francisofpaola/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 4,
+    "title": "Isidore",
+    "page_url": "https://www.liturgies.net/saints/isidore/isidore.htm",
+    "mass_url": "https://www.liturgies.net/saints/isidore/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 5,
+    "title": "Vincent Ferrer",
+    "page_url": "https://www.liturgies.net/saints/vincentferrer/vincentferrer.htm",
+    "mass_url": "https://www.liturgies.net/saints/vincentferrer/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 7,
+    "title": "John Baptist de la Salle",
+    "page_url": "https://www.liturgies.net/saints/johnbaptistdelasalle/johnbaptistdelasalle.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnbaptistdelasalle/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 11,
+    "title": "Stanislaus",
+    "page_url": "https://www.liturgies.net/saints/stanislaus/stanislaus.htm",
+    "mass_url": "https://www.liturgies.net/saints/stanislaus/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 13,
+    "title": "Martin I",
+    "page_url": "https://www.liturgies.net/saints/martini/martin.htm",
+    "mass_url": "https://www.liturgies.net/saints/martini/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 21,
+    "title": "Anselm of Canterbury",
+    "page_url": "https://www.liturgies.net/saints/anselm/anselm.htm",
+    "mass_url": "https://www.liturgies.net/saints/anselm/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 23,
+    "title": "George",
+    "page_url": "https://www.liturgies.net/saints/george/george.htm",
+    "mass_url": "https://www.liturgies.net/saints/george/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 23,
+    "title": "Adalbert",
+    "page_url": "https://www.liturgies.net/saints/adalbert/adalbert.htm",
+    "mass_url": "https://www.liturgies.net/saints/adalbert/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 23,
+    "title": "Giles",
+    "page_url": "https://www.liturgies.net/saints/giles/giles.htm",
+    "mass_url": "https://www.liturgies.net/saints/giles/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 24,
+    "title": "Fidelis of Sigmaringen",
+    "page_url": "https://www.liturgies.net/saints/fidelis/fidelis.htm",
+    "mass_url": "https://www.liturgies.net/saints/fidelis/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 25,
+    "title": "Mark",
+    "page_url": "https://www.liturgies.net/saints/mark/mark.htm",
+    "mass_url": "https://www.liturgies.net/saints/mark/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Mark 16:15",
+        "latin": "Euntes in mundum universum, praedicate Evangelium omni creaturae, alleluia.",
+        "english": "Go into all the world, and proclaim the Gospel to every creature, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 28:20",
+        "latin": "Ecce ego vobiscum sum omnibus diebus usque ad consummationem saeculi, dicit Dominus, alleluia.",
+        "english": "Behold, I am with you always, even to the end of the age, says the Lord, alleluia."
+      }
+    ]
+  },
+  {
+    "month": 4,
+    "day_of_month": 28,
+    "title": "Peter Chanel",
+    "page_url": "https://www.liturgies.net/saints/peterchanel/peterchanel.htm",
+    "mass_url": "https://www.liturgies.net/saints/peterchanel/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 28,
+    "title": "Louis De Montfort",
+    "page_url": "https://www.liturgies.net/saints/louisdemontfort/louisdemontfort.htm",
+    "mass_url": "https://www.liturgies.net/saints/louisdemontfort/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 4,
+    "day_of_month": 29,
+    "title": "Catherine of Siena",
+    "page_url": "https://www.liturgies.net/saints/catherineofsiena/catherineofsiena.htm",
+    "mass_url": "https://www.liturgies.net/saints/catherineofsiena/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Haec est virgo sapiens, et una de numero prudentum, quae obviam Christo cum lampade accensa exiit, alleluia.",
+        "english": "Here is a wise virgin, from among the number of the prudent, who went forth with lighted lamp to meet Christ, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. i Jn 1:7",
+        "latin": "Si in luce ambulamus, sicut Deus est in luce, societatem habemus ad invicem, et sanguis Iesu Christi, Filii eius, emundat nos ab omni peccato, alleluia.",
+        "english": "If we walk in the light, as God is in the light, then we have fellowship with one another, and the blood of his Son Jesus Christ cleanses us from all sin, alleluia."
+      }
+    ]
+  },
+  {
+    "month": 4,
+    "day_of_month": 30,
+    "title": "James the Greater",
+    "page_url": "https://www.liturgies.net/saints/jamesthegreater/jamesthegreater.htm",
+    "mass_url": "https://www.liturgies.net/saints/jamesthegreater/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Mt 4: 18, 21",
+        "latin": "Ambulans Iesus iuxta mare Galilaeae, vidit Iacobum Zebedaei et Ioannem fratrem eius, reficientes retia sua, et vocavit eos.",
+        "english": "As he walked by the Sea of Galilee, Jesus saw James the son of Zebedee and John his brother mending their nets and he called them."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Calicem Domini biberunt, et amici Dei facti sunt.",
+        "english": "They drank the chalice of the Lord, and became the friends of God."
+      }
+    ]
+  },
+  {
+    "month": 4,
+    "day_of_month": 30,
+    "title": "Pius V",
+    "page_url": "https://www.liturgies.net/saints/piusv/piusv.htm",
+    "mass_url": "https://www.liturgies.net/saints/piusv/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 1,
+    "title": "St. Joseph the Worker",
+    "page_url": "https://www.liturgies.net/saints/joseph/joseph.htm",
+    "mass_url": "https://www.liturgies.net/saints/joseph/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Lk 12: 42",
+        "latin": "Ecce fidelis servus et prudens, quem constituit Dominus super familiam suam",
+        "english": ". Behold, a faithful and prudent steward, whom the Lord set over his household."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 25: 21",
+        "latin": "Euge, serve bone et fidelis: intra in gaudium Domini tui.",
+        "english": "Well done, good and faithful servant. Come, share your master's joy."
+      }
+    ]
+  },
+  {
+    "month": 5,
+    "day_of_month": 1,
+    "title": "Philip and James",
+    "page_url": "https://www.liturgies.net/saints/philipandjames/philipandjames.htm",
+    "mass_url": "https://www.liturgies.net/saints/philipandjames/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Lk 22:32",
+        "latin": "Isti sunt viri sancti, quos elegit Dominus in caritate non ficta, et dedit illis gloriam sempiternam, alleluia..",
+        "english": "These are the holy men whom the Lord chose in his own perfect love; to them he gave eternal glory, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 14: 8-9",
+        "latin": "Domine, ostende nobis Patrem, et sufficit nobis, Phillipe, qui videt me, videt et Patrem meum, alleluia.",
+        "english": "Lord, show us the Father, and that will be enough for us. Whoever has seen me, Philip, has seen the Father also, alleluia."
+      }
+    ]
+  },
+  {
+    "month": 5,
+    "day_of_month": 2,
+    "title": "Athanasius",
+    "page_url": "https://www.liturgies.net/saints/athanasius/athanasius.htm",
+    "mass_url": "https://www.liturgies.net/saints/athanasius/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Sir 15: 5",
+        "latin": "In medio Ecclesiae aperuit os eius, et implevit eum Dominus spiritu sapientiae et intellectus, stolam gloriae induit eum, alleluia.",
+        "english": "In the midst of the Church he opened his mouth, and the Lord filled him with the spirit of wisdom and understanding and clothed him in a robe of glory, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Cor 3: 11",
+        "latin": "Fundamentum aliud nemo potest ponere, praeter id quod positum est, quod est Christus Iesus, alleluia.",
+        "english": "No one can lay a foundation other than the one that is there, namely, Jesus Christ, alleluia."
+      }
+    ]
+  },
+  {
+    "month": 5,
+    "day_of_month": 3,
+    "title": "Philip and James",
+    "page_url": "https://www.liturgies.net/saints/philipandjames/philipandjames.htm",
+    "mass_url": "https://www.liturgies.net/saints/philipandjames/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Lk 22:32",
+        "latin": "Isti sunt viri sancti, quos elegit Dominus in caritate non ficta, et dedit illis gloriam sempiternam, alleluia..",
+        "english": "These are the holy men whom the Lord chose in his own perfect love; to them he gave eternal glory, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 14: 8-9",
+        "latin": "Domine, ostende nobis Patrem, et sufficit nobis, Phillipe, qui videt me, videt et Patrem meum, alleluia.",
+        "english": "Lord, show us the Father, and that will be enough for us. Whoever has seen me, Philip, has seen the Father also, alleluia."
+      }
+    ]
+  },
+  {
+    "month": 5,
+    "day_of_month": 10,
+    "title": "Damien of Moloka'i",
+    "page_url": "https://www.liturgies.net/saints/damienofmolokai/damienofmolokai.htm",
+    "mass_url": "https://www.liturgies.net/saints/damienofmolokai/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 10,
+    "title": "John of Avila",
+    "page_url": "https://www.liturgies.net/saints/johnofavila/johnofavila.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnofavila/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 11,
+    "title": "Cyril and Methodius",
+    "page_url": "https://www.liturgies.net/saints/cyrilandmethodius/cyrilandmethodius.htm",
+    "mass_url": "https://www.liturgies.net/saints/cyrilandmethodius/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Ezekiel 34:11,23-24",
+        "latin": "Isti sunt viri sancti facti amici Dei, divinae veritatis praeconio gloriosi.",
+        "english": "These are holy men who became friends of God, glorious heralds of divine truth."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "See Mark 16:20",
+        "latin": "Profecti sunt discipuli Evangelium praedicantes, Domino cooperante et sermonem confirmante, sequentibus signis.",
+        "english": "The disciples went forth and preached the Gospel, while the Lord worked with them, confirming the word through accompanying signs."
+      }
+    ]
+  },
+  {
+    "month": 5,
+    "day_of_month": 12,
+    "title": "Nereus and Achilleus",
+    "page_url": "https://www.liturgies.net/saints/nereusandachilleus/nereusandachilleus.htm",
+    "mass_url": "https://www.liturgies.net/saints/nereusandachilleus/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 12,
+    "title": "Pancras",
+    "page_url": "https://www.liturgies.net/saints/pancras/pancras.htm",
+    "mass_url": "https://www.liturgies.net/saints/pancras/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 13,
+    "title": "Our Lady of Fatima",
+    "page_url": "https://www.liturgies.net/saints/mary/fatima/fatima.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/fatima/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 14,
+    "title": "Matthias",
+    "page_url": "https://www.liturgies.net/saints/matthias/matthias.htm",
+    "mass_url": "https://www.liturgies.net/saints/matthias/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Jn 15: 16",
+        "latin": "Non vos me elegistis, dicit Dominus, sed ego elegi vos, ut eatis, et fructum afferatis, et fructus vester maneat.",
+        "english": "It was not you who chose me, says the Lord, but I who chose you and appointed you to go and bear fruit, fruit that will last [alleluia]."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 15:12",
+        "latin": "Hoc est praeceptum meum, ut diligatis invicem, sicut dilexi vos, dicit Dominus",
+        "english": "This is my commandment: love one another as I have loved you, says the Lord [E.T. alleluia]."
+      }
+    ]
+  },
+  {
+    "month": 5,
+    "day_of_month": 18,
+    "title": "John I",
+    "page_url": "https://www.liturgies.net/saints/johni/johni.htm",
+    "mass_url": "https://www.liturgies.net/saints/johni/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 21,
+    "title": "Christopher Magallanes",
+    "page_url": "https://www.liturgies.net/saints/christophermagallanes/christophermagallanes.htm",
+    "mass_url": "https://www.liturgies.net/saints/christophermagallanes/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 22,
+    "title": "Rita of Cascia",
+    "page_url": "https://www.liturgies.net/saints/ritaofcascia/ritaofcascia.htm",
+    "mass_url": "https://www.liturgies.net/saints/ritaofcascia/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 24,
+    "title": "Jackson Kemper",
+    "page_url": "https://www.liturgies.net/saints/jacksonkemper/jacksonkemper.htm",
+    "mass_url": "https://www.liturgies.net/saints/jacksonkemper/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 25,
+    "title": "Bede the Venerable",
+    "page_url": "https://www.liturgies.net/saints/bede/bede.htm",
+    "mass_url": "https://www.liturgies.net/saints/bede/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 25,
+    "title": "Gregory VII",
+    "page_url": "https://www.liturgies.net/saints/gregoryvii/gregoryvii.htm",
+    "mass_url": "https://www.liturgies.net/saints/gregoryvii/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 25,
+    "title": "Mary Magdelene de Pazzi",
+    "page_url": "https://www.liturgies.net/saints/marymagdelenedepazzi/marymagdelenedepazzi.htm",
+    "mass_url": "https://www.liturgies.net/saints/marymagdelenedepazzi/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 26,
+    "title": "Philip Neri",
+    "page_url": "https://www.liturgies.net/saints/philipneri/philipneri.htm",
+    "mass_url": "https://www.liturgies.net/saints/philipneri/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Rom 5: 5; cf. 8, 11",
+        "latin": "Caritas Dei diffusa est in cordibus nostris, per inhabitantem Spiritum eius in nobis (T.P. alleluia).",
+        "english": "The love of God has been poured into our hearts through the Spirit of God dwelling within us (E.T. alleluia)."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 15: 9",
+        "latin": "Sicut dilexit me Pater, et ego dilexi vos, dicit Dominus; manete in dilectione mea (T.P. alleluia).",
+        "english": "As the Father loves me, so I also love you; remain in my love (E.T. alleluia)."
+      }
+    ]
+  },
+  {
+    "month": 5,
+    "day_of_month": 27,
+    "title": "Augustine of Canterbury",
+    "page_url": "https://www.liturgies.net/saints/augustineofcanterbury/augustineofcanterbury.htm",
+    "mass_url": "https://www.liturgies.net/saints/augustineofcanterbury/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 29,
+    "title": "Pope Paul VI",
+    "page_url": "https://www.liturgies.net/saints/paulvi/paulvi.htm",
+    "mass_url": "https://www.liturgies.net/saints/paulvi/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 5,
+    "day_of_month": 31,
+    "title": "The Visitation of Mary",
+    "page_url": "https://www.liturgies.net/saints/mary/visitation/visitation.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/visitation/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 66(65):16",
+        "latin": "Venite, audite, et narrabo, omnes qui timetis Deum, quanta fecit Dominus animae meae.",
+        "english": "Come and hear, all who fear God; I will tell what the Lord did for my soul (E.T. alleluia)."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1: 48-49",
+        "latin": "Beatam me dicent omnes generationes, quia fecit mihi magna qui potens est, et sanctum nomen eius.",
+        "english": "All generations will call me blessed, for he who is mighty has done great things for me, and holy is his name (E.T. alleluia)."
+      }
+    ]
+  },
+  {
+    "month": 5,
+    "day_of_month": 31,
+    "title": "Immaculate Heart of Mary",
+    "page_url": "https://www.liturgies.net/saints/mary/immaculateheart/immaculateheart.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/immaculateheart/mass.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 1,
+    "title": "Justin Martyr",
+    "page_url": "https://www.liturgies.net/saints/justinmartyr/justinmartyr.htm",
+    "mass_url": "https://www.liturgies.net/saints/justinmartyr/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 119 (118) 85, 46",
+        "latin": "Narraverunt mihi iniqui fabulationes, sed non ut lex tua: ego autem loquebar de testimoniis tuis in conspectu regum, et non confundebar.",
+        "english": "The wicked have told me lies, but not so is your law: I spoke of your decrees before kings, and was not confounded (E.T. alleluia)."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. 1 Cor 2: 2",
+        "latin": "Non iudicavi me scire aliquid inter vos, nisi Iesum Christum, et hunc crucifixum.",
+        "english": "I resolved to know nothing while I was with you except Jesus Christ and him crucified. (E.T. Alleluia)"
+      }
+    ]
+  },
+  {
+    "month": 6,
+    "day_of_month": 2,
+    "title": "Marcellinus and Peter",
+    "page_url": "https://www.liturgies.net/saints/marcellinusandpeter/marcellinusandpeter.htm",
+    "mass_url": "https://www.liturgies.net/saints/marcellinusandpeter/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 2,
+    "title": "The Martyrs of Lyons",
+    "page_url": "https://www.liturgies.net/saints/martyrsoflyons/martyrsoflyons.htm",
+    "mass_url": "https://www.liturgies.net/saints/martyrsoflyons/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 3,
+    "title": "The Martyrs of Uganda",
+    "page_url": "https://www.liturgies.net/saints/martyrsofuganda/martyrsofuganda.htm",
+    "mass_url": "https://www.liturgies.net/saints/martyrsofuganda/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Wis 3: 6-7, 9",
+        "latin": "Tamquam aurum in fornace probavit electos Dominus, et quasi holocausti hostiam accepit illos; et in tempore erit respectus illorum: quoniam donum et pax erit electis Dei",
+        "english": "As gold in the furnace, the Lord put his chosen to the test; as sacrificial offerings, he took them to himself; and in due time they will be honored, and grace and peace will be with the elect of God (E.T. alleluia)."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 116 (115): 15",
+        "latin": "Pretiosa in conspectu Domini; mors sanctorum eius",
+        "english": "How precious in the eyes of the Lord is the death of his holy ones. (E.T. alleluia)."
+      }
+    ]
+  },
+  {
+    "month": 6,
+    "day_of_month": 5,
+    "title": "St. Boniface",
+    "page_url": "https://www.liturgies.net/saints/boniface/boniface.htm",
+    "mass_url": "https://www.liturgies.net/saints/boniface/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 6,
+    "title": "St. Norbert",
+    "page_url": "https://www.liturgies.net/saints/norbert/norbert.htm",
+    "mass_url": "https://www.liturgies.net/saints/norbert/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 9,
+    "title": "St. Columba of Iona",
+    "page_url": "https://www.liturgies.net/saints/columba/columba.htm",
+    "mass_url": "https://www.liturgies.net/saints/columba/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 9,
+    "title": "Ephrem of Edessa",
+    "page_url": "https://www.liturgies.net/saints/ephrem/ephrem.htm",
+    "mass_url": "https://www.liturgies.net/saints/ephrem/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 11,
+    "title": "St. Barnabas",
+    "page_url": "https://www.liturgies.net/saints/barnabas/barnabas.htm",
+    "mass_url": "https://www.liturgies.net/saints/barnabas/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Acts 11: 24",
+        "latin": "Beatus iste sanctus, qui annumerari meruit inter Apostolos: erat enim vir bonus, et plenus Spiritu Sancto et fide.",
+        "english": "Blessed is this holy man, who was worthy to be numbered among the Apostles, for he was a good man, filled with the Holy Spirit and with faith (E.T. alleluia)."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 15: 15",
+        "latin": "Iam non dicam vos servos, quia servus nescit quid faciat Dominus eius. Vos autem dixi amicos, quia omnia quaecumque audivi a Patre meo, nota feci vobis.",
+        "english": "I no longer call you slaves, because a slave does not know what his master is doing. But I have called you friends, because I have told you everything I have heard from my Father (E.T. alleluia)."
+      }
+    ]
+  },
+  {
+    "month": 6,
+    "day_of_month": 13,
+    "title": "Anthony of Padua",
+    "page_url": "https://www.liturgies.net/saints/anthonypadua/anthony.htm",
+    "mass_url": "https://www.liturgies.net/saints/anthonypadua/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 14,
+    "title": "Basil the Great",
+    "page_url": "https://www.liturgies.net/saints/basil/basil.htm",
+    "mass_url": "https://www.liturgies.net/saints/basil/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Sir 44:15,14",
+        "latin": "Sapientiam Sanctorum narrent populi, et laudes eorum nuntiet Ecclesia; nomina autem eorum vivent in saeculum saeculi.",
+        "english": "Let the peoples recount the wisdom of the Saints, and let the Church proclaim their praise. Their names will live on and on."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Cor 1: 23-24",
+        "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
+        "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God."
+      }
+    ]
+  },
+  {
+    "month": 6,
+    "day_of_month": 15,
+    "title": "Evelyn Underhill",
+    "page_url": "https://www.liturgies.net/saints/evelynunderhill/evelynunderhill.htm",
+    "mass_url": "https://www.liturgies.net/saints/evelynunderhill/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 16,
+    "title": "Joseph Butler",
+    "page_url": "https://www.liturgies.net/saints/josephbutler/josephbutler.htm",
+    "mass_url": "https://www.liturgies.net/saints/josephbutler/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 18,
+    "title": "Bernard Mizeki",
+    "page_url": "https://www.liturgies.net/saints/bernardmizeki/bernardmizeki.htm",
+    "mass_url": "https://www.liturgies.net/saints/bernardmizeki/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 19,
+    "title": "St. Romuald",
+    "page_url": "https://www.liturgies.net/saints/romuald/romuald.htm",
+    "mass_url": "https://www.liturgies.net/saints/romuald/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 21,
+    "title": "Aloysius Gonzaga",
+    "page_url": "https://www.liturgies.net/saints/aloysiusgonzaga/aloysiusgonzaga.htm",
+    "mass_url": "https://www.liturgies.net/saints/aloysiusgonzaga/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 24 (23): 4, 3",
+        "latin": "Innocens manibus et mundo corde ascendet in montem Domini, et stabit in loco sancto eius.",
+        "english": "The clean of hands and pure of heart shall climb the mountain of the Lord and stand in his holy place."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 78 (77): 24-25",
+        "latin": "Panem caeli dedit eis, panem Angelorum manducavit homo.",
+        "english": "God gave them bread from heaven; man ate the bread of Angels"
+      }
+    ]
+  },
+  {
+    "month": 6,
+    "day_of_month": 22,
+    "title": "St. Alban",
+    "page_url": "https://www.liturgies.net/saints/alban/alban.htm",
+    "mass_url": "https://www.liturgies.net/saints/alban/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 22,
+    "title": "John Fisher and Thomas More",
+    "page_url": "https://www.liturgies.net/saints/johnfisherandthomasmore/johnfisherandthomasmore.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnfisherandthomasmore/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 22,
+    "title": "St. Paulinus of Nola",
+    "page_url": "https://www.liturgies.net/saints/paulinusofnola/paulinusofnola.htm",
+    "mass_url": "https://www.liturgies.net/saints/paulinusofnola/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 24,
+    "title": "Nativity of John the Baptist",
+    "page_url": "https://www.liturgies.net/saints/johnthebaptist/johnthebaptist.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnthebaptist/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Lk 1: 15, 14",
+        "latin": "Hic erit magnus coram Domino, et Spiritu Sancto replebitur adhuc ex utero matris suae, et multi in nativitate eius gaudebunt.",
+        "english": "He will be great in the sight of the Lord and will be filled with the Holy Spirit, even from his mother's womb; and many will rejoice at his birth."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1: 68",
+        "latin": "Benedictus Dominus Deus Israel, quia visitavit et fecit redemptionem plebis suae.",
+        "english": "Blessed be the Lord, the God of Israel! He has visited his people and redeemed them."
+      }
+    ]
+  },
+  {
+    "month": 6,
+    "day_of_month": 27,
+    "title": "Cyril of Alexandria",
+    "page_url": "https://www.liturgies.net/saints/cyrilalexandria/cyrilalexandria.htm",
+    "mass_url": "https://www.liturgies.net/saints/cyrilalexandria/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 6,
+    "day_of_month": 28,
+    "title": "Irenaeus",
+    "page_url": "https://www.liturgies.net/saints/irenaeus/irenaeus.htm",
+    "mass_url": "https://www.liturgies.net/saints/irenaeus/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Mal 2: 6",
+        "latin": "Lex veritatis fuit in ore eius et iniquitas non est inventa in labiis eius; in pace et in aequitate ambulavit mecum, et multos avertit ab iniquitate.",
+        "english": "The law of truth was in his mouth; no dishonesty was found on his lips. He walked with me in integrity and peace, and turned many away from evil."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 15: 4-5",
+        "latin": "Manete in me, et ego in vobis, dicit Dominus. Qui manet in me et ego in eo, hic fert fructum multum.",
+        "english": "Remain in me, as I remain in you, says the Lord. Whoever remains in me, and I in him, bears fruit in plenty"
+      }
+    ]
+  },
+  {
+    "month": 6,
+    "day_of_month": 29,
+    "title": "Peter and Paul",
+    "page_url": "https://www.liturgies.net/saints/peterandpaul/peterpaul.htm",
+    "mass_url": "https://www.liturgies.net/saints/peterandpaul/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Petrus apostolus et Paulus doctor gentium, ipsi nos docuerunt legem tuam, Domine.",
+        "english": "Peter the Apostle, and Paul the teacher of the Gentiles, these have taught us your law, O Lord."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 21: 15, 17",
+        "latin": "Simon Ioannis, diligis me plus his? Domine, tu omnia nosti; tu scis, Domine, quia amo te.",
+        "english": "Simon, Son of John, do you love me more than these? Lord, you know everything; you know that I love you."
+      }
+    ]
+  },
+  {
+    "month": 6,
+    "day_of_month": 30,
+    "title": "First Martyrs of Rome",
+    "page_url": "https://www.liturgies.net/saints/martyrsofrome/martyrsofrome.htm",
+    "mass_url": "https://www.liturgies.net/saints/martyrsofrome/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 1,
+    "title": "Junipero Serra",
+    "page_url": "https://www.liturgies.net/saints/juniperoserra/juniperoserra.htm",
+    "mass_url": "https://www.liturgies.net/saints/juniperoserra/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 3,
+    "title": "Thomas",
+    "page_url": "https://www.liturgies.net/saints/thomas/thomas.htm",
+    "mass_url": "https://www.liturgies.net/saints/thomas/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 118 (117): 28, 21",
+        "latin": "Deus meus es tu, et confitebor tibi: Deus meus es tu, et exaltabo te; confitebor tibi, quoniam factus es mihi in salutem.",
+        "english": "You are my God, and I confess you; you are my God, and I exalt you; I will thank you, for you became my savior."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 20: 27",
+        "latin": "Mitte manum tuam, et cognosce loca clavorum: et noli esse incredulus, sed fidelis.",
+        "english": "Bring your hand and feel the place of the nails, and do not be unbelieving but believing."
+      }
+    ]
+  },
+  {
+    "month": 7,
+    "day_of_month": 5,
+    "title": "Anthony Mary Zaccaria",
+    "page_url": "https://www.liturgies.net/saints/anthonyzaccaria/anthonyzaccaria.htm",
+    "mass_url": "https://www.liturgies.net/saints/anthonyzaccaria/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 5,
+    "title": "Elizabeth of Portugal",
+    "page_url": "https://www.liturgies.net/saints/elizabethofportugal/elizabethofportugal.htm",
+    "mass_url": "https://www.liturgies.net/saints/elizabethofportugal/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 6,
+    "title": "Maria Goretti",
+    "page_url": "https://www.liturgies.net/saints/mariagoretti/mariagoretti.htm",
+    "mass_url": "https://www.liturgies.net/saints/mariagoretti/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 9,
+    "title": "Augustine Zhao Rong and the Chinese Martyrs",
+    "page_url": "https://www.liturgies.net/saints/augustinezhaorong/augustinezhaorong.htm",
+    "mass_url": "https://www.liturgies.net/saints/augustinezhaorong/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 11,
+    "title": "St. Benedict of Nursia",
+    "page_url": "https://www.liturgies.net/saints/benedict/benedict.htm",
+    "mass_url": "https://www.liturgies.net/saints/benedict/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Fuit vir vitae venerabilis, gratia Benedictus et nomine, qui relicta domo rebusque patris, soli Deo placere cupiens, sanctae conversationis habitum quaesivit.",
+        "english": "There was a man of venerable life, Benedict, blessed by grace and by name, who, leaving home and patrimony and desiring to please God alone, sought out the habit of holy living."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Luke 12:42",
+        "latin": "Fidelis servus et prudens, quem constituit Dominus super familiam suam, ut det illis in tempore tritici mensuram.",
+        "english": "This is the steward, faithful and prudent, whom the Lord set over his household to give them their allowance of food at the proper time."
+      }
+    ]
+  },
+  {
+    "month": 7,
+    "day_of_month": 13,
+    "title": "St. Henry II",
+    "page_url": "https://www.liturgies.net/saints/henry/henry.htm",
+    "mass_url": "https://www.liturgies.net/saints/henry/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 14,
+    "title": "Kateri Tekakwitha",
+    "page_url": "https://www.liturgies.net/saints/kateritekakwitha/kateritekakwitha.htm",
+    "mass_url": "https://www.liturgies.net/saints/kateritekakwitha/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 15,
+    "title": "St. Bonaventure",
+    "page_url": "https://www.liturgies.net/saints/bonaventure/bonaventure.htm",
+    "mass_url": "https://www.liturgies.net/saints/bonaventure/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 16,
+    "title": "Our Lady of Mt. Carmel",
+    "page_url": "https://www.liturgies.net/saints/mary/mtcarmel/mtcarmel.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/mtcarmel/mass.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 18,
+    "title": "Camillus de Lellis",
+    "page_url": "https://www.liturgies.net/saints/camillusdelellis/camillusdelellis.htm",
+    "mass_url": "https://www.liturgies.net/saints/camillusdelellis/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 20,
+    "title": "Apollinaris",
+    "page_url": "https://www.liturgies.net/saints/apollinaris/apollinaris.htm",
+    "mass_url": "https://www.liturgies.net/saints/apollinaris/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 21,
+    "title": "Lawrence of Brindisi",
+    "page_url": "https://www.liturgies.net/saints/lawrenceofbrindisi/lawrenceofbrindisi.htm",
+    "mass_url": "https://www.liturgies.net/saints/lawrenceofbrindisi/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 22,
+    "title": "Mary Magdalene",
+    "page_url": "https://www.liturgies.net/saints/marymagdalene/marymagdalene.htm",
+    "mass_url": "https://www.liturgies.net/saints/marymagdalene/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "John 20:17",
+        "latin": "Dixit Dominus Mariae Magdalenae: Vade ad fratres meos, et dic eis: Ascendo ad Patrem meum et Patrem vestrum, Deum meum et Deum vestrum.",
+        "english": "The Lord said to Mary Magdalene: Go to my brothers and tell them: I am going to my Father and your Father, to my God and your God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "2 Cor 5:14-15",
+        "latin": "Caritas Christi urget nos, ut et qui vivunt iam non sibi vivant, sed ei qui pro ipsis mortuus est et resurrexit.",
+        "english": "The love of Christ impels us, so that those who live may live no longer for themselves, but for him who died for them and was raised."
+      }
+    ]
+  },
+  {
+    "month": 7,
+    "day_of_month": 23,
+    "title": "Bridget of Sweden",
+    "page_url": "https://www.liturgies.net/saints/bridgetofsweden/bridgetofsweden.htm",
+    "mass_url": "https://www.liturgies.net/saints/bridgetofsweden/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 24,
+    "title": "Sharbel Makhluf",
+    "page_url": "https://www.liturgies.net/saints/sharbelmakhluf/sharbelmakhluf.htm",
+    "mass_url": "https://www.liturgies.net/saints/sharbelmakhluf/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 25,
+    "title": "James the Greater",
+    "page_url": "https://www.liturgies.net/saints/jamesthegreater/jamesthegreater.htm",
+    "mass_url": "https://www.liturgies.net/saints/jamesthegreater/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Mt 4: 18, 21",
+        "latin": "Ambulans Iesus iuxta mare Galilaeae, vidit Iacobum Zebedaei et Ioannem fratrem eius, reficientes retia sua, et vocavit eos.",
+        "english": "As he walked by the Sea of Galilee, Jesus saw James the son of Zebedee and John his brother mending their nets and he called them."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Calicem Domini biberunt, et amici Dei facti sunt.",
+        "english": "They drank the chalice of the Lord, and became the friends of God."
+      }
+    ]
+  },
+  {
+    "month": 7,
+    "day_of_month": 26,
+    "title": "Ann and Joachim",
+    "page_url": "https://www.liturgies.net/saints/annjoachim/annjoachim.htm",
+    "mass_url": "https://www.liturgies.net/saints/annjoachim/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Laudemus Ioachim et Annam in generatione sua, quia benedictionem omnium gentium dedit illis Dominus.",
+        "english": "Let us praise Joachim and Anne, to whom, in their generation, the Lord gave him who was a blessing for all the nations."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "See Ps. 23:5",
+        "latin": "Acceperunt benedictionem a Domino, et misericordiam a Deo salutari suo.",
+        "english": "They received blessings from the Lord and mercy from God their Savior."
+      }
+    ]
+  },
+  {
+    "month": 7,
+    "day_of_month": 29,
+    "title": "Sts. Martha, Mary, and Lazarus",
+    "page_url": "https://www.liturgies.net/saints/marthamarylazarus/marthamarylazarus.htm",
+    "mass_url": "https://www.liturgies.net/saints/marthamarylazarus/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Lk 10: 38",
+        "latin": "Intravit Iesus in quoddam castellum, et mulier quaedam Martha nomine excepit illum in domum suam.",
+        "english": "Jesus entered a village, where a woman named Martha welcomed him into her home."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "John 11:27",
+        "latin": "Dixit Martha ad Iesum: Tu es Christus, Filius Dei vivi, qui in hunc mundum venisti.",
+        "english": "Martha said to Jesus: You are the Christ, the Son of God, who is coming into this world."
+      }
+    ]
+  },
+  {
+    "month": 7,
+    "day_of_month": 30,
+    "title": "Peter Chrysologus",
+    "page_url": "https://www.liturgies.net/saints/peterchrysologus/peterchrysologus.htm",
+    "mass_url": "https://www.liturgies.net/saints/peterchrysologus/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 7,
+    "day_of_month": 31,
+    "title": "Ignatius of Loyola",
+    "page_url": "https://www.liturgies.net/saints/ignatiusloyola/ignatiusloyola.htm",
+    "mass_url": "https://www.liturgies.net/saints/ignatiusloyola/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Lk 12: 49",
+        "latin": "Dicit Dominus: Ignem veni mittere in terram, et quid volo, nisi ut accendatur?",
+        "english": "Thus says the Lord: I have come to cast fire on the earth, and how I wish that it were kindled! PRAYER AFTER COMMUNION Laudis hostia, Domine, quam pro beato Ignatio gratias agentes obtulimus, ad perpetuam nos maiestatis tuae laudationem perducat. May the sacrifice of praise that we have offered with thanksgiving in honor of Saint Ignatius, O Lord, bring us to exalt your majesty without end. Through Christ our Lord. The Liturgy of the Hours Ignatius of Loyola From the Common of Pastors or of Holy Men, religious, except the following Morning Prayer BENEDICTUS (Canticle of Zechariah) Would that I might know Christ and the power of his resurrection and that I might share his sufferings. Evening Prayer MAGNIFICAT (Canticle of Mary) Of what use is it to man to gain the whole world, if he pays for it by losing his soul? Office of Readings SECOND READING From the life of Saint Ignatius from his own words by Luis Gonzalez (Cap 1, 5-9: Acta Sanctorum, Julii, 7[ 1868], 647) Ignatius was passionately fond of reading worldly books of fiction and tales of knight-errantry. When he felt he was getting better, he asked for some of these books to pass the time. But no book of that sort could be found in the house; instead they gave him a life of Christ and a collection of the lives of saints written in Spanish.By constantly reading these books he began to be attracted to what he found narrated there. Sometimes in the midst of his reading he would reflect on what he had read. Yet at other times he would dwell on many of the things which he had been accustomed to dwell on previously. But at this point our Lord came to his assistance, insuring that these thoughts were followed by others which arose from his current reading.While reading the life of Christ our Lord or the lives of the saints, he would reflect and reason with himself: �What if I should do what Saint Francis or Saint Dominic did?� In this way he let his mind dwell on many thoughts; they lasted a while until other things took their place. Then those vain and worldly images would come into his mind and remain a long time. This sequence of thoughts persisted with him for a long time.But there was a difference. When Ignatius reflected on worldly thoughts, he felt intense pleasure; but when he gave them up out of weariness, he felt dry and depressed. Yet when he thought of living the rigorous sort of life he knew the saints had lived, he not only experienced pleasure when he actually thought about it, but even after he dismissed these thoughts, he still experienced great joy. Yet he did not pay attention to this, nor did he appreciate it until one day, in a moment of insight, he began to marvel at the difference. Then he understood his experience: thoughts of one kind left him sad, the others full of joy. And this was the first time he applied a process of reasoning to his religious experience. Later on, when he began to formulate his spiritual exercises, he used this experience as an illustration to explain the doctrine he taught his disciples on the discernment of spirits. RESPONSORY Whoever speaks should proclaim God's message; whoever ministers should serve by the power that God gives, - so that in all of you God may be glorified through Jesus Christ. Before all else be constant in your love for one another. - So that in all of you God may be glorified through Jesus Christ."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Lk 12: 49",
+        "latin": "Dicit Dominus: Ignem veni mittere in terram, et quid volo, nisi ut accendatur?",
+        "english": "Thus says the Lord: I have come to cast fire on the earth, and how I wish that it were kindled!"
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 1,
+    "title": "Alphonsus Liguori",
+    "page_url": "https://www.liturgies.net/saints/alphonsusliguori/alphonsusliguori.htm",
+    "mass_url": "https://www.liturgies.net/saints/alphonsusliguori/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 2,
+    "title": "Eusebius of Vercelli",
+    "page_url": "https://www.liturgies.net/saints/eusebiusofvercelli/eusebiusofvercelli.htm",
+    "mass_url": "https://www.liturgies.net/saints/eusebiusofvercelli/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 2,
+    "title": "Peter Julian Eymard",
+    "page_url": "https://www.liturgies.net/saints/peterjulianeymard/peterjulianeymard.htm",
+    "mass_url": "https://www.liturgies.net/saints/peterjulianeymard/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 4,
+    "title": "John Vianney",
+    "page_url": "https://www.liturgies.net/saints/johnvianney/johnvianney.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnvianney/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 6,
+    "title": "Transfiguration",
+    "page_url": "https://www.liturgies.net/Transfiguration/transfiguration.htm",
+    "mass_url": "https://www.liturgies.net/Transfiguration/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf Matt:17:5",
+        "latin": "In splendenti nube Spiritus Sanctus visus est, paterna vox audita est; Hic est Filius meus dilectus, in quo mihi bene conplacuit; ipsum audite.",
+        "english": "In a resplendent cloud the Holy Spirit appeared. The Father's voice was heard: This is my beloved Son, with whom I am well pleased."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. 1 Jn 3: 2",
+        "latin": "Cum Christus apparuerit, similes ei erimus, quoniam videbimus eum sicuti est.",
+        "english": "When Christ appears, we shall be like him, for we shall see him as he is."
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 7,
+    "title": "Sixtus II",
+    "page_url": "https://www.liturgies.net/saints/sixtusii/sixtusii.htm",
+    "mass_url": "https://www.liturgies.net/saints/sixtusii/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 7,
+    "title": "Cajetan",
+    "page_url": "https://www.liturgies.net/saints/cajetan/cajetan.htm",
+    "mass_url": "https://www.liturgies.net/saints/cajetan/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 8,
+    "title": "St. Dominic",
+    "page_url": "https://www.liturgies.net/saints/dominic/dominic.htm",
+    "mass_url": "https://www.liturgies.net/saints/dominic/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Sir 15: 5",
+        "latin": "In medio Ecclesiae aperuit os eius, et implevit eum Dominus spiritu sapientiae et intellectus: stolam gloriae induit eum.",
+        "english": "In the midst of the Church he opened his mouth, and the LORD filled him with the spirit of wisdom and understanding and clothed him in a robe of glory, alleluia."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Luke 12:42",
+        "latin": "Fidelis servus et prudens, quem constituit Dominus super familiam suam, ut det illis in tempore tritici mensuram.",
+        "english": "This is the steward, faithful and prudent, whom the Lord set over his household to give them their allowance of food at the proper time."
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 8,
+    "title": "Mary MacKillop of the Cross",
+    "page_url": "https://www.liturgies.net/saints/marymackillop/marymackillop.htm",
+    "mass_url": "https://www.liturgies.net/saints/marymackillop/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Mt 25:34, 36, 40",
+        "latin": "",
+        "english": "Come, you blessed of my Father, says the Lord: I was sick, and you visited me. Amen, I say to you: whatever you did for one of the least of my brethren, you did it for me.",
+        "english_only": true
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 13:35",
+        "latin": "",
+        "english": "This is how all will know that you are my disciples, if you have love for one another, says the Lord.",
+        "english_only": true
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 9,
+    "title": "Teresa Benedicta of the Cross",
+    "page_url": "https://www.liturgies.net/saints/teresabenedicta/teresabenedicta.htm",
+    "mass_url": "https://www.liturgies.net/saints/teresabenedicta/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 10,
+    "title": "St. Laurence",
+    "page_url": "https://www.liturgies.net/saints/laurence/laurence.htm",
+    "mass_url": "https://www.liturgies.net/saints/laurence/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Hic est beatus Laurentius, qui pro ope Ecclesiae semetipsum tradidit: propterea meruit martyrii passionem, ut laetus ascenderet ad Dominum Iesum Christum.",
+        "english": "This is the blessed Lawrence, who gave himself up for the treasure of the Church: for this he earned the suffering of martyrdom to ascend with joy to the Lord Jesus Christ."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Qui mihi ministrat, me sequitur; et ubi sum ego, illic et minister meus erit, dicit Dominus.",
+        "english": "Whoever serves me must follow me and where I am there also will my servant be, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 11,
+    "title": "St. Clare of Assisi",
+    "page_url": "https://www.liturgies.net/saints/clare/clare.htm",
+    "mass_url": "https://www.liturgies.net/saints/clare/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 12,
+    "title": "St. Jane Frances De Chantal",
+    "page_url": "https://www.liturgies.net/saints/janefrancesdechantal/janefrancisdechantal.htm",
+    "mass_url": "https://www.liturgies.net/saints/janefrancesdechantal/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 13,
+    "title": "Pontian and Hippolytus",
+    "page_url": "https://www.liturgies.net/saints/pontianandhipploytus/pontianandhippolytus.htm",
+    "mass_url": "https://www.liturgies.net/saints/pontianandhipploytus/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 14,
+    "title": "Maximilian Kolbe",
+    "page_url": "https://www.liturgies.net/saints/maximiliankolbe/maximiliankolbe.htm",
+    "mass_url": "https://www.liturgies.net/saints/maximiliankolbe/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Jn 15: 13",
+        "latin": "Maiorem caritatem nemo habet, ut animam suam ponat quis pro amicis suis, dicit Dominus.",
+        "english": "Greater love has no one than to lay down his life for his friends, says the Lord. PRAYER AFTER COMMUNION Quaesumus, Domine, ut refecti Corpore et Sanguine Filii tui, eo caritatis igne accendamur, quem ex hoc convivio sanctus Maximilianus Maria accepit. We pray, O Lord, that, renewed by the Body and Blood of your Son, we may be inflamed with the same fire of charity that Saint Maximilian received from this holy banquet. Through Christ our Lord. The Liturgy of the Hours Maximillian Kolbe From the Common of Pastors: Missionary, or from the Common of One Martyr, except for the following: Office of Readings SECOND READING From a letter of Maximillian Mary Kolbe (Scritti del P. Massimiliano M. Kolbe, Italian translation, vol. I, pt, 1 [Padua, 1971], 75-77,166) The burning zeal for God�s glory that motivates you fills my heart with joy. It is sad for us to see in our own time that indifferentism in its many forms is spreading like an epidemic not only among the laity but also among religious. But God is worthy of glory beyond measure, and therefore it is of absolute and supreme importance to seek that glory with all the power of our feeble resources. Since we are mere creatures we can never return to him all that is his due. The most resplendent manifestation of God�s glory is the salvation of souls, whom Christ redeemed by shedding his blood. To work for the salvation and sanctification of as many souls as possible, therefore, is the preeminent purpose of the apostolic life. Let me, then, say a few words that may show the way toward achieving God�s glory and the sanctification of many souls. God, who is all-knowing and all-wise, knows best what we should do to increase his glory. Through his representatives on earth he continually reveals his will to us; thus it is obedience and obedience alone that is the sure sign to us of the divine will. A superior may, it is true, make a mistake; but it is impossible for us to be mistaken in obeying a superior�s command. The only exception to this rule is the case of a superior commanding something that in even the slightest way would contravene God�s law. Such a superior would not be conveying God�s will. God alone is infinitely wise, holy, merciful, our Lord, Creator, and Father; he is beginning and end, wisdom and power and love; he is all. Everything other than God has value to the degree that it is referred to him, the maker of all and our own redeemer, the final end of all things. It is he who, declaring his adorable will to us through his representatives on earth, draws us to himself and whose plan is to draw others to himself through us and to join us all to himself in an ever deepening love. Look, then, at the high dignity that by God�s mercy belongs to our state in life. Obedience raises us beyond the limits of our littleness and puts us in harmony with God�s will. In boundless wisdom and care, his will guides us to act rightly. Holding fast to that will, which no creature can thwart, we are filled with unsurpassable strength. Obedience is the one and the only way of wisdom and prudence for us to offer glory to God. If there were another, Christ would certainly have shown it to us by word and example. Scripture, however, summed up his entire life at Nazareth in the words: He was subject to them; Scripture set obedience as the theme of the rest of his life, repeatedly declaring that he came into the world to do his Father�s will. Let us love our loving Father with all our hearts. Let our obedience increase that love, above all when it requires us to surrender our own will. Jesus Christ crucified is our sublime guide toward growth in God�s love. We will learn this lesson more quickly through the Immaculate Virgin, whom God has made the dispenser of his mercy. It is beyond all doubt that Mary�s will represents to us the will of God himself. By dedicating ourselves to her we become in her hands instruments of God�s mercy even as she was such an instrument in God�s hands. We should let ourselves be guided and led by Mary and rest quiet and secure in her hands. She will watch out for us, provide for us, answer our needs of body and spirit; she will dissolve all our difficulties and worries. RESPONSORY Ephesians 5:1-2; 6:6 Be imitators of God as his dear children. Follow the way of love, even as Christ loved us and gave himself up for us as an offering to God. � A gift of pleasing fragrance. Do God�s will with your whole heart as servants of Christ. � A gift of pleasing fragrance."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 15: 13",
+        "latin": "Maiorem caritatem nemo habet, ut animam suam ponat quis pro amicis suis, dicit Dominus.",
+        "english": "Greater love has no one than to lay down his life for his friends, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 15,
+    "title": "The Assumption of Mary",
+    "page_url": "https://www.liturgies.net/saints/mary/assumption/assumption.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/assumption/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Gloriosa dicta sunt de te, Maria, quae hodie exaltata es super choros Angelorum, et in aeternum cum Christo triumphas.",
+        "english": "Glorious things are spoken of you, O Mary, who today were exalted above the choirs of Angels into eternal triumph with Christ."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 11: 27",
+        "latin": "Beata viscera Mariae Virginis, quae portaverunt aeterni Patris Filium.",
+        "english": "Blessed is the womb of the Virgin Mary, which bore the Son of the eternal Father"
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 16,
+    "title": "Stephen of Hungary",
+    "page_url": "https://www.liturgies.net/saints/stephenofhungary/stephenofhungary.htm",
+    "mass_url": "https://www.liturgies.net/saints/stephenofhungary/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 19,
+    "title": "St. John Eudes",
+    "page_url": "https://www.liturgies.net/saints/johneudes/johneudes.htm",
+    "mass_url": "https://www.liturgies.net/saints/johneudes/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 20,
+    "title": "Bernard of Clairvaux",
+    "page_url": "https://www.liturgies.net/saints/bernard/bernard.htm",
+    "mass_url": "https://www.liturgies.net/saints/bernard/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Jn 15:9",
+        "latin": "Sicut dilexit me Pater, et ego dilexi vos, dicit Dominus; manete in dilectione mea.",
+        "english": "As the Father loves me, so I also love you; remain in my love, says the Lord. PRAYER AFTER COMMUNION Cibus, quem sumpsimus, Domine, in celebratione beati Bernardi, suum in nobis operetur effectum, ut, eius exemplis roborati et monitis eruditi, Verbi tui incarnati rapiamur amore. May the food we have received, O Lord, as we honor Saint Bernard, work its effect in us, so that, strengthened by his example and instructed by his teaching, we may be caught up in love of your incarnate Word. Who lives and reigns for ever and ever The Liturgy of the Hours Bernard of Clairvaux From the Common of Doctors or of Holy Men: religious, except for the following: Morning Prayer BENEDICTUS (Canticle of Zechariah) Blessed Bernard, your life, flooded by the splendor of the divine Word, illumines the church with the light of true faith and doctrine. Evening Prayer MAGNIFICAT (Canticle of Mary) Bernard, eloquent doctor of the church, friend of Christ the Bridegroom, eminent preacher of the Virgin Mother's glory, at Clairvaux you become the illustrious shepherd of your followers. Office of Readings SECOND READING From a sermon by St. Bernard, abbot (Sermo.83:4-6; Opera omnia, Edit. Cisterc. 2 (1958), 300-302) I love because I love, I love that I may love Love is sufficient of itself, it gives pleasure by itself and because of itself. It is its own merit, its own reward. Love looks for no cause outside itself, no effect beyond itself. Its profit lies in its practice. I love because I love, I love that I may love. Love is a great thing so long as it continually returns to its fountainhead, flows back to its source, always drawing from there the water which constantly replenishes it. Of all the movements, sensations and feelings of the soul, love is the only one in which the creature can respond to the Creator and make some sort of similar return however unequal though it be. For when God loves, all he desires is to be loved in return; the sole purpose of his love is to be loved, in the knowledge that those who love him are made happy by their love of him.The Bridegroom�s love, or rather the love which is the Bridegroom, asks in return nothing but faithful love. Let the beloved, then, love in return. Should not a bride love, and above all, Love�s bride? Could it be that Love not be loved?Rightly then does she give up all other feelings and give herself wholly to love alone; in giving love back, all she can do is to respond to love. And when she has poured out her whole being in love, what is that in comparison with the unceasing torrent of that original source? Clearly, lover and Love, soul and Word, bride and Bridegroom, creature and Creator do not flow with the same volume; one might as well equate a thirsty man with the fountain.What then of the bride�s hope, her aching desire, her passionate love, her confident assurance? Is all this to wilt just because she cannot match stride for stride with her giant, any more than she can vie with honey for sweetness, rival the lamb for gentleness, show herself as white as the lily, burn as bright as the sun, be equal in love with him who is Love? No. It is true that the creature loves less because she is less. But if she loves with her whole being, nothing is lacking where everything is given. To love so ardently then is to share the marriage bond; she cannot love so much and not be totally loved, and it is in the perfect union of two hearts that complete and total marriage consists. Or are we to doubt that the soul is loved by the Word first and with a greater love? RESPONSORY Lord, how great are the hidden treasures of your goodness, - which you have stored up for those who have feared you. They are filled with the bounty of your house; and you give them to drink from the stream of your delights. - Which you have stored up for those who have feared you."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 15:9",
+        "latin": "Sicut dilexit me Pater, et ego dilexi vos, dicit Dominus; manete in dilectione mea.",
+        "english": "As the Father loves me, so I also love you; remain in my love, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 21,
+    "title": "Pope Pius X",
+    "page_url": "https://www.liturgies.net/saints/piusx/piusx.htm",
+    "mass_url": "https://www.liturgies.net/saints/piusx/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 22,
+    "title": "Queenship of Mary",
+    "page_url": "https://www.liturgies.net/saints/mary/queenship/queenship.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/queenship/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Psalm 44:10",
+        "latin": "Astitit Regina a dextris tuis in vestitu deaurato, circumdata varietate.",
+        "english": "At your right stands the queen in robes of gold, finely arrayed."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Luke 1:45",
+        "latin": "Beata es, quae credidsti, quoniam perficientur ea, quae dicta sunt tibi a Domino.",
+        "english": "Blessed are you who have believed that what was spoken to you by the Lord will be fulfilled."
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 23,
+    "title": "Rose of Lima",
+    "page_url": "https://www.liturgies.net/saints/roseoflima/roseoflima.htm",
+    "mass_url": "https://www.liturgies.net/saints/roseoflima/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 24,
+    "title": "Bartholomew",
+    "page_url": "https://www.liturgies.net/saints/bartholomew/bartholomew.htm",
+    "mass_url": "https://www.liturgies.net/saints/bartholomew/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Ps 96 (95): 2-3",
+        "latin": "Annuntiate de die in diem salutare Dei, annuntiate inter gentes gloriam eius.",
+        "english": "Proclaim the salvation of God day by day; tell among the nations his glory."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 22: 29-30",
+        "latin": "Ego dispono vobis, sicut disposuit mihi Pater meus, regnum, ut edatis et bibatis super mensam meam in regno meo, dicit Dominus.",
+        "english": "I confer a kingdom on you, just as my Father has conferred one on me, that you may eat and drink at my table in my kingdom, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 25,
+    "title": "Louis, King of France",
+    "page_url": "https://www.liturgies.net/saints/louis/louis.htm",
+    "mass_url": "https://www.liturgies.net/saints/louis/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 25,
+    "title": "Joseph Calasanz",
+    "page_url": "https://www.liturgies.net/saints/josephcalasanz/josephcalasanz.htm",
+    "mass_url": "https://www.liturgies.net/saints/josephcalasanz/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 27,
+    "title": "St. Monica",
+    "page_url": "https://www.liturgies.net/saints/monica/monica.htm",
+    "mass_url": "https://www.liturgies.net/saints/monica/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 8,
+    "day_of_month": 28,
+    "title": "Augustine, Bishop of Hippo",
+    "page_url": "https://www.liturgies.net/saints/augustine/augustine.htm",
+    "mass_url": "https://www.liturgies.net/saints/augustine/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Sir 15: 5",
+        "latin": "",
+        "english": "In the midst of the Church he opened his mouth, and the Lord filled him with the spirit of wisdom and understanding and clothed him in a robe of glory.",
+        "english_only": true
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Matt 23:10,8",
+        "latin": "",
+        "english": "Thus says the Lord: You have but one teacher, the Christ, and you are all brothers.",
+        "english_only": true
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 29,
+    "title": "Beheading of John the Baptist",
+    "page_url": "https://www.liturgies.net/saints/johnthebaptist/johnthebaptist.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnthebaptist/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Lk 1: 15, 14",
+        "latin": "Hic erit magnus coram Domino, et Spiritu Sancto replebitur adhuc ex utero matris suae, et multi in nativitate eius gaudebunt.",
+        "english": "He will be great in the sight of the Lord and will be filled with the Holy Spirit, even from his mother's womb; and many will rejoice at his birth."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1: 68",
+        "latin": "Benedictus Dominus Deus Israel, quia visitavit et fecit redemptionem plebis suae.",
+        "english": "Blessed be the Lord, the God of Israel! He has visited his people and redeemed them."
+      }
+    ]
+  },
+  {
+    "month": 8,
+    "day_of_month": 31,
+    "title": "Aidan, Missionary to Northumbria",
+    "page_url": "https://www.liturgies.net/saints/aidan/aidan.htm",
+    "mass_url": "https://www.liturgies.net/saints/aidan/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 3,
+    "title": "Gregory the Great",
+    "page_url": "https://www.liturgies.net/saints/gregorythegreat/gregorythegreat.htm",
+    "mass_url": "https://www.liturgies.net/saints/gregorythegreat/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Beatus Gregorius, in cathedra Petri sublimatus, semper speciem Domini quaerebat, atque in sollemnitate illius amoris habitabat.",
+        "english": "Blessed Gregory, raised upon the throne of Peter, sought always the beauty of the Lord and lived in celebration of that love."
+      }
+    ],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 5,
+    "title": "Teresa of Calcutta",
+    "page_url": "https://www.liturgies.net/saints/teresaofcalcutta/teresaofcalcutta.htm",
+    "mass_url": "https://www.liturgies.net/saints/teresaofcalcutta/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 8,
+    "title": "The Nativity of Mary",
+    "page_url": "https://www.liturgies.net/saints/mary/nativity/nativity.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/nativity/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Cum iucunditate Nativitatem beatae Mariae Virginis celebremus, ex qua ortus est sol iustitiae, Christus Deus noster.",
+        "english": "Let us celebrate with joy the Nativity of the Blessed Virgin Mary, for from her arose the sun of justice, Christ our God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Is. 7:14; Mt 1:21",
+        "latin": "Ecce Virgo pariet Filium, qui salvum faciet populum suum a peccatis eorum.",
+        "english": "Behold, the Virgin will bear a son, who will save his people from their sins."
+      }
+    ]
+  },
+  {
+    "month": 9,
+    "day_of_month": 9,
+    "title": "Peter Claver",
+    "page_url": "https://www.liturgies.net/saints/peterclaver/peterclaver.htm",
+    "mass_url": "https://www.liturgies.net/saints/peterclaver/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 12,
+    "title": "Holy Name of Mary",
+    "page_url": "https://www.liturgies.net/saints/mary/holyname/holyname.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/holyname/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Jdt 13: 18-19",
+        "latin": "Benedicta es tu, Virgo Maria, a Domino Deo excelso prae omnibus mulieribus super terram; quia nomen tuum it magnificavit, ut non recedat laus tua de ore hominum.",
+        "english": "Blessed are you, O Virgin Mary, by the Lord God Most High, above all women on the earth; for he has so exalted your name, that your praise shall be undying on our lips."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Lk 1:48",
+        "latin": "Beatam me dicent omnes generationes, quia ancillam humilem respexit Deus.",
+        "english": "All generations will call me blessed, for God has looked on his lowly handmaid."
+      }
+    ]
+  },
+  {
+    "month": 9,
+    "day_of_month": 13,
+    "title": "St. John Chrysostom",
+    "page_url": "https://www.liturgies.net/saints/johnchrysostom/johnchrysostom.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnchrysostom/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 14,
+    "title": "Holy Cross",
+    "page_url": "https://www.liturgies.net/saints/holycross/holycross.htm",
+    "mass_url": "https://www.liturgies.net/saints/holycross/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Galatians 6:14",
+        "latin": "Nos autem gloriari oportet in cruce Domini nostri Iesu Christi, in quo est salus, vita, et resurrectio nostra: per quem salvati, et liberati sumus.",
+        "english": "We should glory in the Cross of our Lord Jesus Christ, in whom is our salvation, life and resurrection, through whom we are saved and delivered."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "John 12: 32",
+        "latin": "Ego si exaltatus fuero a terra, omnes traham ad meipsum, dicit Dominus.",
+        "english": "When I am lifted up from the earth, I will draw everyone to myself, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 9,
+    "day_of_month": 15,
+    "title": "Our Lady of Sorrows",
+    "page_url": "https://www.liturgies.net/saints/mary/ladyofsorrows/ladyofsorrows.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/ladyofsorrows/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Lk 2: 34-35",
+        "latin": "Dixit Simeon ad Mariam: Ecce, positus est hic in ruinam et in resurrectionem multorum in Israel, et in signum cui contradicetur; et tuam ipsius animam pertransibit gladius.",
+        "english": "Simeon said to Mary: Behold, this child is destined for the ruin and rising of many in Israel, and to be a sign of contradiction; and your own soul a sword will pierce."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. 1 Pt 4: 13",
+        "latin": "Communicantes Christi passionibus gaudete, ut et in revelatione gloriae eius gaudeteatis exsultantes.",
+        "english": "Rejoice when you share in the sufferings of Christ, that you may also rejoice exultantly when his glory is revealed."
+      }
+    ]
+  },
+  {
+    "month": 9,
+    "day_of_month": 16,
+    "title": "Cornelius and Cyprian",
+    "page_url": "https://www.liturgies.net/saints/corneliusandcyprian/corneliusandcyprian.htm",
+    "mass_url": "https://www.liturgies.net/saints/corneliusandcyprian/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 16,
+    "title": "Ninian of Galloway",
+    "page_url": "https://www.liturgies.net/saints/ninian/ninian.htm",
+    "mass_url": "https://www.liturgies.net/saints/ninian/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 17,
+    "title": "Robert Bellarmine",
+    "page_url": "https://www.liturgies.net/saints/robertbellarmine/robertbellarmine.htm",
+    "mass_url": "https://www.liturgies.net/saints/robertbellarmine/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 17,
+    "title": "St. Hildegard of Bingen",
+    "page_url": "https://www.liturgies.net/saints/hildegard/hildegard.htm",
+    "mass_url": "https://www.liturgies.net/saints/hildegard/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 19,
+    "title": "Januarius (Gennaro)",
+    "page_url": "https://www.liturgies.net/saints/januarius/januarius.htm",
+    "mass_url": "https://www.liturgies.net/saints/januarius/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 20,
+    "title": "Andrew Kim Taegon & Paul Chong Hasang",
+    "page_url": "https://www.liturgies.net/saints/andrewkimtaegon/andrewkimtaegon.htm",
+    "mass_url": "https://www.liturgies.net/saints/andrewkimtaegon/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Sanguis sanctorum martyrum pro Christo effusus est in terris; ideo adepti sunt praemia sempiterna.",
+        "english": "The blood of the holy Martyrs was poured out for Christ upon the earth; therefore they have gained everlasting rewards."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Matthew 10:32",
+        "latin": "Omnis qui confitebitur me coram hominibus, confitebor et ego eum coram Patre meo, qui est in caelis, dicit Dominus.",
+        "english": "Everyone who acknowledges me before others I will acknowledge before my heavenly Father, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 9,
+    "day_of_month": 21,
+    "title": "Matthew",
+    "page_url": "https://www.liturgies.net/saints/matthew/matthew.htm",
+    "mass_url": "https://www.liturgies.net/saints/matthew/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Mt 28: 19-20",
+        "latin": "Euntes, docete omnes gentes, baptizantes eos, et docentes eos servare omnia quaecumque mandavi vobis, dicit Dominus.",
+        "english": "Go and make disciples of all nations, baptizing them and teaching them to observe all that I have commanded you, says the Lord."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Matthew 9:13",
+        "latin": "Non veni vocare iustos, sed peccatores, dicit Dominus.",
+        "english": "I did not come to call the just, but sinners, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 9,
+    "day_of_month": 23,
+    "title": "Pio of Pietrelcina",
+    "page_url": "https://www.liturgies.net/saints/padrepio/padrepio.htm",
+    "mass_url": "https://www.liturgies.net/saints/padrepio/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 25,
+    "title": "St. Sergius of R�donezh",
+    "page_url": "https://www.liturgies.net/saints/sergius/sergius.htm",
+    "mass_url": "https://www.liturgies.net/saints/sergius/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 26,
+    "title": "Sts. Cosmas and Damian",
+    "page_url": "https://www.liturgies.net/saints/cosmasanddamian/cosmasanddamian.htm",
+    "mass_url": "https://www.liturgies.net/saints/cosmasanddamian/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 27,
+    "title": "St. Vincent de Paul",
+    "page_url": "https://www.liturgies.net/saints/vincentdepaul/vincentdepaul.htm",
+    "mass_url": "https://www.liturgies.net/saints/vincentdepaul/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Lk 4: 18",
+        "latin": "Spiritus Domini super me: propter quod unxit me, evangelizare pauperibus misit me, sanare contritos corde.",
+        "english": "The Spirit of the Lord is upon me, for he has anointed me and sent me to preach the good news to the poor, to heal the broken-hearted."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 107 (106): 8-9",
+        "latin": "Confiteantur Domino misericordiae eius, et mirabilia eius filiis hominum, quia satiavit animam inanem et animam esurientem satiavit bonis.",
+        "english": "Let them thank the Lord for his mercy, his wonders for the children of men, for he satisfies the thirsty soul, and the hungry he fills with good things."
+      }
+    ]
+  },
+  {
+    "month": 9,
+    "day_of_month": 28,
+    "title": "St. Wenceslaus",
+    "page_url": "https://www.liturgies.net/saints/wenceslaus/wenceslaus.htm",
+    "mass_url": "https://www.liturgies.net/saints/wenceslaus/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 28,
+    "title": "St. Lawrence Ruiz",
+    "page_url": "https://www.liturgies.net/saints/lawrenceruiz/lawrenceruiz.htm",
+    "mass_url": "https://www.liturgies.net/saints/lawrenceruiz/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 9,
+    "day_of_month": 29,
+    "title": "Sts. Michael, Gabriel, and Raphael",
+    "page_url": "https://www.liturgies.net/saints/michael/michael.htm",
+    "mass_url": "https://www.liturgies.net/saints/michael/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Psalm 103:20",
+        "latin": "Benedicite Dominum, omnes Angeli eius, potentes virtute, qui facitis verbum eius, ad audiendam vocem sermonum eius.",
+        "english": "Bless the Lord, all you his angels, mighty in power, fulfilling his word, and heeding his voice."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 138 (137): 1",
+        "latin": "Confitebor tibi, Domine, in toto corde meo, in conspectu Angelorum psallam tibi.",
+        "english": "I will thank you, Lord, with all my heart; in the presence of the Angels I will praise you."
+      }
+    ]
+  },
+  {
+    "month": 9,
+    "day_of_month": 30,
+    "title": "St. Jerome",
+    "page_url": "https://www.liturgies.net/saints/jerome/jerome.htm",
+    "mass_url": "https://www.liturgies.net/saints/jerome/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Psalm 1:2-3",
+        "latin": "Beatus vir, qui meditabitur in lege Domini die ac nocte: dabit fructum suum in tempore suo.",
+        "english": "Blessed indeed is he who ponders the law of the Lord day and night: he will yield his fruit in due season."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "See Jeremiah 15:16",
+        "latin": "Domine Deus, inventi sunt sermones tuos, et comedi eos; et factum est mihi verbum tuum in gaudium et in laetitiam cordis mei.",
+        "english": "Lord God, your words were found and I consumed them; your word became the joy and the happiness of my heart."
+      }
+    ]
+  },
+  {
+    "month": 10,
+    "day_of_month": 1,
+    "title": "Remigius of Rheims",
+    "page_url": "https://www.liturgies.net/saints/remigius/remigius.htm",
+    "mass_url": "https://www.liturgies.net/saints/remigius/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 1,
+    "title": "Therese of Lisieux",
+    "page_url": "https://www.liturgies.net/saints/thereselisieux/thereselisieux.htm",
+    "mass_url": "https://www.liturgies.net/saints/thereselisieux/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Dt 32:10-12",
+        "latin": "Circumduxit eam Dominus et docuit; et custodivit quasi pupillam oculi sui. Sicut aquila expandit alas suas, et assumpsit eam, atque portavit in humeris suis. Dominus solus dux eius fuit.",
+        "english": "The Lord led her and taught her, and kept her as the apple of his eye. Like an eagle spreading its wings he took her up and bore her on his shoulders. The Lord alone was her guide."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Matthew 18:3",
+        "latin": "Dicit Dominus: Nisi conversi fueritis, et efficiamini sicut parvuli, non intrabitis in regnum caelorum.",
+        "english": "Thus says the Lord: Unless you turn and become like children, you will not enter the Kingdom of Heaven."
+      }
+    ]
+  },
+  {
+    "month": 10,
+    "day_of_month": 1,
+    "title": "Protection of the Mother of God",
+    "page_url": "https://www.liturgies.net/saints/mary/protection/protection.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/protection/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 2,
+    "title": "Guardian Angels",
+    "page_url": "https://www.liturgies.net/saints/guardianangels/guardianangels.htm",
+    "mass_url": "https://www.liturgies.net/saints/guardianangels/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Dn 3: 58",
+        "latin": "Benedicite, omnes Angeli Domini, Dominum, hymnum dicite, et superexaltate eum in saecula.",
+        "english": "Angels of the Lord, bless the Lord, praise and exalt him above all for ever."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps 138 (137): 1",
+        "latin": "In conspectu Angelorum psallam tibi, Deus meus.",
+        "english": "In the presence of the Angels I will praise you, my God"
+      }
+    ]
+  },
+  {
+    "month": 10,
+    "day_of_month": 4,
+    "title": "St. Francis of Assisi",
+    "page_url": "https://www.liturgies.net/saints/francis/francis.htm",
+    "mass_url": "https://www.liturgies.net/saints/francis/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Vir Dei Franciscus reliquit domum suam, dimisit hereditatem suam, inops et pauper factus est; Dominus autem assumpsit eum.",
+        "english": "Francis, the man of God, left his home behind, abandoned his inheritance and became poor and penniless, but the Lord raised him up."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mat 5:3",
+        "latin": "Beati pauperes spiritu, quoniam ipsorum est regnum caelorum.",
+        "english": "Blessed are the poor in spirit, for theirs is the kingdom of heaven."
+      }
+    ]
+  },
+  {
+    "month": 10,
+    "day_of_month": 5,
+    "title": "Francis Xavier Seelos",
+    "page_url": "https://www.liturgies.net/saints/francisxavierseelos/francisxavierseelos.htm",
+    "mass_url": "https://www.liturgies.net/saints/francisxavierseelos/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 5,
+    "title": "Faustina Kowalska",
+    "page_url": "https://www.liturgies.net/saints/faustinakowalska/faustinakowalska.htm",
+    "mass_url": "https://www.liturgies.net/saints/faustinakowalska/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 6,
+    "title": "St. Bruno",
+    "page_url": "https://www.liturgies.net/saints/bruno/bruno.htm",
+    "mass_url": "https://www.liturgies.net/saints/bruno/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 6,
+    "title": "Marie-Rose Durocher",
+    "page_url": "https://www.liturgies.net/saints/marie-rosedurocher/marie-rosedurocher.htm",
+    "mass_url": "https://www.liturgies.net/saints/marie-rosedurocher/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 7,
+    "title": "Our Lady of the Rosary",
+    "page_url": "https://www.liturgies.net/saints/mary/rosary/rosary.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/rosary/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Luke 1:28, 42",
+        "latin": "Ave Maria, gratia plena, Dominus tecum: benedicta tu in mulieribus, et benedictus fructus ventris tui.",
+        "english": "Hail Mary, full of grace, the Lord is with you. Blessed are you among women and blessed is the fruit of your womb"
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 1:31",
+        "latin": "Ecce concipies in utero, et paries filium, et vocabis nomen eius Iesum.",
+        "english": "Behold, you will conceive in your womb and bear a son, and you shall name him Jesus."
+      }
+    ]
+  },
+  {
+    "month": 10,
+    "day_of_month": 9,
+    "title": "Denis and Companions",
+    "page_url": "https://www.liturgies.net/saints/denis/denis.htm",
+    "mass_url": "https://www.liturgies.net/saints/denis/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 9,
+    "title": "John Leonardi",
+    "page_url": "https://www.liturgies.net/saints/johnleonardi/johnleonardi.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnleonardi/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 9,
+    "title": "Robert Grosseteste",
+    "page_url": "https://www.liturgies.net/saints/robertgrosseteste/robertgrosseteste.htm",
+    "mass_url": "https://www.liturgies.net/saints/robertgrosseteste/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 11,
+    "title": "Pope John XXIII",
+    "page_url": "https://www.liturgies.net/saints/johnxxiii/johnxxiii.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnxxiii/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 14,
+    "title": "Callistus I",
+    "page_url": "https://www.liturgies.net/saints/callistusi/callistusi.htm",
+    "mass_url": "https://www.liturgies.net/saints/callistusi/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 15,
+    "title": "Teresa of Avila",
+    "page_url": "https://www.liturgies.net/saints/teresaofavila/teresaofavila.htm",
+    "mass_url": "https://www.liturgies.net/saints/teresaofavila/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Psalm 42 (41):2-3",
+        "latin": "Quemadmodum desiderat cervus ad fontes aquarum, ita desiderat anima mea ad te, Deus. Sitivit anima mea ad Deum fortem, vivum.",
+        "english": "Like the deer that yearns for running streams, so my soul is yearning for you, my God; my soul is thirsting for God, the living God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Ps. 89 (88):2",
+        "latin": "Misericordias Domini in aeternum cantabo in generationem et generationem annuntiabo veritatem tuam in ore meo.",
+        "english": "I will sing for ever of your mercies, O Lord through all ages my mouth will proclaim your fidelity."
+      }
+    ]
+  },
+  {
+    "month": 10,
+    "day_of_month": 16,
+    "title": "Hedwig",
+    "page_url": "https://www.liturgies.net/saints/hedwig/hedwig.htm",
+    "mass_url": "https://www.liturgies.net/saints/hedwig/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 16,
+    "title": "Margaret Mary Alacoque",
+    "page_url": "https://www.liturgies.net/saints/margaretmaryalacoque/margaretmaryalacoque.htm",
+    "mass_url": "https://www.liturgies.net/saints/margaretmaryalacoque/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 17,
+    "title": "Ignatius of Antioch",
+    "page_url": "https://www.liturgies.net/saints/ignatius/ignatius.htm",
+    "mass_url": "https://www.liturgies.net/saints/ignatius/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Galatians 2:19-20",
+        "latin": "Christo confixus sum cruci; vivo autem, iam non ego; vivit vero in me Christus; in fide vivo Filii Dei, qui dilexit me, et tradidit se ipsum pro me.",
+        "english": "I am crucified with Christ, yet I live; no longer I, but Christ lives in me. I live by faith in the Son of God, who has loved me and given himself up for me."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": null,
+        "latin": "Frumentum Christi sum; dentibus bestiarum molar, ut panis mundus inveniar.",
+        "english": "I am the wheat of Christ to be ground by the teeth of beasts, that I may be found to be pure bread."
+      }
+    ]
+  },
+  {
+    "month": 10,
+    "day_of_month": 18,
+    "title": "Luke",
+    "page_url": "https://www.liturgies.net/saints/luke/luke.htm",
+    "mass_url": "https://www.liturgies.net/saints/luke/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Isaiah 52:7",
+        "latin": "Quam pulchri super montes pedes adnuntiantis et praedicantis pacem, adnuntiantis bonum, praedicantis salutem!",
+        "english": "How beautiful upon the mountains are the feet of him who brings glad tidings of peace, bearing good news, announcing salvation! says the Lord."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Lk 10: 1, 9",
+        "latin": "Misit Dominus discipulos, qui nuntiarent civitatibus: Appropinquavit in vos regnum Dei.",
+        "english": "The Lord sent out disciples to proclaim throughout the towns: The kingdom of God is at hand for you."
+      }
+    ]
+  },
+  {
+    "month": 10,
+    "day_of_month": 19,
+    "title": "Isaac Jogues and John De Brebeuf",
+    "page_url": "https://www.liturgies.net/saints/isaacjogues/isaacjogues.htm",
+    "mass_url": "https://www.liturgies.net/saints/isaacjogues/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 20,
+    "title": "Paul of the Cross",
+    "page_url": "https://www.liturgies.net/saints/paulofthecross/paulofthecross.htm",
+    "mass_url": "https://www.liturgies.net/saints/paulofthecross/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "1 Cor. 1:23-24",
+        "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
+        "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God. PRAYER AFTER COMMUNION Deus, qui crucis mysterium in beato Paulo mirabiliter illustrasti, concede propitius, ut, ex hoc sacrificio roborati, Christo fideles haereamus, et in Ecclesia ad salutem omnium operemur.s O God, who in Saint Paul have wonderfully made known the mystery of the Cross, graciously grant that, drawing strength from this sacrifice, we may cling faithfully to Christ and labor in the Church for the salvation of all. Through Christ our Lord. Liturgy of the HoursSt. Paul of the Cross From the Common of Pastors, or of Holy Men: religious, except the following: Office of Readings SECOND READING From a letter by St. Paul of the Cross, priest (Epist. 1, 43; 2, 440. 825) We preach Christ crucified It is very good and holy to consider the passion of our Lord and to meditate on it, for by this sacred path we reach union with God. In this most holy school we learn true wisdom, for it was there that all the saints learned it. Indeed when the cross of our dear Jesus has planted its roots more deeply in your hearts, then will you rejoice: \"To suffer and not to die,\" or, \"Either to suffer or to die,\" or better: \"Neither to suffer, nor to die, but only to turn perfectly to the will of God.\" Love is a unifying virtue which takes upon itself the torments of its beloved Lord. It is a fire reaching through to the inmost soul. It transforms the lover into the one loved. More deeply, love intermingles with grief, and grief with love, and a certain blending of love and grief occurs. They become so united that we can no longer distinguish love from grief nor grief from love. Thus the loving heart rejoices in its sorrow and exults in its grieving love. Therefore, be constant in practicing every virtue, and especially in imitating the patience of our dear Jesus, for this is the summit of pure love. Live in such a way that all may know that you bear outwardly as well as inwardly the image of Christ crucified, the model of all gentleness and mercy. For if a man is united inwardly with the Son of the living God, he also bears his likeness outwardly by his continual practice of heroic goodness, and especially through a patience reinforced by courage, which does not complain either secretly or in public. Conceal yourselves in Jesus crucified and hope for nothing except that all men be thoroughly converted to his will. When you become true lovers of the Crucified, you will always celebrate the feast of the cross in the inner temple of the soul, bearing all in silence and not relying on any creature. Since festivals ought to be celebrated joyfully, those who love the Crucified should honor the feast of the cross by enduring in silence with a serene and joyful countenance, so that their suffering remains hidden from men and is observed by God alone. For in this feast there is always a solemn banquet, and the food presented is the will of God, exemplified by the love of our crucified Christ. RESPONSORY God forbid that I should boast except in the cross of our Lord Jesus Christ. - Through it the world has been crucified to me and I to the world. I will rejoice in the Lord, I will exult in God my Savior. - Through it the world has been crucified to me and I to the world."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "1 Cor. 1:23-24",
+        "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
+        "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God."
+      }
+    ]
+  },
+  {
+    "month": 10,
+    "day_of_month": 22,
+    "title": "John Paul II",
+    "page_url": "https://www.liturgies.net/saints/johnpaulii/johnpaulii.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnpaulii/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 23,
+    "title": "John of Capistrano",
+    "page_url": "https://www.liturgies.net/saints/johnofcapistrano/johnofcapistrano.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnofcapistrano/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 24,
+    "title": "Anthony Claret",
+    "page_url": "https://www.liturgies.net/saints/anthonyclaret/anthonyclaret.htm",
+    "mass_url": "https://www.liturgies.net/saints/anthonyclaret/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 10,
+    "day_of_month": 28,
+    "title": "Simon and Jude",
+    "page_url": "https://www.liturgies.net/saints/simonandjude/simonandjude.htm",
+    "mass_url": "https://www.liturgies.net/saints/simonandjude/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Isti sunt viri sancti, quos elegit Dominus in caritate non ficta, et dedit illis gloriam sempiternam.",
+        "english": "These are the holy men whom the Lord chose in his own perfect love; to them he gave eternal glory."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Jn 14: 23",
+        "latin": "Si quis diligit me, sermonem meum servabit, dicit Dominus, et Pater meus diliget eum, et ad eum veniemus, et mansiones apud eum faciemus.",
+        "english": "Whoever loves me will keep my word, says the Lord; and my Father will love him, and we will come to him, and make our home with him."
+      }
+    ]
+  },
+  {
+    "month": 11,
+    "day_of_month": 1,
+    "title": "All Saints Day",
+    "page_url": "https://www.liturgies.net/saints/allsaints/allsaints.htm",
+    "mass_url": "https://www.liturgies.net/saints/allsaints/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Gaudeamus omnes in Domino, diem festum celebrantes sub honore Sanctorum omnium, de quorum sollemnitate gaudent Angeli, et collaudant Filium Dei.",
+        "english": "Let us all rejoice in the Lord, as we celebrate the feast day in honor of all the Saints, at whose festival the Angels rejoice and praise the Son of God."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 5:8-10",
+        "latin": "Beati mundo corde: quoniam ipsi Deum videbunt. Beati pacifici: quoniam filii Dei vocabuntur. Beati qui persecutionem patiuntur propter iustitiam: quoniam ipsorum est regnum caelorum.",
+        "english": "Blessed are the clean of heart, for they shall see God. Blessed are the peacemakers, for they shall be called children of God. Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of heaven."
+      }
+    ]
+  },
+  {
+    "month": 11,
+    "day_of_month": 2,
+    "title": "All Souls' Day",
+    "page_url": "https://www.liturgies.net/saints/allsouls/allsouls.htm",
+    "mass_url": "https://www.liturgies.net/saints/allsouls/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. 1 Thes 4: 14; 1 Cor 15: 22",
+        "latin": "Sicut Iesus mortuus est et resurrexit, ita et Deus eos qui dormierunt per Iesum adducet cum eo. Et sicut in Adam omnes moriuntur, ita et in Christo omnes vivificabuntur.",
+        "english": "Just as Jesus died and has risen again, so through Jesus God will bring with him those who have fallen asleep; and as in Adam all die, so also in Christ will all be brought to life"
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Cf. Jn 11: 25-26",
+        "latin": "Ego sum resurrectio et vita, dicit Dominus. Qui credit in me, etiam si mortuus fuerit, vivet; et omnis, qui vivit et credit in me, non morietur in aeternum.",
+        "english": "I am the Resurrection and the Life, says the Lord. Whoever believes in me, even though he dies, will live, and everyone who lives and believes in me will not die for ever."
+      }
+    ]
+  },
+  {
+    "month": 11,
+    "day_of_month": 3,
+    "title": "Martin de Porres",
+    "page_url": "https://www.liturgies.net/saints/martindeporres/martindeporres.htm",
+    "mass_url": "https://www.liturgies.net/saints/martindeporres/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 4,
+    "title": "Charles Borromeo",
+    "page_url": "https://www.liturgies.net/saints/charlesborromeo/charlesborromeo.htm",
+    "mass_url": "https://www.liturgies.net/saints/charlesborromeo/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 7,
+    "title": "Willibrord",
+    "page_url": "https://www.liturgies.net/saints/willibrord/willibrord.htm",
+    "mass_url": "https://www.liturgies.net/saints/willibrord/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 10,
+    "title": "Leo The Great",
+    "page_url": "https://www.liturgies.net/saints/leothegreat/leothegreat.htm",
+    "mass_url": "https://www.liturgies.net/saints/leothegreat/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Sir 45: 30",
+        "latin": "Statuit ei Dominus testamentum pacis, et principem fecit eum, ut sit illi sacerdotii dignitas in aeternum.",
+        "english": "The Lord established for him a covenant of peace, and made him the prince, that he might have the dignity of the priesthood for ever."
+      }
+    ],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 11,
+    "title": "Martin of Tours",
+    "page_url": "https://www.liturgies.net/saints/martin/martin.htm",
+    "mass_url": "https://www.liturgies.net/saints/martin/mass.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "1 Samuel 2:35",
+        "latin": "Suscitabo mihi sacerdotem fidelem, qui iuxta cor meum et animam meam faciet, dicit Dominus",
+        "english": "I shall raise up for myself a faithful priest who will act in accord with my heart and my mind, says the Lord."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 25:40",
+        "latin": "Amen dico vobis, quamdiu fecistis uni ex his fratribus meis minimis, mihi fecistis, dicit Dominus.",
+        "english": "Amen, I say to you: Whatever you did for one of the least of my brethren, you did it for me, says the Lord."
+      }
+    ]
+  },
+  {
+    "month": 11,
+    "day_of_month": 12,
+    "title": "St. Josaphat Kuncevyv",
+    "page_url": "https://www.liturgies.net/saints/josaphat/josaphat.htm",
+    "mass_url": "https://www.liturgies.net/saints/josaphat/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "Propter testamentum Domini et leges paternas sancti dei perstiterunt in amore fraternitatis: Quia unus fuit semper spiritus in eis et una fides.",
+        "english": "Because of the Lord's covenant and the ancestral laws, the Saints of God persevered in loving brotherhood, for there was always one spirit in them, and one faith."
+      }
+    ],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 13,
+    "title": "St. Frances Xavier Cabrini",
+    "page_url": "https://www.liturgies.net/saints/cabrini/cabrini.htm",
+    "mass_url": "https://www.liturgies.net/saints/cabrini/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 13,
+    "title": "St. John Chrysostom",
+    "page_url": "https://www.liturgies.net/saints/johnchrysostom/johnchrysostom.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnchrysostom/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 15,
+    "title": "St. Albert the Great",
+    "page_url": "https://www.liturgies.net/saints/albertusmagnus/albertusmagnus.htm",
+    "mass_url": "https://www.liturgies.net/saints/albertusmagnus/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 16,
+    "title": "Margaret of Scotland",
+    "page_url": "https://www.liturgies.net/saints/margaretofscotland/margaretofscotland.htm",
+    "mass_url": "https://www.liturgies.net/saints/margaretofscotland/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 16,
+    "title": "Gertrude the Great",
+    "page_url": "https://www.liturgies.net/saints/gertrude/gertrude.htm",
+    "mass_url": "https://www.liturgies.net/saints/gertrude/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 17,
+    "title": "St. Elizabeth of Hungary",
+    "page_url": "https://www.liturgies.net/saints/elizabethofhungary/elizabethofhungary.htm",
+    "mass_url": "https://www.liturgies.net/saints/elizabethofhungary/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 17,
+    "title": "St. Hugh of Lincoln",
+    "page_url": "https://www.liturgies.net/saints/hughoflincoln/hughoflincoln.htm",
+    "mass_url": "https://www.liturgies.net/saints/hughoflincoln/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 17,
+    "title": "St. Hilda of Whitby",
+    "page_url": "https://www.liturgies.net/saints/hildaofwhitby/hildaofwhitby.htm",
+    "mass_url": "https://www.liturgies.net/saints/hildaofwhitby/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 18,
+    "title": "St. Hilda of Whitby",
+    "page_url": "https://www.liturgies.net/saints/hildaofwhitby/hildaofwhitby.htm",
+    "mass_url": "https://www.liturgies.net/saints/hildaofwhitby/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 18,
+    "title": "Rose Philippine Duchesne",
+    "page_url": "https://www.liturgies.net/saints/rosephilippineduchesne/rosephilippineduchesne.htm",
+    "mass_url": "https://www.liturgies.net/saints/rosephilippineduchesne/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 19,
+    "title": "St. Elizabeth of Hungary",
+    "page_url": "https://www.liturgies.net/saints/elizabethofhungary/elizabethofhungary.htm",
+    "mass_url": "https://www.liturgies.net/saints/elizabethofhungary/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 21,
+    "title": "Presentation of Mary",
+    "page_url": "https://www.liturgies.net/saints/mary/presentation/presentation.htm",
+    "mass_url": "https://www.liturgies.net/saints/mary/presentation/mass.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 22,
+    "title": "St. Cecilia",
+    "page_url": "https://www.liturgies.net/saints/cecilia/cecilia.htm",
+    "mass_url": "https://www.liturgies.net/saints/cecilia/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 23,
+    "title": "Clement of Rome",
+    "page_url": "https://www.liturgies.net/saints/clement/clement.htm",
+    "mass_url": "https://www.liturgies.net/saints/clement/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 23,
+    "title": "Columban",
+    "page_url": "https://www.liturgies.net/saints/columban/columban.htm",
+    "mass_url": "https://www.liturgies.net/saints/columban/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 23,
+    "title": "Miguel Agust�n Pro",
+    "page_url": "https://www.liturgies.net/saints/miguelagustinpro/miguelagustinpro.htm",
+    "mass_url": "https://www.liturgies.net/saints/miguelagustinpro/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  },
+  {
+    "month": 11,
+    "day_of_month": 24,
+    "title": "Andrew Dung-Lac",
+    "page_url": "https://www.liturgies.net/saints/andrewdunglac/andrewdunglac.htm",
+    "mass_url": "https://www.liturgies.net/saints/andrewdunglac/readings.htm",
+    "entrance_antiphon": [
+      {
+        "citation": "Mt 5:10",
+        "latin": "Beati qui persecutionem patiuntur propter iustitiam quoniam ipsorum est regnum caelorum.",
+        "english": "Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of heaven. PRAYER AFTER COMMUNION Unius panis alimonia refecti, in commemoratione sanctorum martyrum, te, Domine, suppliciter deprecamur, ut, in tua dilectione unanimes manentes, patientiae praemium mereamur consequi aeternum. Renewed by the one Bread as we commemorate the holy Martyrs, we humbly beseech you, O Lord, that, abiding as one in your love, we may merit by endurance an eternal prize. Through Christ our Lord. Liturgy of the HoursAndrew Dung-Lac and Companions, Martyrs From the Common of Several Martyrs, except the following: Office of Readings SECOND READING From a letter of Saint Paul Le-Bao-Tinh sent to students of the Seminary of Ke-Vinh in 1843 (A. Launay, Le clerg� tonkinois et ses pr�tres martyrs [Paris Foreign Mission Society, Paris, 1925], pp. 80-83) The martyrs' share in Christ's victory I, Paul, in chains for the name of Christ, wish to relate to you the trials besetting me daily, in order that you may be inflamed with love for God and join with me in his praises, The prison here is a true image of everlasting hell: to cruel tortures of every kind�shackles, iron chains, manacles�are added hatred, vengeance, calumnies, obscene speech, quarrels, evil acts, swearing, curses, as well as anguish and grief. But the God who once freed the three children from the fiery furnace is with me always; he has delivered me from these tribulations and made them sweet, In the midst of these torments, which usually terrify others, I am, by the grace of God, full of joy and gladness, because I am not alone�Christ is with me. Our master bears the whole weight of the cross, leaving me only the tiniest, last bit. He is not a mere onlooker in my struggle, but a contestant and the victor and champion in the whole battle. Therefore upon his head is placed the crown of victory, and his members also share in his glory. How am I to bear with the spectacle, as each day I see emperors, mandarins, and their retinue blaspheming your holy name, O Lord, Behold, the pagans have trodden your cross underfoot! Where is your glory? As I see all this, I would, in the ardent love I have for you, prefer to be torn limb from limb and to die as a witness to your love. O Lord, show your power, save me, sustain me, that in my infirmity your power may be shown and may be glorified before the nations; grant that I may not grow weak along the way, and so allow your enemies to hold their heads up in pride. Beloved brothers, as you hear all these things may you give endless thanks in joy to God, from whom every good proceeds; bless the Lord with me, Through my mouth he has confused the philosophers who are disciples of the wise of this world, I write these things to you in order that your faith and mine may be united. In the midst of this storm I cast my anchor toward the throne of God, the anchor that is the lively home in my heart. Beloved brothers, for your part and take up the weapons of Christ for the right hand and for the left, as my patron Saint Paul has taught us. Come to my aid with your prayers, that I may have the strength to fight according to the law, and indeed toand to fight until the end and so We may not again see each other in this life, but we will have the happiness of seeing each other again in the world to come, when, standing at the throne of the spotless Lamb, we will together join in singing his praises and exult for ever in the joy of our triumph. Amen. RESPONSORY Through patience let us run the race that is set before us. � Looking to Jesus the pioneer and perfecter of our faith. Consider him who from sinners endured such hostility against himself, so that you may not grow weary or fainthearted. � Looking to Jesus the pioneer and perfecter of our faith."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 5:10",
+        "latin": "Beati qui persecutionem patiuntur propter iustitiam quoniam ipsorum est regnum caelorum.",
+        "english": "Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of heaven."
+      }
+    ]
+  },
+  {
+    "month": 11,
+    "day_of_month": 25,
+    "title": "Catherine of Alexandria",
+    "page_url": "https://www.liturgies.net/saints/catherineofalexandria/catherineofalexandria.htm",
+    "mass_url": "https://www.liturgies.net/saints/catherineofalexandria/readings.htm",
+    "entrance_antiphon": [],
+    "communion_antiphon": []
+  }
+]
