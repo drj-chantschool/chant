@@ -1,10 +1,11 @@
 ﻿name: Jubilate Deo universa;
 office-part: Offertorium;
+version: Graduale Novi Mundi (simplex);
 mode: 1;
-book: Graduale Romanum, 1961, p. 69 & The Liber Usualis, 1961, p. 486 & Graduale Romanum, 1974, p. 227 & Gregorian Missal, 1990, p. 434;
-transcriber: Andrew Hinkley;
+book: Graduale Romanum, 1974;
+transcriber: John Costanzo;
 annotation: Of. I;
-commentary: Jubilate Deo, GR 227, Ps. 65: 1,2,16, tr. based on GM 435;
+commentary: Jubilate Deo, GR 227, Ps 65:1-2, 16, tr. GM;
 initial-style: 1;
 centering-scheme: english;
 %%

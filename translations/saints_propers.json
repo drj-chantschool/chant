@@ -18,7 +18,8 @@
         "latin": "Dixit Andreas Simoni fratri suo: Invenimus Messiam, qui dicitur Christus. Et adduxit eum ad Iesum.",
         "english": "Andrew told his brother Simon: We have found the Messiah, the Christ, and he brought him to Jesus."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -39,7 +40,8 @@
         "latin": "Quod dico vobis in tenebris, dicite in lumine, dicit Dominus, et quod in aure auditis, praedicate super tecta.",
         "english": "What I say to you in the darkness speak in the light, says the Lord; what you hear whispered proclaim on the housetops."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -48,16 +50,11 @@
     "page_url": "https://www.liturgies.net/saints/johndamascene/johndamascene.htm",
     "mass_url": "https://www.liturgies.net/saints/johndamascene/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
-  },
-  {
-    "month": 12,
-    "day_of_month": 6,
-    "title": "St. Nicholas of Myra",
-    "page_url": "https://www.liturgies.net/saints/nicholas/nicholas.htm",
-    "mass_url": "https://www.liturgies.net/saints/nicholas/readings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor;",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 12,
@@ -78,7 +75,8 @@
         "latin": "Qui meditabitur in lege Domini die ac nocte, dabit fructum suum in tempore suo.",
         "english": "He who ponders the law of the Lord day and night will yield fruit in due season."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -99,7 +97,8 @@
         "latin": "Gloriosa dicta sunt de te, Maria, quia ex te ortus est sol iustitiae, Christus Deus noster.",
         "english": "Glorious things are spoken of you, O Mary, for from you arose the sun of justice, Christ our God."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -122,6 +121,9 @@
         "english": "Whoever wishes to come after me, must deny himself, take up his cross, and follow me, says the Lord.",
         "english_only": true
       }
+    ],
+    "common_of": [
+      "Common of Holy Men and Women: For One Saint"
     ]
   },
   {
@@ -143,6 +145,9 @@
         "latin": "Fecit mihi magna, qui potens est, et sanctum nomen eius.",
         "english": "He who is mighty has done great things for me, and holy is his name."
       }
+    ],
+    "common_of": [
+      "Common of the Blessed Virgin Mary"
     ]
   },
   {
@@ -152,7 +157,10 @@
     "page_url": "https://www.liturgies.net/saints/damasus/damasus.htm",
     "mass_url": "https://www.liturgies.net/saints/damasus/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Pope"
+    ]
   },
   {
     "month": 12,
@@ -173,7 +181,8 @@
         "latin": "Dominus deposuit potentes de sede, et exaltavit humiles.",
         "english": "The Lord has cast down the mighty from their thrones, and has lifted up the lowly. Or: God has not acted thus for any other nation; to no other people has he shown his love so clearly."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -182,7 +191,11 @@
     "page_url": "https://www.liturgies.net/saints/lucy/lucy.htm",
     "mass_url": "https://www.liturgies.net/saints/lucy/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For a Virgin Martyr",
+      "Common of Virgins: For One Virgin."
+    ]
   },
   {
     "month": 12,
@@ -203,7 +216,8 @@
         "latin": "Qui vult venire post me, abneget semetipsum, et tollat crucem suam, et sequatur me, dicit Dominus.",
         "english": "Whoever wishes to come after me must deny himself, take up his cross, and follow me, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -224,7 +238,8 @@
         "latin": "Mitte manum tuam, et cognosce loca clavorum: et noli esse incredulus, sed fidelis.",
         "english": "Bring your hand and feel the place of the nails, and do not be unbelieving but believing."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -233,7 +248,11 @@
     "page_url": "https://www.liturgies.net/saints/petercanisius/petercanisius.htm",
     "mass_url": "https://www.liturgies.net/saints/petercanisius/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 12,
@@ -242,7 +261,8 @@
     "page_url": "https://www.liturgies.net/saints/johnofkanty/johnofkanty.htm",
     "mass_url": "https://www.liturgies.net/saints/johnofkanty/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 12,
@@ -263,7 +283,8 @@
         "latin": "Deus noster in terris visus est, et cum hominibus conversatus est.",
         "english": "Our God has appeared on the earth, and lived among us."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -284,7 +305,8 @@
         "latin": "Lapidabant Stephanum, invocantem et dicentem; Domine Jesu, suscipe spiritum meum.",
         "english": "As they were stoning Stephen, he called out, Lord Jesus, receive my spirit."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -305,7 +327,8 @@
         "latin": "Verbum caro factum est et habit�vit in nobis. Et de plenitúdine eius nos omnes accépimus.",
         "english": "The Word became flesh and made his dwelling among us, and from his fullness we have all received."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -326,7 +349,8 @@
         "latin": "Hi empti sunt ex hominibus, primitae Deo et Agno; hi sequuntur Agnum quocumque ierit.",
         "english": "Behold those redeemed as the first fruits of the human race for God and the Lamb, and who follow the Lamb wherever he goes."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 12,
@@ -335,7 +359,11 @@
     "page_url": "https://www.liturgies.net/saints/thomasbecket/thomasbecket.htm",
     "mass_url": "https://www.liturgies.net/saints/thomasbecket/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For One Martyr",
+      "For a Bishop."
+    ]
   },
   {
     "month": 12,
@@ -344,7 +372,10 @@
     "page_url": "https://www.liturgies.net/saints/sylvesteri/.sylvesteri.htm",
     "mass_url": "https://www.liturgies.net/saints/sylvesteri/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Pope"
+    ]
   },
   {
     "month": 1,
@@ -365,7 +396,8 @@
         "latin": "Domine, Dominus noster, quam admirabile est nomen tuum in universa terra!",
         "english": "O Lord, our Lord, how majestic is your name through all the earth!"
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 1,
@@ -386,7 +418,8 @@
         "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
         "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 1,
@@ -407,7 +440,8 @@
         "latin": "Domine, Dominus noster, quam admirabile est nomen tuum in universa terra!",
         "english": "O Lord, our Lord, how majestic is your name through all the earth!"
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 1,
@@ -430,7 +464,8 @@
         "english": "I am the living bread from heaven, says the Lord. Whoever eats this bread will live forever; the bread I shall give is my flesh for the life of the world.",
         "english_only": true
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 1,
@@ -451,7 +486,8 @@
         "latin": "Omnis qui relíquit domos vel fratres aut sorores aut patrem aut matrem aut fílios aut agros propter nomen meum, centúplum accípiet et vitam ætérnam possidébit.",
         "english": "Everyone who has given up home, brothers, or sisters, father or mother, wife or children or property for my sake will receive many times as much and inherit everlasting life."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 1,
@@ -460,7 +496,11 @@
     "page_url": "https://www.liturgies.net/saints/andrebessette/andrebessette.htm",
     "mass_url": "https://www.liturgies.net/saints/andrebessette/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Religious",
+      "Common of Holy Men: For Religious."
+    ]
   },
   {
     "month": 1,
@@ -469,7 +509,10 @@
     "page_url": "https://www.liturgies.net/saints/raymondpenyafort/raymondpenyafort.htm",
     "mass_url": "https://www.liturgies.net/saints/raymondpenyafort/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor"
+    ]
   },
   {
     "month": 1,
@@ -478,7 +521,8 @@
     "page_url": "https://www.liturgies.net/saints/aelred/aelred.htm",
     "mass_url": "https://www.liturgies.net/saints/aelred/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 1,
@@ -487,7 +531,11 @@
     "page_url": "https://www.liturgies.net/saints/Hilary/hilary.htm",
     "mass_url": "https://www.liturgies.net/saints/Hilary/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 1,
@@ -496,7 +544,8 @@
     "page_url": "https://www.liturgies.net/saints/remigius/remigius.htm",
     "mass_url": "https://www.liturgies.net/saints/remigius/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 1,
@@ -517,7 +566,8 @@
         "latin": "Si vis perfectus esse, vade, vende quae habes, et da pauperibus, et sequere me, dici Dominus.",
         "english": "If you would be perfect, go, sell what you have, give to the poor, and follow me, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 1,
@@ -526,7 +576,11 @@
     "page_url": "https://www.liturgies.net/saints/fabian/fabian.htm",
     "mass_url": "https://www.liturgies.net/saints/fabian/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr",
+      "Common of Pastors: For a Pope"
+    ]
   },
   {
     "month": 1,
@@ -535,7 +589,10 @@
     "page_url": "https://www.liturgies.net/saints/sebastian/sebastian.htm",
     "mass_url": "https://www.liturgies.net/saints/sebastian/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr"
+    ]
   },
   {
     "month": 1,
@@ -544,7 +601,11 @@
     "page_url": "https://www.liturgies.net/saints/agnes/agnes.htm",
     "mass_url": "https://www.liturgies.net/saints/agnes/mass.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For a Virgin Martyr",
+      "For One Virgin"
+    ]
   },
   {
     "month": 1,
@@ -553,7 +614,10 @@
     "page_url": "https://www.liturgies.net/saints/vincent/vincent.htm",
     "mass_url": "https://www.liturgies.net/saints/vincent/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr"
+    ]
   },
   {
     "month": 1,
@@ -562,7 +626,13 @@
     "page_url": "https://www.liturgies.net/saints/mariannecope/mariannecope.htm",
     "mass_url": "https://www.liturgies.net/saints/mariannecope/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Virgins: For One Virgin",
+      "Common of Holy Men and Women: For Those Who Practiced Works of Mercy.",
+      "Common of Virgins",
+      "Common of Holy Women: Those Who Worked for the Underprivileged."
+    ]
   },
   {
     "month": 1,
@@ -571,7 +641,11 @@
     "page_url": "https://www.liturgies.net/saints/franciscdesales/francisdesales.htm",
     "mass_url": "https://www.liturgies.net/saints/franciscdesales/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 1,
@@ -592,7 +666,8 @@
         "latin": "In fide vivo Filii Dei qui dilexit me et tradidit semetipsum pro me.",
         "english": "I live by faith in the Son of God, who has loved me and given himself up for me."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 1,
@@ -613,16 +688,18 @@
         "latin": "Euntes in mundum universum, praedicate Evangelium: ego vobiscum sum omnibus diebus, dicit Dominus.",
         "english": "Go into all the world, and proclaim the Gospel. I am with you always, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 1,
     "day_of_month": 27,
     "title": "St. John Chrysostom",
     "page_url": "https://www.liturgies.net/saints/johnchrysostom/johnchrysostom.htm",
-    "mass_url": "https://www.liturgies.net/saints/johnchrysostom/readings.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnchrysostom/catholicreadings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 1,
@@ -631,7 +708,11 @@
     "page_url": "https://www.liturgies.net/saints/angelamerici/angelamerici.htm",
     "mass_url": "https://www.liturgies.net/saints/angelamerici/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For One Virgin",
+      "For Educators"
+    ]
   },
   {
     "month": 1,
@@ -640,7 +721,11 @@
     "page_url": "https://www.liturgies.net/saints/thomasaquinas/thomasaquinas.htm",
     "mass_url": "https://www.liturgies.net/saints/thomasaquinas/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Doctors of the Church",
+      "For One Pastor"
+    ]
   },
   {
     "month": 1,
@@ -649,7 +734,11 @@
     "page_url": "https://www.liturgies.net/saints/donbosco/donbosco.htm",
     "mass_url": "https://www.liturgies.net/saints/donbosco/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For One Pastor",
+      "For Educators"
+    ]
   },
   {
     "month": 2,
@@ -672,7 +761,8 @@
         "english": "Come, you whom my Father has blessed, says the Lord. I was sick and you visited me. In truth I tell you, in so far as you did this to one of the least of these, you did it to me.",
         "english_only": true
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 2,
@@ -693,7 +783,8 @@
         "latin": "Viderunt oculi mei salutare tuum, quod parasti ante faciem omnium populorum.",
         "english": "My eyes have seen your salvation, which you prepared in the sight of all the peoples."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 2,
@@ -702,7 +793,11 @@
     "page_url": "https://www.liturgies.net/saints/blaise/blaise.htm",
     "mass_url": "https://www.liturgies.net/saints/blaise/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr",
+      "Common of Pastors: For a Bishop"
+    ]
   },
   {
     "month": 2,
@@ -711,7 +806,11 @@
     "page_url": "https://www.liturgies.net/saints/anskar/anskar.htm",
     "mass_url": "https://www.liturgies.net/saints/anskar/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For Missionaries",
+      "for a Bishop"
+    ]
   },
   {
     "month": 2,
@@ -720,7 +819,11 @@
     "page_url": "https://www.liturgies.net/saints/agatha/agatha.htm",
     "mass_url": "https://www.liturgies.net/saints/agatha/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For a Virgin Martyr",
+      "For One Virgin"
+    ]
   },
   {
     "month": 2,
@@ -729,7 +832,10 @@
     "page_url": "https://www.liturgies.net/saints/paulmiki/paulmiki.htm",
     "mass_url": "https://www.liturgies.net/saints/paulmiki/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For Several Martyrs"
+    ]
   },
   {
     "month": 2,
@@ -738,7 +844,10 @@
     "page_url": "https://www.liturgies.net/saints/jeromeemiliani/jeromeemiliani.htm",
     "mass_url": "https://www.liturgies.net/saints/jeromeemiliani/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For Educators"
+    ]
   },
   {
     "month": 2,
@@ -747,7 +856,10 @@
     "page_url": "https://www.liturgies.net/saints/josephinebakhita/josephinebakhita.htm",
     "mass_url": "https://www.liturgies.net/saints/josephinebakhita/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For One Virgin"
+    ]
   },
   {
     "month": 2,
@@ -756,7 +868,11 @@
     "page_url": "https://www.liturgies.net/saints/scholastica/scholastica.htm",
     "mass_url": "https://www.liturgies.net/saints/scholastica/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For One Virgin",
+      "For a Nun"
+    ]
   },
   {
     "month": 2,
@@ -765,7 +881,10 @@
     "page_url": "https://www.liturgies.net/saints/mary/lourdes/lourdes.htm",
     "mass_url": "https://www.liturgies.net/saints/mary/lourdes/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of the Blessed Virgin Mary"
+    ]
   },
   {
     "month": 2,
@@ -786,7 +905,8 @@
         "latin": "Profecti sunt discipuli Evangelium praedicantes, Domino cooperante et sermonem confirmante, sequentibus signis.",
         "english": "The disciples went forth and preached the Gospel, while the Lord worked with them, confirming the word through accompanying signs."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 2,
@@ -795,7 +915,10 @@
     "page_url": "https://www.liturgies.net/saints/servites/servites.htm",
     "mass_url": "https://www.liturgies.net/saints/servites/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For Religious"
+    ]
   },
   {
     "month": 2,
@@ -804,7 +927,11 @@
     "page_url": "https://www.liturgies.net/saints/peterdamian/peterdamian.htm",
     "mass_url": "https://www.liturgies.net/saints/peterdamian/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Doctors of the Church",
+      "For a Bishop"
+    ]
   },
   {
     "month": 2,
@@ -813,7 +940,11 @@
     "page_url": "https://www.liturgies.net/saints/polycarp/polycarp.htm",
     "mass_url": "https://www.liturgies.net/saints/polycarp/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr",
+      "Common of Pastors: For a Bishop"
+    ]
   },
   {
     "month": 2,
@@ -822,7 +953,8 @@
     "page_url": "https://www.liturgies.net/saints/gregoryofnarek/gregoryofnarek.htm",
     "mass_url": "https://www.liturgies.net/saints/gregoryofnarek/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 3,
@@ -845,7 +977,8 @@
         "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God.",
         "english_only": true
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 3,
@@ -854,7 +987,8 @@
     "page_url": "https://www.liturgies.net/saints/chad/chad.htm",
     "mass_url": "https://www.liturgies.net/saints/chad/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 3,
@@ -863,7 +997,11 @@
     "page_url": "https://www.liturgies.net/saints/katharinedrexel/katharinedrexel.htm",
     "mass_url": "https://www.liturgies.net/saints/katharinedrexel/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For One Virgin",
+      "Common of Virgins"
+    ]
   },
   {
     "month": 3,
@@ -872,7 +1010,10 @@
     "page_url": "https://www.liturgies.net/saints/casimir/casimir.htm",
     "mass_url": "https://www.liturgies.net/saints/casimir/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For One Saint"
+    ]
   },
   {
     "month": 3,
@@ -893,7 +1034,8 @@
         "latin": "In mortem tradimur propter Iesum, ut et vita Iesu manifestetur in carne nostra mortali.",
         "english": "For the sake of Jesus we are given up to death, that the life of Jesus may be manifested in our mortal flesh."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 3,
@@ -902,7 +1044,11 @@
     "page_url": "https://www.liturgies.net/saints/johnofgod/johnofgod.htm",
     "mass_url": "https://www.liturgies.net/saints/johnofgod/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Religious",
+      "For Those Who Practiced Works of Mercy"
+    ]
   },
   {
     "month": 3,
@@ -911,7 +1057,11 @@
     "page_url": "https://www.liturgies.net/saints/francesofrome/francesofrome.htm",
     "mass_url": "https://www.liturgies.net/saints/francesofrome/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Holy Women",
+      "Religious"
+    ]
   },
   {
     "month": 3,
@@ -926,7 +1076,8 @@
         "english": "Blessed Gregory, raised upon the throne of Peter, sought always the beauty of the Lord and lived in celebration of that love."
       }
     ],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 3,
@@ -935,7 +1086,11 @@
     "page_url": "https://www.liturgies.net/saints/patrick/patrick.htm",
     "mass_url": "https://www.liturgies.net/saints/patrick/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For Missionaries",
+      "For a Bishop"
+    ]
   },
   {
     "month": 3,
@@ -944,7 +1099,11 @@
     "page_url": "https://www.liturgies.net/saints/cyrilofjerusalem/cyrilofjerusalem.htm",
     "mass_url": "https://www.liturgies.net/saints/cyrilofjerusalem/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 3,
@@ -965,7 +1124,8 @@
         "latin": "Euge, serve bone et fidelis: intra in gaudium Domini tui.",
         "english": "Well done, good and faithful servant. Come, share your master's joy."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 3,
@@ -974,7 +1134,10 @@
     "page_url": "https://www.liturgies.net/saints/turibius/turibius.htm",
     "mass_url": "https://www.liturgies.net/saints/turibius/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop"
+    ]
   },
   {
     "month": 3,
@@ -995,7 +1158,8 @@
         "latin": "Ecce Virgo concipiet et pariet Filium, et vocabitur nomen eius Emmanuel.",
         "english": "Behold, a Virgin shall conceive and bear a son; and his name will be called Emmanuel."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 4,
@@ -1004,7 +1168,10 @@
     "page_url": "https://www.liturgies.net/saints/francisofpaola/francisofpaola.htm",
     "mass_url": "https://www.liturgies.net/saints/francisofpaola/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Religious"
+    ]
   },
   {
     "month": 4,
@@ -1013,7 +1180,11 @@
     "page_url": "https://www.liturgies.net/saints/isidore/isidore.htm",
     "mass_url": "https://www.liturgies.net/saints/isidore/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For A Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 4,
@@ -1022,7 +1193,10 @@
     "page_url": "https://www.liturgies.net/saints/vincentferrer/vincentferrer.htm",
     "mass_url": "https://www.liturgies.net/saints/vincentferrer/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For Missionaries"
+    ]
   },
   {
     "month": 4,
@@ -1031,7 +1205,8 @@
     "page_url": "https://www.liturgies.net/saints/johnbaptistdelasalle/johnbaptistdelasalle.htm",
     "mass_url": "https://www.liturgies.net/saints/johnbaptistdelasalle/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 4,
@@ -1040,7 +1215,12 @@
     "page_url": "https://www.liturgies.net/saints/stanislaus/stanislaus.htm",
     "mass_url": "https://www.liturgies.net/saints/stanislaus/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr",
+      "during Easter Time",
+      "Common of Pastors: For a Bishop"
+    ]
   },
   {
     "month": 4,
@@ -1049,7 +1229,12 @@
     "page_url": "https://www.liturgies.net/saints/martini/martin.htm",
     "mass_url": "https://www.liturgies.net/saints/martini/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For one Martyr",
+      "during Easter Time",
+      "Common of Pastors: For a Pope"
+    ]
   },
   {
     "month": 4,
@@ -1058,7 +1243,11 @@
     "page_url": "https://www.liturgies.net/saints/anselm/anselm.htm",
     "mass_url": "https://www.liturgies.net/saints/anselm/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For A Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 4,
@@ -1067,7 +1256,10 @@
     "page_url": "https://www.liturgies.net/saints/george/george.htm",
     "mass_url": "https://www.liturgies.net/saints/george/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr during Easter Time"
+    ]
   },
   {
     "month": 4,
@@ -1076,7 +1268,11 @@
     "page_url": "https://www.liturgies.net/saints/adalbert/adalbert.htm",
     "mass_url": "https://www.liturgies.net/saints/adalbert/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr during Easter Time",
+      "Common of Pastors: For a Bishop"
+    ]
   },
   {
     "month": 4,
@@ -1085,7 +1281,11 @@
     "page_url": "https://www.liturgies.net/saints/giles/giles.htm",
     "mass_url": "https://www.liturgies.net/saints/giles/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For an Abbot",
+      "Common of Holy Men, religious"
+    ]
   },
   {
     "month": 4,
@@ -1094,7 +1294,11 @@
     "page_url": "https://www.liturgies.net/saints/fidelis/fidelis.htm",
     "mass_url": "https://www.liturgies.net/saints/fidelis/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr during Easter Time",
+      "Common of Pastors: For One Pastor"
+    ]
   },
   {
     "month": 4,
@@ -1115,7 +1319,8 @@
         "latin": "Ecce ego vobiscum sum omnibus diebus usque ad consummationem saeculi, dicit Dominus, alleluia.",
         "english": "Behold, I am with you always, even to the end of the age, says the Lord, alleluia."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 4,
@@ -1124,7 +1329,11 @@
     "page_url": "https://www.liturgies.net/saints/peterchanel/peterchanel.htm",
     "mass_url": "https://www.liturgies.net/saints/peterchanel/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr during Easter Time",
+      "Common of Pastors: For Missionaries"
+    ]
   },
   {
     "month": 4,
@@ -1133,7 +1342,10 @@
     "page_url": "https://www.liturgies.net/saints/louisdemontfort/louisdemontfort.htm",
     "mass_url": "https://www.liturgies.net/saints/louisdemontfort/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor."
+    ]
   },
   {
     "month": 4,
@@ -1154,7 +1366,8 @@
         "latin": "Si in luce ambulamus, sicut Deus est in luce, societatem habemus ad invicem, et sanguis Iesu Christi, Filii eius, emundat nos ab omni peccato, alleluia.",
         "english": "If we walk in the light, as God is in the light, then we have fellowship with one another, and the blood of his Son Jesus Christ cleanses us from all sin, alleluia."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 4,
@@ -1175,7 +1388,8 @@
         "latin": "Calicem Domini biberunt, et amici Dei facti sunt.",
         "english": "They drank the chalice of the Lord, and became the friends of God."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 4,
@@ -1184,7 +1398,10 @@
     "page_url": "https://www.liturgies.net/saints/piusv/piusv.htm",
     "mass_url": "https://www.liturgies.net/saints/piusv/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For A Pope"
+    ]
   },
   {
     "month": 5,
@@ -1205,7 +1422,8 @@
         "latin": "Euge, serve bone et fidelis: intra in gaudium Domini tui.",
         "english": "Well done, good and faithful servant. Come, share your master's joy."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 5,
@@ -1226,7 +1444,8 @@
         "latin": "Domine, ostende nobis Patrem, et sufficit nobis, Phillipe, qui videt me, videt et Patrem meum, alleluia.",
         "english": "Lord, show us the Father, and that will be enough for us. Whoever has seen me, Philip, has seen the Father also, alleluia."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 5,
@@ -1247,7 +1466,8 @@
         "latin": "Fundamentum aliud nemo potest ponere, praeter id quod positum est, quod est Christus Iesus, alleluia.",
         "english": "No one can lay a foundation other than the one that is there, namely, Jesus Christ, alleluia."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 5,
@@ -1268,7 +1488,8 @@
         "latin": "Domine, ostende nobis Patrem, et sufficit nobis, Phillipe, qui videt me, videt et Patrem meum, alleluia.",
         "english": "Lord, show us the Father, and that will be enough for us. Whoever has seen me, Philip, has seen the Father also, alleluia."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 5,
@@ -1277,7 +1498,11 @@
     "page_url": "https://www.liturgies.net/saints/damienofmolokai/damienofmolokai.htm",
     "mass_url": "https://www.liturgies.net/saints/damienofmolokai/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor",
+      "Common of Pastors"
+    ]
   },
   {
     "month": 5,
@@ -1286,7 +1511,11 @@
     "page_url": "https://www.liturgies.net/saints/johnofavila/johnofavila.htm",
     "mass_url": "https://www.liturgies.net/saints/johnofavila/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor",
+      "Common of Doctors of the Church."
+    ]
   },
   {
     "month": 5,
@@ -1307,7 +1536,8 @@
         "latin": "Profecti sunt discipuli Evangelium praedicantes, Domino cooperante et sermonem confirmante, sequentibus signis.",
         "english": "The disciples went forth and preached the Gospel, while the Lord worked with them, confirming the word through accompanying signs."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 5,
@@ -1316,7 +1546,10 @@
     "page_url": "https://www.liturgies.net/saints/nereusandachilleus/nereusandachilleus.htm",
     "mass_url": "https://www.liturgies.net/saints/nereusandachilleus/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For Several Martyrs during Easter Time"
+    ]
   },
   {
     "month": 5,
@@ -1325,7 +1558,10 @@
     "page_url": "https://www.liturgies.net/saints/pancras/pancras.htm",
     "mass_url": "https://www.liturgies.net/saints/pancras/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For Several Martyrs during Easter Time"
+    ]
   },
   {
     "month": 5,
@@ -1334,7 +1570,11 @@
     "page_url": "https://www.liturgies.net/saints/mary/fatima/fatima.htm",
     "mass_url": "https://www.liturgies.net/saints/mary/fatima/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of the Blessed Virgin Mary",
+      "During Easter Time"
+    ]
   },
   {
     "month": 5,
@@ -1355,7 +1595,8 @@
         "latin": "Hoc est praeceptum meum, ut diligatis invicem, sicut dilexi vos, dicit Dominus",
         "english": "This is my commandment: love one another as I have loved you, says the Lord [E.T. alleluia]."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 5,
@@ -1364,7 +1605,12 @@
     "page_url": "https://www.liturgies.net/saints/johni/johni.htm",
     "mass_url": "https://www.liturgies.net/saints/johni/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr",
+      "During Easter Time",
+      "Common of Pastors: For a Pope"
+    ]
   },
   {
     "month": 5,
@@ -1373,7 +1619,11 @@
     "page_url": "https://www.liturgies.net/saints/christophermagallanes/christophermagallanes.htm",
     "mass_url": "https://www.liturgies.net/saints/christophermagallanes/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For Several Martyrs",
+      "During Easter Time"
+    ]
   },
   {
     "month": 5,
@@ -1382,7 +1632,10 @@
     "page_url": "https://www.liturgies.net/saints/ritaofcascia/ritaofcascia.htm",
     "mass_url": "https://www.liturgies.net/saints/ritaofcascia/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Religious"
+    ]
   },
   {
     "month": 5,
@@ -1391,7 +1644,8 @@
     "page_url": "https://www.liturgies.net/saints/jacksonkemper/jacksonkemper.htm",
     "mass_url": "https://www.liturgies.net/saints/jacksonkemper/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 5,
@@ -1400,7 +1654,11 @@
     "page_url": "https://www.liturgies.net/saints/bede/bede.htm",
     "mass_url": "https://www.liturgies.net/saints/bede/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Doctors of the Church",
+      "Common of Holy Men and Women: For a Monk"
+    ]
   },
   {
     "month": 5,
@@ -1409,7 +1667,10 @@
     "page_url": "https://www.liturgies.net/saints/gregoryvii/gregoryvii.htm",
     "mass_url": "https://www.liturgies.net/saints/gregoryvii/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Pope"
+    ]
   },
   {
     "month": 5,
@@ -1418,27 +1679,10 @@
     "page_url": "https://www.liturgies.net/saints/marymagdelenedepazzi/marymagdelenedepazzi.htm",
     "mass_url": "https://www.liturgies.net/saints/marymagdelenedepazzi/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
-  },
-  {
-    "month": 5,
-    "day_of_month": 26,
-    "title": "Philip Neri",
-    "page_url": "https://www.liturgies.net/saints/philipneri/philipneri.htm",
-    "mass_url": "https://www.liturgies.net/saints/philipneri/readings.htm",
-    "entrance_antiphon": [
-      {
-        "citation": "Rom 5: 5; cf. 8, 11",
-        "latin": "Caritas Dei diffusa est in cordibus nostris, per inhabitantem Spiritum eius in nobis (T.P. alleluia).",
-        "english": "The love of God has been poured into our hearts through the Spirit of God dwelling within us (E.T. alleluia)."
-      }
-    ],
-    "communion_antiphon": [
-      {
-        "citation": "Jn 15: 9",
-        "latin": "Sicut dilexit me Pater, et ego dilexi vos, dicit Dominus; manete in dilectione mea (T.P. alleluia).",
-        "english": "As the Father loves me, so I also love you; remain in my love (E.T. alleluia)."
-      }
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Virgins: For One Virgin",
+      "Common of Holy Men and Women: For Religious"
     ]
   },
   {
@@ -1448,7 +1692,11 @@
     "page_url": "https://www.liturgies.net/saints/augustineofcanterbury/augustineofcanterbury.htm",
     "mass_url": "https://www.liturgies.net/saints/augustineofcanterbury/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For Missionaries",
+      "For a Bishop"
+    ]
   },
   {
     "month": 5,
@@ -1457,7 +1705,11 @@
     "page_url": "https://www.liturgies.net/saints/paulvi/paulvi.htm",
     "mass_url": "https://www.liturgies.net/saints/paulvi/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Pope",
+      "Common of Pastors, for a Pope"
+    ]
   },
   {
     "month": 5,
@@ -1478,7 +1730,8 @@
         "latin": "Beatam me dicent omnes generationes, quia fecit mihi magna qui potens est, et sanctum nomen eius.",
         "english": "All generations will call me blessed, for he who is mighty has done great things for me, and holy is his name (E.T. alleluia)."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 5,
@@ -1486,8 +1739,21 @@
     "title": "Immaculate Heart of Mary",
     "page_url": "https://www.liturgies.net/saints/mary/immaculateheart/immaculateheart.htm",
     "mass_url": "https://www.liturgies.net/saints/mary/immaculateheart/mass.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": []
+    "entrance_antiphon": [
+      {
+        "citation": "Ps 13 (12): 6",
+        "latin": "Exsultabit cor meum in salutari tuo, cantabo Domino, qui bona tribuit mihi.",
+        "english": "My heart will rejoice in your salvation. I will sing to the Lord, who has been bountiful with me."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "Lk 2: 19",
+        "latin": "Maria conservabit omnia verba haec, conferens in corde suo.",
+        "english": "Mary treasured all these words, reflecting on them in her heart."
+      }
+    ],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1508,7 +1774,8 @@
         "latin": "Non iudicavi me scire aliquid inter vos, nisi Iesum Christum, et hunc crucifixum.",
         "english": "I resolved to know nothing while I was with you except Jesus Christ and him crucified. (E.T. Alleluia)"
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1517,7 +1784,11 @@
     "page_url": "https://www.liturgies.net/saints/marcellinusandpeter/marcellinusandpeter.htm",
     "mass_url": "https://www.liturgies.net/saints/marcellinusandpeter/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For Several Martyrs",
+      "during Easter Time"
+    ]
   },
   {
     "month": 6,
@@ -1526,7 +1797,8 @@
     "page_url": "https://www.liturgies.net/saints/martyrsoflyons/martyrsoflyons.htm",
     "mass_url": "https://www.liturgies.net/saints/martyrsoflyons/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1547,7 +1819,8 @@
         "latin": "Pretiosa in conspectu Domini; mors sanctorum eius",
         "english": "How precious in the eyes of the Lord is the death of his holy ones. (E.T. alleluia)."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1556,7 +1829,12 @@
     "page_url": "https://www.liturgies.net/saints/boniface/boniface.htm",
     "mass_url": "https://www.liturgies.net/saints/boniface/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr",
+      "during Easter Time",
+      "Common of Pastors: For Missionaries"
+    ]
   },
   {
     "month": 6,
@@ -1565,16 +1843,10 @@
     "page_url": "https://www.liturgies.net/saints/norbert/norbert.htm",
     "mass_url": "https://www.liturgies.net/saints/norbert/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
-  },
-  {
-    "month": 6,
-    "day_of_month": 9,
-    "title": "St. Columba of Iona",
-    "page_url": "https://www.liturgies.net/saints/columba/columba.htm",
-    "mass_url": "https://www.liturgies.net/saints/columba/readings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop"
+    ]
   },
   {
     "month": 6,
@@ -1583,7 +1855,10 @@
     "page_url": "https://www.liturgies.net/saints/ephrem/ephrem.htm",
     "mass_url": "https://www.liturgies.net/saints/ephrem/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 6,
@@ -1604,7 +1879,8 @@
         "latin": "Iam non dicam vos servos, quia servus nescit quid faciat Dominus eius. Vos autem dixi amicos, quia omnia quaecumque audivi a Patre meo, nota feci vobis.",
         "english": "I no longer call you slaves, because a slave does not know what his master is doing. But I have called you friends, because I have told you everything I have heard from my Father (E.T. alleluia)."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1613,7 +1889,12 @@
     "page_url": "https://www.liturgies.net/saints/anthonypadua/anthony.htm",
     "mass_url": "https://www.liturgies.net/saints/anthonypadua/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor",
+      "Common of Doctors of the Church",
+      "Common of Holy Men and Women: For Religious."
+    ]
   },
   {
     "month": 6,
@@ -1634,7 +1915,8 @@
         "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
         "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1643,7 +1925,8 @@
     "page_url": "https://www.liturgies.net/saints/evelynunderhill/evelynunderhill.htm",
     "mass_url": "https://www.liturgies.net/saints/evelynunderhill/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1652,7 +1935,8 @@
     "page_url": "https://www.liturgies.net/saints/josephbutler/josephbutler.htm",
     "mass_url": "https://www.liturgies.net/saints/josephbutler/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1661,7 +1945,8 @@
     "page_url": "https://www.liturgies.net/saints/bernardmizeki/bernardmizeki.htm",
     "mass_url": "https://www.liturgies.net/saints/bernardmizeki/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1670,7 +1955,10 @@
     "page_url": "https://www.liturgies.net/saints/romuald/romuald.htm",
     "mass_url": "https://www.liturgies.net/saints/romuald/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For an Abbot"
+    ]
   },
   {
     "month": 6,
@@ -1691,7 +1979,8 @@
         "latin": "Panem caeli dedit eis, panem Angelorum manducavit homo.",
         "english": "God gave them bread from heaven; man ate the bread of Angels"
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1700,7 +1989,8 @@
     "page_url": "https://www.liturgies.net/saints/alban/alban.htm",
     "mass_url": "https://www.liturgies.net/saints/alban/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1709,7 +1999,10 @@
     "page_url": "https://www.liturgies.net/saints/johnfisherandthomasmore/johnfisherandthomasmore.htm",
     "mass_url": "https://www.liturgies.net/saints/johnfisherandthomasmore/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs, For Several Martyrs"
+    ]
   },
   {
     "month": 6,
@@ -1718,7 +2011,10 @@
     "page_url": "https://www.liturgies.net/saints/paulinusofnola/paulinusofnola.htm",
     "mass_url": "https://www.liturgies.net/saints/paulinusofnola/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop"
+    ]
   },
   {
     "month": 6,
@@ -1739,7 +2035,8 @@
         "latin": "Benedictus Dominus Deus Israel, quia visitavit et fecit redemptionem plebis suae.",
         "english": "Blessed be the Lord, the God of Israel! He has visited his people and redeemed them."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1748,7 +2045,11 @@
     "page_url": "https://www.liturgies.net/saints/cyrilalexandria/cyrilalexandria.htm",
     "mass_url": "https://www.liturgies.net/saints/cyrilalexandria/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 6,
@@ -1769,7 +2070,8 @@
         "latin": "Manete in me, et ego in vobis, dicit Dominus. Qui manet in me et ego in eo, hic fert fructum multum.",
         "english": "Remain in me, as I remain in you, says the Lord. Whoever remains in me, and I in him, bears fruit in plenty"
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1790,7 +2092,8 @@
         "latin": "Simon Ioannis, diligis me plus his? Domine, tu omnia nosti; tu scis, Domine, quia amo te.",
         "english": "Simon, Son of John, do you love me more than these? Lord, you know everything; you know that I love you."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 6,
@@ -1799,7 +2102,10 @@
     "page_url": "https://www.liturgies.net/saints/martyrsofrome/martyrsofrome.htm",
     "mass_url": "https://www.liturgies.net/saints/martyrsofrome/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For Several Martyrs"
+    ]
   },
   {
     "month": 7,
@@ -1808,7 +2114,10 @@
     "page_url": "https://www.liturgies.net/saints/juniperoserra/juniperoserra.htm",
     "mass_url": "https://www.liturgies.net/saints/juniperoserra/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors"
+    ]
   },
   {
     "month": 7,
@@ -1829,7 +2138,8 @@
         "latin": "Mitte manum tuam, et cognosce loca clavorum: et noli esse incredulus, sed fidelis.",
         "english": "Bring your hand and feel the place of the nails, and do not be unbelieving but believing."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 7,
@@ -1838,7 +2148,12 @@
     "page_url": "https://www.liturgies.net/saints/anthonyzaccaria/anthonyzaccaria.htm",
     "mass_url": "https://www.liturgies.net/saints/anthonyzaccaria/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors",
+      "Common of Holy Men and Women: For Educators",
+      "For Religious"
+    ]
   },
   {
     "month": 7,
@@ -1847,7 +2162,10 @@
     "page_url": "https://www.liturgies.net/saints/elizabethofportugal/elizabethofportugal.htm",
     "mass_url": "https://www.liturgies.net/saints/elizabethofportugal/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Those Who Practiced Works of Mercy"
+    ]
   },
   {
     "month": 7,
@@ -1856,7 +2174,11 @@
     "page_url": "https://www.liturgies.net/saints/mariagoretti/mariagoretti.htm",
     "mass_url": "https://www.liturgies.net/saints/mariagoretti/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For a Virgin Martyr",
+      "Common of Virgins: For One Virgin"
+    ]
   },
   {
     "month": 7,
@@ -1865,7 +2187,10 @@
     "page_url": "https://www.liturgies.net/saints/augustinezhaorong/augustinezhaorong.htm",
     "mass_url": "https://www.liturgies.net/saints/augustinezhaorong/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: Several Martyrs"
+    ]
   },
   {
     "month": 7,
@@ -1886,7 +2211,8 @@
         "latin": "Fidelis servus et prudens, quem constituit Dominus super familiam suam, ut det illis in tempore tritici mensuram.",
         "english": "This is the steward, faithful and prudent, whom the Lord set over his household to give them their allowance of food at the proper time."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 7,
@@ -1895,7 +2221,10 @@
     "page_url": "https://www.liturgies.net/saints/henry/henry.htm",
     "mass_url": "https://www.liturgies.net/saints/henry/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For One Saint"
+    ]
   },
   {
     "month": 7,
@@ -1904,7 +2233,10 @@
     "page_url": "https://www.liturgies.net/saints/kateritekakwitha/kateritekakwitha.htm",
     "mass_url": "https://www.liturgies.net/saints/kateritekakwitha/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Virgins: For One Virgin"
+    ]
   },
   {
     "month": 7,
@@ -1913,7 +2245,11 @@
     "page_url": "https://www.liturgies.net/saints/bonaventure/bonaventure.htm",
     "mass_url": "https://www.liturgies.net/saints/bonaventure/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 7,
@@ -1922,7 +2258,10 @@
     "page_url": "https://www.liturgies.net/saints/mary/mtcarmel/mtcarmel.htm",
     "mass_url": "https://www.liturgies.net/saints/mary/mtcarmel/mass.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "From the Common of the Blessed Virgin Mary"
+    ]
   },
   {
     "month": 7,
@@ -1931,7 +2270,10 @@
     "page_url": "https://www.liturgies.net/saints/camillusdelellis/camillusdelellis.htm",
     "mass_url": "https://www.liturgies.net/saints/camillusdelellis/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Those who Practiced Works of Mercy"
+    ]
   },
   {
     "month": 7,
@@ -1940,7 +2282,11 @@
     "page_url": "https://www.liturgies.net/saints/apollinaris/apollinaris.htm",
     "mass_url": "https://www.liturgies.net/saints/apollinaris/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For One Martyr",
+      "For a Bishop."
+    ]
   },
   {
     "month": 7,
@@ -1949,7 +2295,12 @@
     "page_url": "https://www.liturgies.net/saints/lawrenceofbrindisi/lawrenceofbrindisi.htm",
     "mass_url": "https://www.liturgies.net/saints/lawrenceofbrindisi/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor;",
+      "Common of Doctors of the Church",
+      "Common of Holy Men and Women: For Religious"
+    ]
   },
   {
     "month": 7,
@@ -1970,7 +2321,8 @@
         "latin": "Caritas Christi urget nos, ut et qui vivunt iam non sibi vivant, sed ei qui pro ipsis mortuus est et resurrexit.",
         "english": "The love of Christ impels us, so that those who live may live no longer for themselves, but for him who died for them and was raised."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 7,
@@ -1979,7 +2331,11 @@
     "page_url": "https://www.liturgies.net/saints/bridgetofsweden/bridgetofsweden.htm",
     "mass_url": "https://www.liturgies.net/saints/bridgetofsweden/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Holy Women",
+      "For Religious"
+    ]
   },
   {
     "month": 7,
@@ -1988,7 +2344,11 @@
     "page_url": "https://www.liturgies.net/saints/sharbelmakhluf/sharbelmakhluf.htm",
     "mass_url": "https://www.liturgies.net/saints/sharbelmakhluf/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor",
+      "Common of Holy Men and Women: For a Monk"
+    ]
   },
   {
     "month": 7,
@@ -2009,7 +2369,8 @@
         "latin": "Calicem Domini biberunt, et amici Dei facti sunt.",
         "english": "They drank the chalice of the Lord, and became the friends of God."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 7,
@@ -2030,7 +2391,8 @@
         "latin": "Acceperunt benedictionem a Domino, et misericordiam a Deo salutari suo.",
         "english": "They received blessings from the Lord and mercy from God their Savior."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 7,
@@ -2051,7 +2413,8 @@
         "latin": "Dixit Martha ad Iesum: Tu es Christus, Filius Dei vivi, qui in hunc mundum venisti.",
         "english": "Martha said to Jesus: You are the Christ, the Son of God, who is coming into this world."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 7,
@@ -2060,7 +2423,11 @@
     "page_url": "https://www.liturgies.net/saints/peterchrysologus/peterchrysologus.htm",
     "mass_url": "https://www.liturgies.net/saints/peterchrysologus/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 7,
@@ -2081,7 +2448,8 @@
         "latin": "Dicit Dominus: Ignem veni mittere in terram, et quid volo, nisi ut accendatur?",
         "english": "Thus says the Lord: I have come to cast fire on the earth, and how I wish that it were kindled!"
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2090,7 +2458,11 @@
     "page_url": "https://www.liturgies.net/saints/alphonsusliguori/alphonsusliguori.htm",
     "mass_url": "https://www.liturgies.net/saints/alphonsusliguori/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 8,
@@ -2099,7 +2471,10 @@
     "page_url": "https://www.liturgies.net/saints/eusebiusofvercelli/eusebiusofvercelli.htm",
     "mass_url": "https://www.liturgies.net/saints/eusebiusofvercelli/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop"
+    ]
   },
   {
     "month": 8,
@@ -2108,7 +2483,11 @@
     "page_url": "https://www.liturgies.net/saints/peterjulianeymard/peterjulianeymard.htm",
     "mass_url": "https://www.liturgies.net/saints/peterjulianeymard/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Religious",
+      "Common of Pastors: For One Pastor"
+    ]
   },
   {
     "month": 8,
@@ -2117,7 +2496,8 @@
     "page_url": "https://www.liturgies.net/saints/johnvianney/johnvianney.htm",
     "mass_url": "https://www.liturgies.net/saints/johnvianney/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2138,7 +2518,8 @@
         "latin": "Cum Christus apparuerit, similes ei erimus, quoniam videbimus eum sicuti est.",
         "english": "When Christ appears, we shall be like him, for we shall see him as he is."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2147,7 +2528,10 @@
     "page_url": "https://www.liturgies.net/saints/sixtusii/sixtusii.htm",
     "mass_url": "https://www.liturgies.net/saints/sixtusii/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For Several Martyrs"
+    ]
   },
   {
     "month": 8,
@@ -2156,7 +2540,11 @@
     "page_url": "https://www.liturgies.net/saints/cajetan/cajetan.htm",
     "mass_url": "https://www.liturgies.net/saints/cajetan/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For one Pastor",
+      "Common of Holy Men and Women: For Religious"
+    ]
   },
   {
     "month": 8,
@@ -2177,7 +2565,8 @@
         "latin": "Fidelis servus et prudens, quem constituit Dominus super familiam suam, ut det illis in tempore tritici mensuram.",
         "english": "This is the steward, faithful and prudent, whom the Lord set over his household to give them their allowance of food at the proper time."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2200,7 +2589,8 @@
         "english": "This is how all will know that you are my disciples, if you have love for one another, says the Lord.",
         "english_only": true
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2209,7 +2599,10 @@
     "page_url": "https://www.liturgies.net/saints/teresabenedicta/teresabenedicta.htm",
     "mass_url": "https://www.liturgies.net/saints/teresabenedicta/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For a Virgin Martyr"
+    ]
   },
   {
     "month": 8,
@@ -2230,7 +2623,8 @@
         "latin": "Qui mihi ministrat, me sequitur; et ubi sum ego, illic et minister meus erit, dicit Dominus.",
         "english": "Whoever serves me must follow me and where I am there also will my servant be, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2239,7 +2633,11 @@
     "page_url": "https://www.liturgies.net/saints/clare/clare.htm",
     "mass_url": "https://www.liturgies.net/saints/clare/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Virgins",
+      "Common of Holy Men and Women: For a Nun."
+    ]
   },
   {
     "month": 8,
@@ -2248,7 +2646,10 @@
     "page_url": "https://www.liturgies.net/saints/janefrancesdechantal/janefrancisdechantal.htm",
     "mass_url": "https://www.liturgies.net/saints/janefrancesdechantal/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Religious"
+    ]
   },
   {
     "month": 8,
@@ -2257,7 +2658,11 @@
     "page_url": "https://www.liturgies.net/saints/pontianandhipploytus/pontianandhippolytus.htm",
     "mass_url": "https://www.liturgies.net/saints/pontianandhipploytus/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For Several Martyrs",
+      "Common of Pastors."
+    ]
   },
   {
     "month": 8,
@@ -2278,7 +2683,8 @@
         "latin": "Maiorem caritatem nemo habet, ut animam suam ponat quis pro amicis suis, dicit Dominus.",
         "english": "Greater love has no one than to lay down his life for his friends, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2299,7 +2705,8 @@
         "latin": "Beata viscera Mariae Virginis, quae portaverunt aeterni Patris Filium.",
         "english": "Blessed is the womb of the Virgin Mary, which bore the Son of the eternal Father"
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2308,16 +2715,8 @@
     "page_url": "https://www.liturgies.net/saints/stephenofhungary/stephenofhungary.htm",
     "mass_url": "https://www.liturgies.net/saints/stephenofhungary/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
-  },
-  {
-    "month": 8,
-    "day_of_month": 19,
-    "title": "St. John Eudes",
-    "page_url": "https://www.liturgies.net/saints/johneudes/johneudes.htm",
-    "mass_url": "https://www.liturgies.net/saints/johneudes/readings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2338,7 +2737,8 @@
         "latin": "Sicut dilexit me Pater, et ego dilexi vos, dicit Dominus; manete in dilectione mea.",
         "english": "As the Father loves me, so I also love you; remain in my love, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2347,7 +2747,10 @@
     "page_url": "https://www.liturgies.net/saints/piusx/piusx.htm",
     "mass_url": "https://www.liturgies.net/saints/piusx/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Pope"
+    ]
   },
   {
     "month": 8,
@@ -2368,6 +2771,9 @@
         "latin": "Beata es, quae credidsti, quoniam perficientur ea, quae dicta sunt tibi a Domino.",
         "english": "Blessed are you who have believed that what was spoken to you by the Lord will be fulfilled."
       }
+    ],
+    "common_of": [
+      "Common of the Blessed Virgin Mary"
     ]
   },
   {
@@ -2377,7 +2783,8 @@
     "page_url": "https://www.liturgies.net/saints/roseoflima/roseoflima.htm",
     "mass_url": "https://www.liturgies.net/saints/roseoflima/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2398,7 +2805,8 @@
         "latin": "Ego dispono vobis, sicut disposuit mihi Pater meus, regnum, ut edatis et bibatis super mensam meam in regno meo, dicit Dominus.",
         "english": "I confer a kingdom on you, just as my Father has conferred one on me, that you may eat and drink at my table in my kingdom, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2407,7 +2815,10 @@
     "page_url": "https://www.liturgies.net/saints/louis/louis.htm",
     "mass_url": "https://www.liturgies.net/saints/louis/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For One Saint"
+    ]
   },
   {
     "month": 8,
@@ -2416,7 +2827,11 @@
     "page_url": "https://www.liturgies.net/saints/josephcalasanz/josephcalasanz.htm",
     "mass_url": "https://www.liturgies.net/saints/josephcalasanz/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Educators",
+      "Common of Pastors: For One Pastor"
+    ]
   },
   {
     "month": 8,
@@ -2425,7 +2840,10 @@
     "page_url": "https://www.liturgies.net/saints/monica/monica.htm",
     "mass_url": "https://www.liturgies.net/saints/monica/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "From the Common of Holy Men and Women: For Holy Women"
+    ]
   },
   {
     "month": 8,
@@ -2448,7 +2866,8 @@
         "english": "Thus says the Lord: You have but one teacher, the Christ, and you are all brothers.",
         "english_only": true
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2469,7 +2888,8 @@
         "latin": "Benedictus Dominus Deus Israel, quia visitavit et fecit redemptionem plebis suae.",
         "english": "Blessed be the Lord, the God of Israel! He has visited his people and redeemed them."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 8,
@@ -2478,7 +2898,8 @@
     "page_url": "https://www.liturgies.net/saints/aidan/aidan.htm",
     "mass_url": "https://www.liturgies.net/saints/aidan/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2493,7 +2914,8 @@
         "english": "Blessed Gregory, raised upon the throne of Peter, sought always the beauty of the Lord and lived in celebration of that love."
       }
     ],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2501,8 +2923,19 @@
     "title": "Teresa of Calcutta",
     "page_url": "https://www.liturgies.net/saints/teresaofcalcutta/teresaofcalcutta.htm",
     "mass_url": "https://www.liturgies.net/saints/teresaofcalcutta/readings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": []
+    "entrance_antiphon": [
+      {
+        "citation": null,
+        "latin": "",
+        "english": "Come, you blessed of my Father, says the Lord: I was thirsty and you gave me to drink; behold now I give you the water of everlasting life.",
+        "english_only": true
+      }
+    ],
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Virgins: For One Virgin",
+      "Common of Holy Men and Women: For Those Who Practiced Works of Mercy."
+    ]
   },
   {
     "month": 9,
@@ -2523,7 +2956,8 @@
         "latin": "Ecce Virgo pariet Filium, qui salvum faciet populum suum a peccatis eorum.",
         "english": "Behold, the Virgin will bear a son, who will save his people from their sins."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2532,7 +2966,11 @@
     "page_url": "https://www.liturgies.net/saints/peterclaver/peterclaver.htm",
     "mass_url": "https://www.liturgies.net/saints/peterclaver/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor",
+      "Common of Holy Men and Women: For Those Who Practiced Works of Mercy"
+    ]
   },
   {
     "month": 9,
@@ -2553,16 +2991,18 @@
         "latin": "Beatam me dicent omnes generationes, quia ancillam humilem respexit Deus.",
         "english": "All generations will call me blessed, for God has looked on his lowly handmaid."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 9,
     "day_of_month": 13,
     "title": "St. John Chrysostom",
     "page_url": "https://www.liturgies.net/saints/johnchrysostom/johnchrysostom.htm",
-    "mass_url": "https://www.liturgies.net/saints/johnchrysostom/readings.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnchrysostom/catholicreadings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2583,7 +3023,8 @@
         "latin": "Ego si exaltatus fuero a terra, omnes traham ad meipsum, dicit Dominus.",
         "english": "When I am lifted up from the earth, I will draw everyone to myself, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2604,7 +3045,8 @@
         "latin": "Communicantes Christi passionibus gaudete, ut et in revelatione gloriae eius gaudeteatis exsultantes.",
         "english": "Rejoice when you share in the sufferings of Christ, that you may also rejoice exultantly when his glory is revealed."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2613,7 +3055,11 @@
     "page_url": "https://www.liturgies.net/saints/corneliusandcyprian/corneliusandcyprian.htm",
     "mass_url": "https://www.liturgies.net/saints/corneliusandcyprian/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For Several Martyrs",
+      "For a Bishop."
+    ]
   },
   {
     "month": 9,
@@ -2622,7 +3068,8 @@
     "page_url": "https://www.liturgies.net/saints/ninian/ninian.htm",
     "mass_url": "https://www.liturgies.net/saints/ninian/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2631,7 +3078,11 @@
     "page_url": "https://www.liturgies.net/saints/robertbellarmine/robertbellarmine.htm",
     "mass_url": "https://www.liturgies.net/saints/robertbellarmine/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For a Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 9,
@@ -2640,7 +3091,8 @@
     "page_url": "https://www.liturgies.net/saints/hildegard/hildegard.htm",
     "mass_url": "https://www.liturgies.net/saints/hildegard/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2649,7 +3101,11 @@
     "page_url": "https://www.liturgies.net/saints/januarius/januarius.htm",
     "mass_url": "https://www.liturgies.net/saints/januarius/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For One Martyr",
+      "For a Bishop."
+    ]
   },
   {
     "month": 9,
@@ -2670,7 +3126,8 @@
         "latin": "Omnis qui confitebitur me coram hominibus, confitebor et ego eum coram Patre meo, qui est in caelis, dicit Dominus.",
         "english": "Everyone who acknowledges me before others I will acknowledge before my heavenly Father, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2691,7 +3148,8 @@
         "latin": "Non veni vocare iustos, sed peccatores, dicit Dominus.",
         "english": "I did not come to call the just, but sinners, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2700,7 +3158,12 @@
     "page_url": "https://www.liturgies.net/saints/padrepio/padrepio.htm",
     "mass_url": "https://www.liturgies.net/saints/padrepio/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For One Pastor",
+      "Common of Holy Men and Women: For Religious.",
+      "Common of Pastors"
+    ]
   },
   {
     "month": 9,
@@ -2709,7 +3172,8 @@
     "page_url": "https://www.liturgies.net/saints/sergius/sergius.htm",
     "mass_url": "https://www.liturgies.net/saints/sergius/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2718,7 +3182,10 @@
     "page_url": "https://www.liturgies.net/saints/cosmasanddamian/cosmasanddamian.htm",
     "mass_url": "https://www.liturgies.net/saints/cosmasanddamian/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "From the Common of Martyrs: For Several Martyrs"
+    ]
   },
   {
     "month": 9,
@@ -2739,7 +3206,8 @@
         "latin": "Confiteantur Domino misericordiae eius, et mirabilia eius filiis hominum, quia satiavit animam inanem et animam esurientem satiavit bonis.",
         "english": "Let them thank the Lord for his mercy, his wonders for the children of men, for he satisfies the thirsty soul, and the hungry he fills with good things."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2748,7 +3216,8 @@
     "page_url": "https://www.liturgies.net/saints/wenceslaus/wenceslaus.htm",
     "mass_url": "https://www.liturgies.net/saints/wenceslaus/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2757,7 +3226,10 @@
     "page_url": "https://www.liturgies.net/saints/lawrenceruiz/lawrenceruiz.htm",
     "mass_url": "https://www.liturgies.net/saints/lawrenceruiz/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Several Martyrs"
+    ]
   },
   {
     "month": 9,
@@ -2778,7 +3250,8 @@
         "latin": "Confitebor tibi, Domine, in toto corde meo, in conspectu Angelorum psallam tibi.",
         "english": "I will thank you, Lord, with all my heart; in the presence of the Angels I will praise you."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 9,
@@ -2799,6 +3272,9 @@
         "latin": "Domine Deus, inventi sunt sermones tuos, et comedi eos; et factum est mihi verbum tuum in gaudium et in laetitiam cordis mei.",
         "english": "Lord God, your words were found and I consumed them; your word became the joy and the happiness of my heart."
       }
+    ],
+    "common_of": [
+      "Common of Pastors"
     ]
   },
   {
@@ -2808,7 +3284,8 @@
     "page_url": "https://www.liturgies.net/saints/remigius/remigius.htm",
     "mass_url": "https://www.liturgies.net/saints/remigius/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 10,
@@ -2829,7 +3306,8 @@
         "latin": "Dicit Dominus: Nisi conversi fueritis, et efficiamini sicut parvuli, non intrabitis in regnum caelorum.",
         "english": "Thus says the Lord: Unless you turn and become like children, you will not enter the Kingdom of Heaven."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 10,
@@ -2838,7 +3316,8 @@
     "page_url": "https://www.liturgies.net/saints/mary/protection/protection.htm",
     "mass_url": "https://www.liturgies.net/saints/mary/protection/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 10,
@@ -2859,28 +3338,8 @@
         "latin": "In conspectu Angelorum psallam tibi, Deus meus.",
         "english": "In the presence of the Angels I will praise you, my God"
       }
-    ]
-  },
-  {
-    "month": 10,
-    "day_of_month": 4,
-    "title": "St. Francis of Assisi",
-    "page_url": "https://www.liturgies.net/saints/francis/francis.htm",
-    "mass_url": "https://www.liturgies.net/saints/francis/readings.htm",
-    "entrance_antiphon": [
-      {
-        "citation": null,
-        "latin": "Vir Dei Franciscus reliquit domum suam, dimisit hereditatem suam, inops et pauper factus est; Dominus autem assumpsit eum.",
-        "english": "Francis, the man of God, left his home behind, abandoned his inheritance and became poor and penniless, but the Lord raised him up."
-      }
     ],
-    "communion_antiphon": [
-      {
-        "citation": "Mat 5:3",
-        "latin": "Beati pauperes spiritu, quoniam ipsorum est regnum caelorum.",
-        "english": "Blessed are the poor in spirit, for theirs is the kingdom of heaven."
-      }
-    ]
+    "common_of": []
   },
   {
     "month": 10,
@@ -2889,7 +3348,11 @@
     "page_url": "https://www.liturgies.net/saints/francisxavierseelos/francisxavierseelos.htm",
     "mass_url": "https://www.liturgies.net/saints/francisxavierseelos/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For Missionaries",
+      "Common of Pastors: missionaries"
+    ]
   },
   {
     "month": 10,
@@ -2898,7 +3361,8 @@
     "page_url": "https://www.liturgies.net/saints/faustinakowalska/faustinakowalska.htm",
     "mass_url": "https://www.liturgies.net/saints/faustinakowalska/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 10,
@@ -2907,7 +3371,11 @@
     "page_url": "https://www.liturgies.net/saints/bruno/bruno.htm",
     "mass_url": "https://www.liturgies.net/saints/bruno/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For a Monk",
+      "Common of Pastors: For One Pastor"
+    ]
   },
   {
     "month": 10,
@@ -2916,7 +3384,11 @@
     "page_url": "https://www.liturgies.net/saints/marie-rosedurocher/marie-rosedurocher.htm",
     "mass_url": "https://www.liturgies.net/saints/marie-rosedurocher/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Virgins: For One Virgin",
+      "Common of Virgins"
+    ]
   },
   {
     "month": 10,
@@ -2937,7 +3409,8 @@
         "latin": "Ecce concipies in utero, et paries filium, et vocabis nomen eius Iesum.",
         "english": "Behold, you will conceive in your womb and bear a son, and you shall name him Jesus."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 10,
@@ -2946,7 +3419,10 @@
     "page_url": "https://www.liturgies.net/saints/denis/denis.htm",
     "mass_url": "https://www.liturgies.net/saints/denis/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For Several Martyrs"
+    ]
   },
   {
     "month": 10,
@@ -2955,7 +3431,11 @@
     "page_url": "https://www.liturgies.net/saints/johnleonardi/johnleonardi.htm",
     "mass_url": "https://www.liturgies.net/saints/johnleonardi/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For Missionaries",
+      "Common of Holy Men and Women: For Those Who Practiced Works of Mercy"
+    ]
   },
   {
     "month": 10,
@@ -2964,7 +3444,8 @@
     "page_url": "https://www.liturgies.net/saints/robertgrosseteste/robertgrosseteste.htm",
     "mass_url": "https://www.liturgies.net/saints/robertgrosseteste/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 10,
@@ -2973,7 +3454,10 @@
     "page_url": "https://www.liturgies.net/saints/johnxxiii/johnxxiii.htm",
     "mass_url": "https://www.liturgies.net/saints/johnxxiii/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Pope"
+    ]
   },
   {
     "month": 10,
@@ -2982,7 +3466,11 @@
     "page_url": "https://www.liturgies.net/saints/callistusi/callistusi.htm",
     "mass_url": "https://www.liturgies.net/saints/callistusi/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr",
+      "Common of Pastors: For a Pope"
+    ]
   },
   {
     "month": 10,
@@ -3003,7 +3491,8 @@
         "latin": "Misericordias Domini in aeternum cantabo in generationem et generationem annuntiabo veritatem tuam in ore meo.",
         "english": "I will sing for ever of your mercies, O Lord through all ages my mouth will proclaim your fidelity."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 10,
@@ -3012,7 +3501,11 @@
     "page_url": "https://www.liturgies.net/saints/hedwig/hedwig.htm",
     "mass_url": "https://www.liturgies.net/saints/hedwig/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Religious",
+      "For Holy Women"
+    ]
   },
   {
     "month": 10,
@@ -3021,7 +3514,10 @@
     "page_url": "https://www.liturgies.net/saints/margaretmaryalacoque/margaretmaryalacoque.htm",
     "mass_url": "https://www.liturgies.net/saints/margaretmaryalacoque/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Virgins: For One Virgin"
+    ]
   },
   {
     "month": 10,
@@ -3042,7 +3538,8 @@
         "latin": "Frumentum Christi sum; dentibus bestiarum molar, ut panis mundus inveniar.",
         "english": "I am the wheat of Christ to be ground by the teeth of beasts, that I may be found to be pure bread."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 10,
@@ -3063,7 +3560,8 @@
         "latin": "Misit Dominus discipulos, qui nuntiarent civitatibus: Appropinquavit in vos regnum Dei.",
         "english": "The Lord sent out disciples to proclaim throughout the towns: The kingdom of God is at hand for you."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 10,
@@ -3072,7 +3570,8 @@
     "page_url": "https://www.liturgies.net/saints/isaacjogues/isaacjogues.htm",
     "mass_url": "https://www.liturgies.net/saints/isaacjogues/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 10,
@@ -3093,7 +3592,8 @@
         "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
         "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 10,
@@ -3102,7 +3602,11 @@
     "page_url": "https://www.liturgies.net/saints/johnpaulii/johnpaulii.htm",
     "mass_url": "https://www.liturgies.net/saints/johnpaulii/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Pope",
+      "Common of Pastors: popes"
+    ]
   },
   {
     "month": 10,
@@ -3111,7 +3615,11 @@
     "page_url": "https://www.liturgies.net/saints/johnofcapistrano/johnofcapistrano.htm",
     "mass_url": "https://www.liturgies.net/saints/johnofcapistrano/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For Missionaries",
+      "Common of Holy Men and Women: For Religious."
+    ]
   },
   {
     "month": 10,
@@ -3120,7 +3628,11 @@
     "page_url": "https://www.liturgies.net/saints/anthonyclaret/anthonyclaret.htm",
     "mass_url": "https://www.liturgies.net/saints/anthonyclaret/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For Missionaries",
+      "For a Bishop"
+    ]
   },
   {
     "month": 10,
@@ -3141,7 +3653,8 @@
         "latin": "Si quis diligit me, sermonem meum servabit, dicit Dominus, et Pater meus diliget eum, et ad eum veniemus, et mansiones apud eum faciemus.",
         "english": "Whoever loves me will keep my word, says the Lord; and my Father will love him, and we will come to him, and make our home with him."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3162,7 +3675,8 @@
         "latin": "Beati mundo corde: quoniam ipsi Deum videbunt. Beati pacifici: quoniam filii Dei vocabuntur. Beati qui persecutionem patiuntur propter iustitiam: quoniam ipsorum est regnum caelorum.",
         "english": "Blessed are the clean of heart, for they shall see God. Blessed are the peacemakers, for they shall be called children of God. Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of heaven."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3183,7 +3697,8 @@
         "latin": "Ego sum resurrectio et vita, dicit Dominus. Qui credit in me, etiam si mortuus fuerit, vivet; et omnis, qui vivit et credit in me, non morietur in aeternum.",
         "english": "I am the Resurrection and the Life, says the Lord. Whoever believes in me, even though he dies, will live, and everyone who lives and believes in me will not die for ever."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3192,7 +3707,10 @@
     "page_url": "https://www.liturgies.net/saints/martindeporres/martindeporres.htm",
     "mass_url": "https://www.liturgies.net/saints/martindeporres/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Religious"
+    ]
   },
   {
     "month": 11,
@@ -3201,7 +3719,10 @@
     "page_url": "https://www.liturgies.net/saints/charlesborromeo/charlesborromeo.htm",
     "mass_url": "https://www.liturgies.net/saints/charlesborromeo/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For a Bishop"
+    ]
   },
   {
     "month": 11,
@@ -3210,7 +3731,8 @@
     "page_url": "https://www.liturgies.net/saints/willibrord/willibrord.htm",
     "mass_url": "https://www.liturgies.net/saints/willibrord/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3225,7 +3747,8 @@
         "english": "The Lord established for him a covenant of peace, and made him the prince, that he might have the dignity of the priesthood for ever."
       }
     ],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3246,7 +3769,8 @@
         "latin": "Amen dico vobis, quamdiu fecistis uni ex his fratribus meis minimis, mihi fecistis, dicit Dominus.",
         "english": "Amen, I say to you: Whatever you did for one of the least of my brethren, you did it for me, says the Lord."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3261,7 +3785,14 @@
         "english": "Because of the Lord's covenant and the ancestral laws, the Saints of God persevered in loving brotherhood, for there was always one spirit in them, and one faith."
       }
     ],
-    "communion_antiphon": []
+    "communion_antiphon": [
+      {
+        "citation": "Psalm 67:4",
+        "latin": "Qui perdiderit animam suam propter me, dicit Dominus, inveniet eam in aeternum.",
+        "english": "Whoever loses his life for my sake, will find it in eternity, say the Lord."
+      }
+    ],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3270,16 +3801,21 @@
     "page_url": "https://www.liturgies.net/saints/cabrini/cabrini.htm",
     "mass_url": "https://www.liturgies.net/saints/cabrini/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Virgins: For One Virgin",
+      "Common of Holy Men and Women: For Those Who Practiced Works of Mercy."
+    ]
   },
   {
     "month": 11,
     "day_of_month": 13,
     "title": "St. John Chrysostom",
     "page_url": "https://www.liturgies.net/saints/johnchrysostom/johnchrysostom.htm",
-    "mass_url": "https://www.liturgies.net/saints/johnchrysostom/readings.htm",
+    "mass_url": "https://www.liturgies.net/saints/johnchrysostom/catholicreadings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3288,7 +3824,11 @@
     "page_url": "https://www.liturgies.net/saints/albertusmagnus/albertusmagnus.htm",
     "mass_url": "https://www.liturgies.net/saints/albertusmagnus/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For a Bishop",
+      "Common of Doctors of the Church"
+    ]
   },
   {
     "month": 11,
@@ -3297,7 +3837,10 @@
     "page_url": "https://www.liturgies.net/saints/margaretofscotland/margaretofscotland.htm",
     "mass_url": "https://www.liturgies.net/saints/margaretofscotland/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Holy Men and Women: For Those Who Practiced Works of Mercy"
+    ]
   },
   {
     "month": 11,
@@ -3306,16 +3849,11 @@
     "page_url": "https://www.liturgies.net/saints/gertrude/gertrude.htm",
     "mass_url": "https://www.liturgies.net/saints/gertrude/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
-  },
-  {
-    "month": 11,
-    "day_of_month": 17,
-    "title": "St. Elizabeth of Hungary",
-    "page_url": "https://www.liturgies.net/saints/elizabethofhungary/elizabethofhungary.htm",
-    "mass_url": "https://www.liturgies.net/saints/elizabethofhungary/readings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Virgins",
+      "Common of Holy Men and Women: For a Nun."
+    ]
   },
   {
     "month": 11,
@@ -3324,7 +3862,8 @@
     "page_url": "https://www.liturgies.net/saints/hughoflincoln/hughoflincoln.htm",
     "mass_url": "https://www.liturgies.net/saints/hughoflincoln/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3333,7 +3872,8 @@
     "page_url": "https://www.liturgies.net/saints/hildaofwhitby/hildaofwhitby.htm",
     "mass_url": "https://www.liturgies.net/saints/hildaofwhitby/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3342,7 +3882,8 @@
     "page_url": "https://www.liturgies.net/saints/hildaofwhitby/hildaofwhitby.htm",
     "mass_url": "https://www.liturgies.net/saints/hildaofwhitby/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3351,16 +3892,11 @@
     "page_url": "https://www.liturgies.net/saints/rosephilippineduchesne/rosephilippineduchesne.htm",
     "mass_url": "https://www.liturgies.net/saints/rosephilippineduchesne/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
-  },
-  {
-    "month": 11,
-    "day_of_month": 19,
-    "title": "St. Elizabeth of Hungary",
-    "page_url": "https://www.liturgies.net/saints/elizabethofhungary/elizabethofhungary.htm",
-    "mass_url": "https://www.liturgies.net/saints/elizabethofhungary/readings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For One Virgin",
+      "Common of Virgins"
+    ]
   },
   {
     "month": 11,
@@ -3369,7 +3905,10 @@
     "page_url": "https://www.liturgies.net/saints/mary/presentation/presentation.htm",
     "mass_url": "https://www.liturgies.net/saints/mary/presentation/mass.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of the Blessed Virgin Mary"
+    ]
   },
   {
     "month": 11,
@@ -3378,16 +3917,11 @@
     "page_url": "https://www.liturgies.net/saints/cecilia/cecilia.htm",
     "mass_url": "https://www.liturgies.net/saints/cecilia/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
-  },
-  {
-    "month": 11,
-    "day_of_month": 23,
-    "title": "Clement of Rome",
-    "page_url": "https://www.liturgies.net/saints/clement/clement.htm",
-    "mass_url": "https://www.liturgies.net/saints/clement/readings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For a Virgin Martyr",
+      "Common of Virgins: For One Virgin"
+    ]
   },
   {
     "month": 11,
@@ -3396,7 +3930,11 @@
     "page_url": "https://www.liturgies.net/saints/columban/columban.htm",
     "mass_url": "https://www.liturgies.net/saints/columban/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Pastors: For Missionaries",
+      "Common of Holy Men and Women: For an Abbot"
+    ]
   },
   {
     "month": 11,
@@ -3405,7 +3943,11 @@
     "page_url": "https://www.liturgies.net/saints/miguelagustinpro/miguelagustinpro.htm",
     "mass_url": "https://www.liturgies.net/saints/miguelagustinpro/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "Common of Martyrs: For One Martyr during Easter Time",
+      "Common of Pastors: For One Pastor"
+    ]
   },
   {
     "month": 11,
@@ -3426,7 +3968,8 @@
         "latin": "Beati qui persecutionem patiuntur propter iustitiam quoniam ipsorum est regnum caelorum.",
         "english": "Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of heaven."
       }
-    ]
+    ],
+    "common_of": []
   },
   {
     "month": 11,
@@ -3435,6 +3978,10 @@
     "page_url": "https://www.liturgies.net/saints/catherineofalexandria/catherineofalexandria.htm",
     "mass_url": "https://www.liturgies.net/saints/catherineofalexandria/readings.htm",
     "entrance_antiphon": [],
-    "communion_antiphon": []
+    "communion_antiphon": [],
+    "common_of": [
+      "For a Virgin Martyr",
+      "For One Virgin"
+    ]
   }
 ]

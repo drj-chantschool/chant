@@ -52,6 +52,14 @@ MIGRATIONS = [
         lambda row: row[0] == 'YES',
         "ALTER TABLE lit_part_texts MODIFY COLUMN season VARCHAR(10) NULL",
     ),
+    # Make original_text nullable so common-only marker rows can omit it
+    (
+        "MODIFY original_text nullable",
+        "SELECT IS_NULLABLE FROM INFORMATION_SCHEMA.COLUMNS "
+        "WHERE TABLE_SCHEMA='liturgio' AND TABLE_NAME='lit_part_texts' AND COLUMN_NAME='original_text'",
+        lambda row: row[0] == 'YES',
+        "ALTER TABLE lit_part_texts MODIFY COLUMN original_text TEXT NULL",
+    ),
     # Add month column
     (
         "ADD COLUMN month",
@@ -75,6 +83,14 @@ MIGRATIONS = [
         "WHERE TABLE_SCHEMA='liturgio' AND TABLE_NAME='lit_part_texts' AND COLUMN_NAME='feast_title'",
         lambda row: row[0] > 0,
         "ALTER TABLE lit_part_texts ADD COLUMN feast_title VARCHAR(150) NULL",
+    ),
+    # Add common_of column (reference to the Common used when no proper antiphons exist)
+    (
+        "ADD COLUMN common_of",
+        "SELECT COUNT(*) FROM INFORMATION_SCHEMA.COLUMNS "
+        "WHERE TABLE_SCHEMA='liturgio' AND TABLE_NAME='lit_part_texts' AND COLUMN_NAME='common_of'",
+        lambda row: row[0] > 0,
+        "ALTER TABLE lit_part_texts ADD COLUMN common_of VARCHAR(200) NULL",
     ),
 ]
 
@@ -104,57 +120,82 @@ SERVICE_PARTS = {
 }
 
 
+def _base_row(entry):
+    return {
+        'season':       None, 'subseason': None,
+        'wknum':        None, 'wkday':     None,
+        'month':        entry['month'],
+        'day_of_month': entry['day_of_month'],
+        'feast_title':  entry.get('title'),
+        'cycle_sun':    None, 'cycle_wkday': None,
+        'common_of':    None,
+        'assignment_authority_code': 'MISSAL',
+        'translation_source_code':   'ROMAN_MISSAL_2010_ICEL',
+    }
+
+
 def build_rows(entry):
     """
     Expand one JSON feast entry into lit_part_texts row dicts.
     season/subseason/wknum/wkday are all NULL for calendar-date feasts.
 
-    Handles two cases:
+    Three cases:
     - Latin + English: original_text=Latin, vernacular_text=English, original_lang='la'
     - English-only:   original_text=English, vernacular_text=NULL, original_lang='en'
+    - Common-only:    original_text=NULL, common_of='From the Common of...', one row per part
     """
     rows = []
-    for field, part_code in SERVICE_PARTS.items():
-        for antiphon in entry.get(field, []):
-            english_only = antiphon.get('english_only', False)
-            latin = antiphon.get('latin', '').strip()
-            english = antiphon.get('english', '').strip()
+    has_antiphons = any(entry.get(f) for f in SERVICE_PARTS)
+    common_refs = entry.get('common_of') or []
+    common_str = '; '.join(common_refs) if common_refs else None
 
-            if english_only:
-                if not english:
-                    continue
-                original_text = english
-                original_lang = 'en'
-                vernacular_text = None
-                vernacular_lang = None
-            else:
-                if not latin:
-                    continue
-                original_text = latin
-                original_lang = 'la'
-                vernacular_text = english or None
-                vernacular_lang = 'en' if vernacular_text else None
+    if has_antiphons:
+        for field, part_code in SERVICE_PARTS.items():
+            for antiphon in entry.get(field, []):
+                english_only = antiphon.get('english_only', False)
+                latin = antiphon.get('latin', '').strip()
+                english = antiphon.get('english', '').strip()
 
-            year_label = antiphon.get('year')
-            rows.append({
-                'season':                    None,
-                'subseason':                 None,
-                'wknum':                     None,
-                'wkday':                     None,
-                'month':                     entry['month'],
-                'day_of_month':              entry['day_of_month'],
-                'feast_title':               entry.get('title'),
-                'cycle_sun':                 YEAR_CYCLE.get(year_label) if year_label else None,
-                'cycle_wkday':               None,
-                'service_part':              part_code,
-                'original_text':             original_text,
-                'vernacular_text':           vernacular_text,
-                'text_src':                  antiphon.get('citation') or None,
-                'original_lang':             original_lang,
-                'vernacular_lang':           vernacular_lang,
-                'assignment_authority_code': 'MISSAL',
-                'translation_source_code':   'ROMAN_MISSAL_2010_ICEL',
+                if english_only:
+                    if not english:
+                        continue
+                    original_text, original_lang = english, 'en'
+                    vernacular_text, vernacular_lang = None, None
+                else:
+                    if not latin:
+                        continue
+                    original_text, original_lang = latin, 'la'
+                    vernacular_text = english or None
+                    vernacular_lang = 'en' if vernacular_text else None
+
+                year_label = antiphon.get('year')
+                row = _base_row(entry)
+                row.update({
+                    'service_part':    part_code,
+                    'original_text':   original_text,
+                    'original_lang':   original_lang,
+                    'vernacular_text': vernacular_text,
+                    'vernacular_lang': vernacular_lang,
+                    'text_src':        antiphon.get('citation') or None,
+                    'cycle_sun':       YEAR_CYCLE.get(year_label) if year_label else None,
+                })
+                rows.append(row)
+
+    elif common_str:
+        # No proper antiphons; insert one marker row per service part
+        for part_code in SERVICE_PARTS.values():
+            row = _base_row(entry)
+            row.update({
+                'service_part':    part_code,
+                'original_text':   None,
+                'original_lang':   'la',
+                'vernacular_text': None,
+                'vernacular_lang': None,
+                'text_src':        None,
+                'common_of':       common_str,
             })
+            rows.append(row)
+
     return rows
 
 
@@ -164,14 +205,14 @@ INSERT_SQL = """
     INSERT INTO lit_part_texts
         (season, subseason, wknum, wkday,
          month, day_of_month, feast_title,
-         cycle_sun, cycle_wkday,
+         cycle_sun, cycle_wkday, common_of,
          service_part, original_text, vernacular_text, text_src,
          original_lang, vernacular_lang,
          assignment_authority_code, translation_source_code)
     VALUES
         (:season, :subseason, :wknum, :wkday,
          :month, :day_of_month, :feast_title,
-         :cycle_sun, :cycle_wkday,
+         :cycle_sun, :cycle_wkday, :common_of,
          :service_part, :original_text, :vernacular_text, :text_src,
          :original_lang, :vernacular_lang,
          :assignment_authority_code, :translation_source_code)
@@ -219,9 +260,13 @@ def main():
             all_rows.extend(rows)
         else:
             skipped += 1
-            print(f'  WARNING: no antiphons for {entry["month"]:02d}-{entry["day_of_month"]:02d} {entry["title"]}')
+            print(f'  WARNING: no antiphons or common reference for '
+                  f'{entry["month"]:02d}-{entry["day_of_month"]:02d} {entry["title"]}')
 
-    print(f'\n{json_path.name}: {len(entries)} entries -> {len(all_rows)} rows ({skipped} skipped)')
+    common_rows = sum(1 for r in all_rows if r.get('common_of'))
+    antiphon_rows = len(all_rows) - common_rows
+    print(f'\n{json_path.name}: {len(entries)} entries -> {len(all_rows)} rows '
+          f'({antiphon_rows} antiphon, {common_rows} common-ref, {skipped} skipped)')
 
     if args.dry_run:
         print('\n--- DRY RUN: first 5 rows ---')

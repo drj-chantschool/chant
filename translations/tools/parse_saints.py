@@ -64,8 +64,15 @@ def clean(s):
 
 # ── Antiphon parsing (same as parse_propers.py) ────────────────────────────
 
-ENT_SIG = re.compile(r'NTRANCE</font>.*?NTIPHON</font>.*?</b>', re.I | re.S)
-COM_SIG = re.compile(r'OMMUNION</font>.*?NTIPHON</font>.*?</b>', re.I | re.S)
+# Two heading formats on liturgies.net:
+#   Format A (two tags): E<font>NTRANCE</font> A<font>NTIPHON</font></b>
+#   Format B (one tag):  E<font>NTRANCE ANTIPHON</a></font></b>
+ENT_SIG = re.compile(
+    r'NTRANCE(?:</font>.*?NTIPHON</font>|[^<]*NTIPHON(?:</a>)?</font>).*?</b>',
+    re.I | re.S)
+COM_SIG = re.compile(
+    r'OMMUNION(?:</font>.*?NTIPHON</font>|[^<]*NTIPHON(?:</a>)?</font>).*?</b>',
+    re.I | re.S)
 
 ENT_END = re.compile(r'<b>(?:<a[^>]*>)?[GC]<font[^>]*>(?:LORIA|OLLECT|REDO)', re.I)
 COM_END = re.compile(r'<b>.*?RAYER.*?FTER', re.I | re.S)
@@ -196,13 +203,54 @@ def derive_mass_url(page_url):
     return parent + '/mass.htm'
 
 
-def candidate_mass_urls(page_url):
+# Link text patterns that indicate non-Catholic denomination pages to skip
+NON_CATH_RE = re.compile(r'orthodox|episcopal|lutheran|anglican|protestant', re.I)
+
+# Priority order for Catholic mass/readings links by text keyword.
+# "Catholic Readings" requires both words; plain "Readings" is the fallback.
+CATH_PRIORITY = [
+    re.compile(r'\bmass\b', re.I),
+    re.compile(r'\bcatholic\b.*\breading|\breading.*\bcatholic', re.I),
+    re.compile(r'\breading', re.I),
+]
+
+
+def find_mass_url_from_page(page_url):
     """
-    Return a list of candidate mass page URLs to try in order.
-    Some saints use mass.htm; others use readings.htm.
+    Fetch the saint's main page and return the URL for the Catholic
+    mass/readings page, by following the explicit link there.
+
+    Only considers RELATIVE hrefs (no leading '/') to avoid matching
+    site-wide navigation links.  Priority: "Mass" > "Catholic Readings"
+    > "Reading*", skipping Orthodox/Episcopal/Lutheran text.
+    Returns None if no suitable link is found.
     """
+    html = fetch_html(page_url)
+    if not html:
+        return None
+
     parent = page_url.rsplit('/', 1)[0]
-    return [parent + '/mass.htm', parent + '/readings.htm']
+    LINK_RE_LOCAL = re.compile(
+        r'<a\s[^>]*href=["\']([^"\'#/][^"\']*\.htm)["\'][^>]*>(.*?)</a>',
+        re.I | re.S
+    )
+
+    buckets = {i: None for i in range(len(CATH_PRIORITY))}
+    for m in LINK_RE_LOCAL.finditer(html):
+        href = m.group(1).strip()
+        text = clean(strip_tags(m.group(2)))
+        if NON_CATH_RE.search(text):
+            continue
+        url = parent + '/' + href
+        for i, pat in enumerate(CATH_PRIORITY):
+            if buckets[i] is None and pat.search(text):
+                buckets[i] = url
+                break
+
+    for i in range(len(CATH_PRIORITY)):
+        if buckets[i]:
+            return buckets[i]
+    return None
 
 
 def parse_saints_index(html):
@@ -291,13 +339,33 @@ def parse_saints_index(html):
     return deduped
 
 
+# ── Common-of detection ────────────────────────────────────────────────────
+
+# Links like href="...roman_missal_commons.htm#bvm" with text "From the Common of the BVM"
+COMMON_LINK_RE = re.compile(
+    r'<a\s[^>]*href=["\'][^"\']*commons[^"\']*["\'][^>]*>([^<]{3,100})</a>',
+    re.I
+)
+
+
+def detect_common_of(html):
+    """
+    Return list of common-of reference strings found near the top of the page.
+    E.g. ['From the Common of the Blessed Virgin Mary'] or
+         ['For a Virgin Martyr', 'For One Virgin']
+    """
+    top = html[:3000]
+    return [clean(m) for m in COMMON_LINK_RE.findall(top)]
+
+
 # ── Mass page parsing ──────────────────────────────────────────────────────
 
 def parse_mass_page(html):
-    """Parse a mass page and return (entrance_antiphons, communion_antiphons)."""
+    """Parse a mass page; return (entrance_antiphons, communion_antiphons, common_of_list)."""
     ent_block = get_antiphon_block(html, 'entrance')
     com_block = get_antiphon_block(html, 'communion')
-    return parse_antiphon_block(ent_block), parse_antiphon_block(com_block)
+    common_of = detect_common_of(html)
+    return parse_antiphon_block(ent_block), parse_antiphon_block(com_block), common_of
 
 
 # ── Main ──────────────────────────────────────────────────────────────────
@@ -320,25 +388,38 @@ def main():
         title = entry['title']
         mo, da = entry['month'], entry['day_of_month']
 
-        # Try candidate mass URLs in order (mass.htm, then readings.htm)
-        candidates = candidate_mass_urls(entry['page_url'])
+        # Step 1: try mass.htm (fast path, works for most full-liturgy pages)
         mass_url = None
         cached = False
-        for candidate in candidates:
-            if candidate in failed_urls:
-                continue
-            if candidate in mass_cache:
-                mass_url = candidate
-                cached = True
-                break
-            print(f'  [{i+1}/{len(entries)}] Fetching {candidate} ({title})')
-            html = fetch_html(candidate)
+        fast_candidate = entry['page_url'].rsplit('/', 1)[0] + '/mass.htm'
+
+        if fast_candidate in mass_cache:
+            mass_url = fast_candidate
+            cached = True
+        elif fast_candidate not in failed_urls:
+            print(f'  [{i+1}/{len(entries)}] Fetching {fast_candidate} ({title})')
+            html = fetch_html(fast_candidate)
             if html is not None:
-                mass_cache[candidate] = parse_mass_page(html)
-                mass_url = candidate
-                break
+                mass_cache[fast_candidate] = parse_mass_page(html)
+                mass_url = fast_candidate
             else:
-                failed_urls.add(candidate)
+                failed_urls.add(fast_candidate)
+
+        # Step 2: follow the actual link from the saint's main page
+        if mass_url is None:
+            found_url = find_mass_url_from_page(entry['page_url'])
+            if found_url and found_url != fast_candidate:
+                if found_url in mass_cache:
+                    mass_url = found_url
+                    cached = True
+                elif found_url not in failed_urls:
+                    print(f'  [{i+1}/{len(entries)}] Fetching {found_url} ({title})')
+                    html = fetch_html(found_url)
+                    if html is not None:
+                        mass_cache[found_url] = parse_mass_page(html)
+                        mass_url = found_url
+                    else:
+                        failed_urls.add(found_url)
 
         if mass_url is None:
             print(f'  [{i+1}/{len(entries)}] No mass page found for {mo:02d}-{da:02d} {title}')
@@ -349,7 +430,7 @@ def main():
 
         entry['mass_url'] = mass_url
 
-        ent, com = mass_cache[mass_url]
+        ent, com, common_of = mass_cache[mass_url]
         result = {
             'month': mo,
             'day_of_month': da,
@@ -358,12 +439,14 @@ def main():
             'mass_url': mass_url,
             'entrance_antiphon': ent,
             'communion_antiphon': com,
+            'common_of': common_of,
         }
         results.append(result)
         e_count = len(ent)
         c_count = len(com)
-        mark = '' if (e_count and c_count) else '  *** MISSING ***'
-        print(f'    -> E:{e_count}  C:{c_count}{mark}')
+        co_str = f'  [common: {"; ".join(common_of)}]' if common_of else ''
+        mark = '' if (e_count and c_count) else ('  *** MISSING ***' if not common_of else '')
+        print(f'    -> E:{e_count}  C:{c_count}{co_str}{mark}')
 
     out_path = out_dir / 'saints_propers.json'
     with open(out_path, 'w', encoding='utf-8') as f:
