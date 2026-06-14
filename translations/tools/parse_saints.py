@@ -64,14 +64,15 @@ def clean(s):
 
 # ── Antiphon parsing (same as parse_propers.py) ────────────────────────────
 
-# Two heading formats on liturgies.net:
+# Three heading formats on liturgies.net:
 #   Format A (two tags): E<font>NTRANCE</font> A<font>NTIPHON</font></b>
 #   Format B (one tag):  E<font>NTRANCE ANTIPHON</a></font></b>
+#   Format C (two tags, "Song"): E<font>NTRANCE</font> S<font>ONG</font></b>
 ENT_SIG = re.compile(
-    r'NTRANCE(?:</font>.*?NTIPHON</font>|[^<]*NTIPHON(?:</a>)?</font>).*?</b>',
+    r'NTRANCE(?:</font>.*?(?:NTIPHON|ONG)</font>|[^<]*(?:NTIPHON|ONG)(?:</a>)?</font>).*?</b>',
     re.I | re.S)
 COM_SIG = re.compile(
-    r'OMMUNION(?:</font>.*?NTIPHON</font>|[^<]*NTIPHON(?:</a>)?</font>).*?</b>',
+    r'OMMUNION(?:</font>.*?(?:NTIPHON|ONG)</font>|[^<]*(?:NTIPHON|ONG)(?:</a>)?</font>).*?</b>',
     re.I | re.S)
 
 ENT_END = re.compile(r'<b>(?:<a[^>]*>)?[GC]<font[^>]*>(?:LORIA|OLLECT|REDO)', re.I)
@@ -342,9 +343,10 @@ def parse_saints_index(html):
 # ── Common-of detection ────────────────────────────────────────────────────
 
 # Links like href="...roman_missal_commons.htm#bvm" with text "From the Common of the BVM"
+# Allow inner tags (e.g. <i>) inside link text; strip_tags handles them.
 COMMON_LINK_RE = re.compile(
-    r'<a\s[^>]*href=["\'][^"\']*commons[^"\']*["\'][^>]*>([^<]{3,100})</a>',
-    re.I
+    r'<a\s[^>]*href=["\'][^"\']*commons[^"\']*["\'][^>]*>(.*?)</a>',
+    re.I | re.S
 )
 
 
@@ -355,7 +357,12 @@ def detect_common_of(html):
          ['For a Virgin Martyr', 'For One Virgin']
     """
     top = html[:3000]
-    return [clean(m) for m in COMMON_LINK_RE.findall(top)]
+    results = []
+    for m in COMMON_LINK_RE.finditer(top):
+        text = clean(strip_tags(m.group(1)))
+        if len(text) >= 3:
+            results.append(text)
+    return results
 
 
 # ── Mass page parsing ──────────────────────────────────────────────────────

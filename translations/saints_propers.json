@@ -262,7 +262,9 @@
     "mass_url": "https://www.liturgies.net/saints/johnofkanty/readings.htm",
     "entrance_antiphon": [],
     "communion_antiphon": [],
-    "common_of": []
+    "common_of": [
+      "Common of Pastors: For One Pastor"
+    ]
   },
   {
     "month": 12,
@@ -697,8 +699,20 @@
     "title": "St. John Chrysostom",
     "page_url": "https://www.liturgies.net/saints/johnchrysostom/johnchrysostom.htm",
     "mass_url": "https://www.liturgies.net/saints/johnchrysostom/catholicreadings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": [],
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Daniel 12:3",
+        "latin": "Qui docti fuerint, fulgebunt quasi splendor firmamenti, et qui ad iustitiam erudiunt multos, quasi stellae in perpetuas aeternitates.",
+        "english": "Those who are wise will shine brightly like the splendor of the firmament and those who lead the many to justice shall be like the stars for ever."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "See 1 Cor 1: 23-24",
+        "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
+        "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God."
+      }
+    ],
     "common_of": []
   },
   {
@@ -1076,7 +1090,13 @@
         "english": "Blessed Gregory, raised upon the throne of Peter, sought always the beauty of the Lord and lived in celebration of that love."
       }
     ],
-    "communion_antiphon": [],
+    "communion_antiphon": [
+      {
+        "citation": "Luke 12:42",
+        "latin": "Fidelis servus et prudens, quem constituit Dominus super familiam suam, ut det illis in tempore tritici mensuram.",
+        "english": "This is the steward, faithful and prudent, whom the Lord set over his household to give them their allowance of food at the proper time"
+      }
+    ],
     "common_of": []
   },
   {
@@ -1206,7 +1226,9 @@
     "mass_url": "https://www.liturgies.net/saints/johnbaptistdelasalle/readings.htm",
     "entrance_antiphon": [],
     "communion_antiphon": [],
-    "common_of": []
+    "common_of": [
+      "Common of Pastors: For One Pastor"
+    ]
   },
   {
     "month": 4,
@@ -2116,6 +2138,7 @@
     "entrance_antiphon": [],
     "communion_antiphon": [],
     "common_of": [
+      "Common of Pastors: For One Pastor",
       "Common of Pastors"
     ]
   },
@@ -2437,9 +2460,9 @@
     "mass_url": "https://www.liturgies.net/saints/ignatiusloyola/readings.htm",
     "entrance_antiphon": [
       {
-        "citation": "Cf. Lk 12: 49",
-        "latin": "Dicit Dominus: Ignem veni mittere in terram, et quid volo, nisi ut accendatur?",
-        "english": "Thus says the Lord: I have come to cast fire on the earth, and how I wish that it were kindled! PRAYER AFTER COMMUNION Laudis hostia, Domine, quam pro beato Ignatio gratias agentes obtulimus, ad perpetuam nos maiestatis tuae laudationem perducat. May the sacrifice of praise that we have offered with thanksgiving in honor of Saint Ignatius, O Lord, bring us to exalt your majesty without end. Through Christ our Lord. The Liturgy of the Hours Ignatius of Loyola From the Common of Pastors or of Holy Men, religious, except the following Morning Prayer BENEDICTUS (Canticle of Zechariah) Would that I might know Christ and the power of his resurrection and that I might share his sufferings. Evening Prayer MAGNIFICAT (Canticle of Mary) Of what use is it to man to gain the whole world, if he pays for it by losing his soul? Office of Readings SECOND READING From the life of Saint Ignatius from his own words by Luis Gonzalez (Cap 1, 5-9: Acta Sanctorum, Julii, 7[ 1868], 647) Ignatius was passionately fond of reading worldly books of fiction and tales of knight-errantry. When he felt he was getting better, he asked for some of these books to pass the time. But no book of that sort could be found in the house; instead they gave him a life of Christ and a collection of the lives of saints written in Spanish.By constantly reading these books he began to be attracted to what he found narrated there. Sometimes in the midst of his reading he would reflect on what he had read. Yet at other times he would dwell on many of the things which he had been accustomed to dwell on previously. But at this point our Lord came to his assistance, insuring that these thoughts were followed by others which arose from his current reading.While reading the life of Christ our Lord or the lives of the saints, he would reflect and reason with himself: �What if I should do what Saint Francis or Saint Dominic did?� In this way he let his mind dwell on many thoughts; they lasted a while until other things took their place. Then those vain and worldly images would come into his mind and remain a long time. This sequence of thoughts persisted with him for a long time.But there was a difference. When Ignatius reflected on worldly thoughts, he felt intense pleasure; but when he gave them up out of weariness, he felt dry and depressed. Yet when he thought of living the rigorous sort of life he knew the saints had lived, he not only experienced pleasure when he actually thought about it, but even after he dismissed these thoughts, he still experienced great joy. Yet he did not pay attention to this, nor did he appreciate it until one day, in a moment of insight, he began to marvel at the difference. Then he understood his experience: thoughts of one kind left him sad, the others full of joy. And this was the first time he applied a process of reasoning to his religious experience. Later on, when he began to formulate his spiritual exercises, he used this experience as an illustration to explain the doctrine he taught his disciples on the discernment of spirits. RESPONSORY Whoever speaks should proclaim God's message; whoever ministers should serve by the power that God gives, - so that in all of you God may be glorified through Jesus Christ. Before all else be constant in your love for one another. - So that in all of you God may be glorified through Jesus Christ."
+        "citation": "Cf Phil 2:10-11",
+        "latin": "In nomine Iesu omne genu flectatur, caelestium, terrestrium et infernorum: quia Dominus factus est oboediens usque ad mortem, mortem autem crucis: ideo Dominus Iesus Christus in gloria est Dei Patris.",
+        "english": "At the name of Jesus, every knee should bend of those in heaven and on earth and under the earth, and every tongue confess that Jesus Christ is Lord, to the glory of God the Father."
       }
     ],
     "communion_antiphon": [
@@ -2497,7 +2520,9 @@
     "mass_url": "https://www.liturgies.net/saints/johnvianney/readings.htm",
     "entrance_antiphon": [],
     "communion_antiphon": [],
-    "common_of": []
+    "common_of": [
+      "Common of Pastors: For One Pastor"
+    ]
   },
   {
     "month": 8,
@@ -2672,9 +2697,9 @@
     "mass_url": "https://www.liturgies.net/saints/maximiliankolbe/readings.htm",
     "entrance_antiphon": [
       {
-        "citation": "Cf. Jn 15: 13",
-        "latin": "Maiorem caritatem nemo habet, ut animam suam ponat quis pro amicis suis, dicit Dominus.",
-        "english": "Greater love has no one than to lay down his life for his friends, says the Lord. PRAYER AFTER COMMUNION Quaesumus, Domine, ut refecti Corpore et Sanguine Filii tui, eo caritatis igne accendamur, quem ex hoc convivio sanctus Maximilianus Maria accepit. We pray, O Lord, that, renewed by the Body and Blood of your Son, we may be inflamed with the same fire of charity that Saint Maximilian received from this holy banquet. Through Christ our Lord. The Liturgy of the Hours Maximillian Kolbe From the Common of Pastors: Missionary, or from the Common of One Martyr, except for the following: Office of Readings SECOND READING From a letter of Maximillian Mary Kolbe (Scritti del P. Massimiliano M. Kolbe, Italian translation, vol. I, pt, 1 [Padua, 1971], 75-77,166) The burning zeal for God�s glory that motivates you fills my heart with joy. It is sad for us to see in our own time that indifferentism in its many forms is spreading like an epidemic not only among the laity but also among religious. But God is worthy of glory beyond measure, and therefore it is of absolute and supreme importance to seek that glory with all the power of our feeble resources. Since we are mere creatures we can never return to him all that is his due. The most resplendent manifestation of God�s glory is the salvation of souls, whom Christ redeemed by shedding his blood. To work for the salvation and sanctification of as many souls as possible, therefore, is the preeminent purpose of the apostolic life. Let me, then, say a few words that may show the way toward achieving God�s glory and the sanctification of many souls. God, who is all-knowing and all-wise, knows best what we should do to increase his glory. Through his representatives on earth he continually reveals his will to us; thus it is obedience and obedience alone that is the sure sign to us of the divine will. A superior may, it is true, make a mistake; but it is impossible for us to be mistaken in obeying a superior�s command. The only exception to this rule is the case of a superior commanding something that in even the slightest way would contravene God�s law. Such a superior would not be conveying God�s will. God alone is infinitely wise, holy, merciful, our Lord, Creator, and Father; he is beginning and end, wisdom and power and love; he is all. Everything other than God has value to the degree that it is referred to him, the maker of all and our own redeemer, the final end of all things. It is he who, declaring his adorable will to us through his representatives on earth, draws us to himself and whose plan is to draw others to himself through us and to join us all to himself in an ever deepening love. Look, then, at the high dignity that by God�s mercy belongs to our state in life. Obedience raises us beyond the limits of our littleness and puts us in harmony with God�s will. In boundless wisdom and care, his will guides us to act rightly. Holding fast to that will, which no creature can thwart, we are filled with unsurpassable strength. Obedience is the one and the only way of wisdom and prudence for us to offer glory to God. If there were another, Christ would certainly have shown it to us by word and example. Scripture, however, summed up his entire life at Nazareth in the words: He was subject to them; Scripture set obedience as the theme of the rest of his life, repeatedly declaring that he came into the world to do his Father�s will. Let us love our loving Father with all our hearts. Let our obedience increase that love, above all when it requires us to surrender our own will. Jesus Christ crucified is our sublime guide toward growth in God�s love. We will learn this lesson more quickly through the Immaculate Virgin, whom God has made the dispenser of his mercy. It is beyond all doubt that Mary�s will represents to us the will of God himself. By dedicating ourselves to her we become in her hands instruments of God�s mercy even as she was such an instrument in God�s hands. We should let ourselves be guided and led by Mary and rest quiet and secure in her hands. She will watch out for us, provide for us, answer our needs of body and spirit; she will dissolve all our difficulties and worries. RESPONSORY Ephesians 5:1-2; 6:6 Be imitators of God as his dear children. Follow the way of love, even as Christ loved us and gave himself up for us as an offering to God. � A gift of pleasing fragrance. Do God�s will with your whole heart as servants of Christ. � A gift of pleasing fragrance."
+        "citation": "Mt 25: 34, 40",
+        "latin": "Venite, benedicti Patris mei, dicit Dominus. Amen dico vobis: quamdiu fecistis uni de his fratribus meis minimis, mihi fecistis.",
+        "english": "Come, you blessed of my Father, says the Lord. Amen I say to you: Whatever you did for one of the least of my brethren, you did it for me."
       }
     ],
     "communion_antiphon": [
@@ -2716,7 +2741,9 @@
     "mass_url": "https://www.liturgies.net/saints/stephenofhungary/readings.htm",
     "entrance_antiphon": [],
     "communion_antiphon": [],
-    "common_of": []
+    "common_of": [
+      "Common of Holy Men and Women: For One Saint"
+    ]
   },
   {
     "month": 8,
@@ -2726,9 +2753,9 @@
     "mass_url": "https://www.liturgies.net/saints/bernard/readings.htm",
     "entrance_antiphon": [
       {
-        "citation": "Jn 15:9",
-        "latin": "Sicut dilexit me Pater, et ego dilexi vos, dicit Dominus; manete in dilectione mea.",
-        "english": "As the Father loves me, so I also love you; remain in my love, says the Lord. PRAYER AFTER COMMUNION Cibus, quem sumpsimus, Domine, in celebratione beati Bernardi, suum in nobis operetur effectum, ut, eius exemplis roborati et monitis eruditi, Verbi tui incarnati rapiamur amore. May the food we have received, O Lord, as we honor Saint Bernard, work its effect in us, so that, strengthened by his example and instructed by his teaching, we may be caught up in love of your incarnate Word. Who lives and reigns for ever and ever The Liturgy of the Hours Bernard of Clairvaux From the Common of Doctors or of Holy Men: religious, except for the following: Morning Prayer BENEDICTUS (Canticle of Zechariah) Blessed Bernard, your life, flooded by the splendor of the divine Word, illumines the church with the light of true faith and doctrine. Evening Prayer MAGNIFICAT (Canticle of Mary) Bernard, eloquent doctor of the church, friend of Christ the Bridegroom, eminent preacher of the Virgin Mother's glory, at Clairvaux you become the illustrious shepherd of your followers. Office of Readings SECOND READING From a sermon by St. Bernard, abbot (Sermo.83:4-6; Opera omnia, Edit. Cisterc. 2 (1958), 300-302) I love because I love, I love that I may love Love is sufficient of itself, it gives pleasure by itself and because of itself. It is its own merit, its own reward. Love looks for no cause outside itself, no effect beyond itself. Its profit lies in its practice. I love because I love, I love that I may love. Love is a great thing so long as it continually returns to its fountainhead, flows back to its source, always drawing from there the water which constantly replenishes it. Of all the movements, sensations and feelings of the soul, love is the only one in which the creature can respond to the Creator and make some sort of similar return however unequal though it be. For when God loves, all he desires is to be loved in return; the sole purpose of his love is to be loved, in the knowledge that those who love him are made happy by their love of him.The Bridegroom�s love, or rather the love which is the Bridegroom, asks in return nothing but faithful love. Let the beloved, then, love in return. Should not a bride love, and above all, Love�s bride? Could it be that Love not be loved?Rightly then does she give up all other feelings and give herself wholly to love alone; in giving love back, all she can do is to respond to love. And when she has poured out her whole being in love, what is that in comparison with the unceasing torrent of that original source? Clearly, lover and Love, soul and Word, bride and Bridegroom, creature and Creator do not flow with the same volume; one might as well equate a thirsty man with the fountain.What then of the bride�s hope, her aching desire, her passionate love, her confident assurance? Is all this to wilt just because she cannot match stride for stride with her giant, any more than she can vie with honey for sweetness, rival the lamb for gentleness, show herself as white as the lily, burn as bright as the sun, be equal in love with him who is Love? No. It is true that the creature loves less because she is less. But if she loves with her whole being, nothing is lacking where everything is given. To love so ardently then is to share the marriage bond; she cannot love so much and not be totally loved, and it is in the perfect union of two hearts that complete and total marriage consists. Or are we to doubt that the soul is loved by the Word first and with a greater love? RESPONSORY Lord, how great are the hidden treasures of your goodness, - which you have stored up for those who have feared you. They are filled with the bounty of your house; and you give them to drink from the stream of your delights. - Which you have stored up for those who have feared you."
+        "citation": null,
+        "latin": "Replevit beatum Bernardum Dominus spiritu intellegentiae, et ipse fluenta doctrinae ministravit populo Dei.",
+        "english": "Filled by the Lord with a spirit of understanding, blessed Bernard ministered streams of clear teaching to the people of God."
       }
     ],
     "communion_antiphon": [
@@ -2784,7 +2811,9 @@
     "mass_url": "https://www.liturgies.net/saints/roseoflima/readings.htm",
     "entrance_antiphon": [],
     "communion_antiphon": [],
-    "common_of": []
+    "common_of": [
+      "Common of Virgins: For One Virgin"
+    ]
   },
   {
     "month": 8,
@@ -2914,7 +2943,13 @@
         "english": "Blessed Gregory, raised upon the throne of Peter, sought always the beauty of the Lord and lived in celebration of that love."
       }
     ],
-    "communion_antiphon": [],
+    "communion_antiphon": [
+      {
+        "citation": "Luke 12:42",
+        "latin": "Fidelis servus et prudens, quem constituit Dominus super familiam suam, ut det illis in tempore tritici mensuram.",
+        "english": "This is the steward, faithful and prudent, whom the Lord set over his household to give them their allowance of food at the proper time"
+      }
+    ],
     "common_of": []
   },
   {
@@ -3000,8 +3035,20 @@
     "title": "St. John Chrysostom",
     "page_url": "https://www.liturgies.net/saints/johnchrysostom/johnchrysostom.htm",
     "mass_url": "https://www.liturgies.net/saints/johnchrysostom/catholicreadings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": [],
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Daniel 12:3",
+        "latin": "Qui docti fuerint, fulgebunt quasi splendor firmamenti, et qui ad iustitiam erudiunt multos, quasi stellae in perpetuas aeternitates.",
+        "english": "Those who are wise will shine brightly like the splendor of the firmament and those who lead the many to justice shall be like the stars for ever."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "See 1 Cor 1: 23-24",
+        "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
+        "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God."
+      }
+    ],
     "common_of": []
   },
   {
@@ -3217,7 +3264,9 @@
     "mass_url": "https://www.liturgies.net/saints/wenceslaus/readings.htm",
     "entrance_antiphon": [],
     "communion_antiphon": [],
-    "common_of": []
+    "common_of": [
+      "Common of Martyrs: For One Martyr"
+    ]
   },
   {
     "month": 9,
@@ -3228,6 +3277,7 @@
     "entrance_antiphon": [],
     "communion_antiphon": [],
     "common_of": [
+      "Common of Martyrs: For Several Martyrs",
       "Common of Several Martyrs"
     ]
   },
@@ -3274,6 +3324,7 @@
       }
     ],
     "common_of": [
+      "Common of Doctors of the Church",
       "Common of Pastors"
     ]
   },
@@ -3581,9 +3632,9 @@
     "mass_url": "https://www.liturgies.net/saints/paulofthecross/readings.htm",
     "entrance_antiphon": [
       {
-        "citation": "1 Cor. 1:23-24",
-        "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
-        "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God. PRAYER AFTER COMMUNION Deus, qui crucis mysterium in beato Paulo mirabiliter illustrasti, concede propitius, ut, ex hoc sacrificio roborati, Christo fideles haereamus, et in Ecclesia ad salutem omnium operemur.s O God, who in Saint Paul have wonderfully made known the mystery of the Cross, graciously grant that, drawing strength from this sacrifice, we may cling faithfully to Christ and labor in the Church for the salvation of all. Through Christ our Lord. Liturgy of the HoursSt. Paul of the Cross From the Common of Pastors, or of Holy Men: religious, except the following: Office of Readings SECOND READING From a letter by St. Paul of the Cross, priest (Epist. 1, 43; 2, 440. 825) We preach Christ crucified It is very good and holy to consider the passion of our Lord and to meditate on it, for by this sacred path we reach union with God. In this most holy school we learn true wisdom, for it was there that all the saints learned it. Indeed when the cross of our dear Jesus has planted its roots more deeply in your hearts, then will you rejoice: \"To suffer and not to die,\" or, \"Either to suffer or to die,\" or better: \"Neither to suffer, nor to die, but only to turn perfectly to the will of God.\" Love is a unifying virtue which takes upon itself the torments of its beloved Lord. It is a fire reaching through to the inmost soul. It transforms the lover into the one loved. More deeply, love intermingles with grief, and grief with love, and a certain blending of love and grief occurs. They become so united that we can no longer distinguish love from grief nor grief from love. Thus the loving heart rejoices in its sorrow and exults in its grieving love. Therefore, be constant in practicing every virtue, and especially in imitating the patience of our dear Jesus, for this is the summit of pure love. Live in such a way that all may know that you bear outwardly as well as inwardly the image of Christ crucified, the model of all gentleness and mercy. For if a man is united inwardly with the Son of the living God, he also bears his likeness outwardly by his continual practice of heroic goodness, and especially through a patience reinforced by courage, which does not complain either secretly or in public. Conceal yourselves in Jesus crucified and hope for nothing except that all men be thoroughly converted to his will. When you become true lovers of the Crucified, you will always celebrate the feast of the cross in the inner temple of the soul, bearing all in silence and not relying on any creature. Since festivals ought to be celebrated joyfully, those who love the Crucified should honor the feast of the cross by enduring in silence with a serene and joyful countenance, so that their suffering remains hidden from men and is observed by God alone. For in this feast there is always a solemn banquet, and the food presented is the will of God, exemplified by the love of our crucified Christ. RESPONSORY God forbid that I should boast except in the cross of our Lord Jesus Christ. - Through it the world has been crucified to me and I to the world. I will rejoice in the Lord, I will exult in God my Savior. - Through it the world has been crucified to me and I to the world."
+        "citation": "1 Cor. 2:2",
+        "latin": "Non iudicavi me scire aliquid inter vos, nisi Iesum Christum, et hunc crucifixum",
+        "english": "I resolved to know nothing while I was with you except for Jesus Christ, and him crucified."
       }
     ],
     "communion_antiphon": [
@@ -3747,7 +3798,13 @@
         "english": "The Lord established for him a covenant of peace, and made him the prince, that he might have the dignity of the priesthood for ever."
       }
     ],
-    "communion_antiphon": [],
+    "communion_antiphon": [
+      {
+        "citation": "Mt 16: 16, 18",
+        "latin": "Dixit Petrus ad Iesum: Tu es Christus, Filius Dei vivi. Respondit Iesus: Tu es Petrus, et super hanc petram aedificabo Ecclesiam meam.",
+        "english": "Peter said to Jesus: You are the Christ, the Son of the living God. And Jesus replied: You are Peter, and upon this rock I will build my Church."
+      }
+    ],
     "common_of": []
   },
   {
@@ -3813,8 +3870,20 @@
     "title": "St. John Chrysostom",
     "page_url": "https://www.liturgies.net/saints/johnchrysostom/johnchrysostom.htm",
     "mass_url": "https://www.liturgies.net/saints/johnchrysostom/catholicreadings.htm",
-    "entrance_antiphon": [],
-    "communion_antiphon": [],
+    "entrance_antiphon": [
+      {
+        "citation": "Cf. Daniel 12:3",
+        "latin": "Qui docti fuerint, fulgebunt quasi splendor firmamenti, et qui ad iustitiam erudiunt multos, quasi stellae in perpetuas aeternitates.",
+        "english": "Those who are wise will shine brightly like the splendor of the firmament and those who lead the many to justice shall be like the stars for ever."
+      }
+    ],
+    "communion_antiphon": [
+      {
+        "citation": "See 1 Cor 1: 23-24",
+        "latin": "Nos praedicamus Christum crucifixum, Christum, Dei virtutem et Dei sapientiam.",
+        "english": "We proclaim Christ crucified; Christ, the power of God and the wisdom of God."
+      }
+    ],
     "common_of": []
   },
   {
@@ -3957,9 +4026,9 @@
     "mass_url": "https://www.liturgies.net/saints/andrewdunglac/readings.htm",
     "entrance_antiphon": [
       {
-        "citation": "Mt 5:10",
-        "latin": "Beati qui persecutionem patiuntur propter iustitiam quoniam ipsorum est regnum caelorum.",
-        "english": "Blessed are they who are persecuted for the sake of righteousness, for theirs is the kingdom of heaven. PRAYER AFTER COMMUNION Unius panis alimonia refecti, in commemoratione sanctorum martyrum, te, Domine, suppliciter deprecamur, ut, in tua dilectione unanimes manentes, patientiae praemium mereamur consequi aeternum. Renewed by the one Bread as we commemorate the holy Martyrs, we humbly beseech you, O Lord, that, abiding as one in your love, we may merit by endurance an eternal prize. Through Christ our Lord. Liturgy of the HoursAndrew Dung-Lac and Companions, Martyrs From the Common of Several Martyrs, except the following: Office of Readings SECOND READING From a letter of Saint Paul Le-Bao-Tinh sent to students of the Seminary of Ke-Vinh in 1843 (A. Launay, Le clerg� tonkinois et ses pr�tres martyrs [Paris Foreign Mission Society, Paris, 1925], pp. 80-83) The martyrs' share in Christ's victory I, Paul, in chains for the name of Christ, wish to relate to you the trials besetting me daily, in order that you may be inflamed with love for God and join with me in his praises, The prison here is a true image of everlasting hell: to cruel tortures of every kind�shackles, iron chains, manacles�are added hatred, vengeance, calumnies, obscene speech, quarrels, evil acts, swearing, curses, as well as anguish and grief. But the God who once freed the three children from the fiery furnace is with me always; he has delivered me from these tribulations and made them sweet, In the midst of these torments, which usually terrify others, I am, by the grace of God, full of joy and gladness, because I am not alone�Christ is with me. Our master bears the whole weight of the cross, leaving me only the tiniest, last bit. He is not a mere onlooker in my struggle, but a contestant and the victor and champion in the whole battle. Therefore upon his head is placed the crown of victory, and his members also share in his glory. How am I to bear with the spectacle, as each day I see emperors, mandarins, and their retinue blaspheming your holy name, O Lord, Behold, the pagans have trodden your cross underfoot! Where is your glory? As I see all this, I would, in the ardent love I have for you, prefer to be torn limb from limb and to die as a witness to your love. O Lord, show your power, save me, sustain me, that in my infirmity your power may be shown and may be glorified before the nations; grant that I may not grow weak along the way, and so allow your enemies to hold their heads up in pride. Beloved brothers, as you hear all these things may you give endless thanks in joy to God, from whom every good proceeds; bless the Lord with me, Through my mouth he has confused the philosophers who are disciples of the wise of this world, I write these things to you in order that your faith and mine may be united. In the midst of this storm I cast my anchor toward the throne of God, the anchor that is the lively home in my heart. Beloved brothers, for your part and take up the weapons of Christ for the right hand and for the left, as my patron Saint Paul has taught us. Come to my aid with your prayers, that I may have the strength to fight according to the law, and indeed toand to fight until the end and so We may not again see each other in this life, but we will have the happiness of seeing each other again in the world to come, when, standing at the throne of the spotless Lamb, we will together join in singing his praises and exult for ever in the joy of our triumph. Amen. RESPONSORY Through patience let us run the race that is set before us. � Looking to Jesus the pioneer and perfecter of our faith. Consider him who from sinners endured such hostility against himself, so that you may not grow weary or fainthearted. � Looking to Jesus the pioneer and perfecter of our faith."
+        "citation": "Cf. Gal 6: 14; 1 Cor 1: 18",
+        "latin": "Nos autem gloriari oportet in cruce Domini nostri Jesu Christi: in quo est salus, vita et resurrectio nostra per quem salvati et liberati sumus.",
+        "english": "May we never boast, except in the Cross of our Lord Jesus Christ. For the word of the Cross is the power of God to us who have been saved."
       }
     ],
     "communion_antiphon": [
