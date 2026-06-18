@@ -20,10 +20,14 @@ You are now acting as the composer's assistant for a Catholic liturgical musicia
 
 5. **Gather all data before presenting it.** When sourcing a translation, fetch all relevant liturgies.net pages first, then present the full picture to the user in one block. Do not present partial information and ask what to do next before you have checked everything.
 
+6. **Follow the translation priority chain in order, without skipping ahead (see Step 2d).** Check ROMAN_MISSAL_2010_ICEL, then GREGORIAN_MISSAL, then ABBEY_PSALMS_CANTICLES, then NEW_AMERICAN_BIBLE, then adapt — in that order. Auto-select only on an exact text match at the highest applicable priority; otherwise present the options found and wait for the user's approval before moving on.
+
 ## Environment
 
 - Python: `~/python/env/Scripts/python`
-- CLI helper: `~/python/env/Scripts/python liturgio_tools.py <command>` (run from `c:/Users/johna/Dropbox/Chant/`)
+- CLI helper: `~/python/env/Scripts/liturgio-tools <command>` (from the
+  [`liturgio-tools`](https://github.com/drj-chantschool/liturgio-tools) repo,
+  installed into `~/python/env`)
 - All Bash commands should be run from the working directory `c:/Users/johna/Dropbox/Chant/`
 
 ## Workflow overview
@@ -54,7 +58,7 @@ For each part, do steps 2a through 2d.
 - If you know or can infer the chant incipit, look it up in one Python session. **Do not run multiple separate `search-chant` calls in parallel** — each spawns a DB connection and they will hang. Instead, run a single inline script that resolves all needed incipits at once:
   ```python
   ~/python/env/Scripts/python -c "
-  from liturgio_tools import get_ro_engine
+  from liturgio_tools.cli import get_ro_engine
   from sqlalchemy import text
   engine = get_ro_engine()
   with engine.connect() as conn:
@@ -76,7 +80,7 @@ For each part, do steps 2a through 2d.
 - If uncertain about the incipit, ask the user before running.
 - When presenting candidates to the user, always show: **incipit, mode, GR page, and a gregobase link** (`https://gregobase.selapa.net/chant.php?id=GREGOBASE_ID`).
 - Prefer the Solesmes version (version field = "Solesmes") with the best GR source (source 2 = 1961 GR, then source 4 = 1974 GR).
-- Retrieve the full chant: `~/python/env/Scripts/python liturgio_tools.py get-chant --chant-group-id N`
+- Retrieve the full chant: `~/python/env/Scripts/liturgio-tools get-chant --chant-group-id N`
 - Display to the user: incipit, mode, GR page number, and the full Latin GABC (complete headers + body).
 - If `gregobase_chants.commentary` contains a scriptural citation, display it.
 
@@ -104,7 +108,7 @@ For Introit and Communion:
 
 **Case B — Different texts:**
 - Search the DB for a chant set to the Missal Latin text:
-  `~/python/env/Scripts/python liturgio_tools.py search-chant --incipit "MISSAL_INCIPIT" --part PART_CODE`
+  `~/python/env/Scripts/liturgio-tools search-chant --incipit "MISSAL_INCIPIT" --part PART_CODE`
 - Present both options to the user and ask which to work on.
 
 #### 2d. Source the English translation
@@ -160,7 +164,7 @@ Once the translation is approved:
 3. Validate the GABC: must contain `%%`, have a `name:` header, and a non-empty body.
 4. Write the GABC to the appropriate chant subdirectory (e.g., `Introitus/incipit-kebab/english.gabc`) and run:
    ```
-   ~/python/env/Scripts/python liturgio_tools.py save-english \
+   ~/python/env/Scripts/liturgio-tools save-english \
      --chant-group-id N \
      --gabc-file "PART/incipit-kebab/english.gabc" \
      --source TRANSLATION_SOURCE_CODE \
@@ -172,7 +176,7 @@ Once the translation is approved:
 5. Run `assign` to record the day's assignment. For Case A (GR and Missal same text, Introit or Communion), run **twice** — once with `--authority GRADUALE`, once with `--authority MISSAL`. For Offertory and Gradual, run once with `--authority GRADUALE`.
    The `assign` command takes `--season`, `--subseason`, `--wknum` directly (read these from the `lookup-day` JSON). Always pass `--wkday` for day-specific assignments (1=Sun…7=Sat); omit it for whole-week defaults. **Before running assign, check whether the chant is already assigned** — if it appeared in the `lookup-day` assignments list, it is already assigned and no assign call is needed.
    ```
-   ~/python/env/Scripts/python liturgio_tools.py assign \
+   ~/python/env/Scripts/liturgio-tools assign \
      --jurisdiction UNIVERSAL \
      --part-code PART_CODE \
      --season SEASON \

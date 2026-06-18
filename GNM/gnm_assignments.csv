@@ -1,0 +1,222 @@
+source_file,slug,part,part_id,season,subseason,wknum,seq,cycle_sun,cycle_wk,chant_group_id,status,notes
+GNM-01-OT,in-excelso-throno,in,1,OT,OT,1,,,,20,RESOLVED,all days
+GNM-01-OT,jubilate-deo-omnis,of,8,OT,OT,1,,,,718,RESOLVED,all days
+GNM-01-OT,notas-mihi,co,9,OT,OT,1,,,,6934,RESOLVED,all days
+GNM-01-OT,venite-post-me,co,9,OT,OT,1,2,,,552,RESOLVED,Mon if Baptism not on Sun
+GNM-02-OT,omnis-terra,in,1,OT,OT,2,,,,13,RESOLVED,all days
+GNM-02-OT,jubilate-deo-universa,of,8,OT,OT,2,,,,937,RESOLVED,all days
+GNM-02-OT,laetabimur,co,9,OT,OT,2,,,,1296,RESOLVED,default co
+GNM-02-OT,dicit-andreas,co,9,OT,OT,2,1,2,,1021,RESOLVED,Sunday B
+GNM-02-OT,dicit-dominus-implete-hydrias,co,9,OT,OT,2,1,0,,,NEEDS_INPUT,Sunday C; NO chant_group found
+GNM-02-OT,multitudo-languentium,co,9,OT,OT,2,5,,,1267,RESOLVED,Thursday
+GNM-02-OT,ego-vos-elegi,co,9,OT,OT,2,6,,,470,RESOLVED,Friday
+GNM-03-OT,adorate-deum,in,1,OT,OT,3,,,,1123,RESOLVED,default in
+GNM-03-OT,dominus-secus-mare,in,1,OT,OT,3,1,1,,693,RESOLVED,Sunday A
+GNM-03-OT,dominus-secus-mare,in,1,OT,OT,3,1,2,,693,RESOLVED,Sunday B
+GNM-03-OT,dextera-domini,of,8,OT,OT,3,,,,47,RESOLVED,all days
+GNM-03-OT,mirabantur,co,9,OT,OT,3,,,,1148,RESOLVED,default co
+GNM-03-OT,venite-post-me,co,9,OT,OT,3,1,1,,552,RESOLVED,Sunday A
+GNM-03-OT,venite-post-me,co,9,OT,OT,3,1,2,,552,RESOLVED,Sunday B
+GNM-03-OT,comedite-pinguia,co,9,OT,OT,3,1,0,,496,RESOLVED,Sunday C
+GNM-03-OT,quicumque-fecerit,co,9,OT,OT,3,3,,,957,RESOLVED,Tuesday
+GNM-04-OT,laetetur-cor,in,1,OT,OT,4,,,,864,RESOLVED,all days
+GNM-04-OT,bonum-est-confiteri,of,8,OT,OT,4,,,,1194,RESOLVED,all days
+GNM-04-OT,illumina-faciem,co,9,OT,OT,4,,,,640,RESOLVED,default co
+GNM-04-OT,beati-mundo-corde,co,9,OT,OT,4,1,1,,345,RESOLVED,Sunday A
+GNM-05-OT,venite-adoremus,in,1,OT,OT,5,,,,450,RESOLVED,all days
+GNM-05-OT,perfice-gressus,of,8,OT,OT,5,,,,265,RESOLVED,all days
+GNM-05-OT,introibo,co,9,OT,OT,5,,,,554,RESOLVED,default co
+GNM-05-OT,multitudo-languentium,co,9,OT,OT,5,1,2,,1267,RESOLVED,Sunday B
+GNM-05-OT,multitudo-languentium,co,9,OT,OT,5,2,,1,1267,RESOLVED,Monday Yr I
+GNM-05-OT,mense-septimo,co,9,OT,OT,5,2,,0,1149,RESOLVED,Monday Yr II
+GNM-11-OT,exaudi-domine,in,1,OT,OT,11,,,,,NEEDS_INPUT,old-format file; user: which mode?; 13504(mode1) or 13741(mode4) — no English chant for either
+GNM-11-OT,benedicam-domino,of,8,OT,OT,11,,,,11077,RESOLVED,all days
+GNM-11-OT,unam-petii,co,9,OT,OT,11,,,,574,RESOLVED,all days
+GNM-12-OT,dominus-fortitudo,in,1,OT,OT,12,,,,522,RESOLVED,all days
+GNM-12-OT,perfice-gressus,of,8,OT,OT,12,,,,265,RESOLVED,all days
+GNM-12-OT,circuibo,co,9,OT,OT,12,,,,1079,RESOLVED,default co
+GNM-12-OT,quod-dico-vobis,co,9,OT,OT,12,1,1,,1002,RESOLVED,Sunday A
+GNM-12-OT,qui-vult-venire,co,9,OT,OT,12,1,0,,89,RESOLVED,Sunday C
+GNM-14-OT,suscepimus,in,1,OT,OT,14,,,,1781,RESOLVED,all days
+GNM-14-OT,populum-humilem,of,8,OT,OT,14,,,,1080,RESOLVED,all days
+GNM-14-OT,gustate,co,9,OT,OT,14,,,,1203,RESOLVED,all days
+GNM-15-OT,dum-clamarem,in,1,OT,OT,15,,,,299,RESOLVED,option 1
+GNM-15-OT,ego-autem-cum-justitia,in,1,OT,OT,15,,,,830,RESOLVED,option 2 (or)
+GNM-15-OT,ad-te-domine,of,8,OT,OT,15,,,,962,RESOLVED,all days
+GNM-15-OT,qui-manducat,co,9,OT,OT,15,,,,798,RESOLVED,default co
+GNM-15-OT,passer-invenit,co,9,OT,OT,15,,,,1090,RESOLVED,or
+GNM-16-OT,ecce-deus,in,1,OT,OT,16,,,,1357,RESOLVED,all days
+GNM-16-OT,justitiae-domini,of,8,OT,OT,16,,,,591,RESOLVED,all days
+GNM-16-OT,acceptabis,co,9,OT,OT,16,,,,1221,RESOLVED,default co
+GNM-16-OT,optimam-partem,co,9,OT,OT,16,1,0,,3316,RESOLVED,Sunday C
+GNM-16-OT,ecce-sto,co,9,OT,OT,16,,,,164,RESOLVED,listed after optimam-partem; user: which days?
+GNM-17-OT,deus-in-loco-sancto,in,1,OT,OT,17,,,,1026,RESOLVED,default in
+GNM-17-OT,exsultate-deo,in,1,OT,OT,17,6,,1,1323,RESOLVED,Friday Yr I
+GNM-17-OT,exaltabo-te,of,8,OT,OT,17,,,,648,RESOLVED,all days
+GNM-17-OT,honora-dominum,co,9,OT,OT,17,,,,1145,RESOLVED,default co
+GNM-17-OT,simile-est,co,9,OT,OT,17,1,1,,6271,RESOLVED,Sunday A
+GNM-17-OT,petite,co,9,OT,OT,17,1,0,,5618,RESOLVED,Sunday C
+GNM-18-OT,deus-in-adjutorium,in,1,OT,OT,18,,,,501,RESOLVED,default in
+GNM-18-OT,sitientes,in,1,OT,OT,18,1,1,,776,RESOLVED,Sunday A
+GNM-18-OT,precatus-est,of,8,OT,OT,18,,,,325,RESOLVED,default of
+GNM-18-OT,sanctificavit,of,8,OT,OT,18,1,0,,838,RESOLVED,Sunday C
+GNM-18-OT,panem-de-caelo,co,9,OT,OT,18,,,,388,RESOLVED,default co
+GNM-18-OT,qui-vult-venire,co,9,OT,OT,18,6,,,89,RESOLVED,Friday
+GNM-19-OT,respice-domine,in,1,OT,OT,19,,,,691,RESOLVED,all days
+GNM-19-OT,in-te-speravi,of,8,OT,OT,19,,,,967,RESOLVED,all days
+GNM-19-OT,panis-quem,co,9,OT,OT,19,,,,782,RESOLVED,default co
+GNM-19-OT,beatus-servus,co,9,OT,OT,19,,,,1154,RESOLVED,or
+GNM-21-OT,inclina-domine,in,1,OT,OT,21,,,,1165,RESOLVED,all days
+GNM-21-OT,exspectans-exspectavi,of,8,OT,OT,21,,,,13717,RESOLVED,all days
+GNM-21-OT,de-fructu,co,9,OT,OT,21,,,,1245,RESOLVED,default co
+GNM-21-OT,qui-manducat,co,9,OT,OT,21,,,,798,RESOLVED,or
+GNM-21-OT,beatus-servus,co,9,OT,OT,21,5,,,1154,RESOLVED,Thursday
+GNM-21-OT,quinque-prudentes-virgines,co,9,OT,OT,21,6,,,,NEEDS_INPUT,Friday; 3388? (quinque-prudentes co. mode 5) — same chant?
+GNM-21-OT,domine-quinque-talenta,co,9,OT,OT,21,7,,,383,RESOLVED,Saturday
+GNM-22-OT,miserere-mihi-ad-te,in,1,OT,OT,22,,,,335,RESOLVED,all days
+GNM-22-OT,domine-in-auxilium,of,8,OT,OT,22,,,,993,RESOLVED,all days
+GNM-22-OT,domine-memorabor,co,9,OT,OT,22,,,,1318,RESOLVED,default co
+GNM-22-OT,qui-vult-venire,co,9,OT,OT,22,1,1,,89,RESOLVED,Sunday A
+GNM-22-OT,mirabantur,co,9,OT,OT,22,2,,,1148,RESOLVED,Mondays
+GNM-22-OT,multitudo-languentium,co,9,OT,OT,22,4,,,1267,RESOLVED,Wednesdays
+GNM-23-OT,justus-es,in,1,OT,OT,23,,,,1284,RESOLVED,all days
+GNM-23-OT,oravi-deum,of,8,OT,OT,23,,,,652,RESOLVED,all days
+GNM-23-OT,vovete,co,9,OT,OT,23,,,,1134,RESOLVED,default co
+GNM-23-OT,multitudo-languentium,co,9,OT,OT,23,3,,,1267,RESOLVED,Tuesdays
+GNM-24-OT,da-pacem,in,1,OT,OT,24,,,,172,RESOLVED,all days
+GNM-24-OT,sanctificavit,of,8,OT,OT,24,,,,838,RESOLVED,default of
+GNM-24-OT,precatus-est,of,8,OT,OT,24,1,0,,325,RESOLVED,Sunday C
+GNM-24-OT,tollite-hostias,co,9,OT,OT,24,,,,404,RESOLVED,default co
+GNM-24-OT,qui-vult-venire,co,9,OT,OT,24,1,2,,89,RESOLVED,Sunday B
+GNM-24-OT,dico-vobis,co,9,OT,OT,24,1,0,,1058,RESOLVED,Sunday C
+GNM-24-OT,hoc-corpus,co,9,OT,OT,24,2,,0,726,RESOLVED,Monday Yr II
+GNM-25-OT,salus-populi,in,1,OT,OT,25,,,,389,RESOLVED,all days
+GNM-25-OT,si-ambulavero,of,8,OT,OT,25,,,,616,RESOLVED,all days
+GNM-25-OT,tu-mandasti,co,9,OT,OT,25,,,,479,RESOLVED,all days
+GNM-26-OT,dum-clamarem,in,1,OT,OT,26,,,,299,RESOLVED,option 1
+GNM-26-OT,ego-autem-cum-justitia,in,1,OT,OT,26,,,,830,RESOLVED,option 2 (or)
+GNM-26-OT,ad-te-domine,of,8,OT,OT,26,,,,962,RESOLVED,all days
+GNM-26-OT,qui-manducat,co,9,OT,OT,26,,,,798,RESOLVED,default co
+GNM-26-OT,passer-invenit,co,9,OT,OT,26,,,,1090,RESOLVED,or
+GNM-27-OT,in-voluntate,in,1,OT,OT,27,,,,1047,RESOLVED,default in
+GNM-27-OT,de-ventre-matris-meae,in,1,OT,OT,27,3,,0,,NEEDS_INPUT,ad libitum Tue Yr II; 659 — exists (in. mode 1) but no English chant uploaded
+GNM-27-OT,vir-erat,of,8,OT,OT,27,,,,1363,RESOLVED,all days
+GNM-27-OT,in-salutari,co,9,OT,OT,27,,,,1290,RESOLVED,default co
+GNM-27-OT,optimam-partem,co,9,OT,OT,27,3,,,3316,RESOLVED,Tuesdays
+GNM-27-OT,petite,co,9,OT,OT,27,5,,,5618,RESOLVED,Thursdays
+GNM-27-OT,beata-viscera,co,9,OT,OT,27,7,,,160,RESOLVED,Saturdays
+GNM-28-OT,si-iniquitates,in,1,OT,OT,28,,,,8690,RESOLVED,all days
+GNM-28-OT,recordare-mei,of,8,OT,OT,28,,,,67,RESOLVED,all days
+GNM-28-OT,aufer-a-me,co,9,OT,OT,28,,,,828,RESOLVED,default co
+GNM-28-OT,dico-autem-vobis,co,9,OT,OT,28,,,,699,RESOLVED,or
+GNM-29-OT,ego-clamavi,in,1,OT,OT,29,,,,558,RESOLVED,all days
+GNM-29-OT,meditabor,of,8,OT,OT,29,,,,810,RESOLVED,all days
+GNM-29-OT,domine-dominus-noster,co,9,OT,OT,29,,,,998,RESOLVED,default co
+GNM-29-OT,beatus-servus,co,9,OT,OT,29,3,,,1154,RESOLVED,Tuesday
+GNM-29-OT,fidelis-servus,co,9,OT,OT,29,4,,,3902,RESOLVED,Wednesday
+GNM-30-OT,laetatur-cor,in,1,OT,OT,30,,,,,NEEDS_INPUT,NO chant_group found (distinct from laetetur-cor 864)
+GNM-30-OT,domine-vivifica,of,8,OT,OT,30,,,,109,RESOLVED,all days
+GNM-30-OT,laetabimur,co,9,OT,OT,30,,,,1296,RESOLVED,all days
+GNM-31-OT,ne-derelinquas,in,1,OT,OT,31,,,,7759,RESOLVED,default in
+GNM-31-OT,misereris-omnium,in,1,OT,OT,31,1,0,,533,RESOLVED,Sunday C
+GNM-31-OT,benedic-anima-mea,of,8,OT,OT,31,,,,1359,RESOLVED,all days
+GNM-31-OT,notas-mihi,co,9,OT,OT,31,,,,6934,RESOLVED,default co
+GNM-31-OT,dico-vobis,co,9,OT,OT,31,5,,,1058,RESOLVED,Thursdays (optional)
+GNM-32-OT,intret-oratio,in,1,OT,OT,32,,,,238,RESOLVED,all days
+GNM-32-OT,gressus-meos,of,8,OT,OT,32,,,,1099,RESOLVED,all days
+GNM-32-OT,dominus-regit-me,co,9,OT,OT,32,,,,278,RESOLVED,default co
+GNM-32-OT,quinque-prudentes,co,9,OT,OT,32,1,1,,3388,RESOLVED,Sunday A
+GNM-33-OT,dicit-dominus-ego,in,1,OT,OT,33,,,,3923,RESOLVED,all days
+GNM-33-OT,de-profundis,of,8,OT,OT,33,,,,986,RESOLVED,all days
+GNM-33-OT,amen-dico-vobis-quidquid,co,9,OT,OT,33,,,,592,RESOLVED,default co
+GNM-33-OT,domine-quinque-talenta,co,9,OT,OT,33,1,1,,383,RESOLVED,Sunday A
+GNM-33-OT,domine-quinque-talenta,co,9,OT,OT,33,4,,,383,RESOLVED,Wednesdays
+GNM-33-OT,domus-mea,co,9,OT,OT,33,6,,,43,RESOLVED,Fridays
+GNM-34-OT,loquetur-dominus,in,1,OT,OT,34,,,,271,RESOLVED,weekdays only (Sun=Christ the King)
+GNM-34-OT,bonum-est-confiteri,of,8,OT,OT,34,,,,1194,RESOLVED,weekdays only
+GNM-34-OT,jerusalem-quae-aedificatur,co,9,OT,OT,34,,,,13460,RESOLVED,default co
+GNM-34-OT,laudate-dominum,co,9,OT,OT,34,,,,322,RESOLVED,or
+GNM-TQ-0,dum-clamarem,in,1,TQ,LENT,0,5,,,299,RESOLVED,Thu after Ash Wed
+GNM-TQ-0,ad-te-domine,of,8,TQ,LENT,0,5,,,962,RESOLVED,Thu after Ash Wed
+GNM-TQ-0,qui-vult-venire,co,9,TQ,LENT,0,5,,,89,RESOLVED,Thu after Ash Wed
+GNM-TQ-0,acceptabis,co,9,TQ,LENT,0,5,,,1221,RESOLVED,traditional option
+GNM-TQ-1,invocabit-me,in,1,TQ,LENT,1,1,,,327,RESOLVED,1st Sunday
+GNM-TQ-1,verba-mea,in,1,TQ,LENT,1,5,,,1248,RESOLVED,Thursday
+GNM-TQ-1,recordare-mei,of,8,TQ,LENT,1,5,,,67,RESOLVED,Thursday
+GNM-TQ-1,petite,co,9,TQ,LENT,1,5,,,5618,RESOLVED,Thursday
+GNM-TQ-1,acceptabis,co,9,TQ,LENT,1,5,,,1221,RESOLVED,traditional option
+GNM-TQ-2,meditabor,of,8,TQ,LENT,2,1,,,810,RESOLVED,2nd Sunday
+GNM-TQ-2,deus-in-adjutorium,in,1,TQ,LENT,2,5,,,501,RESOLVED,Thursday
+GNM-TQ-2,domine-ad-adjuvandum,of,8,TQ,LENT,2,5,,,731,RESOLVED,Thursday
+GNM-TQ-2,qui-manducat,co,9,TQ,LENT,2,5,,,798,RESOLVED,Thursday
+GNM-TQ-2,ego-autem-cum-justitia,in,1,TQ,LENT,2,6,,,830,RESOLVED,Friday
+GNM-TQ-3,salus-populi,in,1,TQ,LENT,3,5,,,389,RESOLVED,Thursday
+GNM-TQ-3,si-ambulavero,of,8,TQ,LENT,3,5,,,616,RESOLVED,Thursday
+GNM-TQ-3,tu-mandasti,co,9,TQ,LENT,3,5,,,479,RESOLVED,Thursday
+GNM-TQ-4,laetetur-cor,in,1,TQ,LENT,4,5,,,864,RESOLVED,Thursday
+GNM-TQ-4,precatus-est,of,8,TQ,LENT,4,5,,,325,RESOLVED,Thursday
+GNM-TQ-4,domine-memorabor,co,9,TQ,LENT,4,5,,,1318,RESOLVED,Thursday
+GNM-TQ-5,omnia-quae,in,1,TQ,LENT,5,5,,,1056,RESOLVED,Thursday
+GNM-TQ-5,super-flumina,of,8,TQ,LENT,5,5,,,812,RESOLVED,Thursday
+GNM-TQ-5,memento-verbi,co,9,TQ,LENT,5,5,,,696,RESOLVED,Thursday
+GNM-TP-1,victricem,in,1,PASC,OCT,1,5,,,1332,RESOLVED,Thursday Easter Octave
+GNM-TP-1,in-die-solemnitatis,of,8,PASC,OCT,1,5,,,1129,RESOLVED,Thursday Easter Octave
+GNM-TP-1,populus-acquisitionis,co,9,PASC,OCT,1,5,,,1219,RESOLVED,Thursday Easter Octave
+GNM-TP-2,quasi-modo-geniti,in,1,PASC,AD_ASC,2,1,,,,NEEDS_INPUT,Sunday (Divine Mercy); 25 — exists (in. mode 6) but no English chant uploaded
+GNM-TP-2,deus-dum-egredereris,in,1,PASC,AD_ASC,2,5,,,822,RESOLVED,Thursday
+GNM-TP-2,redemisti-nos,in,1,PASC,AD_ASC,2,6,,,7096,RESOLVED,Friday
+GNM-TP-2,accipite-iucunditatem,in,1,PASC,AD_ASC,2,,,,,NEEDS_INPUT,all other weekdays (Mon/Tue/Wed/Sat?); 13844(mode4) or 1278(mode4) or 6064(mode8) — no English chant
+GNM-TP-2,angelus-domini,of,8,PASC,AD_ASC,2,,,,789,RESOLVED,all days
+GNM-TP-2,mitte-manum-alleluia,co,9,PASC,AD_ASC,2,1,,,953,RESOLVED,Sunday
+GNM-TP-2,spiritus-ubi-vult,co,9,PASC,AD_ASC,2,2,,,6930,RESOLVED,Monday
+GNM-TP-2,spiritus-ubi-vult,co,9,PASC,AD_ASC,2,3,,,6930,RESOLVED,Tuesday
+GNM-TP-3,jubilate-deo,in,1,PASC,AD_ASC,3,,,,536,RESOLVED,default in
+GNM-TP-3,repleatur-os,in,1,PASC,AD_ASC,3,4,,,557,RESOLVED,Wednesday
+GNM-TP-3,lauda-anima,of,8,PASC,AD_ASC,3,,,,668,RESOLVED,all days
+GNM-TP-3,cantate-domino,co,9,PASC,AD_ASC,3,,,,579,RESOLVED,default co
+GNM-TP-3,surrexit-dominus,co,9,PASC,AD_ASC,3,1,1,,,NEEDS_INPUT,Sunday A; 121 — Surrexit Dominus et apparuit (co. mode 6) no English chant
+GNM-TP-3,simon-ioannis,co,9,PASC,AD_ASC,3,1,0,,,NEEDS_INPUT,Sunday C; 846 — exists (co. mode 6) but no English chant uploaded
+GNM-TP-3,video-caelos,co,9,PASC,AD_ASC,3,3,,,7087,RESOLVED,Tuesday
+GNM-TP-3,panis-quem-ego,co,9,PASC,AD_ASC,3,5,,,782,RESOLVED,Thursday
+GNM-TP-3,qui-manducat,co,9,PASC,AD_ASC,3,6,,,798,RESOLVED,Friday
+GNM-TP-4,misericordia-domini,in,1,PASC,AD_ASC,4,,,,135,RESOLVED,default in
+GNM-TP-4,deus-dum-egredereris,in,1,PASC,AD_ASC,4,5,,,822,RESOLVED,Thursday
+GNM-TP-4,redemisti-nos,in,1,PASC,AD_ASC,4,6,,,7096,RESOLVED,Friday
+GNM-TP-4,deus-deus-meus,of,8,PASC,AD_ASC,4,,,,924,RESOLVED,all days
+GNM-TP-4,ego-sum-pastor-bonus,co,9,PASC,AD_ASC,4,1,,,,NEEDS_INPUT,Sunday; no co. version found; 8784 is in. mode 3
+GNM-TP-4,cantate-domino,co,9,PASC,AD_ASC,4,,,,579,RESOLVED,weekdays
+GNM-TP-4,tanto-tempore,co,9,PASC,AD_ASC,4,7,,,13575,RESOLVED,Saturday
+GNM-2-5,gaudeamus-agathae,in,1,,,,,,,1183,RESOLVED,FEAST: St. Agatha Feb 5
+GNM-2-5,afferentur-post-eam,of,8,,,,,,,768,RESOLVED,FEAST: St. Agatha Feb 5
+GNM-2-5,feci-judicium,co,9,,,,,,,844,RESOLVED,FEAST: St. Agatha Feb 5
+GNM-3-19,justus-ut-palma,in,1,,,,,,,3816,RESOLVED,FEAST: St. Joseph Mar 19
+GNM-3-19,veritas-mea,of,8,,,,,,,630,RESOLVED,FEAST: St. Joseph Mar 19
+GNM-3-19,joseph-fili-david,co,9,,,,,,,139,RESOLVED,FEAST: St. Joseph Mar 19
+GNM-6-11,mihi-autem-nimis,in,1,,,,,,,5848,RESOLVED,FEAST: St. Barnabas Jun 11
+GNM-6-11,constitues-eos,of,8,,,,,,,1319,RESOLVED,FEAST: St. Barnabas Jun 11
+GNM-6-11,vos-qui-secuti-estis-me,co,9,,,,,,,1028,RESOLVED,FEAST: St. Barnabas Jun 11
+GNM-6-11,vos-qui-secuti-estis-me-dicit-dominus,co,9,,,,,,,97,RESOLVED,FEAST: St. Barnabas Jun 11 (or)
+GNM-7-3,mihi-autem-nimis,in,1,,,,,,,5848,RESOLVED,FEAST: St. Thomas Jul 3 — ant-only variant
+GNM-7-3,in-omnem-terram,of,8,,,,,,,3360,RESOLVED,FEAST: St. Thomas Jul 3
+GNM-7-3,mitte-manum,co,9,,,,,,,589,RESOLVED,FEAST: St. Thomas Jul 3
+GNM-7-31,in-nomine-jesu,in,1,,,,,,,18080,RESOLVED,FEAST: St. Ignatius Jul 31
+GNM-7-31,veritas-mea,of,8,,,,,,,630,RESOLVED,FEAST: St. Ignatius Jul 31
+GNM-7-31,qui-meditabitur,co,9,,,,,,,582,RESOLVED,FEAST: St. Ignatius Jul 31
+GNM-Aug-14,venite-benedicti,in,1,,,,,,,997,RESOLVED,FEAST: St. Maximilian Kolbe Aug 14 — ant variant
+GNM-Aug-14,deus-deus-meus,of,8,,,,,,,924,RESOLVED,FEAST: St. Maximilian Kolbe Aug 14
+GNM-Aug-14,majorem-caritatem,co,9,,,,,,,401,RESOLVED,FEAST: Aug 14 — file in Offertorium/ but annotated Co. II
+GNM-Aug-15,signum-magnum,in,1,,,,,,,23,RESOLVED,FEAST: Assumption Aug 15
+GNM-Aug-15,gaudeamus-mariae-assumptione,in,1,,,,,,,3312,RESOLVED,FEAST: Assumption Aug 15 (or)
+GNM-Aug-15,assumpta-est-maria,of,8,,,,,,,3317,RESOLVED,FEAST: Assumption Aug 15
+GNM-Aug-15,beatam-me-dicent,co,9,,,,,,,286,RESOLVED,FEAST: Assumption Aug 15 — english-f3.gabc
+GNM-Aug-21,statuit,in,1,,,,,,,456,RESOLVED,FEAST: St. Pius X Aug 21
+GNM-Aug-21,benedicam-domino,of,8,,,,,,,11077,RESOLVED,FEAST: St. Pius X Aug 21 — english2 variant
+GNM-Aug-21,manducaverunt,co,9,,,,,,,677,RESOLVED,FEAST: St. Pius X Aug 21
+GNM-Aug-28,in-medio-ecclesiae,in,1,,,,,,,233,RESOLVED,FEAST: St. Augustine Aug 28
+GNM-Aug-28,justus-ut-palma,of,8,,,,,,,3841,RESOLVED,FEAST: St. Augustine Aug 28
+GNM-Aug-28,fidelis-servus,co,9,,,,,,,3902,RESOLVED,FEAST: St. Augustine Aug 28
+GNM-09-29,benedicite-dominum,in,1,,,,,,,985,RESOLVED,FEAST: Archangels Sept 29
+GNM-09-29,stetit-angelus,of,8,,,,,,,,NEEDS_INPUT,FEAST: Archangels Sept 29; 14086(mode1) or 15430(mode4) — no English chant for either
+GNM-09-29,benedicite-omnes-angeli,co,9,,,,,,,1127,RESOLVED,FEAST: Archangels Sept 29
+GNM-09-29,immittet-angelus,of,8,,,,,,,747,RESOLVED,FEAST: Guardian Angels Oct 2
+GNM-09-29,in-conspectu-angelorum,co,9,,,,,,,,NEEDS_INPUT,FEAST: Guardian Angels Oct 2 — Missal option; file in Antiphona/; 662(of. mode 1) — no co. version found; used as co in tex
